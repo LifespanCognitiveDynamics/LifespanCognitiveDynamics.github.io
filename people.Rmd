@@ -1,0 +1,99 @@
+---
+title: "People"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## ROGIER KIEVIT
+
+Principal Investigator
+
+email_pic
+Twitter
+
+Rogier Kievit is Professor of Developmental Neuroscience at the Donders Institute in Nijmegen and Senior Associate Scientist at the Cognition and Brain Sciences Unit, University of Cambridge. He studies the rise and fall of cognitive functions across the lifespan by relating brain function, brain structure and cognition in developing populations using multivariate modeling techniques. Specifically, I use a variety of structural equation models to capture the changing relationship between mind and brain across the lifespan. CV
+
+## SAM PARSONS
+
+Postdoctoral Researcher
+
+email_pic
+Twitter
+Globe-Internet-PNG-Free-Download
+
+I am interested in examining the measurement properties of longitudinal brain imaging data. I am using and extending intra-class effect decomposition (ICED) models to assess multiple sources of error. Leveraging this information should inform our understanding of which indices are reliable, where in the brain, and how to incorporate these sources of error into our models and understanding. I am committed to supporting other researchers in their own explorations of reliability by disseminating tutorials of these methodologies. I’m also invested in open scholarship and co-founded both the ReproducibiliTea Journal Club initiative and a Framework for Open and Reproducible Research Training (FORRT).
+
+
+## SOPHIA BORGEEST
+
+PhD student
+
+email_pic
+Twitter
+
+I am interested in healthy aging, and especially in why some people seem to age much better (or more successfully) than others. In my first project, I used psychometric techniques in a large-sample, multimodal dataset to further understand the associations between leading an active lifestyle and cognitive health. Currently, I am exploring how we can better measure brain structure throughout the lifespan. Here, I am looking at detailed structural MR imaging metrics that might allow for a biologically more accurate picture of the human brain, hopefully allowing us to better describe and quantify healthy neural aging. I like engaging the public and writing for popular audiences. I wish there were more women in leadership and that Cambridge were closer to the mountains.
+
+
+## MICHAEL ARISTODEMOU
+
+PhD student
+
+email_pic
+Twitter
+
+I want to understand how and why people’s cognitive abilities fluctuate and change over time. To this end, I aim to exploit technological advances that allow us to observe cognitive development as it unfolds in conjunction with different modeling approaches. Ultimately, I strive to use knowledge about the mechanisms underlying cognitive development to benefit the evolution of educational and cognitive interventions.
+
+
+## LÉA MICHEL
+
+PhD student
+
+email_pic
+Twitter
+
+I am interested in the impact of genetics and the environment on children’s development. In particular, during this PhD, I will study how brain maturation (looking at white matter microstructure and grey matter morphology) underlies the development of cognitive ability in childhood. Before this PhD, I completed my master’s degree in cognitive science in Paris with a major in neuroscience. I also had the opportunity to do a gap year during my master training, visiting several labs abroad to train in neuroimaging analyses. In my spare time, I am the vice president of the French association Fédération Fresco and I am especially engaged in our project to create seven cognitive science forums in France in order to popularize cognitive science.
+
+
+
+## NICHOLAS JUDD
+
+Visiting PhD student
+
+email_pic
+Twitter
+
+I'm interested in how complex cognition arises. Specifically, how we solve problems, adapt, and respond to ever-changing demands. This has led me to focus on the domains of fluid reasoning and working memory. Recently, my research has examined how genetics and socioeconomics affect the development of these skills. I use a variety of methods depending on the question at hand, this ranges from observational datasets, RCTs, and causal inference techniques. Here I will be looking to see if it is possible to unravel the influences of global and local structural MR metrics on cognition. In my free time, I love to surf, rock climb, and travel (when possible)!
+
+
+# Lab Alumni
+
+
+## Delia Fuhrmann
+
+Delia works on lifespan development and plasticity.  Her current research focus is executive functions, such as reasoning and working memory, and their neural substrates using mostly large, publicly available data-sets and multivariate statistical tools like Structural Equation Modelling. Delia is  presently a lecturer at King's College London. You can read more about Delia’s work here
+
+## Eric-Jan Van Kesteren
+
+Erik-Jan visited the lab in 2019 to improve exploratory factor analysis for structural brain imaging data. Specifically, he developed and tested methods for taking into account brain symmetry when extracting factors, as asymmetry in the brain may be of interest in development. He is currently assistant professor at Utrecht University. You can read more about him here.
+
+## Marie Deserno
+
+Marie Deserno visited the lab in 2018 to work on longitudinal developmental dynamics in children at risk for autism. She used latent growth curve models to study the interplay between motor and language development in early childhood. She is currently a Rubicon Fellow at the Max Planck Centre for Human Development in Berlin. You can read about her current work here
+
+## Susanne de Mooij
+
+Susanne de Mooij visited the lab in 2016 to work in psychometric approaches to aging. She implemented CFA SEM trees to study neural and cognitive age differentiation in the Cam-CAN sample. Her paper on this work can be found here. She is currently working on her PhD in a shared project between Birkbeck and the University of Amsterdam, working on educational games using psychometric techniques, eye tracking and adaptive learning.
+
+## Ivan Simpson-Kent
+
+Ivan Simpson-Kent completed his PhD at the LCD lab. His dissertation examined how brain and behavior interact with each other during development to produce intelligence, particularly in childhood and adolescence. Ivan is currently a postdoc at the University of Pennsylvania studying how the environment influences cognition and brain development. You can follow Ivan here.
+
+## Amy Orben
+
+Amy studies how the use of social media and digital technology influences adolescent mental health. Her current work uses statistical modeling methods and large-scale data to address questions debated in policy, parenting and mental health. Amy currently leads the Digital Mental Health Group at the University of Cambridge. You can read more about Amy's work here.
+
+## ETHAN McCORMICK
+
+I am in interested in the measurement and modeling of data over time using advanced intensive and long-term longitudinal designs. In particular, my current work seeks to link short-term changes due to learning/reactivity with long-term changes due to retest and development to understand how behavior and cognition unfold across multiple timescales. Additionally, I have a strong commitment to the dissemination of quantitative methods, especially in the behavioral and cognitive neurosciences. Outside of the lab, I enjoy running, wrangling Waldorf and Statler (link to https://quantitudepod.org/), and dreaming of traveling again sometime this decade.

@@ -1,0 +1,12 @@
+---
+title: "Lifespan Developments"
+site: distill::distill_website
+listing: posts
+---
+
+# News and views from the LCD lab
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+

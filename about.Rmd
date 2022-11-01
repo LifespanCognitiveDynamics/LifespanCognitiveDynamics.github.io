@@ -1,0 +1,18 @@
+---
+title: "About us"
+description: |
+  Some additional details about the blog
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## LAB CULTURE
+
+In our lab we care about doing excellent science in a collaborative environment. Maintaining a healthy work-life balance helps us do the best, most creative scientific work we can in the short and long run. Moreover, we value team science – Lab members working collaboratively to share, enrich and improve each other’s expertise and experiences. Being a complete scientist also means thinking about your expertise in a broader perspective, which benefits careers inside as well as outside of traditional academic settings. For this reason, we support lab members exploring enriching experiences such as lab visits and rotations, international collaborations and internships at academic and non-academic settings. Finally, we value principles of diversity and inclusion – Everyone should feel welcome, regardless of their background, gender or sexual orientation or any other characteristic. Better science, together.
+
+## OPEN SCIENCE AND RESOURCES
+
+At the lab we are guided by the principles of open science. We make all our papers available as Open Access, and often post our work as preprints. Whenever possible in the context of secondary data analysis, we preregister our analysis plans to maximize transparancy (e.g, 1, 2, 3). We are research symbionts – We contribute to the scientific community by facilitating access to datasets, code and stimuli. For example, our work on the Cam-CAN project has already led to 600 groups from all over the world making use of our anonymized dataset, increasing the scientific value yielded from our study well beyond our own team. Additionally, we are part of international collaborations such as Lifebrain which bring together cohorts across Europe to maximize the scientific value and generalizability of our findings. At the same time, we benefit from amazing resources such as Biobank ABCD, SHARE, and NKI-RS, as well as individual collaborations, to allow us to answer challening interdisciplinary questions using the best data available. In addition to papers and data, we endeavour to share stimuli (e.g. 1, 2), slides, code (e.g. 1, 2, 3 ) and data (e.g. 1, 2, 3) available on resources such as Figshare, the Open Science framework, Github, and preprint servers such as BioRxiv and PsyArXiv.
