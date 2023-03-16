@@ -27,7 +27,6 @@ Principal Investigator
 Rogier Kievit is Professor of Developmental Neuroscience at the Donders Institute in Nijmegen and Senior Associate Scientist at the Cognition and Brain Sciences Unit, University of Cambridge. He studies the rise and fall of cognitive functions across the lifespan by relating brain function, brain structure and cognition in developing populations using multivariate modeling techniques. Specifically, I use a variety of structural equation models to capture the changing relationship between mind and brain across the lifespan. CV
 
 $$\\[.5in]$$
-
 ```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
 
 knitr::include_graphics("images\\people\\samparsons_C.png")
@@ -44,13 +43,52 @@ Postdoctoral Researcher
 
 I am interested in examining the measurement properties of longitudinal brain imaging data. I am using and extending intra-class effect decomposition (ICED) models to assess multiple sources of error. Leveraging this information should inform our understanding of which indices are reliable, where in the brain, and how to incorporate these sources of error into our models and understanding. I am committed to supporting other researchers in their own explorations of reliability by disseminating tutorials of these methodologies. I’m also invested in open scholarship and co-founded both the ReproducibiliTea Journal Club initiative and a Framework for Open and Reproducible Research Training (FORRT).
 
+
+
+
+
+
 $$\\[.5in]$$
+
+```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+
+knitr::include_graphics("images\\people\\Ilse_Coolen_C.png")
+
+```
+
+## Ilse Coolen
+
+Postdoctoral Researcher
+
+<i class="fab fa-twitter"></i>[@CoolenIlse](https://twitter.com/CoolenIlse)
+<i class="fas fa-envelope"></i>[ilse.coolen@radboudumc.nl](ilse.coolen@radboudumc.nl)
+<i class="ai ai-google-scholar"></i>[google scholar]()
+
+I am interested in the development of cognitive skills and how they relate to academic achievement. My main research is focused on the contributions of cognitive skills during the development of mathematics in preschoolers and early primary school children. I have mainly used observational, longitudinal research designs to follow the child’s development and have recently added MRI components to my research to link behavioural and neuroimaging data. I have also been invested as part of the trainee board of the Mathematical Cognition and Learning Society. Outside of work you can usually find me surrounded by cats, either my own or any other cat.
+
+$$\\[.5in]$$
+
+
+## JESSICA SCHAAF
+
+Postdoctoral researcher
+
+<i class="fab fa-twitter"></i>[@JessicaVSchaaf](https://twitter.com/JessicaVSchaaf)
+<i class="fas fa-envelope"></i>[jessica.schaaf@radboudumc.nl](jessica.schaaf@radboudumc.nl)
+<i class="ai ai-google-scholar"></i>[google scholar](https://scholar.google.com/citations?user=Yse3MpEAAAAJ&hl=nl)
+
+
+
+
+$$\\[.5in]$$
+
 
 ```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
 
 knitr::include_graphics("images\\people\\nickjudd_C.png")
 
 ```
+
 
 ## NICHOLAS JUDD
 
@@ -64,15 +102,7 @@ Postdoctoral researcher/data scientist
 I'm interested in how complex cognition arises. Specifically, how we solve problems, adapt, and respond to ever-changing demands. This has led me to focus on the domains of fluid reasoning and working memory. Recently, my research has examined how genetics and socioeconomics affect the development of these skills. I use a variety of methods depending on the question at hand, this ranges from observational datasets, RCTs, and causal inference techniques. Here I will be looking to see if it is possible to unravel the influences of global and local structural MR metrics on cognition. In my free time, I love to surf, rock climb, and travel (when possible)!
 
 $$\\[.5in]$$
-## Ilse Coolen
 
-Postdoctoral Researcher
-
-<i class="fab fa-twitter"></i>[@LeaCMichel](https://twitter.com/LeaCMichel)
-<i class="fas fa-envelope"></i>[lea.michel@radboudumc.nl](ilse.coolen@radboudumc.nl)
-<i class="ai ai-google-scholar"></i>[google scholar]()
-
-I am interested in the development of cognitive skills and how they relate to academic achievement. My main research is focused on the contributions of cognitive skills during the development of mathematics in preschoolers and early primary school children. I have mainly used observational, longitudinal research designs to follow the child’s development and have recently added MRI components to my research to link behavioural and neuroimaging data. I have also been invested as part of the trainee board of the Mathematical Cognition and Learning Society. Outside of work you can usually find me surrounded by cats, either my own or any other cat.
 
 ```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
 
