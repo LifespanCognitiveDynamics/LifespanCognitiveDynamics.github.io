@@ -1,0 +1,19 @@
+name: "LCD_lab_website2"
+title: "Lifespan Cognitive Dynamics Lab"
+description: |
+  Brains, Psychology, and Psychometrics
+output_dir: "docs"
+navbar:
+  search: false
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Research"
+      href: research.html
+    - text: "People"
+      href: people.html
+    - text: "Publications"
+      href: publications.html
+    - text: "Blogs and News"
+      href: posts.html
+output: distill::distill_article

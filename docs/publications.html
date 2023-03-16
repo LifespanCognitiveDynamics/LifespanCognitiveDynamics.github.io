@@ -1,0 +1,2025 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="generator" content="distill" />
+
+  <style type="text/css">
+  /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
+  body {
+    visibility: hidden;
+  }
+  </style>
+
+ <!--radix_placeholder_import_source-->
+ <!--/radix_placeholder_import_source-->
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  { color: #00769e; background-color: #f1f3f5; }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span { color: #00769e; } /* Normal */
+code span.al { color: #ad0000; } /* Alert */
+code span.an { color: #5e5e5e; } /* Annotation */
+code span.at { color: #657422; } /* Attribute */
+code span.bn { color: #ad0000; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #00769e; } /* ControlFlow */
+code span.ch { color: #20794d; } /* Char */
+code span.cn { color: #8f5902; } /* Constant */
+code span.co { color: #5e5e5e; } /* Comment */
+code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+code span.dt { color: #ad0000; } /* DataType */
+code span.dv { color: #ad0000; } /* DecVal */
+code span.er { color: #ad0000; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #ad0000; } /* Float */
+code span.fu { color: #4758ab; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #5e5e5e; } /* Information */
+code span.kw { color: #00769e; } /* Keyword */
+code span.op { color: #5e5e5e; } /* Operator */
+code span.ot { color: #00769e; } /* Other */
+code span.pp { color: #ad0000; } /* Preprocessor */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
+code span.ss { color: #20794d; } /* SpecialString */
+code span.st { color: #20794d; } /* String */
+code span.va { color: #111111; } /* Variable */
+code span.vs { color: #20794d; } /* VerbatimString */
+code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+</style>
+
+
+  <!--radix_placeholder_meta_tags-->
+  <title>Lifespan Cognitive Dynamics Lab: Publications</title>
+
+
+
+
+  <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
+  <meta property="og:title" content="Lifespan Cognitive Dynamics Lab: Publications"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="Lifespan Cognitive Dynamics Lab"/>
+
+  <!--  https://dev.twitter.com/cards/types/summary -->
+  <meta property="twitter:card" content="summary"/>
+  <meta property="twitter:title" content="Lifespan Cognitive Dynamics Lab: Publications"/>
+
+  <!--/radix_placeholder_meta_tags-->
+  <!--radix_placeholder_rmarkdown_metadata-->
+
+  <script type="text/json" id="radix-rmarkdown-metadata">
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site"]}},"value":[{"type":"character","attributes":{},"value":["Publications"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  </script>
+  <!--/radix_placeholder_rmarkdown_metadata-->
+  <!--radix_placeholder_navigation_in_header-->
+  <meta name="distill:offset" content=""/>
+
+  <script type="application/javascript">
+
+    window.headroom_prevent_pin = false;
+
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+
+      // initialize headroom for banner
+      var header = $('header').get(0);
+      var headerHeight = header.offsetHeight;
+      var headroom = new Headroom(header, {
+        tolerance: 5,
+        onPin : function() {
+          if (window.headroom_prevent_pin) {
+            window.headroom_prevent_pin = false;
+            headroom.unpin();
+          }
+        }
+      });
+      headroom.init();
+      if(window.location.hash)
+        headroom.unpin();
+      $(header).addClass('headroom--transition');
+
+      // offset scroll location for banner on hash change
+      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
+      window.addEventListener("hashchange", function(event) {
+        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
+      });
+
+      // responsive menu
+      $('.distill-site-header').each(function(i, val) {
+        var topnav = $(this);
+        var toggle = topnav.find('.nav-toggle');
+        toggle.on('click', function() {
+          topnav.toggleClass('responsive');
+        });
+      });
+
+      // nav dropdowns
+      $('.nav-dropbtn').click(function(e) {
+        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
+        $(this).parent().siblings('.nav-dropdown')
+           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
+      });
+      $("body").click(function(e){
+        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
+      });
+      $(".nav-dropdown").click(function(e){
+        e.stopPropagation();
+      });
+    });
+  </script>
+
+  <style type="text/css">
+
+  /* Theme (user-documented overrideables for nav appearance) */
+
+  .distill-site-nav {
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #0F2E3D;
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .distill-site-nav a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .distill-site-nav a:hover {
+    color: white;
+  }
+
+  @media print {
+    .distill-site-nav {
+      display: none;
+    }
+  }
+
+  .distill-site-header {
+
+  }
+
+  .distill-site-footer {
+
+  }
+
+
+  /* Site Header */
+
+  .distill-site-header {
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 3;
+  }
+
+  .distill-site-header .nav-left {
+    display: inline-block;
+    margin-left: 8px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .distill-site-header .nav-left {
+      margin-left: 0;
+    }
+  }
+
+
+  .distill-site-header .nav-right {
+    float: right;
+    margin-right: 8px;
+  }
+
+  .distill-site-header a,
+  .distill-site-header .title {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 10px 14px 10px;
+  }
+
+  .distill-site-header .title {
+    font-size: 18px;
+    min-width: 150px;
+  }
+
+  .distill-site-header .logo {
+    padding: 0;
+  }
+
+  .distill-site-header .logo img {
+    display: none;
+    max-height: 20px;
+    width: auto;
+    margin-bottom: -4px;
+  }
+
+  .distill-site-header .nav-image img {
+    max-height: 18px;
+    width: auto;
+    display: inline-block;
+    margin-bottom: -3px;
+  }
+
+
+
+  @media screen and (min-width: 1000px) {
+    .distill-site-header .logo img {
+      display: inline-block;
+    }
+    .distill-site-header .nav-left {
+      margin-left: 20px;
+    }
+    .distill-site-header .nav-right {
+      margin-right: 20px;
+    }
+    .distill-site-header .title {
+      padding-left: 12px;
+    }
+  }
+
+
+  .distill-site-header .nav-toggle {
+    display: none;
+  }
+
+  .nav-dropdown {
+    display: inline-block;
+    position: relative;
+  }
+
+  .nav-dropdown .nav-dropbtn {
+    border: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 16px 10px;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+    margin-top: 1px;
+    z-index: 2;
+  }
+
+  .nav-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    z-index: 1;
+    margin-top: 2px;
+    white-space: nowrap;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .nav-dropdown-content hr {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-dropdown-active {
+    display: block;
+  }
+
+  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
+    color: black;
+    padding: 6px 24px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .nav-dropdown-content .nav-dropdown-header {
+    display: block;
+    padding: 5px 24px;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #999999;
+    white-space: nowrap;
+  }
+
+  .nav-dropdown:hover .nav-dropbtn {
+    color: white;
+  }
+
+  .nav-dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .nav-right .nav-dropdown-content {
+    margin-left: -45%;
+    right: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
+    .distill-site-header a.nav-toggle {
+      float: right;
+      display: block;
+    }
+    .distill-site-header .title {
+      margin-left: 0;
+    }
+    .distill-site-header .nav-right {
+      margin-right: 0;
+    }
+    .distill-site-header {
+      overflow: hidden;
+    }
+    .nav-right .nav-dropdown-content {
+      margin-left: 0;
+    }
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .distill-site-header.responsive {position: relative; min-height: 500px; }
+    .distill-site-header.responsive a.nav-toggle {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .distill-site-header.responsive a,
+    .distill-site-header.responsive .nav-dropdown {
+      display: block;
+      text-align: left;
+    }
+    .distill-site-header.responsive .nav-left,
+    .distill-site-header.responsive .nav-right {
+      width: 100%;
+    }
+    .distill-site-header.responsive .nav-dropdown {float: none;}
+    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
+    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+
+  /* Site Footer */
+
+  .distill-site-footer {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    z-index: 3;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  /* Headroom */
+
+  d-title {
+    padding-top: 6rem;
+  }
+
+  @media print {
+    d-title {
+      padding-top: 4rem;
+    }
+  }
+
+  .headroom {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .headroom--transition {
+    transition: all .4s ease-in-out;
+  }
+
+  .headroom--unpinned {
+    top: -100px;
+  }
+
+  .headroom--pinned {
+    top: 0;
+  }
+
+  /* adjust viewport for navbar height */
+  /* helps vertically center bootstrap (non-distill) content */
+  .min-vh-100 {
+    min-height: calc(100vh - 100px) !important;
+  }
+
+  </style>
+
+  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
+  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+  <!--/radix_placeholder_navigation_in_header-->
+  <!--radix_placeholder_distill-->
+
+  <style type="text/css">
+
+  body {
+    background-color: white;
+  }
+
+  .pandoc-table {
+    width: 100%;
+  }
+
+  .pandoc-table>caption {
+    margin-bottom: 10px;
+  }
+
+  .pandoc-table th:not([align]) {
+    text-align: left;
+  }
+
+  .pagedtable-footer {
+    font-size: 15px;
+  }
+
+  d-byline .byline {
+    grid-template-columns: 2fr 2fr;
+  }
+
+  d-byline .byline h3 {
+    margin-block-start: 1.5em;
+  }
+
+  d-byline .byline .authors-affiliations h3 {
+    margin-block-start: 0.5em;
+  }
+
+  .authors-affiliations .orcid-id {
+    width: 16px;
+    height:16px;
+    margin-left: 4px;
+    margin-right: 4px;
+    vertical-align: middle;
+    padding-bottom: 2px;
+  }
+
+  d-title .dt-tags {
+    margin-top: 1em;
+    grid-column: text;
+  }
+
+  .dt-tags .dt-tag {
+    text-decoration: none;
+    display: inline-block;
+    color: rgba(0,0,0,0.6);
+    padding: 0em 0.4em;
+    margin-right: 0.5em;
+    margin-bottom: 0.4em;
+    font-size: 70%;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  d-article table.gt_table td,
+  d-article table.gt_table th {
+    border-bottom: none;
+    font-size: 100%;
+  }
+
+  .html-widget {
+    margin-bottom: 2.0em;
+  }
+
+  .l-screen-inset {
+    padding-right: 16px;
+  }
+
+  .l-screen .caption {
+    margin-left: 10px;
+  }
+
+  .shaded {
+    background: rgb(247, 247, 247);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .shaded .html-widget {
+    margin-bottom: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .shaded .shaded-content {
+    background: white;
+  }
+
+  .text-output {
+    margin-top: 0;
+    line-height: 1.5em;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+
+  d-article {
+    padding-top: 2.5rem;
+    padding-bottom: 30px;
+  }
+
+  d-appendix {
+    padding-top: 30px;
+  }
+
+  d-article>p>img {
+    width: 100%;
+  }
+
+  d-article h2 {
+    margin: 1rem 0 1.5rem 0;
+  }
+
+  d-article h3 {
+    margin-top: 1.5rem;
+  }
+
+  d-article iframe {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 2.0em;
+    width: 100%;
+  }
+
+  /* Tweak code blocks */
+
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  d-article pre,
+  d-article div.sourceCode,
+  d-article div.sourceCode pre {
+    overflow: auto;
+  }
+
+  d-article div.sourceCode {
+    background-color: white;
+  }
+
+  d-article div.sourceCode pre {
+    padding-left: 10px;
+    font-size: 12px;
+    border-left: 2px solid rgba(0,0,0,0.1);
+  }
+
+  d-article pre {
+    font-size: 12px;
+    color: black;
+    background: none;
+    margin-top: 0;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
+  d-article pre a {
+    border-bottom: none;
+  }
+
+  d-article pre a:hover {
+    border-bottom: none;
+    text-decoration: underline;
+  }
+
+  d-article details {
+    grid-column: text;
+    margin-bottom: 0.8em;
+  }
+
+  @media(min-width: 768px) {
+
+  d-article pre,
+  d-article div.sourceCode,
+  d-article div.sourceCode pre {
+    overflow: visible !important;
+  }
+
+  d-article div.sourceCode pre {
+    padding-left: 18px;
+    font-size: 14px;
+  }
+
+  d-article pre {
+    font-size: 14px;
+  }
+
+  }
+
+  figure img.external {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    box-sizing: border-box;
+  }
+
+  /* CSS for d-contents */
+
+  .d-contents {
+    grid-column: text;
+    color: rgba(0,0,0,0.8);
+    font-size: 0.9em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    padding-left: 0.25em;
+    justify-self: start;
+  }
+
+  @media(min-width: 1000px) {
+    .d-contents.d-contents-float {
+      height: 0;
+      grid-column-start: 1;
+      grid-column-end: 4;
+      justify-self: center;
+      padding-right: 3em;
+      padding-left: 2em;
+    }
+  }
+
+  .d-contents nav h3 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+
+  .d-contents li {
+    list-style-type: none
+  }
+
+  .d-contents nav > ul {
+    padding-left: 0;
+  }
+
+  .d-contents ul {
+    padding-left: 1em
+  }
+
+  .d-contents nav ul li {
+    margin-top: 0.6em;
+    margin-bottom: 0.2em;
+  }
+
+  .d-contents nav a {
+    font-size: 13px;
+    border-bottom: none;
+    text-decoration: none
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .d-contents nav a:hover {
+    text-decoration: underline solid rgba(0, 0, 0, 0.6)
+  }
+
+  .d-contents nav > ul > li > a {
+    font-weight: 600;
+  }
+
+  .d-contents nav > ul > li > ul {
+    font-weight: inherit;
+  }
+
+  .d-contents nav > ul > li > ul > li {
+    margin-top: 0.2em;
+  }
+
+
+  .d-contents nav ul {
+    margin-top: 0;
+    margin-bottom: 0.25em;
+  }
+
+  .d-article-with-toc h2:nth-child(2) {
+    margin-top: 0;
+  }
+
+
+  /* Figure */
+
+  .figure {
+    position: relative;
+    margin-bottom: 2.5em;
+    margin-top: 1.5em;
+  }
+
+  .figure .caption {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+    line-height: 1.5em;
+  }
+
+  .figure img.external {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    box-sizing: border-box;
+  }
+
+  .figure .caption a {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .figure .caption b,
+  .figure .caption strong, {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1.0);
+  }
+
+  /* Citations */
+
+  d-article .citation {
+    color: inherit;
+    cursor: inherit;
+  }
+
+  div.hanging-indent{
+    margin-left: 1em; text-indent: -1em;
+  }
+
+  /* Citation hover box */
+
+  .tippy-box[data-theme~=light-border] {
+    background-color: rgba(250, 250, 250, 0.95);
+  }
+
+  .tippy-content > p {
+    margin-bottom: 0;
+    padding: 2px;
+  }
+
+
+  /* Tweak 1000px media break to show more text */
+
+  @media(min-width: 1000px) {
+    .base-grid,
+    distill-header,
+    d-title,
+    d-abstract,
+    d-article,
+    d-appendix,
+    distill-appendix,
+    d-byline,
+    d-footnote-list,
+    d-citation-list,
+    distill-footer {
+      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 80px [middle-start] 50px [text-start kicker-end] 65px 65px 65px 65px 65px 65px 65px 65px [text-end gutter-start] 65px [middle-end] 65px [page-end gutter-end] 1fr [screen-end];
+      grid-column-gap: 16px;
+    }
+
+    .grid {
+      grid-column-gap: 16px;
+    }
+
+    d-article {
+      font-size: 1.06rem;
+      line-height: 1.7em;
+    }
+    figure .caption, .figure .caption, figure figcaption {
+      font-size: 13px;
+    }
+  }
+
+  @media(min-width: 1180px) {
+    .base-grid,
+    distill-header,
+    d-title,
+    d-abstract,
+    d-article,
+    d-appendix,
+    distill-appendix,
+    d-byline,
+    d-footnote-list,
+    d-citation-list,
+    distill-footer {
+      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 60px [middle-start] 60px [text-start kicker-end] 60px 60px 60px 60px 60px 60px 60px 60px [text-end gutter-start] 60px [middle-end] 60px [page-end gutter-end] 1fr [screen-end];
+      grid-column-gap: 32px;
+    }
+
+    .grid {
+      grid-column-gap: 32px;
+    }
+  }
+
+
+  /* Get the citation styles for the appendix (not auto-injected on render since
+     we do our own rendering of the citation appendix) */
+
+  d-appendix .citation-appendix,
+  .d-appendix .citation-appendix {
+    font-size: 11px;
+    line-height: 15px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 18px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.02);
+    padding: 10px 18px;
+    border-radius: 3px;
+    color: rgba(150, 150, 150, 1);
+    overflow: hidden;
+    margin-top: -12px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  /* Include appendix styles here so they can be overridden */
+
+  d-appendix {
+    contain: layout style;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    margin-top: 60px;
+    margin-bottom: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    color: rgba(0,0,0,0.5);
+    padding-top: 60px;
+    padding-bottom: 48px;
+  }
+
+  d-appendix h3 {
+    grid-column: page-start / text-start;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 1em;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.65);
+  }
+
+  d-appendix h3 + * {
+    margin-top: 1em;
+  }
+
+  d-appendix ol {
+    padding: 0 0 0 15px;
+  }
+
+  @media (min-width: 768px) {
+    d-appendix ol {
+      padding: 0 0 0 30px;
+      margin-left: -30px;
+    }
+  }
+
+  d-appendix li {
+    margin-bottom: 1em;
+  }
+
+  d-appendix a {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  d-appendix > * {
+    grid-column: text;
+  }
+
+  d-appendix > d-footnote-list,
+  d-appendix > d-citation-list,
+  d-appendix > distill-appendix {
+    grid-column: screen;
+  }
+
+  /* Include footnote styles here so they can be overridden */
+
+  d-footnote-list {
+    contain: layout style;
+  }
+
+  d-footnote-list > * {
+    grid-column: text;
+  }
+
+  d-footnote-list a.footnote-backlink {
+    color: rgba(0,0,0,0.3);
+    padding-left: 0.5em;
+  }
+
+
+
+  /* Anchor.js */
+
+  .anchorjs-link {
+    /*transition: all .25s linear; */
+    text-decoration: none;
+    border-bottom: none;
+  }
+  *:hover > .anchorjs-link {
+    margin-left: -1.125em !important;
+    text-decoration: none;
+    border-bottom: none;
+  }
+
+  /* Social footer */
+
+  .social_footer {
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.67);
+  }
+
+  .disqus-comments {
+    margin-right: 30px;
+  }
+
+  .disqus-comment-count {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+  }
+
+  #disqus_thread {
+    margin-top: 30px;
+  }
+
+  .article-sharing a {
+    border-bottom: none;
+    margin-right: 8px;
+  }
+
+  .article-sharing a:hover {
+    border-bottom: none;
+  }
+
+  .sidebar-section.subscribe {
+    font-size: 12px;
+    line-height: 1.6em;
+  }
+
+  .subscribe p {
+    margin-bottom: 0.5em;
+  }
+
+
+  .article-footer .subscribe {
+    font-size: 15px;
+    margin-top: 45px;
+  }
+
+
+  .sidebar-section.custom {
+    font-size: 12px;
+    line-height: 1.6em;
+  }
+
+  .custom p {
+    margin-bottom: 0.5em;
+  }
+
+  /* Styles for listing layout (hide title) */
+  .layout-listing d-title, .layout-listing .d-title {
+    display: none;
+  }
+
+  /* Styles for posts lists (not auto-injected) */
+
+
+  .posts-with-sidebar {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .posts-list .description h2,
+  .posts-list .description p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  .posts-list .description h2 {
+    font-weight: 700;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .posts-list h2.post-tag {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 12px;
+  }
+  .posts-list {
+    margin-top: 60px;
+    margin-bottom: 24px;
+  }
+
+  .posts-list .post-preview {
+    text-decoration: none;
+    overflow: hidden;
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 24px 0;
+  }
+
+  .post-preview-last {
+    border-bottom: none !important;
+  }
+
+  .posts-list .posts-list-caption {
+    grid-column: screen;
+    font-weight: 400;
+  }
+
+  .posts-list .post-preview h2 {
+    margin: 0 0 6px 0;
+    line-height: 1.2em;
+    font-style: normal;
+    font-size: 24px;
+  }
+
+  .posts-list .post-preview p {
+    margin: 0 0 12px 0;
+    line-height: 1.4em;
+    font-size: 16px;
+  }
+
+  .posts-list .post-preview .thumbnail {
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    position: relative;
+    max-width: 500px;
+  }
+  .posts-list .post-preview img {
+    width: 100%;
+    display: block;
+  }
+
+  .posts-list .metadata {
+    font-size: 12px;
+    line-height: 1.4em;
+    margin-bottom: 18px;
+  }
+
+  .posts-list .metadata > * {
+    display: inline-block;
+  }
+
+  .posts-list .metadata .publishedDate {
+    margin-right: 2em;
+  }
+
+  .posts-list .metadata .dt-authors {
+    display: block;
+    margin-top: 0.3em;
+    margin-right: 2em;
+  }
+
+  .posts-list .dt-tags {
+    display: block;
+    line-height: 1em;
+  }
+
+  .posts-list .dt-tags .dt-tag {
+    display: inline-block;
+    color: rgba(0,0,0,0.6);
+    padding: 0.3em 0.4em;
+    margin-right: 0.2em;
+    margin-bottom: 0.4em;
+    font-size: 60%;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .posts-list img {
+    opacity: 1;
+  }
+
+  .posts-list img[data-src] {
+    opacity: 0;
+  }
+
+  .posts-more {
+    clear: both;
+  }
+
+
+  .posts-sidebar {
+    font-size: 16px;
+  }
+
+  .posts-sidebar h3 {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .sidebar-section {
+    margin-bottom: 30px;
+  }
+
+  .categories ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .categories li {
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 0;
+  }
+
+  .categories li>a {
+    border-bottom: none;
+  }
+
+  .categories li>a:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  }
+
+  .categories .active {
+    font-weight: 600;
+  }
+
+  .categories .category-count {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+
+  @media(min-width: 768px) {
+    .posts-list .post-preview h2 {
+      font-size: 26px;
+    }
+    .posts-list .post-preview .thumbnail {
+      float: right;
+      width: 30%;
+      margin-bottom: 0;
+    }
+    .posts-list .post-preview .description {
+      float: left;
+      width: 45%;
+    }
+    .posts-list .post-preview .metadata {
+      float: left;
+      width: 20%;
+      margin-top: 8px;
+    }
+    .posts-list .post-preview p {
+      margin: 0 0 12px 0;
+      line-height: 1.5em;
+      font-size: 16px;
+    }
+    .posts-with-sidebar .posts-list {
+      float: left;
+      width: 75%;
+    }
+    .posts-with-sidebar .posts-sidebar {
+      float: right;
+      width: 20%;
+      margin-top: 60px;
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+  }
+
+
+  /* Improve display for browsers without grid (IE/Edge <= 15) */
+
+  .downlevel {
+    line-height: 1.6em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+  }
+
+  .downlevel .d-title {
+    padding-top: 6rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .downlevel .d-title h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.1em;
+    margin: 0 0 0.5rem;
+  }
+
+  .downlevel .d-title p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.55em;
+    margin-top: 0;
+  }
+
+  .downlevel .d-byline {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    font-size: 0.8rem;
+    line-height: 1.8em;
+  }
+
+  .downlevel .section-separator {
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .downlevel .d-article {
+    font-size: 1.06rem;
+    line-height: 1.7em;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+
+  .downlevel .d-appendix {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: none;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.5);
+    padding-top: 40px;
+    padding-bottom: 48px;
+  }
+
+  .downlevel .footnotes ol {
+    padding-left: 13px;
+  }
+
+  .downlevel .base-grid,
+  .downlevel .distill-header,
+  .downlevel .d-title,
+  .downlevel .d-abstract,
+  .downlevel .d-article,
+  .downlevel .d-appendix,
+  .downlevel .distill-appendix,
+  .downlevel .d-byline,
+  .downlevel .d-footnote-list,
+  .downlevel .d-citation-list,
+  .downlevel .distill-footer,
+  .downlevel .appendix-bottom,
+  .downlevel .posts-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @media(min-width: 768px) {
+    .downlevel .base-grid,
+    .downlevel .distill-header,
+    .downlevel .d-title,
+    .downlevel .d-abstract,
+    .downlevel .d-article,
+    .downlevel .d-appendix,
+    .downlevel .distill-appendix,
+    .downlevel .d-byline,
+    .downlevel .d-footnote-list,
+    .downlevel .d-citation-list,
+    .downlevel .distill-footer,
+    .downlevel .appendix-bottom,
+    .downlevel .posts-container {
+    padding-left: 150px;
+    padding-right: 150px;
+    max-width: 900px;
+  }
+  }
+
+  .downlevel pre code {
+    display: block;
+    border-left: 2px solid rgba(0, 0, 0, .1);
+    padding: 0 0 0 20px;
+    font-size: 14px;
+  }
+
+  .downlevel code, .downlevel pre {
+    color: black;
+    background: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
+  .downlevel .posts-list .post-preview {
+    color: inherit;
+  }
+
+
+
+  </style>
+
+  <script type="application/javascript">
+
+  function is_downlevel_browser() {
+    if (bowser.isUnsupportedBrowser({ msie: "12", msedge: "16"},
+                                   window.navigator.userAgent)) {
+      return true;
+    } else {
+      return window.load_distill_framework === undefined;
+    }
+  }
+
+  // show body when load is complete
+  function on_load_complete() {
+
+    // add anchors
+    if (window.anchors) {
+      window.anchors.options.placement = 'left';
+      window.anchors.add('d-article > h2, d-article > h3, d-article > h4, d-article > h5');
+    }
+
+
+    // set body to visible
+    document.body.style.visibility = 'visible';
+
+    // force redraw for leaflet widgets
+    if (window.HTMLWidgets) {
+      var maps = window.HTMLWidgets.findAll(".leaflet");
+      $.each(maps, function(i, el) {
+        var map = this.getMap();
+        map.invalidateSize();
+        map.eachLayer(function(layer) {
+          if (layer instanceof L.TileLayer)
+            layer.redraw();
+        });
+      });
+    }
+
+    // trigger 'shown' so htmlwidgets resize
+    $('d-article').trigger('shown');
+  }
+
+  function init_distill() {
+
+    init_common();
+
+    // create front matter
+    var front_matter = $('<d-front-matter></d-front-matter>');
+    $('#distill-front-matter').wrap(front_matter);
+
+    // create d-title
+    $('.d-title').changeElementType('d-title');
+
+    // create d-byline
+    var byline = $('<d-byline></d-byline>');
+    $('.d-byline').replaceWith(byline);
+
+    // create d-article
+    var article = $('<d-article></d-article>');
+    $('.d-article').wrap(article).children().unwrap();
+
+    // move posts container into article
+    $('.posts-container').appendTo($('d-article'));
+
+    // create d-appendix
+    $('.d-appendix').changeElementType('d-appendix');
+
+    // flag indicating that we have appendix items
+    var appendix = $('.appendix-bottom').children('h3').length > 0;
+
+    // replace footnotes with <d-footnote>
+    $('.footnote-ref').each(function(i, val) {
+      appendix = true;
+      var href = $(this).attr('href');
+      var id = href.replace('#', '');
+      var fn = $('#' + id);
+      var fn_p = $('#' + id + '>p');
+      fn_p.find('.footnote-back').remove();
+      var text = fn_p.html();
+      var dtfn = $('<d-footnote></d-footnote>');
+      dtfn.html(text);
+      $(this).replaceWith(dtfn);
+    });
+    // remove footnotes
+    $('.footnotes').remove();
+
+    // move refs into #references-listing
+    $('#references-listing').replaceWith($('#refs'));
+
+    $('h1.appendix, h2.appendix').each(function(i, val) {
+      $(this).changeElementType('h3');
+    });
+    $('h3.appendix').each(function(i, val) {
+      var id = $(this).attr('id');
+      $('.d-contents a[href="#' + id + '"]').parent().remove();
+      appendix = true;
+      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('d-appendix'));
+    });
+
+    // show d-appendix if we have appendix content
+    $("d-appendix").css('display', appendix ? 'grid' : 'none');
+
+    // localize layout chunks to just output
+    $('.layout-chunk').each(function(i, val) {
+
+      // capture layout
+      var layout = $(this).attr('data-layout');
+
+      // apply layout to markdown level block elements
+      var elements = $(this).children().not('details, div.sourceCode, pre, script');
+      elements.each(function(i, el) {
+        var layout_div = $('<div class="' + layout + '"></div>');
+        if (layout_div.hasClass('shaded')) {
+          var shaded_content = $('<div class="shaded-content"></div>');
+          $(this).wrap(shaded_content);
+          $(this).parent().wrap(layout_div);
+        } else {
+          $(this).wrap(layout_div);
+        }
+      });
+
+
+      // unwrap the layout-chunk div
+      $(this).children().unwrap();
+    });
+
+    // remove code block used to force  highlighting css
+    $('.distill-force-highlighting-css').parent().remove();
+
+    // remove empty line numbers inserted by pandoc when using a
+    // custom syntax highlighting theme
+    $('code.sourceCode a:empty').remove();
+
+    // load distill framework
+    load_distill_framework();
+
+    // wait for window.distillRunlevel == 4 to do post processing
+    function distill_post_process() {
+
+      if (!window.distillRunlevel || window.distillRunlevel < 4)
+        return;
+
+      // hide author/affiliations entirely if we have no authors
+      var front_matter = JSON.parse($("#distill-front-matter").html());
+      var have_authors = front_matter.authors && front_matter.authors.length > 0;
+      if (!have_authors)
+        $('d-byline').addClass('hidden');
+
+      // article with toc class
+      $('.d-contents').parent().addClass('d-article-with-toc');
+
+      // strip links that point to #
+      $('.authors-affiliations').find('a[href="#"]').removeAttr('href');
+
+      // add orcid ids
+      $('.authors-affiliations').find('.author').each(function(i, el) {
+        var orcid_id = front_matter.authors[i].orcidID;
+        if (orcid_id) {
+          var a = $('<a></a>');
+          a.attr('href', 'https://orcid.org/' + orcid_id);
+          var img = $('<img></img>');
+          img.addClass('orcid-id');
+          img.attr('alt', 'ORCID ID');
+          img.attr('src','data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==');
+          a.append(img);
+          $(this).append(a);
+        }
+      });
+
+      // hide elements of author/affiliations grid that have no value
+      function hide_byline_column(caption) {
+        $('d-byline').find('h3:contains("' + caption + '")').parent().css('visibility', 'hidden');
+      }
+
+      // affiliations
+      var have_affiliations = false;
+      for (var i = 0; i<front_matter.authors.length; ++i) {
+        var author = front_matter.authors[i];
+        if (author.affiliation !== "&nbsp;") {
+          have_affiliations = true;
+          break;
+        }
+      }
+      if (!have_affiliations)
+        $('d-byline').find('h3:contains("Affiliations")').css('visibility', 'hidden');
+
+      // published date
+      if (!front_matter.publishedDate)
+        hide_byline_column("Published");
+
+      // document object identifier
+      var doi = $('d-byline').find('h3:contains("DOI")');
+      var doi_p = doi.next().empty();
+      if (!front_matter.doi) {
+        // if we have a citation and valid citationText then link to that
+        if ($('#citation').length > 0 && front_matter.citationText) {
+          doi.html('Citation');
+          $('<a href="#citation"></a>')
+            .text(front_matter.citationText)
+            .appendTo(doi_p);
+        } else {
+          hide_byline_column("DOI");
+        }
+      } else {
+        $('<a></a>')
+           .attr('href', "https://doi.org/" + front_matter.doi)
+           .html(front_matter.doi)
+           .appendTo(doi_p);
+      }
+
+       // change plural form of authors/affiliations
+      if (front_matter.authors.length === 1) {
+        var grid = $('.authors-affiliations');
+        grid.children('h3:contains("Authors")').text('Author');
+        grid.children('h3:contains("Affiliations")').text('Affiliation');
+      }
+
+      // remove d-appendix and d-footnote-list local styles
+      $('d-appendix > style:first-child').remove();
+      $('d-footnote-list > style:first-child').remove();
+
+      // move appendix-bottom entries to the bottom
+      $('.appendix-bottom').appendTo('d-appendix').children().unwrap();
+      $('.appendix-bottom').remove();
+
+      // hoverable references
+      $('span.citation[data-cites]').each(function() {
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
+          $(this).html(fn.shadowRoot.querySelector("sup"))
+          $(this).id = fn.id
+          fn.remove()
+        }
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
+        }).join("\n");
+        window.tippy(this, {
+          allowHTML: true,
+          content: refHtml,
+          maxWidth: 500,
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start'
+        });
+      });
+
+      // fix footnotes in tables (#411)
+      // replacing broken distill.pub feature
+      $('table d-footnote').each(function() {
+        // we replace internal showAtNode methode which is triggered when hovering a footnote
+        this.hoverBox.showAtNode = function(node) {
+          // ported from https://github.com/distillpub/template/pull/105/files
+          calcOffset = function(elem) {
+              let x = elem.offsetLeft;
+              let y = elem.offsetTop;
+              // Traverse upwards until an `absolute` element is found or `elem`
+              // becomes null.
+              while (elem = elem.offsetParent && elem.style.position != 'absolute') {
+                  x += elem.offsetLeft;
+                  y += elem.offsetTop;
+              }
+
+              return { left: x, top: y };
+          }
+          // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
+          const bbox = node.getBoundingClientRect();
+          const offset = calcOffset(node);
+          this.show([offset.left + bbox.width, offset.top + bbox.height]);
+        }
+      })
+
+      // clear polling timer
+      clearInterval(tid);
+
+      // show body now that everything is ready
+      on_load_complete();
+    }
+
+    var tid = setInterval(distill_post_process, 50);
+    distill_post_process();
+
+  }
+
+  function init_downlevel() {
+
+    init_common();
+
+     // insert hr after d-title
+    $('.d-title').after($('<hr class="section-separator"/>'));
+
+    // check if we have authors
+    var front_matter = JSON.parse($("#distill-front-matter").html());
+    var have_authors = front_matter.authors && front_matter.authors.length > 0;
+
+    // manage byline/border
+    if (!have_authors)
+      $('.d-byline').remove();
+    $('.d-byline').after($('<hr class="section-separator"/>'));
+    $('.d-byline a').remove();
+
+    // remove toc
+    $('.d-contents').remove();
+
+    // move appendix elements
+    $('h1.appendix, h2.appendix').each(function(i, val) {
+      $(this).changeElementType('h3');
+    });
+    $('h3.appendix').each(function(i, val) {
+      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('.d-appendix'));
+    });
+
+
+    // inject headers into references and footnotes
+    var refs_header = $('<h3></h3>');
+    refs_header.text('References');
+    $('#refs').prepend(refs_header);
+
+    var footnotes_header = $('<h3></h3');
+    footnotes_header.text('Footnotes');
+    $('.footnotes').children('hr').first().replaceWith(footnotes_header);
+
+    // move appendix-bottom entries to the bottom
+    $('.appendix-bottom').appendTo('.d-appendix').children().unwrap();
+    $('.appendix-bottom').remove();
+
+    // remove appendix if it's empty
+    if ($('.d-appendix').children().length === 0)
+      $('.d-appendix').remove();
+
+    // prepend separator above appendix
+    $('.d-appendix').before($('<hr class="section-separator" style="clear: both"/>'));
+
+    // trim code
+    $('pre>code').each(function(i, val) {
+      $(this).html($.trim($(this).html()));
+    });
+
+    // move posts-container right before article
+    $('.posts-container').insertBefore($('.d-article'));
+
+    $('body').addClass('downlevel');
+
+    on_load_complete();
+  }
+
+
+  function init_common() {
+
+    // jquery plugin to change element types
+    (function($) {
+      $.fn.changeElementType = function(newType) {
+        var attrs = {};
+
+        $.each(this[0].attributes, function(idx, attr) {
+          attrs[attr.nodeName] = attr.nodeValue;
+        });
+
+        this.replaceWith(function() {
+          return $("<" + newType + "/>", attrs).append($(this).contents());
+        });
+      };
+    })(jQuery);
+
+    // prevent underline for linked images
+    $('a > img').parent().css({'border-bottom' : 'none'});
+
+    // mark non-body figures created by knitr chunks as 100% width
+    $('.layout-chunk').each(function(i, val) {
+      var figures = $(this).find('img, .html-widget');
+      // ignore leaflet img layers (#106)
+      figures = figures.filter(':not(img[class*="leaflet"])')
+      if ($(this).attr('data-layout') !== "l-body") {
+        figures.css('width', '100%');
+      } else {
+        figures.css('max-width', '100%');
+        figures.filter("[width]").each(function(i, val) {
+          var fig = $(this);
+          fig.css('width', fig.attr('width') + 'px');
+        });
+
+      }
+    });
+
+    // auto-append index.html to post-preview links in file: protocol
+    // and in rstudio ide preview
+    $('.post-preview').each(function(i, val) {
+      if (window.location.protocol === "file:")
+        $(this).attr('href', $(this).attr('href') + "index.html");
+    });
+
+    // get rid of index.html references in header
+    if (window.location.protocol !== "file:") {
+      $('.distill-site-header a[href]').each(function(i,val) {
+        $(this).attr('href', $(this).attr('href').replace(/^index[.]html/, "./"));
+      });
+    }
+
+    // add class to pandoc style tables
+    $('tr.header').parent('thead').parent('table').addClass('pandoc-table');
+    $('.kable-table').children('table').addClass('pandoc-table');
+
+    // add figcaption style to table captions
+    $('caption').parent('table').addClass("figcaption");
+
+    // initialize posts list
+    if (window.init_posts_list)
+      window.init_posts_list();
+
+    // implmement disqus comment link
+    $('.disqus-comment-count').click(function() {
+      window.headroom_prevent_pin = true;
+      $('#disqus_thread').toggleClass('hidden');
+      if (!$('#disqus_thread').hasClass('hidden')) {
+        var offset = $(this).offset();
+        $(window).resize();
+        $('html, body').animate({
+          scrollTop: offset.top - 35
+        });
+      }
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    if (is_downlevel_browser())
+      init_downlevel();
+    else
+      window.addEventListener('WebComponentsReady', init_distill);
+  });
+
+  </script>
+
+  <!--/radix_placeholder_distill-->
+  <script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
+  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
+  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
+  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <!--radix_placeholder_site_in_header-->
+  <!--/radix_placeholder_site_in_header-->
+
+
+</head>
+
+<body>
+
+<!--radix_placeholder_front_matter-->
+
+<script id="distill-front-matter" type="text/json">
+{"title":"Publications","authors":[]}
+</script>
+
+<!--/radix_placeholder_front_matter-->
+<!--radix_placeholder_navigation_before_body-->
+<header class="header header--fixed" role="banner">
+<nav class="distill-site-nav distill-site-header">
+<div class="nav-left">
+<a href="index.html" class="title">Lifespan Cognitive Dynamics Lab</a>
+</div>
+<div class="nav-right">
+<a href="index.html">Home</a>
+<a href="research.html">Research</a>
+<a href="people.html">People</a>
+<a href="publications.html">Publications</a>
+<a href="posts.html">Blogs and News</a>
+<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
+</div>
+</nav>
+</header>
+<!--/radix_placeholder_navigation_before_body-->
+<!--radix_placeholder_site_before_body-->
+<!--/radix_placeholder_site_before_body-->
+
+<div class="d-title">
+<h1>Publications</h1>
+<!--radix_placeholder_categories-->
+<!--/radix_placeholder_categories-->
+
+</div>
+
+
+<div class="d-article">
+<p>Our lab studies lifespan changes and differences in cognitive abilities, with a special focus on ‘fluid abilities’ such as reasoning. We are especially interested in periods of rapid change such as childhood and old age, as well as the neural mechanisms underlying these changes. To study these questions, we apply and develop a range of psychometric techniques to try and get a handle on the interplay of and concurrent changes in brain structure, brain function and cognition during ageing. All our papers ultimately end up here, and should be fully open access – Drop us a line if you have any trouble accessing our work.</p>
+<h3 id="for-our-latest-work-click-here">For our latest work click here</h3>
+<h3 id="preprints-under-review">Preprints / Under Review</h3>
+<p>McCormick, E. M., Borgeest, G. S., &amp; Kievit, R.. Interrupted mediation: A cautionary note on using derived metrics as intervening variables in path models. <a href="https://psyarxiv.com/48xj5/" class="uri">https://psyarxiv.com/48xj5/</a></p>
+<p>Speyer, L. G., Murray, A. L., &amp; Kievit, R. (2022). Investigating moderation effects at the within-person level using intensive longitudinal data: A dynamic structural equation modelling approach in Mplus. <a href="https://psyarxiv.com/hacgk" class="uri">https://psyarxiv.com/hacgk</a></p>
+<p>Parsons, S., Brandmaier, A. M., Lindenberger, U., &amp; Kievit, R. (2023). Longitudinal stability of grey matter measures varies across brain regions, imaging metrics, and testing sites in the ABCD study. <a href="https://doi.org/10.31234/osf.io/zpu6t" class="uri">https://doi.org/10.31234/osf.io/zpu6t</a></p>
+<p>Ganesan, K, Roser, C., Thompson, A., Smid, C., Puetz, V., Kievit, R.A. &amp; Steinbeis, N. “Training cognitive control in middle childhood impacts real world outcomes.” (2022).</p>
+<p>Mediano, P., Ikkala, A., Kievit, R. A., Jagannathan, S. R., Varley, T. F., Stamatakis, E. A., … &amp; Bor, D. (2021). Fluctuations in Neural Complexity During Wakefulness Relate To Conscious Level and Cognition. bioRxiv.</p>
+<p>Borgeest, S., Henson, R. N., Kietzmann, T. C., Madan, C. R., Fox, T., Malpetti, M., … &amp; Kievit, R. A. (2021). A morphometric double dissociation: cortical thickness is more related to aging; surface area is more related to cognition. <a href="https://www.biorxiv.org/content/10.1101/2021.09.30.462545v1.abstract" class="uri">https://www.biorxiv.org/content/10.1101/2021.09.30.462545v1.abstract</a></p>
+<p>Byrne, E.M. Gilbert, R. A., Kievit, R. A. &amp; Joni Holmes (in revision). Backward recall and n-back measures of working memory: A large-scale latent variable analysis. <a href="https://psyarxiv.com/bkja7/" class="uri">https://psyarxiv.com/bkja7/</a></p>
+<p>Hofman, A. D., Kievit, R. A., Stevenson, C. E. , Molenaar, D., Visser, I., &amp; van der Maas, H. L. J. (In revision). The dynamics of the development of mathematics skills: A comparison of theories of developing intelligence. Developmental Science, <a href="https://osf.io/ewqdb/files/" class="uri">https://osf.io/ewqdb/files/</a></p>
+<p>2023
+McCormick, E. M., Cam-CAN &amp; Kievit, R. (In press). Poorer white matter microstructure predicts slower and more variable reaction time performance: evidence for the neural noise hypothesis in a large lifespan cohort. In press, Journal of Neuroscience.</p>
+<p>King, D. L., Henson, R. N., Kievit, R., Wolpe, N., Brayne, C., Tyler, L. K., … &amp; Tsvetanov, K. A. (2022). Distinct components of cardiovascular health are linked with age-related differences in cognitive abilities. Scientific Reports</p>
+<p>Aristodemou, M., Kievit, R.A, Murray, A. L., Eisner, M., Ribeaud, D., &amp; Fried, E. I. (in press). Common cause vs dynamic mutualism: an empirical comparison of two theories of psychopathology in two large longitudinal cohorts. Clinical Psychological Science <a href="https://psyarxiv.com/a6ght/" class="uri">https://psyarxiv.com/a6ght/</a></p>
+<p>Deserno, M. K., Fuhrmann, D., Begeer, S., Borsboom, D., Geurts, H. M., &amp; Kievit, R. A. (2022). Longitudinal development of language and fine motor skills is correlated, but not coupled, in a childhood atypical cohort. Autism, 13623613221086448.</p>
+<p>Inman, A., Chen, S., Contini, E., Orben, A., Kievit, R., Kulbayeva, Z., Shah, M., Pollmann, A., Fuhrmann, D.<em>, Bates, K. E.</em> (2023) ‘I am concerned about young people’s mental health and that they have less hope for the future’. Practitioners’ emerging concerns for young people between June 2019 and November 2021. <a href="https://www.barnardos.org.uk/practitioners-concerns-issues-facing-young-people" class="uri">https://www.barnardos.org.uk/practitioners-concerns-issues-facing-young-people</a> *joint senior authors</p>
+<p>2022
+Speyer, L. G., Ushakova, A., Blakemore, S. J., Murray, A. L., &amp; Kievit, R. (2022). Testing for Within× Within and Between× Within Moderation using Random Intercept Cross-Lagged Panel Models. Structural Equation Modeling.
+Smith, T. A., Kievit, R. A., &amp; Astle, D. (2022). Parental Mental Health Mediates Links Between Socioeconomic Status and Child Development. Current Psychology.</p>
+<p>Orben, A., Lucas, R. E., Fuhrmann, D., &amp; Kievit, R. A. (2022). Trajectories of adolescent life satisfaction. Royal Society Open Science.</p>
+<p>Kievit, R. A., Logan, J., &amp; Hart, S. (2022). From the trajectory of heritability to the heritability of trajectories. Behavioural and Brain Sciences.</p>
+<p>Fuhrmann, D., Madsen, K. S., Johansen, L. B., Baaré, W. F., &amp; Kievit, R. A. (2022). The midpoint of cortical thinning between late childhood and early adulthood differs across individuals and regions: Evidence from longitudinal modelling in a 12-wave sample. NeuroImage.</p>
+<p>Walhovd, K. B., Nyberg, L., Lindenberger, U., Amlien, I. K., Sørensen, Ø., Wang, Y., … &amp; Fjell, A. M. (2022). Brain aging differs with cognitive ability regardless of education. Scientific Reports, 12(1), 13886.
+Anvari, F., Kievit, R.A., Lakens, D., Przybylski, A. K., Tiokhin, L., Wiernik, B. M., &amp; Orben, A. (2022).
+Not all effects are indispensable: Psychological science requires verifiable lines of reasoning for whether an effect matters. Perspectives on Psychological Science. <a href="https://psyarxiv.com/g3vtr/" class="uri">https://psyarxiv.com/g3vtr/</a>
+Astle, D., Holmes, J., Kievit, R. A., &amp; Gathercole, S. E. (2021). Annual Research Review: The transdiagnostic revolution in neurodevelopmental disorders. Journal of Child Psychology and Psychiatry.</p>
+<p>Orben, A., Przybylski, A. K., Blakemore, S.J &amp; Kievit, R.A (2022). Windows of developmental sensitivity to social media in adolescence. Nature Communications.</p>
+<p>Fuhrmann, D., Van Harmelen, A. L., &amp; Kievit, R. A. (2022). Wellbeing and cognition are coupled during
+development: A preregistered longitudinal study of 1137 children and adolescents. Clinical
+Psychological Science. <a href="https://psyarxiv.com/y2gbw" class="uri">https://psyarxiv.com/y2gbw</a></p>
+<p>Budin-Ljøsne, I., Mowinckel, A. M., Friedman, B. B., Ebmeier, K. P., Drevon, C. A., Carver, R. B., … Kievit, R. A. &amp; Ferretti, M. T. (2022). Public perceptions of brain health: an international, online cross-sectional survey. BMJ open, 12(4), e057999.</p>
+<p>Griffiths, S. L., Kievit, R. A., &amp; Norbury, C. (2022). Mutualistic coupling of vocabulary and non-verbal reasoning in children with and without language disorder. Developmental Science</p>
+<p>2021</p>
+<p>Walhovd, K. B., Fjell, A. M., Wang, Y., Amlien, I. K., Mowinckel, A. M., Lindenberger, U., … [Kievit, R. A.] &amp; Brandmaier, A. M. (2021). Education and Income Show Heterogeneous Relationships to Lifespan Brain and Cognitive Differences Across European and US Cohorts.</p>
+<p>Vidal-Pineiro, D., Wang, Y., Krogsrud, S. K., Amlien, I. K., Baare, W. F., Bartres-Faz, D., [..] [Kievit, R. A.] … &amp; Fjell, A. M. (2021). Brain age relates to early life factors but not to accelerated brain aging. eLife</p>
+<p>Kievit, R. A., McCormick, E. M., Fuhrmann, D., Deserno, M. K., &amp; Orben, A. (2021). Using large, publicly available datasets to study adolescent development: Opportunities and challenges. Current Opinion in Psychology.</p>
+<p>van Harmelen, A. L., Blakemore, S. J., Goodyer, I. M., &amp; Kievit, R. A. (2021). The interplay between adolescent friendship quality and resilient functioning following childhood and adolescent adversity. Adversity and resilience science, 2(1), 37-50.</p>
+<p>Fjell, A. M., Grydeland, H., Wang, Y., Amlien, I. K., Bartres-Faz, D., Brandmaier, A. M., .. Kievit, R. A., … &amp; Walhovd, K. B. (2021). The genetic organization of longitudinal subcortical volumetric change is stable throughout the lifespan. Elife, 10, e66466.</p>
+<p>Fritz, J., Stochl, J., Kievit, R. A., Van Harmelen, A. L., &amp; Wilkinson, P. O. (2021). Tracking Stress, Mental Health, and Resilience Factors in Medical Students Before, During, and After a Stress-Inducing Exam Period: Protocol and Proof-of-Principle Analyses for the RESIST Cohort Study. JMIR Formative Research, 5(6), e20128.</p>
+<p>Walhovd, K. B., Fjell, A. M., Wang, Y., Amlien, I. K., Mowinckel, A. M., Lindenberger, U., … Kievit, R. A…. &amp; Brandmaier, A. M. (2021). Education and Income Show Heterogeneous Relationships to Lifespan Brain and Cognitive Differences Across European and US Cohorts. Cerebral Cortex.</p>
+<p>Fjell, A., Sorensen, O., Amlien, I. K., Bartres-Faz, D., Brandmaier, A., Macia, D., … Kievit, R. A.,, …&amp; Ebmeier, K. (2020). Self-reported sleep problems are related to cortical thinning in aging but not memory decline and amyloid- accumulation- results from the Lifebrain consortium. Cerebral Cortex 31 (4), 1953-1969</p>
+<p>Van Kesteren, E. J., &amp; Kievit, R. A. (2021). Exploratory factor analysis with structured residuals for brain network data. Network Neuroscience, 5(1), 1-27.</p>
+<p>Reiter, A. M., Moutoussis, M., Vanes, L., Kievit, R. A., Bullmore, E. T., Goodyer, I. M., … &amp; Dolan, R. J. (2021). Taste uncertainty explains developmental effects on susceptibility to peer influence in adolescence. Nature Communications.</p>
+<p>Simpson-Kent, I. L., Fried, E. I., Akarca, D., Mareva, S., Bullmore, E. T., Kievit, R. A., &amp; CALM Team. (2021). Bridging brain and cognition: A multilayer network analysis of brain structural covariance and general intelligence in a developmental sample of struggling learners. Journal of Intelligence.</p>
+<p>Roe, J. M., Vidal-Piñeiro, D., Sørensen, Ø., Brandmaier, A. M., Düzel, S., Gonzalez, H. A., Kievit, R. A. … &amp; Westerhausen, R. (2021). Asymmetric thinning of the cerebral cortex across the adult lifespan is accelerated in Alzheimer’s disease. Nature communications, 12(1), 1-11.</p>
+<p>Nyberg, L., Magnussen, F., Lundquist, A., Baare, W., Bartrés-Faz, D., Bertram, L., … Kievit, R. A. &amp; Fjell, A. M. (2021). Educational attainment does not influence brain aging. Proceedings of the National Academy of Sciences.</p>
+<p>Holmes, J., Guy, J., Bryant, A., Kievit, R. A., Gathercole, S. E., &amp; CALM Team. (2021). Cognitive dimensions of learning in children with problems in attention, learning and memory. Journal of Educational Psychology. Preprint: <a href="https://psyarxiv.com/dx6aj/" class="uri">https://psyarxiv.com/dx6aj/</a></p>
+<p>Borsboom, D., van der Maas, H., Dalege, J., Kievit, R. A., &amp; Haig, B. (2021). Theory Construction Methodology: A practical framework for theory formation in psychology. Perspectives on Psychological Science. <a href="https://psyarxiv.com/w5tp8" class="uri">https://psyarxiv.com/w5tp8</a></p>
+<p>Malpetti, M., Jones, P. S., Tsvetanov, K. A., Rittman, T., van Swieten, J. C., Borroni, B., … &amp; Kievit, R. A<em>., &amp; Rowe, J.</em> (2021). Apathy in presymptomatic genetic frontotemporal dementia predicts cognitive decline and is driven by structural brain changes. Alzheimer’s &amp; Dementia.</p>
+<p>Kievit, R. A. (2021). Sensitive periods in cognitive development: A mutualistic perspective. Current Opinion in Behavioral Sciences. 144-149.</p>
+<p>Griffiths, S. L., Kievit, R., &amp; Norbury, C. (in revision). Mutualistic coupling of vocabulary and non-verbal reasoning in children with and without language disorder. <a href="https://psyarxiv.com/pcr64/" class="uri">https://psyarxiv.com/pcr64/</a></p>
+<p>Byrne, E.M. Gilbert, R. A., Kievit, R. A. &amp; Joni Holmes (in revision). Backward recall and n-back measures of working memory: A large-scale latent variable analysis. <a href="https://psyarxiv.com/bkja7/" class="uri">https://psyarxiv.com/bkja7/</a></p>
+<p>Orben, A., Lucas, R. E., Fuhrmann, D., &amp; Kievit, R. (2020). Trajectories of adolescent life satisfaction. <a href="https://psyarxiv.com/y8ruw" class="uri">https://psyarxiv.com/y8ruw</a></p>
+<p>Fjell, A., Sorensen, O., Amlien, I. K., Bartres-Faz, D., Brandmaier, A., Macia, D., … Kievit, R. A.,, …&amp; Ebmeier, K. (2020). Self-reported sleep problems are related to cortical thinning in aging but not memory decline and amyloid-β accumulation-results from the Lifebrain consortium. bioRxiv. <a href="https://www.biorxiv.org/content/10.1101/2020.04.28.065474v1.abstract" class="uri">https://www.biorxiv.org/content/10.1101/2020.04.28.065474v1.abstract</a></p>
+<p>Hofman, A. D., Kievit, R. A., Stevenson, C. E. , Molenaar, D., Visser, I., &amp; van der Maas, H. L. J. (In revision). The dynamics of the development of mathematics skills: A comparison of theories of developing intelligence. Developmental Science, Preprint</p>
+<p>Hooven, C. K., Wai, J., Kievit, R. A., Ellison, P. T. Kosslyn, S. M., &amp; Chabris, C. F. (in revision). The Sex Difference in Mental Rotation Test Scores May Not Reflect a Difference in Mental Rotation Ability. Scientific Reports. Preprint</p>
+<p>Astle, D., Holmes, J., Kievit, R., &amp; Gathercole, S. E. (In revision). The transdiagnostic revolution in neurodevelopmental disorders. JCPP. <a href="https://psyarxiv.com/4g3a2/" class="uri">https://psyarxiv.com/4g3a2/</a></p>
+<h3 id="section">2020</h3>
+<p>Malpetti, M., Jones, P. S., Tsvetanov, K. A., Rittman, T., van Swieten, J. C., Borroni, B., … &amp; Kievit, R. A*., &amp; Rowe, J.* (2020). Apathy in presymptomatic genetic frontotemporal dementia predicts cognitive decline and is driven by structural brain changes. Alzheimer’s &amp; Dementia.</p>
+<p>Rommelse, N., Luman, M., &amp; Kievit, R. A. (2020). Slow processing speed: a cross-disorder phenomenon with significant clinical value, and in need of further methodological scrutiny. European Child &amp; Adolescent Psychiatry volume 29, 1325–1327.</p>
+<p>Ioannidis, K., Askelund, A. D., Kievit, R. A., &amp; Van Harmelen, A. L. (2020). The complex neurobiology of resilient functioning after child maltreatment. BMC Medicine.</p>
+<p>Fuhrmann, D., Simpson-Kent, I. L., Bathelt, J., &amp; Kievit, R. A. (2020). The neurocognitive architecture of fluid ability in children and adolescents. Cerebral Cortex.</p>
+<p>Henson, R. N., Suri, S., Knights, E., Rowe, J. B., Kievit, R. A., Lyall, D. M., … &amp; Fisher, S. E. (2020). Effect of apolipoprotein E polymorphism on cognition and brain in the Cambridge Centre for Ageing and Neuroscience cohort. Brain and Neuroscience Advances, 4, 2398212820961704.</p>
+<p>Springer, A., Monsch, A. U., Dutilh, G., Coslovsky, M., Kievit, R. A., Bonati, L. H., … &amp; Fischer, U. (2020). A factor score reflecting cognitive functioning in patients from the Swiss Atrial Fibrillation Cohort Study (Swiss-AF). PloS one, 15(10), e0240167.</p>
+<p>Holmes, J., Guy, J., Bryant, A., Kievit, R. A., Gathercole, S. E., &amp; CALM Team. (2020). Cognitive dimensions of learning in children with problems in attention, learning and memory. Journal of Educational Psychology. Preprint: <a href="https://psyarxiv.com/dx6aj/" class="uri">https://psyarxiv.com/dx6aj/</a></p>
+<p>Sørensen, Ø., Brandmaier, A. M., Bros, D. M., Ebmeier, K., Ghisletta, P., Kievit, R. A., … &amp; Fjell, A. (2020). Meta-Analysis of Generalized Additive Models in Neuroimaging Studies. NeuroImage arXiv preprint arXiv:2002.02627.</p>
+<p>Borsboom, D., van der Maas, H., Dalege, J., Kievit, R. A., &amp; Haig, B. (2020). Theory Construction Methodology: A practical framework for theory formation in psychology. Perspectives on Psychological Science. <a href="https://psyarxiv.com/w5tp8" class="uri">https://psyarxiv.com/w5tp8</a></p>
+<p>Vaghi, M.M. Moutoussis, M., Vasa, F., Kievit, R. A. Hauser, T. U., Vertes, P. Shahar, N., Romero-Garcia, R. Kitzbichler M., Bullmore, E. T., NSPN Consortium &amp; Dolan, R. J. (2020). Compulsivity is linked to reduced adolescent development of goal-directed control and fronto-striatal functional connectivity. Proceedings of the National Academy of Sciences.</p>
+<p>Liu K. Y., Kievit, R.A., Tsvetanov, K. A., Betts, M. J., Düzel, E., Rowe, J. B., Cam-CAN, Howard, R. &amp; Hämmerer, D. (2020). Noradrenergic-dependent functions are associated with age-related differences in locus coeruleus signal intensity. Nature Communications.</p>
+<p>Malpetti, M., Kievit, R. A., Passamonti, L., Jones, P. S., Tsvetanov, K. A., Rittman, T., … &amp; Hong, Y. T. (2020). Microglial activation and tau burden predict cognitive decline in Alzheimer’s Disease. Brain, 19011189.</p>
+<p>Kievit, R. A., Simpson-Kent, I. L., Fuhrmann, D. (2020). Why Your Mind Is Like a Shark: Testing the Idea of Mutualism. Frontiers for Young Minds. Age, 8(14), 14.</p>
+<p>Borgeest, G. S., Henson, R., Shafto, M., Samu, D., &amp; Kievit, R. A. (2020). Greater lifestyle engagement is associated with healthy cognitive ageing. PLoS One <a href="https://psyarxiv.com/6pzve/" class="uri">https://psyarxiv.com/6pzve/</a>.</p>
+<p>Simpson-Kent, I. L., Fuhrmann, D., Bathelt, J., Achterberg, J., Borgeest, G. S., Kievit, R. A., &amp; CALM Team. (2020). Neurocognitive reorganization between crystallized intelligence, fluid intelligence and white matter microstructure in two age-heterogeneous developmental cohorts. Developmental Cognitive Neuroscience, 41, 100743.</p>
+<p>Davies, S. E., Neufeld, S. A., van Sprang, E., Schweren, L., Kievit, R. A., Fonagy, P., … &amp; Target, M. (2020). Trajectories of depression symptom change during and following treatment in adolescents with unipolar major depression. Journal of Child Psychology and Psychiatry.</p>
+<p>Peng, P., &amp; Kievit, R. A. (2020). The Development of Academic Achievement and Cognitive Abilities: A Mutualistic Perspective. Child Development Perspectives.</p>
+<h3 id="section-1">2019</h3>
+<p>Fjell, A. M., Sørensen, Ø., Amlien, I. K., [], Kievit, R. A., [ ]&amp; Walhovd, K. (2019). Self-reported sleep relates to hippocampal atrophy across the adult lifespan: Results from the Lifebrain consortium. Sleep</p>
+<p>Schweizer, S., Leung, J. T., Kievit, R. A., Speekenbrink, M., Tender, W. R., Hampshire, A., &amp; Blakemore, S. J. (2018). Protocol for an App-Based Affective Control Training for Adolescents. <a href="https://psyarxiv.com/46mhy" class="uri">https://psyarxiv.com/46mhy</a></p>
+<p>Shahar, N. Moran, R. Hauser, T. U., Kievit, R. A., McNamee, D., Mouttousis, M. NSPN consortium &amp; Dolan, R. J. (2019) Credit-assignment to state-independent task representations and its relationship with model-based decision-making. Proceedings of the National Academy of Sciences.</p>
+<p>Kievit, R. A., Hofman, A. D., &amp; Nation, K. (2019). Mutualistic Coupling Between Vocabulary and Reasoning in Young Children: A Replication and Extension of the Study by Kievit et al. (2017). Psychological Science, 0956797619841265.</p>
+<p>Eshaghi, A., Kievit, R. A., Prados, F., Sudre, C. H., Nicholas, J., Cardoso, M. J., … &amp; Thompson, A. J. (2019). Applying causal models to explore the mechanism of action of simvastatin in progressive multiple sclerosis. Proceedings of the National Academy of Sciences, 201818978</p>
+<p>Allen, M., Poggiali, D., Whitaker, K., Marshall, T. R., &amp; Kievit, R. A. (2019). Raincloud plots: a multi-platform tool for robust data visualization. Wellcome Open Research, 6, e27137v1.</p>
+<p>Jacobucci, R., Brandmaier, A. M., &amp; Kievit, R. A. (2019). A Practical Guide to Variable Selection in Structural Equation Modeling by Using Regularized Multiple-Indicators, Multiple-Causes Models. Advances in Methods and Practices in Psychological Science, 2(1), 55-76.Preprint. Data and code. R package</p>
+<p>Fuhrmann, D., Nesbitt, D., Shafto, M., Rowe, J. B., Gadie, A., Cam-CAN &amp; Kievit, R.A. (2019). Strong and specific associations between cardiovascular risk factors and white matter micro-and macrostructure in healthy aging. Neurobiology of aging, 74, 46-55.</p>
+<p>Carpenter, J., Sherman, M. T., Kievit, R. A., Seth, A. K., Lau, H., &amp; Fleming, S. M. (2019). Domain-general enhancements of metacognitive ability through adaptive training. Journal of Experimental Psychology: General, 148(1), 51.</p>
+<p>Liu, K. Y., Acosta-Cabronero, J., Cardenas-Blanco, A., Loane, C., Berry, A. J., Betts, M. J., Kievit, R. A. … &amp; Hämmerer, D. (2019). In vivo visualization of age-related differences in the locus coeruleus. Neurobiology of aging, 74, 101-111.</p>
+<h3 id="section-2">2018</h3>
+<p>De Mooij, Henson, Waldorp, Cam-CAN &amp; Kievit, R. A. (2018). Age differentiation within grey matter, white matter and between memory and white matter in an adult lifespan cohort. Journal of Neuroscience, 1627-17. Preprint. Data portal</p>
+<p>Kievit, R. A., Fuhrmann, D., Borgeest, S., Simpson-Kent, I., &amp; Henson, R. N. A. (2018) The neural determinants of age-related changes in fluid intelligence: a pre-registered, longitudinal analysis in N=185,317 UK Biobank individuals. Wellcome Open Research. Preregistration</p>
+<p>Kievit, R. A., Brandmaier, A., Ziegler, G., van Harmelen, A. L., de Mooij, S., Moutoussis, M., … &amp; Lindenberger, U. (2018). Developmental cognitive neuroscience using Latent Change Score models: A tutorial and applications. Developmental Cognitive Neuroscience. Preprint. Code</p>
+<p>Walhovd, K. B., Fjell, A. M., Westerhausen, R., Nyberg, L., Ebmeier, K. P., Lindenberger, U., Lifebrain, &amp; Drevon, C. A. (2018). Healthy minds from 0–100 years: Optimising the use of European brain imaging cohorts (“Lifebrain”). European Psychiatry, 47, 76-87.</p>
+<h3 id="section-3">2017</h3>
+<p>Schweizer, S., Kievit, R. A., Emery, T., &amp; Henson, R. N. (2017). Symptoms of Depression in a Large Healthy Population Cohort are related to Subjective Memory Complaints and Memory Performance in Negative Contexts. Psychological Medicine, 48(1):104-114. Data portal</p>
+<p>Kievit, R. A., Lindenberger, U. Goodyer, I.M., Jones, P. B., Fonagy, P., Bullmore, E. T., the NSPN Consortium &amp; Dolan, R. J. (2017). Mutualistic coupling between vocabulary and reasoning supports cognitive development during late adolescence and early adulthood. Psychological Science, 28, 10, 1419-1431. Data and code.</p>
+<p>van Harmelen, A. L., Kievit, R. A., NSPN consortium, Jones, P. B., Bullmore, E. T., Dolan, R. J. Fonagy, P. &amp; Ian Goodyer (2017). Adolescent friendships predict later resilient functioning across psychosocial domains in a healthy community cohort. Psychological Medicine, 47, 13, 2312-2322. Data and code</p>
+<p>Kievit, R. A. (2017). More is different. Nature Human Behaviour, 1(8), s41562-017.</p>
+<p>Gadie, Shafto, Leng, Cam-CAN &amp; Kievit, R. A. (2017). Age-related differences in self-reported sleep quality predict healthy ageing across multiple domains. BMJ Open, 7: e014920. Data portal</p>
+<h3 id="section-4">2016</h3>
+<p>Henson, R. N. A., Campbell, K. L., Davis, S. W., Taylor, J. R., Emery, T., Erzinclioglu , S. Cam-CAN, &amp;. Kievit, R. A.. (2016). Multiple determinants of ageing memories. Scientific Reports 6, 32527. Data portal</p>
+<p>Wolpe, N., Ingram, J., Tsvetanov, K., Geerligs, L., Kievit, R. A., Henson, R. N. A., Wolpert, D., Cam-CAN, &amp; Rowe, J. (2016). Ageing increases the reliance on sensorimotor predictions through changes in structure and functional connectivity of the pre-supplementary motor area. Nature Communications. Data portal</p>
+<p>Kievit, R. A., Davis, S. W., Griffiths, J. D., Correia, M. M., &amp; Henson, R. N. (2016). A watershed model of individual differences in fluid intelligence. Neuropsychologia. Data portal</p>
+<p>Wagenmakers, E. J., Wetzels, R., Borsboom, D., Kievit, R., &amp; van der Maas, H. L. (2015). A skeptical eye on psi. Extrasensory perception: Support, skepticism, and science, 1, 153-176.</p>
+<p>Gathercole, S. E.. Woolgar, F., Manly, T, Astle, D. E., Kievit, R. A. &amp; Holmes, J.. Are working memory impairments a defining characteristic of children with attention, learning and memory problems? (2016). Journal of Applied Research in Memory and Cognition.</p>
+<p>Kan, K. J., van der Maas, H. L. J., &amp; Kievit, R. A. (2016). Process Overlap Theory: Strengths, limitations, and challenges. Psychological Inquiry, 27:3, 220-228. Code</p>
+<p>van Harmelen, A. L.,. Kievit, R. A. &amp; Goodyer, I. M. (2016). Friendships and Family Support Reduce Subsequent Depressive Symptoms in At-Risk Adolescents. PloS one, 11(5), e0153715. Data and code</p>
+<p>Kievit, R., Scholte, H. S., Waldorp, L. J., &amp; Borsboom, D. (2016). Inter-and intra-individual differences in fluid reasoning show distinct cortical responses. Preprint</p>
+<h3 id="and-before">2015 and before</h3>
+<p>Fried, E. I., &amp; Kievit, R. A. (2015). The volumes of subcortical regions in depressed and healthy individuals are strikingly similar: a reinterpretation of the results by Schmaal et al. Molecular Psychiatry, 21, 724–725. Preprint Data and code.</p>
+<p>Ganis, G., &amp; Kievit, R. A. (2015). A New Set of Three-Dimensional Shapes for Investigating Mental Rotation Processes: Validation Data and Stimulus Set. Journal of Open Psychology Data, 3(1), e3. Data and materials</p>
+<p>Kievit, R. A., Davis, S. W., Mitchell, D. J., Taylor, J. R., Duncan, J., Cam-CAN, &amp; Henson, R. N. A. (2014). Distinct aspects of frontal lobe structure mediate age-related differences in fluid intelligence and multitasking. Nature Communications, 5, 5658. Data portal</p>
+<p>Charest, I. Kievit, R. A., Schmitz, T. W., Deca, D., Kriegeskorte, N. (2014). Unique semantic space in the brain of each beholder predicts perceived similarity. Proceedings of the National Academy of Sciences. 111 (40) 14565-14570</p>
+<p>Kievit, A. J., Kuijer, P., Kievit, R. A., Sierevelt, I. N., Blankevoort, L., &amp; Frings-Dresen, M. H. (2014). A Reliable, Valid and Responsive Questionnaire to Score the Impact of Knee Complaints on Work following Total Knee Arthroplasty: the WORQ. The Journal of Arthroplasty, 29, 6, 1169-1175</p>
+<p>Kievit, R. A. (2014). Turtles all the way down? Psychometric approaches to the reduction problem. [PhD thesis]</p>
+<p>Kriegeskorte, N. &amp; Kievit, R. A. (2013). Representational geometry: integrating cognition, computation, and the brain. Trends in Cognitive Sciences, 17, 401-412.</p>
+<p>Kievit, R.A., Frankenhuis, W. &amp; Borsboom, D. (2013). Simpson’s Paradox in Psychological Science: A Practical Guide. Frontiers in Psychology, 4, 513, 1-14. Package</p>
+<p>Schmittmann, V. D., Cramer, A. O. J., Waldorp, L. J., Epskamp, S., Kievit, R.A. &amp; Borsboom, D. (2013). Deconstructing the construct: A network perspective on psychological phenomena. New ideas in Psychology, 31, 43-53</p>
+<p>Bakker, M., Cramer, A. O. J., Matzke, D., Kievit, R.A. , Van Der Maas, H. L. J., Wagenmakers, E. J. &amp; Borsboom, D. (2013) Dwelling on the Past. The European Journal of Personality, 27, 120-121.</p>
+<p>Kievit, R.A., Waldorp, L.J., Kan, K.J., &amp; Wicherts, J. M. (2012). Causality: populations, individuals, and assumptions. The European Journal of Personality, 26, 400-401</p>
+<p>Kievit, R.A., van Rooijen, H., Wicherts, J.M., Kan, K.J., Waldorp, L.J., Scholte &amp; Borsboom, D. (2012). Intelligence and the brain: A model-based approach. Cognitive Neuroscience, 3, 89-97.</p>
+<p>Wagenmakers, E. J., Wetzels, R. W., Borsboom, D., van der Maas, H. L. J. &amp; Kievit, R.A. (2012). An Agenda for Purely Confirmatory Research. Perspectives on Psychological Science, 7, 632-638.</p>
+<p>Wicherts, J., Kievit, R.A., Bakker, M. &amp; Borsboom, D. (2012) Letting the daylight in: Reviewing the reviewers and other ways to maximize transparency in science. Frontiers in Computational Neuroscience, 6, 1.</p>
+<p>Kosslyn, S.M., Kievit, R.A., Russell, A.G. &amp; Shepard, J.M. (2012). PowerPoint Flaws and Failures: A Psychological Analysis. Frontiers in Educational Psychology, 3, 230.</p>
+<p>Kievit, R.A., Romeijn, J.W., Waldorp, L.J., Wicherts, J.M., Scholte, H.S. &amp; Borsboom, D. (2011). Modeling Mind and Matter: Reductionism and Psychological Measurement in Cognitive Neuroscience Psychological Inquiry, 22, 139-157.</p>
+<p>Borsboom, D., Epskamp, S., Kievit, R.A., Cramer, A. O. J., &amp; Schmittmann. (2011). Transdiagnostic Networks. Perspectives on Psychological Science, 6, 610-614.</p>
+<p>Kievit, R.A., Romeijn, J.W., Waldorp, L.J., Wicherts, J.M., Scholte, H.S. &amp; Borsboom, D. (2011) Mind the gap: A psychometric approach to the reduction problem. Psychological Inquiry, 22, 67-87.</p>
+<p>Harmelen, A. van, Elzinga, B. M., Kievit, R.A. &amp; Spinhoven, P. (2011). Intrusions of autobiographical memories in individuals reporting childhood emotional maltreatment. European Journal of Psychotraumatology, 2, 7336.</p>
+<p>Penke, L. Johnson, W., Kievit, R. A., Wicherts, J. M., Ploeger, A.&amp; Borsboom, D. (2011) Evolutionary psychology and intelligence research cannot be integrated the way Kanazawa (2010) suggests. American Psychologist, 66, 916-917.</p>
+<p>Kan, K. J., Kievit, R.A., Dolan, C.V., &amp; van der Maas, H.L.J. (2011). On the interpretation of the CHC Gc factor as Crystallized Intelligence. Intelligence, 39, 292-302.</p>
+<p>Kievit, R. A. &amp; Geurts, H. M. (2011). Autism and perception of awareness in self and others: Two sides of the same coin or dissociated abilities. Cognitive Neuroscience, 2, 119-120.</p>
+<p>Kievit, R.A. (2011). Bayesians caught smuggling priors into Rotterdam Harbour. Perspectives on Psychological Science, 6, 313.</p>
+<p>Kievit, R.A. (2011). Parapsychologie, nullhypothesetoetsing en peer review 2.0. De Psycholoog, 46, 10-16.</p>
+<p>van der Maas, H. L. J., Molenaar, D., Maris, G., Kievit, R.A. &amp; Borsboom, D. (2011) Cognitive psychology meets psychometric theory: On the relation between process models for decision making and latent variable models for individual differences. Psychological Review, 2, 339-356.</p>
+<p>Ganis, G., Rosenfeld, J.P., Meixner, J., Kievit, R.A. &amp; Schendan, H. (2011). Lying in the Scanner: Covert Countermeasures Disrupt Deception Detection by Functional Magnetic Resonance Imaging. Neuroimage, 55, 312- 319.</p>
+<p>Verkuilen, J., Kievit, R.A. &amp; Zand Scholten, A. (2011). Fuzzy Sets to Represent Concepts in Psychology and the Behavioral Sciences. In: Belohlavek, R. &amp; Klir, G.J. (eds.) Concepts and Fuzzy Logic, (pp. 149-176). Cambridge: MIT Press.</p>
+<p>Borst, G., Kievit, R.A., Thompson, W. L. &amp; Kosslyn, S.M. (2011). Mental rotation is not easily cognitively penetrable. Journal of Cognitive Psychology, 23, 60-75.</p>
+<p>Borsboom, D., Cramer, A. Kievit, R.A., Zand Scholten, A. &amp; Franic, S. (2009) The End of Construct Validity. In: Lissitz, R.W. (Ed.). The concept of validity. pp. 135-170. Information Age Publishers.</p>
+<p>Borsboom, D., Kievit, R.A., Cervone, D.P., &amp; Hood, S.B. (2009). The two disciplines of scientific psychology, or: The disunity of psychology as a working hypothesis. In: Valsiner, J., Molenaar, P.C.M., Lyra, M.C.D.P., &amp; Chaudhary, N. Developmental process methodology in the social and developmental sciences, pp (67-89). New York: Springer.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<!--radix_placeholder_article_footer-->
+<!--/radix_placeholder_article_footer-->
+</div>
+
+<div class="d-appendix">
+</div>
+
+
+<!--radix_placeholder_site_after_body-->
+<!--/radix_placeholder_site_after_body-->
+<!--radix_placeholder_appendices-->
+<div class="appendix-bottom"></div>
+<!--/radix_placeholder_appendices-->
+<!--radix_placeholder_navigation_after_body-->
+<!--/radix_placeholder_navigation_after_body-->
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+---
+title: "I am Quant (and so can you!): Seriously"
+description: |
+author:
+  - name: Ethan McCormick
+date: 10-14-2021
+output:
+  distill::distill_article:
+    self_contained: false
+draft: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating blogs with Distill at:
+# https://rstudio.github.io/distill/blog.html
+
+```
+
+
+
+
+```{r, layout = "l-body-ouset", fig.width=3, echo=FALSE}
+
+knitr::include_graphics("Quant_Ethan.jpg")
+
+```
+
+
+
+I’m sure that I am not the only one who has sat in many a conference hall (imagine back through the mists of times to those days), listening to talks and wondering “How am I ever going to be that smart/knowledgeable about [insert just about anything here]?”. As a first-year graduate student, it is perhaps unsurprising that I would feel that way. I had many years ahead of me to gain the knowledge and skills that those speakers had. All those years later, and now I’m officially “Dr. McCormick”, even though only one person ever calls me that (more on him later). However, that feeling doesn’t just go away. I regularly see a talk or read a new paper/preprint and think “Well damn, when am I going to have time to learn this?”. This has especially been true as I have attempted to pivot my research program from one aimed at addressing substantive questions regarding the brain-based changes that driving learning to one focused on studying and developing the quantitative methods we use to understand change over time (i.e., longitudinal models). I am hardly the only one who has felt the lure of advanced methods from more substantive research fields. I came of age in research during a time with a much greater focus on rigorous methods, open science, and reproducibility/replication. Many researchers in my cohort are motivated like never before to incorporate more rigorous methods from statistics and data science into their own work. However, many also find these methods intimidating. After all, how do I know that I’m using them correctly? I have been incredibly fortunate along the way to have had amazing mentors and a bit of luck in learning new methods. Here I will lay out some tips and tricks I have picked up along the way. So, if you are hoping to transition in a major way to quantitative methods, or just hoping to get better estimates for your research questions, hopefully these can help you on your way.
+
+
+**Take a Course**
+
+I know that in the age of the internet, we are all supposed to be DIYing it towards ultimate knowledge and expertise in whatever subject we take up. I have been able to use online resources to refine skills, or dive into advanced subjects, but I am not made of stern enough stuff to learn structural equation models by my little lonesome at night at my computer reading Bollen, 1989 (although I do recommend that book in the highest terms). Some sort of structured course is incredibly valuable for getting the basics under your belt, which you can then build on independently later. Of course, needing to take a formal course might be a real impediment (especially if they cost money) since not everyone is a graduate student in a quant-heavy institution. Here, some sort of online course or video series may be a great alternative, but the key is to structure it like a course, where you have periodic checks of your understanding and a committed time. Unfortunately, my intention to learn computational modeling in the evenings wasn’t successful until I registered for a course and was expected to show up every week. One free resource people might consider is the podcast Quantitude, where two quantitative faculty talk about a range of topics. It’s not systematic like a course would be, but it’s an amazing resource for those hoping to learn more about specific topics in a fun way.
+
+
+**Find a Quantitative Person to Pester**
+
+This is only said partly in jest. When I took quant courses at UNC Chapel Hill, I frequently wanted to chase down offhanded comments by the professors. After a couple weeks of gathering my courage, I set up a meeting with them and basically came with a list of questions. This felt incredibly presumptuous and like I was wasting their time at first, but ultimately, I got more out of those conversations than I will ever be able to count. Not only did I learn more than I would have otherwise about the methods I use every day in my own research then, but those conversations also became the ideas behind manuscripts I am writing now. Like anyone, quant people love to talk about their research with an interested student, and they probably get to do it less often than others. I can’t promise that every quantitative methodologist is as lovely as the ones I have known, and time constraints are real, but you’d be surprised how many of them *do* want to be pestered by interested students looking to dive into advanced methods past the basic coursework.
+
+
+**Ask Questions…so many questions**
+
+This is something I have to remind myself of even now. There is a lot of pressure to appear like you understand something (we’ve all been and seen the nodding heads in class), but there are so many things to know and the best way to accumulate them is to constantly be asking questions when you don’t understand. This also applies to professional development. I came to quant relatively late in my graduate training, but once I developed some relationships with quantitative faculty in my department, I started asking questions like “Do you think this would be a good idea for a paper?” and “Would you be willing to write a training grant with me?” I have found that the people in my career have been incredibly generous with their time and energy.
+
+
+**There is No Secret Sauce**
+
+If anything can be learned from my career trajectory, it’s that there is no hidden secret to getting into quantitative methods. You don’t need to be a math savant (I’m certainly not) and the new generation of methodologists is shaking off the remnants of the “old boys” club culture that was prevalent in prior decades, although much work remains to be done in that direction. Basically, I had the great fortune to study at UNC Chapel Hill with faculty like Ken Bollen, and Dan Bauer, and Patrick Curran. I was excited by what I was learning and so started to haunt the offices of Dan and Patrick. This has not only led to great mentor relationships with great researchers, but also a considerable shift in my program of research. Now instead of being the student, I help run courses and workshops in quantitative methods. If I can do it, so can you. Welcome to the quant side, we have cookies!
+
+*Author: Ethan McCormick*

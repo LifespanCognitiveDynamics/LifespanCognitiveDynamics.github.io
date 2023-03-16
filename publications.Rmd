@@ -1,0 +1,279 @@
+---
+title: "Publications"
+site: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Our lab studies lifespan changes and differences in cognitive abilities, with a special focus on ‘fluid abilities’ such as reasoning. We are especially interested in periods of rapid change such as childhood and old age, as well as the neural mechanisms underlying these changes. To study these questions, we apply and develop a range of psychometric techniques to try and get a handle on the interplay of and concurrent changes in brain structure, brain function and cognition during ageing. All our papers ultimately end up here, and should be fully open access – Drop us a line if you have any trouble accessing our work.
+
+### For our latest work click here
+
+
+### Preprints / Under Review
+
+McCormick, E. M., Borgeest, G. S., & Kievit, R.. Interrupted mediation: A cautionary note on using derived metrics as intervening variables in path models. https://psyarxiv.com/48xj5/
+
+Speyer, L. G., Murray, A. L., & Kievit, R. (2022). Investigating moderation effects at the within-person level using intensive longitudinal data: A dynamic structural equation modelling approach in Mplus. https://psyarxiv.com/hacgk
+
+Parsons, S., Brandmaier, A. M., Lindenberger, U., & Kievit, R. (2023). Longitudinal stability of grey matter measures varies across brain regions, imaging metrics, and testing sites in the ABCD study. https://doi.org/10.31234/osf.io/zpu6t
+
+Ganesan, K, Roser, C., Thompson, A., Smid, C., Puetz, V., Kievit, R.A. & Steinbeis, N. "Training cognitive control in middle childhood impacts real world outcomes." (2022).
+
+Mediano, P., Ikkala, A., Kievit, R. A., Jagannathan, S. R., Varley, T. F., Stamatakis, E. A., ... & Bor, D. (2021). Fluctuations in Neural Complexity During Wakefulness Relate To Conscious Level and Cognition. bioRxiv.
+
+Borgeest, S., Henson, R. N., Kietzmann, T. C., Madan, C. R., Fox, T., Malpetti, M., ... & Kievit, R. A. (2021). A morphometric double dissociation: cortical thickness is more related to aging; surface area is more related to cognition. https://www.biorxiv.org/content/10.1101/2021.09.30.462545v1.abstract 
+
+Byrne, E.M. Gilbert, R. A., Kievit, R. A. & Joni Holmes (in revision). Backward recall and n-back measures of working memory: A large-scale latent variable analysis. https://psyarxiv.com/bkja7/
+
+Hofman, A. D., Kievit, R. A., Stevenson, C. E. , Molenaar, D., Visser, I., & van der Maas, H. L. J. (In revision). The dynamics of the development of mathematics skills: A comparison of theories of developing intelligence. Developmental Science, https://osf.io/ewqdb/files/ 
+
+
+2023
+McCormick, E. M., Cam-CAN & Kievit, R. (In press). Poorer white matter microstructure predicts slower and more variable reaction time performance: evidence for the neural noise hypothesis in a large lifespan cohort. In press, Journal of Neuroscience. 
+
+King, D. L., Henson, R. N., Kievit, R., Wolpe, N., Brayne, C., Tyler, L. K., ... & Tsvetanov, K. A. (2022). Distinct components of cardiovascular health are linked with age-related differences in cognitive abilities. Scientific Reports
+
+Aristodemou, M., Kievit, R.A, Murray, A. L., Eisner, M., Ribeaud, D., & Fried, E. I. (in press). Common cause vs dynamic mutualism: an empirical comparison of two theories of psychopathology in two large longitudinal cohorts. Clinical Psychological Science https://psyarxiv.com/a6ght/
+
+Deserno, M. K., Fuhrmann, D., Begeer, S., Borsboom, D., Geurts, H. M., & Kievit, R. A. (2022). Longitudinal development of language and fine motor skills is correlated, but not coupled, in a childhood atypical cohort. Autism, 13623613221086448.
+
+Inman, A., Chen, S., Contini, E., Orben, A., Kievit, R., Kulbayeva, Z., Shah, M., Pollmann, A., Fuhrmann, D.*, Bates, K. E.* (2023) ‘I am concerned about young people’s mental health and that they have less hope for the future’. Practitioners’ emerging concerns for young people between June 2019 and November 2021. https://www.barnardos.org.uk/practitioners-concerns-issues-facing-young-people *joint senior authors
+
+2022
+Speyer, L. G., Ushakova, A., Blakemore, S. J., Murray, A. L., & Kievit, R. (2022). Testing for Within× Within and Between× Within Moderation using Random Intercept Cross-Lagged Panel Models. Structural Equation Modeling.
+Smith, T. A., Kievit, R. A., & Astle, D. (2022). Parental Mental Health Mediates Links Between Socioeconomic Status and Child Development. Current Psychology.
+
+Orben, A., Lucas, R. E., Fuhrmann, D., & Kievit, R. A. (2022). Trajectories of adolescent life satisfaction. Royal Society Open Science.
+
+Kievit, R. A., Logan, J., & Hart, S. (2022). From the trajectory of heritability to the heritability of trajectories. Behavioural and Brain Sciences.
+
+Fuhrmann, D., Madsen, K. S., Johansen, L. B., Baaré, W. F., & Kievit, R. A. (2022). The midpoint of cortical thinning between late childhood and early adulthood differs across individuals and regions: Evidence from longitudinal modelling in a 12-wave sample. NeuroImage.
+
+Walhovd, K. B., Nyberg, L., Lindenberger, U., Amlien, I. K., Sørensen, Ø., Wang, Y., ... & Fjell, A. M. (2022). Brain aging differs with cognitive ability regardless of education. Scientific Reports, 12(1), 13886.
+Anvari, F., Kievit, R.A., Lakens, D., Przybylski, A. K., Tiokhin, L., Wiernik, B. M., & Orben, A. (2022). 
+Not all effects are indispensable: Psychological science requires verifiable lines of reasoning for whether an effect matters. Perspectives on Psychological Science. https://psyarxiv.com/g3vtr/
+Astle, D., Holmes, J., Kievit, R. A., & Gathercole, S. E. (2021). Annual Research Review: The transdiagnostic revolution in neurodevelopmental disorders. Journal of Child Psychology and Psychiatry. 
+
+Orben, A., Przybylski, A. K., Blakemore, S.J & Kievit, R.A (2022). Windows of developmental sensitivity to social media in adolescence. Nature Communications.
+
+Fuhrmann, D., Van Harmelen, A. L., & Kievit, R. A. (2022). Wellbeing and cognition are coupled during
+development: A preregistered longitudinal study of 1137 children and adolescents. Clinical
+Psychological Science. https://psyarxiv.com/y2gbw
+
+Budin-Ljøsne, I., Mowinckel, A. M., Friedman, B. B., Ebmeier, K. P., Drevon, C. A., Carver, R. B., ... Kievit, R. A. & Ferretti, M. T. (2022). Public perceptions of brain health: an international, online cross-sectional survey. BMJ open, 12(4), e057999.
+
+Griffiths, S. L., Kievit, R. A., & Norbury, C. (2022). Mutualistic coupling of vocabulary and non-verbal reasoning in children with and without language disorder. Developmental Science  
+
+2021
+
+Walhovd, K. B., Fjell, A. M., Wang, Y., Amlien, I. K., Mowinckel, A. M., Lindenberger, U., ... [Kievit, R. A.]    & Brandmaier, A. M. (2021). Education and Income Show Heterogeneous Relationships to Lifespan Brain and Cognitive Differences Across European and US Cohorts.
+
+Vidal-Pineiro, D., Wang, Y., Krogsrud, S. K., Amlien, I. K., Baare, W. F., Bartres-Faz, D., [..] [Kievit, R. A.]   ... & Fjell, A. M. (2021). Brain age relates to early life factors but not to accelerated brain aging. eLife
+
+Kievit, R. A., McCormick, E. M., Fuhrmann, D., Deserno, M. K., & Orben, A. (2021). Using large, publicly available datasets to study adolescent development: Opportunities and challenges. Current Opinion in Psychology.
+
+van Harmelen, A. L., Blakemore, S. J., Goodyer, I. M., & Kievit, R. A. (2021). The interplay between adolescent friendship quality and resilient functioning following childhood and adolescent adversity. Adversity and resilience science, 2(1), 37-50.
+
+Fjell, A. M., Grydeland, H., Wang, Y., Amlien, I. K., Bartres-Faz, D., Brandmaier, A. M., .. Kievit, R. A., ... & Walhovd, K. B. (2021). The genetic organization of longitudinal subcortical volumetric change is stable throughout the lifespan. Elife, 10, e66466.
+
+Fritz, J., Stochl, J., Kievit, R. A., Van Harmelen, A. L., & Wilkinson, P. O. (2021). Tracking Stress, Mental Health, and Resilience Factors in Medical Students Before, During, and After a Stress-Inducing Exam Period: Protocol and Proof-of-Principle Analyses for the RESIST Cohort Study. JMIR Formative Research, 5(6), e20128.
+
+Walhovd, K. B., Fjell, A. M., Wang, Y., Amlien, I. K., Mowinckel, A. M., Lindenberger, U., ... Kievit, R. A....  & Brandmaier, A. M. (2021). Education and Income Show Heterogeneous Relationships to Lifespan Brain and Cognitive Differences Across European and US Cohorts. Cerebral Cortex.
+
+Fjell, A., Sorensen, O., Amlien, I. K., Bartres-Faz, D., Brandmaier, A., Macia, D., ... Kievit, R. A.,, ...& Ebmeier, K. (2020). Self-reported sleep problems are related to cortical thinning in aging but not memory decline and amyloid- accumulation- results from the Lifebrain consortium. Cerebral Cortex 31 (4), 1953-1969
+
+Van Kesteren, E. J., & Kievit, R. A. (2021). Exploratory factor analysis with structured residuals for brain network data. Network Neuroscience, 5(1), 1-27.
+
+Reiter, A. M., Moutoussis, M., Vanes, L., Kievit, R. A., Bullmore, E. T., Goodyer, I. M., ... & Dolan, R. J. (2021). Taste uncertainty explains developmental effects on susceptibility to peer influence in adolescence. Nature Communications.
+
+Simpson-Kent, I. L., Fried, E. I., Akarca, D., Mareva, S., Bullmore, E. T., Kievit, R. A., & CALM Team. (2021). Bridging brain and cognition: A multilayer network analysis of brain structural covariance and general intelligence in a developmental sample of struggling learners.  Journal of Intelligence.
+
+Roe, J. M., Vidal-Piñeiro, D., Sørensen, Ø., Brandmaier, A. M., Düzel, S., Gonzalez, H. A., Kievit, R. A.  ... & Westerhausen, R. (2021). Asymmetric thinning of the cerebral cortex across the adult lifespan is accelerated in Alzheimer’s disease. Nature communications, 12(1), 1-11.
+
+Nyberg, L., Magnussen, F., Lundquist, A., Baare, W., Bartrés-Faz, D., Bertram, L., ... Kievit, R. A.   & Fjell, A. M. (2021). Educational attainment does not influence brain aging. Proceedings of the National Academy of Sciences.
+
+Holmes, J., Guy, J., Bryant, A., Kievit, R. A., Gathercole, S. E., & CALM Team. (2021). Cognitive dimensions of learning in children with problems in attention, learning and memory. Journal of Educational Psychology. Preprint: https://psyarxiv.com/dx6aj/
+
+Borsboom, D., van der Maas, H., Dalege, J., Kievit, R. A., & Haig, B. (2021). Theory Construction Methodology: A practical framework for theory formation in psychology. Perspectives on Psychological Science. https://psyarxiv.com/w5tp8 
+
+Malpetti, M., Jones, P. S., Tsvetanov, K. A., Rittman, T., van Swieten, J. C., Borroni, B., ... & Kievit, R. A*., & Rowe, J.*  (2021). Apathy in presymptomatic genetic frontotemporal dementia predicts cognitive decline and is driven by structural brain changes. Alzheimer's & Dementia.
+
+Kievit, R. A. (2021). Sensitive periods in cognitive development: A mutualistic perspective. Current Opinion in Behavioral Sciences. 144-149.
+
+
+Griffiths, S. L., Kievit, R., & Norbury, C. (in revision). Mutualistic coupling of vocabulary and non-verbal reasoning in children with and without language disorder. https://psyarxiv.com/pcr64/
+
+Byrne, E.M. Gilbert, R. A., Kievit, R. A. & Joni Holmes (in revision). Backward recall and n-back measures of working memory: A large-scale latent variable analysis. https://psyarxiv.com/bkja7/
+
+Orben, A., Lucas, R. E., Fuhrmann, D., & Kievit, R. (2020). Trajectories of adolescent life satisfaction. https://psyarxiv.com/y8ruw
+
+Fjell, A., Sorensen, O., Amlien, I. K., Bartres-Faz, D., Brandmaier, A., Macia, D., ... Kievit, R. A.,, ...& Ebmeier, K. (2020). Self-reported sleep problems are related to cortical thinning in aging but not memory decline and amyloid-β accumulation-results from the Lifebrain consortium. bioRxiv. https://www.biorxiv.org/content/10.1101/2020.04.28.065474v1.abstract
+
+Hofman, A. D., Kievit, R. A., Stevenson, C. E. , Molenaar, D., Visser, I., & van der Maas, H. L. J. (In revision). The dynamics of the development of mathematics skills: A comparison of theories of developing intelligence. Developmental Science, Preprint
+
+Hooven, C. K., Wai, J., Kievit, R. A., Ellison, P. T. Kosslyn, S. M., & Chabris, C. F. (in revision). The Sex Difference in Mental Rotation Test Scores May Not Reflect a Difference in Mental Rotation Ability. Scientific Reports. Preprint
+
+Astle, D., Holmes, J., Kievit, R., & Gathercole, S. E. (In revision). The transdiagnostic revolution in neurodevelopmental disorders. JCPP. https://psyarxiv.com/4g3a2/
+
+### 2020
+
+Malpetti, M., Jones, P. S., Tsvetanov, K. A., Rittman, T., van Swieten, J. C., Borroni, B., ... & Kievit, R. A\*., & Rowe, J.\*  (2020). Apathy in presymptomatic genetic frontotemporal dementia predicts cognitive decline and is driven by structural brain changes. Alzheimer's & Dementia.
+
+Rommelse, N., Luman, M., & Kievit, R. A. (2020). Slow processing speed: a cross-disorder phenomenon with significant clinical value, and in need of further methodological scrutiny. European Child & Adolescent Psychiatry volume 29, 1325–1327.
+
+Ioannidis, K., Askelund, A. D., Kievit, R. A., & Van Harmelen, A. L. (2020). The complex neurobiology of resilient functioning after child maltreatment. BMC Medicine.
+
+Fuhrmann, D., Simpson-Kent, I. L., Bathelt, J., & Kievit, R. A. (2020). The neurocognitive architecture of fluid ability in children and adolescents. Cerebral Cortex.
+
+Henson, R. N., Suri, S., Knights, E., Rowe, J. B., Kievit, R. A., Lyall, D. M., ... & Fisher, S. E. (2020). Effect of apolipoprotein E polymorphism on cognition and brain in the Cambridge Centre for Ageing and Neuroscience cohort. Brain and Neuroscience Advances, 4, 2398212820961704.
+
+Springer, A., Monsch, A. U., Dutilh, G., Coslovsky, M., Kievit, R. A., Bonati, L. H., ... & Fischer, U. (2020). A factor score reflecting cognitive functioning in patients from the Swiss Atrial Fibrillation Cohort Study (Swiss-AF). PloS one, 15(10), e0240167.
+
+Holmes, J., Guy, J., Bryant, A., Kievit, R. A., Gathercole, S. E., & CALM Team. (2020). Cognitive dimensions of learning in children with problems in attention, learning and memory. Journal of Educational Psychology. Preprint: https://psyarxiv.com/dx6aj/
+
+Sørensen, Ø., Brandmaier, A. M., Bros, D. M., Ebmeier, K., Ghisletta, P., Kievit, R. A., ... & Fjell, A. (2020). Meta-Analysis of Generalized Additive Models in Neuroimaging Studies. NeuroImage arXiv preprint arXiv:2002.02627.
+
+Borsboom, D., van der Maas, H., Dalege, J., Kievit, R. A., & Haig, B. (2020). Theory Construction Methodology: A practical framework for theory formation in psychology. Perspectives on Psychological Science. https://psyarxiv.com/w5tp8 
+
+Vaghi, M.M. Moutoussis, M., Vasa, F., Kievit, R. A. Hauser, T. U., Vertes, P. Shahar, N.,  Romero-Garcia, R. Kitzbichler M., Bullmore, E. T., NSPN Consortium & Dolan, R. J. (2020). Compulsivity is linked to reduced adolescent development of goal-directed control and fronto-striatal functional connectivity. Proceedings of the National Academy of Sciences. 
+
+Liu K. Y., Kievit, R.A., Tsvetanov, K. A., Betts, M. J., Düzel, E., Rowe, J. B., Cam-CAN, Howard, R. & Hämmerer, D. (2020). Noradrenergic-dependent functions are associated with age-related differences in locus coeruleus signal intensity. Nature Communications.
+
+Malpetti, M., Kievit, R. A., Passamonti, L., Jones, P. S., Tsvetanov, K. A., Rittman, T., ... & Hong, Y. T. (2020). Microglial activation and tau burden predict cognitive decline in Alzheimer's Disease. Brain, 19011189.
+
+Kievit, R. A., Simpson-Kent, I. L., Fuhrmann, D. (2020). Why Your Mind Is Like a Shark: Testing the Idea of Mutualism. Frontiers for Young Minds. Age, 8(14), 14.
+
+Borgeest, G. S., Henson, R., Shafto, M., Samu, D., & Kievit, R. A. (2020). Greater lifestyle engagement is associated with healthy cognitive ageing. PLoS One https://psyarxiv.com/6pzve/.
+
+Simpson-Kent, I. L., Fuhrmann, D., Bathelt, J., Achterberg, J., Borgeest, G. S., Kievit, R. A., & CALM Team. (2020). Neurocognitive reorganization between crystallized intelligence, fluid intelligence and white matter microstructure in two age-heterogeneous developmental cohorts. Developmental Cognitive Neuroscience, 41, 100743.
+
+Davies, S. E., Neufeld, S. A., van Sprang, E., Schweren, L., Kievit, R. A., Fonagy, P., ... & Target, M. (2020). Trajectories of depression symptom change during and following treatment in adolescents with unipolar major depression. Journal of Child Psychology and Psychiatry.
+
+Peng, P., & Kievit, R. A. (2020). The Development of Academic Achievement and Cognitive Abilities: A Mutualistic Perspective. Child Development Perspectives.
+
+### 2019 
+
+Fjell, A. M., Sørensen, Ø., Amlien, I. K., [], Kievit, R. A., [ ]& Walhovd, K. (2019). Self-reported sleep relates to hippocampal atrophy across the adult lifespan: Results from the Lifebrain consortium. Sleep
+
+Schweizer, S., Leung, J. T., Kievit, R. A., Speekenbrink, M., Tender, W. R., Hampshire, A., & Blakemore, S. J. (2018). Protocol for an App-Based Affective Control Training for Adolescents. https://psyarxiv.com/46mhy
+
+Shahar, N. Moran, R. Hauser, T. U., Kievit, R. A., McNamee, D., Mouttousis, M. NSPN consortium & Dolan, R. J. (2019) Credit-assignment to state-independent task representations and its relationship with model-based decision-making. Proceedings of the National Academy of Sciences.
+
+Kievit, R. A., Hofman, A. D., & Nation, K. (2019). Mutualistic Coupling Between Vocabulary and Reasoning in Young Children: A Replication and Extension of the Study by Kievit et al. (2017). Psychological Science, 0956797619841265.
+
+Eshaghi, A., Kievit, R. A., Prados, F., Sudre, C. H., Nicholas, J., Cardoso, M. J., … & Thompson, A. J. (2019). Applying causal models to explore the mechanism of action of simvastatin in progressive multiple sclerosis. Proceedings of the National Academy of Sciences, 201818978
+
+Allen, M., Poggiali, D., Whitaker, K., Marshall, T. R., & Kievit, R. A. (2019). Raincloud plots: a multi-platform tool for robust data visualization. Wellcome Open Research, 6, e27137v1.
+
+Jacobucci, R., Brandmaier, A. M., & Kievit, R. A. (2019). A Practical Guide to Variable Selection in Structural Equation Modeling by Using Regularized Multiple-Indicators, Multiple-Causes Models. Advances in Methods and Practices in Psychological Science, 2(1), 55-76.Preprint. Data and code. R package
+
+Fuhrmann, D., Nesbitt, D., Shafto, M., Rowe, J. B., Gadie, A., Cam-CAN & Kievit, R.A. (2019). Strong and specific associations between cardiovascular risk factors and white matter micro-and macrostructure in healthy aging. Neurobiology of aging, 74, 46-55.
+
+Carpenter, J., Sherman, M. T., Kievit, R. A., Seth, A. K., Lau, H., & Fleming, S. M. (2019). Domain-general enhancements of metacognitive ability through adaptive training. Journal of Experimental Psychology: General, 148(1), 51.
+
+Liu, K. Y., Acosta-Cabronero, J., Cardenas-Blanco, A., Loane, C., Berry, A. J., Betts, M. J., Kievit, R. A. … & Hämmerer, D. (2019). In vivo visualization of age-related differences in the locus coeruleus. Neurobiology of aging, 74, 101-111.
+
+### 2018
+
+De Mooij, Henson, Waldorp, Cam-CAN & Kievit, R. A. (2018). Age differentiation within grey matter, white matter and between memory and white matter in an adult lifespan cohort. Journal of Neuroscience, 1627-17. Preprint. Data portal
+
+Kievit, R. A., Fuhrmann, D., Borgeest, S., Simpson-Kent, I., & Henson, R. N. A. (2018) The neural determinants of age-related changes in fluid intelligence: a pre-registered, longitudinal analysis in N=185,317 UK Biobank individuals. Wellcome Open Research. Preregistration
+
+Kievit, R. A., Brandmaier, A., Ziegler, G., van Harmelen, A. L., de Mooij, S., Moutoussis, M., … & Lindenberger, U. (2018). Developmental cognitive neuroscience using Latent Change Score models: A tutorial and applications. Developmental Cognitive Neuroscience. Preprint. Code
+
+Walhovd, K. B., Fjell, A. M., Westerhausen, R., Nyberg, L., Ebmeier, K. P., Lindenberger, U., Lifebrain, & Drevon, C. A. (2018). Healthy minds from 0–100 years: Optimising the use of European brain imaging cohorts (“Lifebrain”). European Psychiatry, 47, 76-87.
+
+### 2017
+
+Schweizer, S., Kievit, R. A., Emery, T., & Henson, R. N. (2017). Symptoms of Depression in a Large Healthy Population Cohort are related to Subjective Memory Complaints and Memory Performance in Negative Contexts. Psychological Medicine, 48(1):104-114. Data portal
+
+Kievit, R. A., Lindenberger, U. Goodyer, I.M., Jones, P. B., Fonagy, P., Bullmore, E. T., the NSPN Consortium & Dolan, R. J. (2017). Mutualistic coupling between vocabulary and reasoning supports cognitive development during late adolescence and early adulthood. Psychological Science, 28, 10, 1419-1431. Data and code.
+
+van Harmelen, A. L., Kievit, R. A., NSPN consortium, Jones, P. B.,  Bullmore, E. T., Dolan, R. J. Fonagy, P.  & Ian Goodyer (2017). Adolescent friendships predict later resilient functioning across psychosocial domains in a healthy community cohort. Psychological Medicine, 47, 13, 2312-2322. Data and code
+
+Kievit, R. A. (2017). More is different. Nature Human Behaviour, 1(8), s41562-017.
+
+Gadie, Shafto, Leng, Cam-CAN & Kievit, R. A. (2017). Age-related differences in self-reported sleep quality predict healthy ageing across multiple domains.  BMJ Open, 7: e014920. Data portal
+
+### 2016
+
+Henson,  R. N. A., Campbell, K. L., Davis, S. W., Taylor, J. R., Emery, T., Erzinclioglu , S. Cam-CAN, &. Kievit, R. A.. (2016). Multiple determinants of ageing memories. Scientific Reports 6, 32527. Data portal
+
+Wolpe, N., Ingram, J., Tsvetanov, K., Geerligs, L., Kievit, R. A., Henson, R. N. A., Wolpert, D., Cam-CAN, & Rowe, J. (2016). Ageing increases the reliance on sensorimotor predictions through changes in structure and functional connectivity of the pre-supplementary motor area. Nature Communications. Data portal
+
+Kievit, R. A., Davis, S. W., Griffiths, J. D., Correia, M. M., & Henson, R. N. (2016). A watershed model of individual differences in fluid intelligence. Neuropsychologia. Data portal
+
+Wagenmakers, E. J., Wetzels, R., Borsboom, D., Kievit, R., & van der Maas, H. L. (2015). A skeptical eye on psi. Extrasensory perception: Support, skepticism, and science, 1, 153-176.
+
+Gathercole, S. E.. Woolgar, F., Manly, T, Astle, D. E., Kievit, R. A. & Holmes, J.. Are working memory impairments a defining characteristic of children with attention, learning and memory problems? (2016). Journal of Applied Research in Memory and Cognition.
+
+Kan, K. J., van der Maas, H. L. J., & Kievit, R. A. (2016). Process Overlap Theory: Strengths, limitations, and challenges. Psychological Inquiry, 27:3, 220-228. Code
+
+van Harmelen, A. L.,. Kievit, R. A. & Goodyer, I. M. (2016). Friendships and Family Support Reduce Subsequent Depressive Symptoms in At-Risk Adolescents. PloS one, 11(5),  e0153715. Data and code
+
+Kievit, R., Scholte, H. S., Waldorp, L. J., & Borsboom, D. (2016). Inter-and intra-individual differences in fluid reasoning show distinct cortical responses. Preprint
+
+### 2015 and before
+
+Fried, E. I., & Kievit, R. A. (2015). The volumes of subcortical regions in depressed and healthy individuals are strikingly similar: a reinterpretation of the results by Schmaal et al. Molecular Psychiatry, 21, 724–725. Preprint Data and code.
+
+Ganis, G., & Kievit, R. A. (2015). A New Set of Three-Dimensional Shapes for Investigating Mental Rotation Processes: Validation Data and Stimulus Set. Journal of Open Psychology Data, 3(1), e3. Data and materials
+
+Kievit, R. A., Davis, S. W., Mitchell, D. J., Taylor, J. R., Duncan, J., Cam-CAN, & Henson, R. N. A. (2014). Distinct aspects of frontal lobe structure mediate age-related differences in fluid intelligence and multitasking. Nature Communications, 5, 5658. Data portal
+
+Charest, I.  Kievit, R. A., Schmitz, T. W., Deca, D., Kriegeskorte, N. (2014). Unique semantic space in the brain of each beholder predicts perceived similarity. Proceedings of the National Academy of Sciences. 111 (40) 14565-14570
+
+Kievit, A. J., Kuijer, P., Kievit, R. A., Sierevelt, I. N., Blankevoort, L., & Frings-Dresen, M. H. (2014). A Reliable, Valid and Responsive Questionnaire to Score the Impact of Knee Complaints on Work following Total Knee Arthroplasty: the WORQ. The Journal of Arthroplasty, 29, 6, 1169-1175
+
+Kievit, R. A. (2014). Turtles all the way down? Psychometric approaches to the reduction problem. [PhD thesis]
+
+Kriegeskorte, N. & Kievit, R. A. (2013). Representational geometry: integrating cognition, computation, and the brain. Trends in Cognitive Sciences, 17, 401-412.
+
+Kievit, R.A., Frankenhuis, W. & Borsboom, D. (2013). Simpson’s Paradox in Psychological Science: A Practical Guide. Frontiers in Psychology, 4, 513, 1-14. Package
+
+Schmittmann, V. D., Cramer, A. O. J., Waldorp, L. J., Epskamp, S., Kievit, R.A. & Borsboom, D. (2013). Deconstructing the construct: A network perspective on psychological phenomena. New ideas in Psychology, 31, 43-53
+
+Bakker, M., Cramer, A. O. J., Matzke, D., Kievit, R.A. , Van Der Maas, H. L. J., Wagenmakers, E. J. & Borsboom, D. (2013) Dwelling on the Past. The European Journal of Personality, 27, 120-121.
+
+Kievit, R.A., Waldorp, L.J., Kan, K.J., & Wicherts, J. M. (2012). Causality: populations, individuals, and assumptions. The European Journal of Personality, 26, 400-401
+
+Kievit, R.A., van Rooijen, H., Wicherts, J.M., Kan, K.J., Waldorp, L.J., Scholte & Borsboom, D. (2012). Intelligence and the brain: A model-based approach. Cognitive Neuroscience, 3, 89-97.
+
+Wagenmakers, E. J., Wetzels, R. W., Borsboom, D., van der Maas, H. L. J. & Kievit, R.A. (2012). An Agenda for Purely Confirmatory Research. Perspectives on Psychological Science, 7, 632-638.
+
+Wicherts, J., Kievit, R.A., Bakker, M. & Borsboom, D. (2012) Letting the daylight in: Reviewing the reviewers and other ways to maximize transparency in science. Frontiers in Computational Neuroscience, 6, 1.
+
+Kosslyn, S.M., Kievit, R.A., Russell, A.G. & Shepard, J.M. (2012). PowerPoint Flaws and Failures: A Psychological Analysis. Frontiers in Educational Psychology, 3, 230.
+
+Kievit, R.A., Romeijn, J.W., Waldorp, L.J., Wicherts, J.M., Scholte, H.S. & Borsboom, D. (2011). Modeling Mind and Matter: Reductionism and Psychological Measurement in Cognitive Neuroscience Psychological Inquiry, 22, 139-157.
+
+Borsboom, D., Epskamp, S., Kievit, R.A., Cramer, A. O. J., & Schmittmann. (2011). Transdiagnostic Networks. Perspectives on Psychological Science, 6, 610-614.
+
+Kievit, R.A., Romeijn, J.W., Waldorp, L.J., Wicherts, J.M., Scholte, H.S. & Borsboom, D. (2011) Mind the gap: A psychometric approach to the reduction problem. Psychological Inquiry, 22, 67-87.
+
+Harmelen, A. van, Elzinga, B. M., Kievit, R.A. & Spinhoven, P. (2011). Intrusions of autobiographical memories in individuals reporting childhood emotional maltreatment. European Journal of Psychotraumatology, 2, 7336.
+
+Penke, L. Johnson, W., Kievit, R. A., Wicherts, J. M., Ploeger, A.& Borsboom, D. (2011) Evolutionary psychology and intelligence research cannot be integrated the way Kanazawa (2010) suggests. American Psychologist, 66, 916-917.
+
+Kan, K. J., Kievit, R.A., Dolan, C.V., & van der Maas, H.L.J. (2011). On the interpretation of the CHC Gc factor as Crystallized Intelligence. Intelligence, 39, 292-302.
+
+Kievit, R. A. & Geurts, H. M. (2011). Autism and perception of awareness in self and others: Two sides of the same coin or dissociated abilities. Cognitive Neuroscience, 2, 119-120.
+
+Kievit, R.A. (2011). Bayesians caught smuggling priors into Rotterdam Harbour. Perspectives on Psychological Science, 6, 313. 
+
+Kievit, R.A. (2011). Parapsychologie, nullhypothesetoetsing en peer review 2.0. De Psycholoog, 46, 10-16.
+
+van der Maas, H. L. J., Molenaar, D., Maris, G., Kievit, R.A. & Borsboom, D. (2011) Cognitive psychology meets psychometric theory: On the relation between process models for decision making and latent variable models for individual differences. Psychological Review, 2, 339-356.
+
+Ganis, G., Rosenfeld, J.P., Meixner, J., Kievit, R.A. & Schendan, H. (2011). Lying in the Scanner: Covert Countermeasures Disrupt Deception Detection by Functional Magnetic Resonance Imaging. Neuroimage, 55, 312- 319.
+
+Verkuilen, J., Kievit, R.A. & Zand Scholten, A. (2011). Fuzzy Sets to Represent Concepts in Psychology and the Behavioral Sciences. In: Belohlavek, R. & Klir, G.J. (eds.) Concepts and Fuzzy Logic, (pp. 149-176). Cambridge: MIT Press.
+
+Borst, G., Kievit, R.A., Thompson, W. L. & Kosslyn, S.M. (2011). Mental rotation is not easily cognitively penetrable. Journal of Cognitive Psychology, 23, 60-75.
+
+Borsboom, D., Cramer, A. Kievit, R.A., Zand Scholten, A. & Franic, S. (2009) The End of Construct Validity. In: Lissitz, R.W. (Ed.). The concept of validity. pp. 135-170. Information Age Publishers.
+
+Borsboom, D., Kievit, R.A., Cervone, D.P., & Hood, S.B. (2009). The two disciplines of scientific psychology, or: The disunity of psychology as a working hypothesis. In: Valsiner, J., Molenaar, P.C.M., Lyra, M.C.D.P., & Chaudhary, N. Developmental process methodology in the social and developmental sciences, pp (67-89). New York: Springer.
