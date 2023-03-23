@@ -1,0 +1,27 @@
+---
+title: "News from the lab"
+output: 
+  distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Website update
+
+23/03/2023
+
+Exciting times, we've updated the lab webpage!
+
+```{r, out.width = "40%", fig.align = 'center'}
+knitr::include_graphics("images/news/smile.png")
+```
+
+---
+
+## New lab member
+
+01/03/2023
+
+Shout out to our new lab member Jessica Schaaf, find out more about her work [here](people.html)

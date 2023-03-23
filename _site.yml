@@ -14,7 +14,9 @@ navbar:
       href: people.html
     - text: "Publications"
       href: publications.html
-    - text: "Blogs and News"
+    - text: "News"
+      href: news.html
+    - text: "Blog"
       href: posts.html
     - icon: fab fa-github
       href: https://github.com/LifespanCognitiveDynamics
