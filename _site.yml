@@ -16,4 +16,6 @@ navbar:
       href: publications.html
     - text: "Blogs and News"
       href: posts.html
+    - icon: fab fa-github
+      href: https://github.com/LifespanCognitiveDynamics
 output: distill::distill_article

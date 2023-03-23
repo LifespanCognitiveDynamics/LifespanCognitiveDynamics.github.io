@@ -88,376 +88,36 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Lifespan Cognitive Dynamics Lab: People</title>
+  <title>Tell your students: Null results are significant too</title>
 
 
 
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2022-02-16"/>
+  <meta property="article:created" itemprop="dateCreated" content="2022-02-16"/>
+  <meta name="article:author" content="Sam Parsons"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Lifespan Cognitive Dynamics Lab: People"/>
+  <meta property="og:title" content="Tell your students: Null results are significant too"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Lifespan Cognitive Dynamics Lab"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Lifespan Cognitive Dynamics Lab: People"/>
+  <meta property="twitter:title" content="Tell your students: Null results are significant too"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","output"]}},"value":[{"type":"character","attributes":{},"value":["People"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["theme"]}},"value":[{"type":"character","attributes":{},"value":["theme.css"]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","draft"]}},"value":[{"type":"character","attributes":{},"value":["Tell your students: Null results are significant too"]},{"type":"NULL"},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Sam Parsons"]}]}]},{"type":"character","attributes":{},"value":["02-16-2022"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"logical","attributes":{},"value":[false]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
-  <!--radix_placeholder_navigation_in_header-->
-  <meta name="distill:offset" content=""/>
-
-  <script type="application/javascript">
-
-    window.headroom_prevent_pin = false;
-
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-
-      // initialize headroom for banner
-      var header = $('header').get(0);
-      var headerHeight = header.offsetHeight;
-      var headroom = new Headroom(header, {
-        tolerance: 5,
-        onPin : function() {
-          if (window.headroom_prevent_pin) {
-            window.headroom_prevent_pin = false;
-            headroom.unpin();
-          }
-        }
-      });
-      headroom.init();
-      if(window.location.hash)
-        headroom.unpin();
-      $(header).addClass('headroom--transition');
-
-      // offset scroll location for banner on hash change
-      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
-      window.addEventListener("hashchange", function(event) {
-        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
-      });
-
-      // responsive menu
-      $('.distill-site-header').each(function(i, val) {
-        var topnav = $(this);
-        var toggle = topnav.find('.nav-toggle');
-        toggle.on('click', function() {
-          topnav.toggleClass('responsive');
-        });
-      });
-
-      // nav dropdowns
-      $('.nav-dropbtn').click(function(e) {
-        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
-        $(this).parent().siblings('.nav-dropdown')
-           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $("body").click(function(e){
-        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $(".nav-dropdown").click(function(e){
-        e.stopPropagation();
-      });
-    });
+  
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["null_results_Sam.jpg","p-value_Sam.jpg"]}
   </script>
-
-  <style type="text/css">
-
-  /* Theme (user-documented overrideables for nav appearance) */
-
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #0F2E3D;
-    font-size: 15px;
-    font-weight: 300;
-  }
-
-  .distill-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .distill-site-nav a:hover {
-    color: white;
-  }
-
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-
-  .distill-site-header {
-
-  }
-
-  .distill-site-footer {
-
-  }
-
-
-  /* Site Header */
-
-  .distill-site-header {
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 3;
-  }
-
-  .distill-site-header .nav-left {
-    display: inline-block;
-    margin-left: 8px;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header .nav-left {
-      margin-left: 0;
-    }
-  }
-
-
-  .distill-site-header .nav-right {
-    float: right;
-    margin-right: 8px;
-  }
-
-  .distill-site-header a,
-  .distill-site-header .title {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 10px 14px 10px;
-  }
-
-  .distill-site-header .title {
-    font-size: 18px;
-    min-width: 150px;
-  }
-
-  .distill-site-header .logo {
-    padding: 0;
-  }
-
-  .distill-site-header .logo img {
-    display: none;
-    max-height: 20px;
-    width: auto;
-    margin-bottom: -4px;
-  }
-
-  .distill-site-header .nav-image img {
-    max-height: 18px;
-    width: auto;
-    display: inline-block;
-    margin-bottom: -3px;
-  }
-
-
-
-  @media screen and (min-width: 1000px) {
-    .distill-site-header .logo img {
-      display: inline-block;
-    }
-    .distill-site-header .nav-left {
-      margin-left: 20px;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 20px;
-    }
-    .distill-site-header .title {
-      padding-left: 12px;
-    }
-  }
-
-
-  .distill-site-header .nav-toggle {
-    display: none;
-  }
-
-  .nav-dropdown {
-    display: inline-block;
-    position: relative;
-  }
-
-  .nav-dropdown .nav-dropbtn {
-    border: none;
-    outline: none;
-    color: rgba(255, 255, 255, 0.8);
-    padding: 16px 10px;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    margin: 0;
-    margin-top: 1px;
-    z-index: 2;
-  }
-
-  .nav-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 200px;
-    border: 1px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    z-index: 1;
-    margin-top: 2px;
-    white-space: nowrap;
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
-
-  .nav-dropdown-content hr {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-
-  .nav-dropdown-active {
-    display: block;
-  }
-
-  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
-    color: black;
-    padding: 6px 24px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-
-  .nav-dropdown-content .nav-dropdown-header {
-    display: block;
-    padding: 5px 24px;
-    padding-bottom: 0;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #999999;
-    white-space: nowrap;
-  }
-
-  .nav-dropdown:hover .nav-dropbtn {
-    color: white;
-  }
-
-  .nav-dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  .nav-right .nav-dropdown-content {
-    margin-left: -45%;
-    right: 0;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
-    .distill-site-header a.nav-toggle {
-      float: right;
-      display: block;
-    }
-    .distill-site-header .title {
-      margin-left: 0;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 0;
-    }
-    .distill-site-header {
-      overflow: hidden;
-    }
-    .nav-right .nav-dropdown-content {
-      margin-left: 0;
-    }
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header.responsive {position: relative; min-height: 500px; }
-    .distill-site-header.responsive a.nav-toggle {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .distill-site-header.responsive a,
-    .distill-site-header.responsive .nav-dropdown {
-      display: block;
-      text-align: left;
-    }
-    .distill-site-header.responsive .nav-left,
-    .distill-site-header.responsive .nav-right {
-      width: 100%;
-    }
-    .distill-site-header.responsive .nav-dropdown {float: none;}
-    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
-    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-  }
-
-  /* Site Footer */
-
-  .distill-site-footer {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    z-index: 3;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-  }
-
-  /* Headroom */
-
-  d-title {
-    padding-top: 6rem;
-  }
-
-  @media print {
-    d-title {
-      padding-top: 4rem;
-    }
-  }
-
-  .headroom {
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
-  .headroom--transition {
-    transition: all .4s ease-in-out;
-  }
-
-  .headroom--unpinned {
-    top: -100px;
-  }
-
-  .headroom--pinned {
-    top: 0;
-  }
-
-  /* adjust viewport for navbar height */
-  /* helps vertically center bootstrap (non-distill) content */
-  .min-vh-100 {
-    min-height: calc(100vh - 100px) !important;
-  }
-
-  </style>
-
-  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
-  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+  <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
 
@@ -1811,329 +1471,17 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </script>
 
-  <style type="text/css">
-  /* base variables */
-
-  /* Edit the CSS properties in this file to create a custom
-     Distill theme. Only edit values in the right column
-     for each row; values shown are the CSS defaults.
-     To return any property to the default,
-     you may set its value to: unset
-     All rows must end with a semi-colon.                      */
-
-  /* Optional: embed custom fonts here with `@import`          */
-  /* This must remain at the top of this file.                 */
-
-
-
-  html {
-    /*-- Main font sizes --*/
-    --title-size:      50px;
-    --body-size:       1.06rem;
-    --code-size:       14px;
-    --aside-size:      12px;
-    --fig-cap-size:    13px;
-    /*-- Main font colors --*/
-    --title-color:     #000000;
-    --header-color:    rgba(0, 0, 0, 0.8);
-    --body-color:      rgba(0, 0, 0, 0.8);
-    --aside-color:     rgba(0, 0, 0, 0.6);
-    --fig-cap-color:   rgba(0, 0, 0, 0.6);
-    /*-- Specify custom fonts ~~~ must be imported above   --*/
-    --heading-font:    sans-serif;
-    --mono-font:       monospace;
-    --body-font:       sans-serif;
-    --navbar-font:     sans-serif;  /* websites + blogs only */
-  }
-
-  /*-- ARTICLE METADATA --*/
-  d-byline {
-    --heading-size:    0.6rem;
-    --heading-color:   rgba(0, 0, 0, 0.5);
-    --body-size:       0.8rem;
-    --body-color:      rgba(0, 0, 0, 0.8);
-  }
-
-  /*-- ARTICLE TABLE OF CONTENTS --*/
-  .d-contents {
-    --heading-size:    18px;
-    --contents-size:   13px;
-  }
-
-  /*-- ARTICLE APPENDIX --*/
-  d-appendix {
-    --heading-size:    15px;
-    --heading-color:   rgba(0, 0, 0, 0.65);
-    --text-size:       0.8em;
-    --text-color:      rgba(0, 0, 0, 0.5);
-  }
-
-  /*-- WEBSITE HEADER + FOOTER --*/
-  /* These properties only apply to Distill sites and blogs  */
-
-  .distill-site-header {
-    --title-size:       18px;
-    --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
-    --hover-color:      white;
-    --bkgd-color:       #0F2E3D;
-  }
-
-  .distill-site-footer {
-    --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
-    --hover-color:      white;
-    --bkgd-color:       #0F2E3D;
-  }
-
-  /*-- Additional custom styles --*/
-  /* Add any additional CSS rules below                      */
-  </style>
-  <style type="text/css">
-  /* base variables */
-
-  /* Edit the CSS properties in this file to create a custom
-     Distill theme. Only edit values in the right column
-     for each row; values shown are the CSS defaults.
-     To return any property to the default,
-     you may set its value to: unset
-     All rows must end with a semi-colon.                      */
-
-  /* Optional: embed custom fonts here with `@import`          */
-  /* This must remain at the top of this file.                 */
-
-  /*-- Additional custom styles --*/
-  /* Add any additional CSS rules below                      */
-  @import url('https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css');
-
-
-  html {
-    /*-- Main font sizes --*/
-    --title-size:      50px;
-    --body-size:       1.06rem;
-    --code-size:       14px;
-    --aside-size:      12px;
-    --fig-cap-size:    13px;
-    /*-- Main font colors --*/
-    --title-color:     #000000;
-    --header-color:    rgba(0, 0, 0, 0.8);
-    --body-color:      rgba(0, 0, 0, 0.8);
-    --aside-color:     rgba(0, 0, 0, 0.6);
-    --fig-cap-color:   rgba(0, 0, 0, 0.6);
-    /*-- Specify custom fonts ~~~ must be imported above   --*/
-    --heading-font:    sans-serif;
-    --mono-font:       monospace;
-    --body-font:       sans-serif;
-    --navbar-font:     sans-serif;  /* websites + blogs only */
-  }
-
-  /*-- ARTICLE METADATA --*/
-  d-byline {
-    --heading-size:    0.6rem;
-    --heading-color:   rgba(0, 0, 0, 0.5);
-    --body-size:       0.8rem;
-    --body-color:      rgba(0, 0, 0, 0.8);
-  }
-
-  /*-- ARTICLE TABLE OF CONTENTS --*/
-  .d-contents {
-    --heading-size:    18px;
-    --contents-size:   13px;
-  }
-
-  /*-- ARTICLE APPENDIX --*/
-  d-appendix {
-    --heading-size:    15px;
-    --heading-color:   rgba(0, 0, 0, 0.65);
-    --text-size:       0.8em;
-    --text-color:      rgba(0, 0, 0, 0.5);
-  }
-
-  /*-- WEBSITE HEADER + FOOTER --*/
-  /* These properties only apply to Distill sites and blogs  */
-
-  .distill-site-header {
-    --title-size:       18px;
-    --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
-    --hover-color:      white;
-    --bkgd-color:       #0F2E3D;
-  }
-
-  .distill-site-footer {
-    --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
-    --hover-color:      white;
-    --bkgd-color:       #0F2E3D;
-  }
-
-  /*-- Additional custom styles --*/
-  /* Add any additional CSS rules below                      */
-  </style>
-  <style type="text/css">
-  /* base style */
-
-  /* FONT FAMILIES */
-
-  :root {
-    --heading-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-    --mono-default: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-    --body-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-  }
-
-  body,
-  .posts-list .post-preview p,
-  .posts-list .description p {
-    font-family: var(--body-font), var(--body-default);
-  }
-
-  h1, h2, h3, h4, h5, h6,
-  .posts-list .post-preview h2,
-  .posts-list .description h2 {
-    font-family: var(--heading-font), var(--heading-default);
-  }
-
-  d-article div.sourceCode code,
-  d-article pre code {
-    font-family: var(--mono-font), var(--mono-default);
-  }
-
-
-  /*-- TITLE --*/
-  d-title h1,
-  .posts-list > h1 {
-    color: var(--title-color, black);
-  }
-
-  d-title h1 {
-    font-size: var(--title-size, 50px);
-  }
-
-  /*-- HEADERS --*/
-  d-article h1,
-  d-article h2,
-  d-article h3,
-  d-article h4,
-  d-article h5,
-  d-article h6 {
-    color: var(--header-color, rgba(0, 0, 0, 0.8));
-  }
-
-  /*-- BODY --*/
-  d-article > p,  /* only text inside of <p> tags */
-  d-article > ul, /* lists */
-  d-article > ol {
-    color: var(--body-color, rgba(0, 0, 0, 0.8));
-    font-size: var(--body-size, 1.06rem);
-  }
-
-
-  /*-- CODE --*/
-  d-article div.sourceCode code,
-  d-article pre code {
-    font-size: var(--code-size, 14px);
-  }
-
-  /*-- ASIDE --*/
-  d-article aside {
-    font-size: var(--aside-size, 12px);
-    color: var(--aside-color, rgba(0, 0, 0, 0.6));
-  }
-
-  /*-- FIGURE CAPTIONS --*/
-  figure .caption,
-  figure figcaption,
-  .figure .caption {
-    font-size: var(--fig-cap-size, 13px);
-    color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
-  }
-
-  /*-- METADATA --*/
-  d-byline h3 {
-    font-size: var(--heading-size, 0.6rem);
-    color: var(--heading-color, rgba(0, 0, 0, 0.5));
-  }
-
-  d-byline {
-    font-size: var(--body-size, 0.8rem);
-    color: var(--body-color, rgba(0, 0, 0, 0.8));
-  }
-
-  d-byline a,
-  d-article d-byline a {
-    color: var(--body-color, rgba(0, 0, 0, 0.8));
-  }
-
-  /*-- TABLE OF CONTENTS --*/
-  .d-contents nav h3 {
-    font-size: var(--heading-size, 18px);
-  }
-
-  .d-contents nav a {
-    font-size: var(--contents-size, 13px);
-  }
-
-  /*-- APPENDIX --*/
-  d-appendix h3 {
-    font-size: var(--heading-size, 15px);
-    color: var(--heading-color, rgba(0, 0, 0, 0.65));
-  }
-
-  d-appendix {
-    font-size: var(--text-size, 0.8em);
-    color: var(--text-color, rgba(0, 0, 0, 0.5));
-  }
-
-  d-appendix d-footnote-list a.footnote-backlink {
-    color: var(--text-color, rgba(0, 0, 0, 0.5));
-  }
-
-  /*-- WEBSITE HEADER + FOOTER --*/
-  .distill-site-header .title {
-    font-size: var(--title-size, 18px);
-    font-family: var(--navbar-font), var(--heading-default);
-  }
-
-  .distill-site-header a,
-  .nav-dropdown .nav-dropbtn {
-    font-family: var(--navbar-font), var(--heading-default);
-  }
-
-  .nav-dropdown .nav-dropbtn {
-    color: var(--text-color, rgba(255, 255, 255, 0.8));
-    font-size: var(--text-size, 15px);
-  }
-
-  .distill-site-header a:hover,
-  .nav-dropdown:hover .nav-dropbtn {
-    color: var(--hover-color, white);
-  }
-
-  .distill-site-header {
-    font-size: var(--text-size, 15px);
-    color: var(--text-color, rgba(255, 255, 255, 0.8));
-    background-color: var(--bkgd-color, #0F2E3D);
-  }
-
-  .distill-site-footer {
-    font-size: var(--text-size, 15px);
-    color: var(--text-color, rgba(255, 255, 255, 0.8));
-    background-color: var(--bkgd-color, #0F2E3D);
-  }
-
-  .distill-site-footer a:hover {
-    color: var(--hover-color, white);
-  }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
-  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
-  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
-  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
-  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
-  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
-  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
-  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <script src="2022-02-16-Null-Results-Are-Significant-Too_files/header-attrs-2.20/header-attrs.js"></script>
+  <script src="2022-02-16-Null-Results-Are-Significant-Too_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <script src="2022-02-16-Null-Results-Are-Significant-Too_files/popper-2.6.0/popper.min.js"></script>
+  <link href="2022-02-16-Null-Results-Are-Significant-Too_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="2022-02-16-Null-Results-Are-Significant-Too_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="2022-02-16-Null-Results-Are-Significant-Too_files/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="2022-02-16-Null-Results-Are-Significant-Too_files/anchor-4.2.2/anchor.min.js"></script>
+  <script src="2022-02-16-Null-Results-Are-Significant-Too_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="2022-02-16-Null-Results-Are-Significant-Too_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="2022-02-16-Null-Results-Are-Significant-Too_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <!--/radix_placeholder_site_in_header-->
 
@@ -2145,176 +1493,85 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"People","authors":[]}
+{"title":"Tell your students: Null results are significant too","authors":[{"author":"Sam Parsons","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2022-02-16T00:00:00.000+01:00","citationText":"Parsons, 2022"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
 <!--radix_placeholder_navigation_before_body-->
-<header class="header header--fixed" role="banner">
-<nav class="distill-site-nav distill-site-header">
-<div class="nav-left">
-<a href="index.html" class="title">Lifespan Cognitive Dynamics Lab</a>
-</div>
-<div class="nav-right">
-<a href="index.html">Home</a>
-<a href="research.html">Research</a>
-<a href="people.html">People</a>
-<a href="publications.html">Publications</a>
-<a href="posts.html">Blogs and News</a>
-<a href="https://github.com/LifespanCognitiveDynamics">
-<i class="fab fa-github" aria-hidden="true"></i>
-</a>
-<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
-</div>
-</nav>
-</header>
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>People</h1>
+<h1>Tell your students: Null results are significant too</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 
 </div>
 
+<div class="d-byline">
+  Sam Parsons  
+  
+<br/>02-16-2022
+</div>
 
 <div class="d-article">
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/rogierkievit_C.png" width="40%" style="display: block; margin: auto;" /></p>
+<p>We all know that null (non-significant)<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> results are informative, useful, and not at all a bad thing, right? Right…</p>
+<p>In an entirely rigorous scientific approach to surveying peoples’ perspective of null results, I turned to statistics memes<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. Just like academia, these memes neatly reflect the 5% alpha threshold: <em>p</em> &lt; .05 and it’s publication party time, <em>p</em> &gt; .05 and you cry a little.</p>
+<div class="layout-chunk" data-layout="l-body-ouset">
+<p><img src="null_results_Sam.jpg" width="971" /></p>
 </div>
-<h2 id="rogier-kievit">ROGIER KIEVIT</h2>
-<p>Principal Investigator</p>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/rogierK"><span class="citation" data-cites="rogierK">@rogierK</span></a>
-<i class="fas fa-envelope"></i><a href="rogier.kievit@radboudumc.nl">rogier.kievit@radboudumc.nl</a>
-<i class="ai ai-google-scholar"></i><a href="https://scholar.google.com/citations?user=kplx7AUAAAAJ&amp;hl=en">google scholar</a>
-<i class="ai ai-orcid"></i><a href="https://orcid.org/0000-0003-0700-4568">ORCID</a></p>
-<p>Rogier Kievit is Professor of Developmental Neuroscience at the Donders Institute in Nijmegen and Senior Associate Scientist at the Cognition and Brain Sciences Unit, University of Cambridge. He studies the rise and fall of cognitive functions across the lifespan by relating brain function, brain structure and cognition in developing populations using multivariate modeling techniques. Specifically, I use a variety of structural equation models to capture the changing relationship between mind and brain across the lifespan. CV</p>
+<p>Students often come face-to-face with their own personal null results towards the end of their research project. Usually the project is worth a good portion of their final grade and they feel the pressure to write a good report. When “good” includes some version of novelty or innovativeness, it’s understandable that they feel the pressure to “find something interesting” (read as: statistically significant) to discuss.</p>
+<p>So, when the inevitable happens (<em>p</em> &gt; .05<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>), a path to the dark side emerges: Some students feel fear; what if they made a mistake or somehow ruined their study? Others feel anger, all they see are significant <em>p</em> values and supported hypotheses, why are they denied the right? Still more feel their burning hatred of statistics emerge again, born from a litany of frustrations throughout their training (not to mention math anxiety - see <a href="https://twitter.com/Suibeom/status/1488961211827843072">this twitter thread</a>). Finally, many students feel suffering: at the loss of their favorite hypothesis, certainly that their training has given them little experience of describing and interpreting null results, and in feeling their “non-significant results give them nothing to write about”<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>.</p>
+<p>Honestly, I can’t blame them for feeling this way. The prevalence of Questionable Research Practices<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> (e.g. Gopalakrishna et al. 2020) and the volume of student projects that “metamorphosize” from dull nulls into pretty supported results (e.g. O’Boyle et al. 2017) showcase that many established researchers embody the same reactions. Instead of focusing on this bleak outlook, we will keep our minds on supporting research students.</p>
+<div class="layout-chunk" data-layout="l-body-ouset">
+<p><img src="p-value_Sam.jpg" width="301" /></p>
+</div>
+<p><em>A highly accurate, and well-sampled, representation of researchers’ responses to null results.</em></p>
+<p>Most supervisors will recognise any of the following from students’ null result papers:</p>
+<ul>
+<li><p>The limitations clearly relate to not finding a significant effect. Sometimes the writing is explicit enough to state that fixing these limitations would help find significant effects.</p></li>
+<li><p>They deploy the oft-used “approaching statistical significance”<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> to allow them to discuss results through the more familiar lens of significant result. Again, to “have something to write about”.</p></li>
+<li><p>The conclusions read as if nothing has been learned about the relationship between the variables, that the study itself was uninformative. Including the possibility that there is no true effect.</p></li>
+<li><p>Conversely we found no effect, therefore no effect exists (and perhaps all the previous research was actually a massive false positive).</p></li>
+</ul>
+<p>I’ve often wondered how we can help our students and mentees. We can - and should - tell our trainees that a result does not have to be significant to be useful, or important, or “right”, and even publishable. But, however strongly we reinforce this, students are faced with overwhelming evidence to the contrary. Their own readings of the literature and every other subtle (or not subtle) message about new and exciting (significant) results we send them usually obliterates the message by the time they’re analyzing their hard collected data.</p>
+<p><strong>Helping students</strong></p>
+<p>Instead of sinking into an academic existential dread, here are two ways I have tried to help students overcome the dark side of null results (Warning: Your mileage may vary).</p>
+<p>For several students a shallow dive into Bayes Factors<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> and equivalence testing helped drastically. These projects included relatively simple models (e.g. in the realms of t-tests, correlations, and multiple regression) so the learning curve was not too steep. Thank you <a href="https://jasp-stats.org/">JASP</a> for being an intuitive tool for students with minimal analyses and/or programming skills to run these analyses. My students were able to write that “the evidence favored the null model” instead of “we did not find a significant effect”, which seemed to empower them to “have something to talk about”. More than this, they had much more confidence in their interpretations of the study, even if that interpretation is that no hypothesis was better supported by the data.</p>
+<p>In other student projects, we took to preregistration. Preregistration does not solve all problems (nor should it be expected to, or discussed as if it does), and much of this particular benefit could be achieved without any formal preregistration process. For us, and in more than one project, preregistration was a useful tool to explore several patterns of potential results and how we might interpret each one. It forced us to better consider the theory driving the study and how this interacted with our hypotheses and planned analyses (also see <a href="https://cyrussamii.com/?p=2522">this</a> nice blogpost for a similar non-preregistration argument). This did not entirely remove the sting when <em>p</em> &gt; .05<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a>. But, those students were more capable of discussing the results in reference to the theory they were testing and the report did not read as if the study was worthless or uninformative.</p>
+<p>Broad improvements in the statistical training students undergo would also help. Whole communities have grown to support improving research training, for example a <a href="https://forrt.org/">Framework for Open and Reproducible Research Training</a>. But, waiting for the glacial pace of reforming curricula to catch up with our current needs gets old fast. Note, students likely don’t need more stats or more complex stats. Instead, they need more time dedicated to understanding how statistics work and how they can be used to make inferences.</p>
+<p>In the meantime, I have a rapid-fire round of discussion points that have helped my students get to grips with interpreting nulls and hopefully feeling less hopelessness when they see <em>p</em> &gt; .05[^And that clap of thunder makes three]. In no particular order, we could dedicate more time to; sampling variability and the <a href="https://logarithmic.net/2017/dance/">dance of confidence intervals</a>, meta analyses, what <em>actually</em> is a <em>p</em> value, effect sizes, open science, statistical power, common statistical misconceptions (Greenland et al., 2016), and that we should expect null effects in a line of studies even when the effect does exist (e.g. Lakens &amp; Etz, 2017). Sharing papers reporting null results (maybe you have published your null results too?), gives students something tangible to grapple with other than being barraged by statistical significance. Avoiding valenced and judgemental language about results - “failed replications”, “failed experiments”, results are “negative” or “positive” - may help students feel more comfortable whatever the results. Finally, we can avoid preemptively making students feel they have missed a valuable opportunity by avoiding telling students that we might be able to publish the study “if we find something interesting”.</p>
+<p><strong>Concluding remarks</strong></p>
+<p>Most students have been told that their null results matter too, that null results tell us something. The often repeated phrase goes something like “even null results tell us something”. Often it feels like we are merely paying lip service to an idealized world of research and academic publishing. But, at the risk of sounding preachy, I believe that with consideration and more training we might create a world in which null results are not demonized and avoided, and instead added to the academic record to facilitate the scientific process. More immediately, maybe we can reduce some of our students’ <em>p</em> value anxiety.</p>
+<p><em>Author: Sam Parsons</em></p>
 <hr />
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/SP_Profile_C.png" width="40%" style="display: block; margin: auto;" /></p>
-</div>
-<h2 id="sam-parsons">SAM PARSONS</h2>
-<p>Postdoctoral Researcher</p>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/Sam_D_Parsons"><span class="citation" data-cites="Sam_D_Parsons">@Sam_D_Parsons</span></a>
-<i class="fas fa-envelope"></i><a href="sam.parsons@radboudumc.nl">sam.parsons@radboudumc.nl</a>
-<i class="ai ai-google-scholar"></i><a href="https://scholar.google.com/citations?user=kE37Xy4AAAAJ&amp;hl=en">google scholar</a>
-<i class="ai ai-orcid"></i><a href="https://orcid.org/0000-0002-7048-4093">ORCID</a></p>
-<p>I am interested in examining the measurement properties of longitudinal brain imaging data. I am using and extending intra-class effect decomposition (ICED) models to assess multiple sources of error. Leveraging this information should inform our understanding of which indices are reliable, where in the brain, and how to incorporate these sources of error into our models and understanding. I am committed to supporting other researchers in their own explorations of reliability by disseminating tutorials of these methodologies. I’m also invested in open scholarship and co-founded both the ReproducibiliTea Journal Club initiative and a Framework for Open and Reproducible Research Training (FORRT).</p>
+<p><strong>Resources and links</strong></p>
+<p>Lakens, D., &amp; Etz, A. J. (2017). Too true to be bad: When sets of studies with significant and nonsignificant findings are probably true. Social Psychological and Personality Science, 8(8), 875-881.</p>
+<p>Gopalakrishna, G., Riet, G., Vink, G. Stoop, I., Wicherts, J., &amp; Bouter, L. (2020). Prevalence of questionable research practices, research misconduct and their potential explanatory factors: a survey among academic researchers in The Netherlands. <a href="https://www.nsri2020.nl/" class="uri">https://www.nsri2020.nl/</a></p>
+<p>Greenland, S., Senn, S. J., Rothman, K. J., Carlin, J. B., Poole, C., Goodman, S. N., &amp; Altman, D. G. (2016). Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations. European journal of epidemiology, 31(4), 337–350. <a href="https://doi.org/10.1007/s10654-016-0149-3" class="uri">https://doi.org/10.1007/s10654-016-0149-3</a></p>
+<p>O’Boyle Jr, E. H., Banks, G. C., &amp; Gonzalez-Mulé, E. (2017). The chrysalis effect: How ugly initial results metamorphosize into beautiful articles. Journal of Management, 43(2), 376-399.</p>
 <hr />
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/Ilse_Coolen_C.png" width="40%" style="display: block; margin: auto;" /></p>
-</div>
-<h2 id="ilse-coolen">Ilse Coolen</h2>
-<p>Postdoctoral Researcher</p>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/CoolenIlse"><span class="citation" data-cites="CoolenIlse">@CoolenIlse</span></a>
-<i class="fas fa-envelope"></i><a href="ilse.coolen@radboudumc.nl">ilse.coolen@radboudumc.nl</a>
-<i class="ai ai-google-scholar"></i><a href="https://scholar.google.com/citations?hl=en&amp;user=e0K_sngAAAAJ">google scholar</a>
-<i class="ai ai-orcid"></i><a href="https://orcid.org/0000-0003-2254-7851">ORCID</a></p>
-<p>I am interested in the development of cognitive skills and how they relate to academic achievement. My main research is focused on the contributions of cognitive skills during the development of mathematics in preschoolers and early primary school children. I have mainly used observational, longitudinal research designs to follow the child’s development and have recently added MRI components to my research to link behavioural and neuroimaging data. I have also been invested as part of the trainee board of the Mathematical Cognition and Learning Society. Outside of work you can usually find me surrounded by cats, either my own or any other cat.</p>
-<hr />
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/Jessica_Schaaf_C.png" width="40%" style="display: block; margin: auto;" /></p>
-</div>
-<h2 id="jessica-schaaf">JESSICA SCHAAF</h2>
-<p>Postdoctoral researcher</p>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/JessicaVSchaaf"><span class="citation" data-cites="JessicaVSchaaf">@JessicaVSchaaf</span></a>
-<i class="fas fa-envelope"></i><a href="jessica.schaaf@radboudumc.nl">jessica.schaaf@radboudumc.nl</a>
-<i class="ai ai-google-scholar"></i><a href="https://scholar.google.com/citations?user=Yse3MpEAAAAJ&amp;hl=nl">google scholar</a>
-<i class="ai ai-orcid"></i><a href="https://orcid.org/0000-0002-4856-9592">ORCID</a></p>
-<p>I’m interested in how cognitive abilities develop across age and specifically in how we can use computational models to understand this development. I see it as a scientist’s duty to expand our common knowledge about the world and its inhabitants. As such, I like to challenge myself in communicating scientific findings to society in an understandable way. When I’m out of office, you can find me at the tennis court or at home cuddling with the sweetest cat in the world.</p>
-<hr />
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/nickjudd_C.png" width="40%" style="display: block; margin: auto;" /></p>
-</div>
-<h2 id="nicholas-judd">NICHOLAS JUDD</h2>
-<p>Postdoctoral researcher/data scientist</p>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/nickkjudd"><span class="citation" data-cites="nickkjudd">@nickkjudd</span></a>
-<i class="fas fa-envelope"></i><a href="nicholas.judd@radboudumc.nl">nicholas.judd@radboudumc.nl</a>
-<i class="ai ai-google-scholar"></i><a href="https://scholar.google.com/citations?user=Hx6n8aEAAAAJ&amp;hl=en">google scholar</a>
-<i class="ai ai-orcid"></i><a href="https://orcid.org/0000-0002-0196-9871">ORCID</a></p>
-<p>I’m interested in how complex cognition arises. Specifically, how we solve problems, adapt, and respond to ever-changing demands. This has led me to focus on the domains of fluid reasoning and working memory. Recently, my research has examined how genetics and socioeconomics affect the development of these skills. I use a variety of methods depending on the question at hand, this ranges from observational datasets, RCTs, and causal inference techniques. Here I will be looking to see if it is possible to unravel the influences of global and local structural MR metrics on cognition. In my free time, I love to surf, rock climb, and travel (when possible)!</p>
-<hr />
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/mearistodemou_C.png" width="40%" style="display: block; margin: auto;" /></p>
-</div>
-<h2 id="michael-aristodemou">MICHAEL ARISTODEMOU</h2>
-<p>PhD student</p>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/mearistodemou"><span class="citation" data-cites="mearistodemou">@mearistodemou</span></a>
-<i class="fas fa-envelope"></i><a href="michael.aristodemou@radboudumc.nl">michael.aristodemou@radboudumc.nl</a>
-<i class="ai ai-google-scholar"></i><a href="https://scholar.google.com/citations?user=AXBd2n4AAAAJ&amp;hl=en">google scholar</a>
-<i class="ai ai-orcid"></i><a href="https://orcid.org/0000-0003-0420-2702">ORCID</a></p>
-<p>I want to understand how and why people’s cognitive abilities fluctuate and change over time. To this end, I aim to exploit technological advances that allow us to observe cognitive development as it unfolds in conjunction with different modeling approaches. Ultimately, I strive to use knowledge about the mechanisms underlying cognitive development to benefit the evolution of educational and cognitive interventions.</p>
-<hr />
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/leamichel_C.png" width="40%" style="display: block; margin: auto;" /></p>
-</div>
-<h2 id="léa-michel">LÉA MICHEL</h2>
-<p>PhD student</p>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/LeaCMichel"><span class="citation" data-cites="LeaCMichel">@LeaCMichel</span></a>
-<i class="fas fa-envelope"></i><a href="lea.michel@radboudumc.nl">lea.michel@radboudumc.nl</a>
-<i class="ai ai-google-scholar"></i><a href="">google scholar</a>
-<i class="ai ai-orcid"></i><a href="https://orcid.org/0000-0003-1529-573X">ORCID</a></p>
-<p>I am interested in the impact of genetics and the environment on children’s development. In particular, during this PhD, I will study how brain maturation (looking at white matter microstructure and grey matter morphology) underlies the development of cognitive ability in childhood. Before this PhD, I completed my master’s degree in cognitive science in Paris with a major in neuroscience. I also had the opportunity to do a gap year during my master training, visiting several labs abroad to train in neuroimaging analyses. In my spare time, I am the vice president of the French association Fédération Fresco and I am especially engaged in our project to create seven cognitive science forums in France in order to popularize cognitive science.</p>
-<h1 id="lab-alumni">Lab Alumni</h1>
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/ethanmccormick_C.png" width="40%" style="display: block; margin: auto;" /></p>
-</div>
-<h2 id="ethan-mccormick">ETHAN McCORMICK</h2>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/E_M_McCormick"><span class="citation" data-cites="E_M_McCormick">@E_M_McCormick</span></a></p>
-<p>I am in interested in the measurement and modeling of data over time using advanced intensive and long-term longitudinal designs. In particular, my current work seeks to link short-term changes due to learning/reactivity with long-term changes due to retest and development to understand how behavior and cognition unfold across multiple timescales. Additionally, I have a strong commitment to the dissemination of quantitative methods, especially in the behavioral and cognitive neurosciences. Outside of the lab, I enjoy running, wrangling Waldorf and Statler (link to <a href="https://quantitudepod.org/" class="uri">https://quantitudepod.org/</a>), and dreaming of traveling again sometime this decade.</p>
-<hr />
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/sophiaborgeest_C.png" width="40%" style="display: block; margin: auto;" /></p>
-</div>
-<h2 id="sophia-borgeest">SOPHIA BORGEEST</h2>
-<p>PhD student</p>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/gsborgeest"><span class="citation" data-cites="gsborgeest">@gsborgeest</span></a></p>
-<p>I am interested in healthy aging, and especially in why some people seem to age much better (or more successfully) than others. In my first project, I used psychometric techniques in a large-sample, multimodal dataset to further understand the associations between leading an active lifestyle and cognitive health. Currently, I am exploring how we can better measure brain structure throughout the lifespan. Here, I am looking at detailed structural MR imaging metrics that might allow for a biologically more accurate picture of the human brain, hopefully allowing us to better describe and quantify healthy neural aging. I like engaging the public and writing for popular audiences. I wish there were more women in leadership and that Cambridge were closer to the mountains.</p>
-<hr />
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/amyorben_C.png" width="40%" style="display: block; margin: auto;" /></p>
-</div>
-<h2 id="amy-orben">Amy Orben</h2>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/OrbenAmy"><span class="citation" data-cites="OrbenAmy">@OrbenAmy</span></a></p>
-<p>Amy studies how the use of social media and digital technology influences adolescent mental health. Her current work uses statistical modeling methods and large-scale data to address questions debated in policy, parenting and mental health. Amy currently leads the Digital Mental Health Group at the University of Cambridge. You can read more about Amy’s work here.</p>
-<hr />
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/ivansimpson_C.png" width="40%" style="display: block; margin: auto;" /></p>
-</div>
-<h2 id="ivan-simpson-kent">Ivan Simpson-Kent</h2>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/IvanSimpsonKent"><span class="citation" data-cites="IvanSimpsonKent">@IvanSimpsonKent</span></a></p>
-<p>Ivan Simpson-Kent completed his PhD at the LCD lab. His dissertation examined how brain and behavior interact with each other during development to produce intelligence, particularly in childhood and adolescence. Ivan is currently a postdoc at the University of Pennsylvania studying how the environment influences cognition and brain development. You can follow Ivan here.</p>
-<hr />
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/deliafuhrmann_C.png" width="40%" style="display: block; margin: auto;" /></p>
-</div>
-<h2 id="delia-fuhrmann">Delia Fuhrmann</h2>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/DeliaFuhrmann"><span class="citation" data-cites="DeliaFuhrmann">@DeliaFuhrmann</span></a></p>
-<p>Delia works on lifespan development and plasticity. Her current research focus is executive functions, such as reasoning and working memory, and their neural substrates using mostly large, publicly available data-sets and multivariate statistical tools like Structural Equation Modelling. Delia is presently a lecturer at King’s College London. You can read more about Delia’s work here.</p>
-<hr />
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/erikvankesteren_C.png" width="40%" style="display: block; margin: auto;" /></p>
-</div>
-<h2 id="eric-jan-van-kesteren">Eric-Jan Van Kesteren</h2>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/ejvankesteren"><span class="citation" data-cites="ejvankesteren">@ejvankesteren</span></a></p>
-<p>Erik-Jan visited the lab in 2019 to improve exploratory factor analysis for structural brain imaging data. Specifically, he developed and tested methods for taking into account brain symmetry when extracting factors, as asymmetry in the brain may be of interest in development. He is currently assistant professor at Utrecht University. You can read more about him here.</p>
-<hr />
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/mariadeserno_C.png" width="40%" style="display: block; margin: auto;" /></p>
-</div>
-<h2 id="marie-deserno">Marie Deserno</h2>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/MarieDeserno"><span class="citation" data-cites="MarieDeserno">@MarieDeserno</span></a></p>
-<p>Marie Deserno visited the lab in 2018 to work on longitudinal developmental dynamics in children at risk for autism. She used latent growth curve models to study the interplay between motor and language development in early childhood. She is currently a Rubicon Fellow at the Max Planck Centre for Human Development in Berlin. You can read about her current work here.</p>
-<hr />
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/susannedemooij_C.png" width="40%" style="display: block; margin: auto;" /></p>
-</div>
-<h2 id="susanne-de-mooij">Susanne de Mooij</h2>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/SusanneMooij"><span class="citation" data-cites="SusanneMooij">@SusanneMooij</span></a></p>
-<p>Susanne de Mooij visited the lab in 2016 to work in psychometric approaches to aging. She implemented CFA SEM trees to study neural and cognitive age differentiation in the Cam-CAN sample. Her paper on this work can be found here. She is currently working on her PhD in a shared project between Birkbeck and the University of Amsterdam, working on educational games using psychometric techniques, eye tracking and adaptive learning.</p>
+<p><strong>References</strong></p>
+<p><a href="https://jasp-stats.org/">JASP Materials</a></p>
+<p><a href="https://jasp-stats.org/jasp-materials/#manuals">JASP Materials</a></p>
+<p><a href="https://forrt.org/">Framework for Open and Reproducible Research Training (FORRT)</a></p>
+<p><a href="https://cyrussamii.com/?p=2522">Cyrussamii</a></p>
+<p><a href="https://www.coursera.org/learn/statistical-inferences">Coursera - Statistical Inferences</a></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<section class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>Sorry, Bayesians, this might not be for you<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>Code for reproducibility check (<a href="https://www.google.co.uk/search?q=p+value+memes" class="uri">https://www.google.co.uk/search?q=p+value+memes</a>). You’re welcome, Open Science.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p>Cue thunder clap and ominous music<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" role="doc-endnote"><p>Almost a literal quote from more than one student<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5" role="doc-endnote"><p>Or Questionable Reporting Practices, depending on your personal preference<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6" role="doc-endnote"><p>For other amusing examples from the published literature, see <a href="https://mchankins.wordpress.com/2013/04/21/still-not-significant-2/" class="uri">https://mchankins.wordpress.com/2013/04/21/still-not-significant-2/</a><a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7" role="doc-endnote"><p>See, Bayesians, I hadn’t forgotten about you<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8" role="doc-endnote"><p>Cue the second thunder clap<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

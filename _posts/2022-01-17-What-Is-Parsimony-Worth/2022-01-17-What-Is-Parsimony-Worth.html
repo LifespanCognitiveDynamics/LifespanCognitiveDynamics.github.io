@@ -88,376 +88,36 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Lifespan Cognitive Dynamics Lab: People</title>
+  <title>What is parsimony worth?</title>
 
 
 
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2022-01-17"/>
+  <meta property="article:created" itemprop="dateCreated" content="2022-01-17"/>
+  <meta name="article:author" content="Michael Aristodemou"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Lifespan Cognitive Dynamics Lab: People"/>
+  <meta property="og:title" content="What is parsimony worth?"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Lifespan Cognitive Dynamics Lab"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Lifespan Cognitive Dynamics Lab: People"/>
+  <meta property="twitter:title" content="What is parsimony worth?"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","output"]}},"value":[{"type":"character","attributes":{},"value":["People"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["theme"]}},"value":[{"type":"character","attributes":{},"value":["theme.css"]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","draft"]}},"value":[{"type":"character","attributes":{},"value":["What is parsimony worth?"]},{"type":"NULL"},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Michael Aristodemou"]}]}]},{"type":"character","attributes":{},"value":["01-17-2022"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"logical","attributes":{},"value":[false]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
-  <!--radix_placeholder_navigation_in_header-->
-  <meta name="distill:offset" content=""/>
-
-  <script type="application/javascript">
-
-    window.headroom_prevent_pin = false;
-
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-
-      // initialize headroom for banner
-      var header = $('header').get(0);
-      var headerHeight = header.offsetHeight;
-      var headroom = new Headroom(header, {
-        tolerance: 5,
-        onPin : function() {
-          if (window.headroom_prevent_pin) {
-            window.headroom_prevent_pin = false;
-            headroom.unpin();
-          }
-        }
-      });
-      headroom.init();
-      if(window.location.hash)
-        headroom.unpin();
-      $(header).addClass('headroom--transition');
-
-      // offset scroll location for banner on hash change
-      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
-      window.addEventListener("hashchange", function(event) {
-        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
-      });
-
-      // responsive menu
-      $('.distill-site-header').each(function(i, val) {
-        var topnav = $(this);
-        var toggle = topnav.find('.nav-toggle');
-        toggle.on('click', function() {
-          topnav.toggleClass('responsive');
-        });
-      });
-
-      // nav dropdowns
-      $('.nav-dropbtn').click(function(e) {
-        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
-        $(this).parent().siblings('.nav-dropdown')
-           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $("body").click(function(e){
-        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $(".nav-dropdown").click(function(e){
-        e.stopPropagation();
-      });
-    });
+  
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["Overfitting_Michael.jpg","Overfitting_models_Michael.jpg"]}
   </script>
-
-  <style type="text/css">
-
-  /* Theme (user-documented overrideables for nav appearance) */
-
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #0F2E3D;
-    font-size: 15px;
-    font-weight: 300;
-  }
-
-  .distill-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .distill-site-nav a:hover {
-    color: white;
-  }
-
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-
-  .distill-site-header {
-
-  }
-
-  .distill-site-footer {
-
-  }
-
-
-  /* Site Header */
-
-  .distill-site-header {
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 3;
-  }
-
-  .distill-site-header .nav-left {
-    display: inline-block;
-    margin-left: 8px;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header .nav-left {
-      margin-left: 0;
-    }
-  }
-
-
-  .distill-site-header .nav-right {
-    float: right;
-    margin-right: 8px;
-  }
-
-  .distill-site-header a,
-  .distill-site-header .title {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 10px 14px 10px;
-  }
-
-  .distill-site-header .title {
-    font-size: 18px;
-    min-width: 150px;
-  }
-
-  .distill-site-header .logo {
-    padding: 0;
-  }
-
-  .distill-site-header .logo img {
-    display: none;
-    max-height: 20px;
-    width: auto;
-    margin-bottom: -4px;
-  }
-
-  .distill-site-header .nav-image img {
-    max-height: 18px;
-    width: auto;
-    display: inline-block;
-    margin-bottom: -3px;
-  }
-
-
-
-  @media screen and (min-width: 1000px) {
-    .distill-site-header .logo img {
-      display: inline-block;
-    }
-    .distill-site-header .nav-left {
-      margin-left: 20px;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 20px;
-    }
-    .distill-site-header .title {
-      padding-left: 12px;
-    }
-  }
-
-
-  .distill-site-header .nav-toggle {
-    display: none;
-  }
-
-  .nav-dropdown {
-    display: inline-block;
-    position: relative;
-  }
-
-  .nav-dropdown .nav-dropbtn {
-    border: none;
-    outline: none;
-    color: rgba(255, 255, 255, 0.8);
-    padding: 16px 10px;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    margin: 0;
-    margin-top: 1px;
-    z-index: 2;
-  }
-
-  .nav-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 200px;
-    border: 1px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    z-index: 1;
-    margin-top: 2px;
-    white-space: nowrap;
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
-
-  .nav-dropdown-content hr {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-
-  .nav-dropdown-active {
-    display: block;
-  }
-
-  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
-    color: black;
-    padding: 6px 24px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-
-  .nav-dropdown-content .nav-dropdown-header {
-    display: block;
-    padding: 5px 24px;
-    padding-bottom: 0;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #999999;
-    white-space: nowrap;
-  }
-
-  .nav-dropdown:hover .nav-dropbtn {
-    color: white;
-  }
-
-  .nav-dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  .nav-right .nav-dropdown-content {
-    margin-left: -45%;
-    right: 0;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
-    .distill-site-header a.nav-toggle {
-      float: right;
-      display: block;
-    }
-    .distill-site-header .title {
-      margin-left: 0;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 0;
-    }
-    .distill-site-header {
-      overflow: hidden;
-    }
-    .nav-right .nav-dropdown-content {
-      margin-left: 0;
-    }
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header.responsive {position: relative; min-height: 500px; }
-    .distill-site-header.responsive a.nav-toggle {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .distill-site-header.responsive a,
-    .distill-site-header.responsive .nav-dropdown {
-      display: block;
-      text-align: left;
-    }
-    .distill-site-header.responsive .nav-left,
-    .distill-site-header.responsive .nav-right {
-      width: 100%;
-    }
-    .distill-site-header.responsive .nav-dropdown {float: none;}
-    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
-    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-  }
-
-  /* Site Footer */
-
-  .distill-site-footer {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    z-index: 3;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-  }
-
-  /* Headroom */
-
-  d-title {
-    padding-top: 6rem;
-  }
-
-  @media print {
-    d-title {
-      padding-top: 4rem;
-    }
-  }
-
-  .headroom {
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
-  .headroom--transition {
-    transition: all .4s ease-in-out;
-  }
-
-  .headroom--unpinned {
-    top: -100px;
-  }
-
-  .headroom--pinned {
-    top: 0;
-  }
-
-  /* adjust viewport for navbar height */
-  /* helps vertically center bootstrap (non-distill) content */
-  .min-vh-100 {
-    min-height: calc(100vh - 100px) !important;
-  }
-
-  </style>
-
-  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
-  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+  <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
 
@@ -1811,329 +1471,17 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </script>
 
-  <style type="text/css">
-  /* base variables */
-
-  /* Edit the CSS properties in this file to create a custom
-     Distill theme. Only edit values in the right column
-     for each row; values shown are the CSS defaults.
-     To return any property to the default,
-     you may set its value to: unset
-     All rows must end with a semi-colon.                      */
-
-  /* Optional: embed custom fonts here with `@import`          */
-  /* This must remain at the top of this file.                 */
-
-
-
-  html {
-    /*-- Main font sizes --*/
-    --title-size:      50px;
-    --body-size:       1.06rem;
-    --code-size:       14px;
-    --aside-size:      12px;
-    --fig-cap-size:    13px;
-    /*-- Main font colors --*/
-    --title-color:     #000000;
-    --header-color:    rgba(0, 0, 0, 0.8);
-    --body-color:      rgba(0, 0, 0, 0.8);
-    --aside-color:     rgba(0, 0, 0, 0.6);
-    --fig-cap-color:   rgba(0, 0, 0, 0.6);
-    /*-- Specify custom fonts ~~~ must be imported above   --*/
-    --heading-font:    sans-serif;
-    --mono-font:       monospace;
-    --body-font:       sans-serif;
-    --navbar-font:     sans-serif;  /* websites + blogs only */
-  }
-
-  /*-- ARTICLE METADATA --*/
-  d-byline {
-    --heading-size:    0.6rem;
-    --heading-color:   rgba(0, 0, 0, 0.5);
-    --body-size:       0.8rem;
-    --body-color:      rgba(0, 0, 0, 0.8);
-  }
-
-  /*-- ARTICLE TABLE OF CONTENTS --*/
-  .d-contents {
-    --heading-size:    18px;
-    --contents-size:   13px;
-  }
-
-  /*-- ARTICLE APPENDIX --*/
-  d-appendix {
-    --heading-size:    15px;
-    --heading-color:   rgba(0, 0, 0, 0.65);
-    --text-size:       0.8em;
-    --text-color:      rgba(0, 0, 0, 0.5);
-  }
-
-  /*-- WEBSITE HEADER + FOOTER --*/
-  /* These properties only apply to Distill sites and blogs  */
-
-  .distill-site-header {
-    --title-size:       18px;
-    --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
-    --hover-color:      white;
-    --bkgd-color:       #0F2E3D;
-  }
-
-  .distill-site-footer {
-    --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
-    --hover-color:      white;
-    --bkgd-color:       #0F2E3D;
-  }
-
-  /*-- Additional custom styles --*/
-  /* Add any additional CSS rules below                      */
-  </style>
-  <style type="text/css">
-  /* base variables */
-
-  /* Edit the CSS properties in this file to create a custom
-     Distill theme. Only edit values in the right column
-     for each row; values shown are the CSS defaults.
-     To return any property to the default,
-     you may set its value to: unset
-     All rows must end with a semi-colon.                      */
-
-  /* Optional: embed custom fonts here with `@import`          */
-  /* This must remain at the top of this file.                 */
-
-  /*-- Additional custom styles --*/
-  /* Add any additional CSS rules below                      */
-  @import url('https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css');
-
-
-  html {
-    /*-- Main font sizes --*/
-    --title-size:      50px;
-    --body-size:       1.06rem;
-    --code-size:       14px;
-    --aside-size:      12px;
-    --fig-cap-size:    13px;
-    /*-- Main font colors --*/
-    --title-color:     #000000;
-    --header-color:    rgba(0, 0, 0, 0.8);
-    --body-color:      rgba(0, 0, 0, 0.8);
-    --aside-color:     rgba(0, 0, 0, 0.6);
-    --fig-cap-color:   rgba(0, 0, 0, 0.6);
-    /*-- Specify custom fonts ~~~ must be imported above   --*/
-    --heading-font:    sans-serif;
-    --mono-font:       monospace;
-    --body-font:       sans-serif;
-    --navbar-font:     sans-serif;  /* websites + blogs only */
-  }
-
-  /*-- ARTICLE METADATA --*/
-  d-byline {
-    --heading-size:    0.6rem;
-    --heading-color:   rgba(0, 0, 0, 0.5);
-    --body-size:       0.8rem;
-    --body-color:      rgba(0, 0, 0, 0.8);
-  }
-
-  /*-- ARTICLE TABLE OF CONTENTS --*/
-  .d-contents {
-    --heading-size:    18px;
-    --contents-size:   13px;
-  }
-
-  /*-- ARTICLE APPENDIX --*/
-  d-appendix {
-    --heading-size:    15px;
-    --heading-color:   rgba(0, 0, 0, 0.65);
-    --text-size:       0.8em;
-    --text-color:      rgba(0, 0, 0, 0.5);
-  }
-
-  /*-- WEBSITE HEADER + FOOTER --*/
-  /* These properties only apply to Distill sites and blogs  */
-
-  .distill-site-header {
-    --title-size:       18px;
-    --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
-    --hover-color:      white;
-    --bkgd-color:       #0F2E3D;
-  }
-
-  .distill-site-footer {
-    --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
-    --hover-color:      white;
-    --bkgd-color:       #0F2E3D;
-  }
-
-  /*-- Additional custom styles --*/
-  /* Add any additional CSS rules below                      */
-  </style>
-  <style type="text/css">
-  /* base style */
-
-  /* FONT FAMILIES */
-
-  :root {
-    --heading-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-    --mono-default: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-    --body-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-  }
-
-  body,
-  .posts-list .post-preview p,
-  .posts-list .description p {
-    font-family: var(--body-font), var(--body-default);
-  }
-
-  h1, h2, h3, h4, h5, h6,
-  .posts-list .post-preview h2,
-  .posts-list .description h2 {
-    font-family: var(--heading-font), var(--heading-default);
-  }
-
-  d-article div.sourceCode code,
-  d-article pre code {
-    font-family: var(--mono-font), var(--mono-default);
-  }
-
-
-  /*-- TITLE --*/
-  d-title h1,
-  .posts-list > h1 {
-    color: var(--title-color, black);
-  }
-
-  d-title h1 {
-    font-size: var(--title-size, 50px);
-  }
-
-  /*-- HEADERS --*/
-  d-article h1,
-  d-article h2,
-  d-article h3,
-  d-article h4,
-  d-article h5,
-  d-article h6 {
-    color: var(--header-color, rgba(0, 0, 0, 0.8));
-  }
-
-  /*-- BODY --*/
-  d-article > p,  /* only text inside of <p> tags */
-  d-article > ul, /* lists */
-  d-article > ol {
-    color: var(--body-color, rgba(0, 0, 0, 0.8));
-    font-size: var(--body-size, 1.06rem);
-  }
-
-
-  /*-- CODE --*/
-  d-article div.sourceCode code,
-  d-article pre code {
-    font-size: var(--code-size, 14px);
-  }
-
-  /*-- ASIDE --*/
-  d-article aside {
-    font-size: var(--aside-size, 12px);
-    color: var(--aside-color, rgba(0, 0, 0, 0.6));
-  }
-
-  /*-- FIGURE CAPTIONS --*/
-  figure .caption,
-  figure figcaption,
-  .figure .caption {
-    font-size: var(--fig-cap-size, 13px);
-    color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
-  }
-
-  /*-- METADATA --*/
-  d-byline h3 {
-    font-size: var(--heading-size, 0.6rem);
-    color: var(--heading-color, rgba(0, 0, 0, 0.5));
-  }
-
-  d-byline {
-    font-size: var(--body-size, 0.8rem);
-    color: var(--body-color, rgba(0, 0, 0, 0.8));
-  }
-
-  d-byline a,
-  d-article d-byline a {
-    color: var(--body-color, rgba(0, 0, 0, 0.8));
-  }
-
-  /*-- TABLE OF CONTENTS --*/
-  .d-contents nav h3 {
-    font-size: var(--heading-size, 18px);
-  }
-
-  .d-contents nav a {
-    font-size: var(--contents-size, 13px);
-  }
-
-  /*-- APPENDIX --*/
-  d-appendix h3 {
-    font-size: var(--heading-size, 15px);
-    color: var(--heading-color, rgba(0, 0, 0, 0.65));
-  }
-
-  d-appendix {
-    font-size: var(--text-size, 0.8em);
-    color: var(--text-color, rgba(0, 0, 0, 0.5));
-  }
-
-  d-appendix d-footnote-list a.footnote-backlink {
-    color: var(--text-color, rgba(0, 0, 0, 0.5));
-  }
-
-  /*-- WEBSITE HEADER + FOOTER --*/
-  .distill-site-header .title {
-    font-size: var(--title-size, 18px);
-    font-family: var(--navbar-font), var(--heading-default);
-  }
-
-  .distill-site-header a,
-  .nav-dropdown .nav-dropbtn {
-    font-family: var(--navbar-font), var(--heading-default);
-  }
-
-  .nav-dropdown .nav-dropbtn {
-    color: var(--text-color, rgba(255, 255, 255, 0.8));
-    font-size: var(--text-size, 15px);
-  }
-
-  .distill-site-header a:hover,
-  .nav-dropdown:hover .nav-dropbtn {
-    color: var(--hover-color, white);
-  }
-
-  .distill-site-header {
-    font-size: var(--text-size, 15px);
-    color: var(--text-color, rgba(255, 255, 255, 0.8));
-    background-color: var(--bkgd-color, #0F2E3D);
-  }
-
-  .distill-site-footer {
-    font-size: var(--text-size, 15px);
-    color: var(--text-color, rgba(255, 255, 255, 0.8));
-    background-color: var(--bkgd-color, #0F2E3D);
-  }
-
-  .distill-site-footer a:hover {
-    color: var(--hover-color, white);
-  }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
-  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
-  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
-  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
-  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
-  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
-  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
-  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <script src="2022-01-17-What-Is-Parsimony-Worth_files/header-attrs-2.20/header-attrs.js"></script>
+  <script src="2022-01-17-What-Is-Parsimony-Worth_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <script src="2022-01-17-What-Is-Parsimony-Worth_files/popper-2.6.0/popper.min.js"></script>
+  <link href="2022-01-17-What-Is-Parsimony-Worth_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="2022-01-17-What-Is-Parsimony-Worth_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="2022-01-17-What-Is-Parsimony-Worth_files/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="2022-01-17-What-Is-Parsimony-Worth_files/anchor-4.2.2/anchor.min.js"></script>
+  <script src="2022-01-17-What-Is-Parsimony-Worth_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="2022-01-17-What-Is-Parsimony-Worth_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="2022-01-17-What-Is-Parsimony-Worth_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <!--/radix_placeholder_site_in_header-->
 
@@ -2145,176 +1493,62 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"People","authors":[]}
+{"title":"What is parsimony worth?","authors":[{"author":"Michael Aristodemou","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2022-01-17T00:00:00.000+01:00","citationText":"Aristodemou, 2022"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
 <!--radix_placeholder_navigation_before_body-->
-<header class="header header--fixed" role="banner">
-<nav class="distill-site-nav distill-site-header">
-<div class="nav-left">
-<a href="index.html" class="title">Lifespan Cognitive Dynamics Lab</a>
-</div>
-<div class="nav-right">
-<a href="index.html">Home</a>
-<a href="research.html">Research</a>
-<a href="people.html">People</a>
-<a href="publications.html">Publications</a>
-<a href="posts.html">Blogs and News</a>
-<a href="https://github.com/LifespanCognitiveDynamics">
-<i class="fab fa-github" aria-hidden="true"></i>
-</a>
-<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
-</div>
-</nav>
-</header>
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>People</h1>
+<h1>What is parsimony worth?</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 
 </div>
 
+<div class="d-byline">
+  Michael Aristodemou  
+  
+<br/>01-17-2022
+</div>
 
 <div class="d-article">
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/rogierkievit_C.png" width="40%" style="display: block; margin: auto;" /></p>
+<div class="layout-chunk" data-layout="l-body-ouset">
+<p><img src="Overfitting_Michael.jpg" width="600" /></p>
 </div>
-<h2 id="rogier-kievit">ROGIER KIEVIT</h2>
-<p>Principal Investigator</p>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/rogierK"><span class="citation" data-cites="rogierK">@rogierK</span></a>
-<i class="fas fa-envelope"></i><a href="rogier.kievit@radboudumc.nl">rogier.kievit@radboudumc.nl</a>
-<i class="ai ai-google-scholar"></i><a href="https://scholar.google.com/citations?user=kplx7AUAAAAJ&amp;hl=en">google scholar</a>
-<i class="ai ai-orcid"></i><a href="https://orcid.org/0000-0003-0700-4568">ORCID</a></p>
-<p>Rogier Kievit is Professor of Developmental Neuroscience at the Donders Institute in Nijmegen and Senior Associate Scientist at the Cognition and Brain Sciences Unit, University of Cambridge. He studies the rise and fall of cognitive functions across the lifespan by relating brain function, brain structure and cognition in developing populations using multivariate modeling techniques. Specifically, I use a variety of structural equation models to capture the changing relationship between mind and brain across the lifespan. CV</p>
-<hr />
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/SP_Profile_C.png" width="40%" style="display: block; margin: auto;" /></p>
+<p>In the early 14th century, an English philosopher known as William of Ockham spoke thus: <em>“pluralitas non est ponenda sine necessitate.”</em> Centuries later the credo entities should not be multiplied without necessity has grown to be a universal principle, known as the principle of parsimony, which systematically biases decision making across the vast and varied scientific landscape. My introduction to this principle came during a statistics class when a senior student advised me that if I mention parsimony the department statisticians will do a little dance and award me an entire point on my assignment! Considering my main objective in life was to inflate my GPA, parsimony held a clear value. I’ve since graduated and parsimony has lost its point awarding abilities. Disappointingly, it also seems to have little effect on my supervisor’s dance tendencies. So, if parsimony cannot promote my personal goals, what is parsimony worth?</p>
+<p><strong>Parsimony in knowledge discovery</strong></p>
+<p>The definition of parsimony is by itself non-contentious to anyone who isn’t an avid supporter of redundancy. It also isn’t useful given that its value is context dependent. My interest lies in the domain of knowledge discovery and therefore this is the context in which parsimony will be evaluated. Let’s break down the definition and embed it into context: <em>entities should not be multiplied without necessity</em>. Our ultimate goal is to justify the should not part, that is to identify the utility of simplicity. To do this we first need to define the necessity. For without a target, we cannot judge when the “<em>multiplication of entities</em>” has to cease. Say we want to explain why people with sleep problems also experience fatigue and irritability. After we search for possible explanations, we want to select one—the best one ideally. So we need to compare our explanations, which means we need to transform them into something we can compare in terms of both accuracy and simplicity. One way to do this, is to express our theories as models and use some quantitative metric that reflects the extent to which they fit with our observations (e.g. the bayesian information criterion). We can call this <em>model fit</em>. Drawing from our example we can manufacture two quick-and-dirty theories: a) reciprocal causal associations between all three symptoms explain their co-occurrence; or, more “simply” b) a fourth variable (e.g., depression) causes all of them, which is why they co-occur. These explanations result in two models with different numbers of parameters. We can use the number of parameters needed to formalize an explanation to approximate its simplicity. Thus, we redefine our entities as the number of parameters needed to specify a given explanation. In the case that our models have the same fit, parsimony would dictate that we choose the simpler of the two—the more parsimonious model. Indeed, many metrics of model fit have an inbuilt penalty for the number of parameters a model has, making model fit the product of a trade-off between complexity and fit to the data<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. The principle of parsimony can now be rephrased as: <em>the number of parameters should not be multiplied further than is necessary to improve model fit</em>. This brings us to the crux of the matter—why is this a good idea?</p>
+<div class="layout-chunk" data-layout="l-body-ouset">
+<p><img src="Overfitting_models_Michael.jpg" width="470" /></p>
 </div>
-<h2 id="sam-parsons">SAM PARSONS</h2>
-<p>Postdoctoral Researcher</p>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/Sam_D_Parsons"><span class="citation" data-cites="Sam_D_Parsons">@Sam_D_Parsons</span></a>
-<i class="fas fa-envelope"></i><a href="sam.parsons@radboudumc.nl">sam.parsons@radboudumc.nl</a>
-<i class="ai ai-google-scholar"></i><a href="https://scholar.google.com/citations?user=kE37Xy4AAAAJ&amp;hl=en">google scholar</a>
-<i class="ai ai-orcid"></i><a href="https://orcid.org/0000-0002-7048-4093">ORCID</a></p>
-<p>I am interested in examining the measurement properties of longitudinal brain imaging data. I am using and extending intra-class effect decomposition (ICED) models to assess multiple sources of error. Leveraging this information should inform our understanding of which indices are reliable, where in the brain, and how to incorporate these sources of error into our models and understanding. I am committed to supporting other researchers in their own explorations of reliability by disseminating tutorials of these methodologies. I’m also invested in open scholarship and co-founded both the ReproducibiliTea Journal Club initiative and a Framework for Open and Reproducible Research Training (FORRT).</p>
-<hr />
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/Ilse_Coolen_C.png" width="40%" style="display: block; margin: auto;" /></p>
-</div>
-<h2 id="ilse-coolen">Ilse Coolen</h2>
-<p>Postdoctoral Researcher</p>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/CoolenIlse"><span class="citation" data-cites="CoolenIlse">@CoolenIlse</span></a>
-<i class="fas fa-envelope"></i><a href="ilse.coolen@radboudumc.nl">ilse.coolen@radboudumc.nl</a>
-<i class="ai ai-google-scholar"></i><a href="https://scholar.google.com/citations?hl=en&amp;user=e0K_sngAAAAJ">google scholar</a>
-<i class="ai ai-orcid"></i><a href="https://orcid.org/0000-0003-2254-7851">ORCID</a></p>
-<p>I am interested in the development of cognitive skills and how they relate to academic achievement. My main research is focused on the contributions of cognitive skills during the development of mathematics in preschoolers and early primary school children. I have mainly used observational, longitudinal research designs to follow the child’s development and have recently added MRI components to my research to link behavioural and neuroimaging data. I have also been invested as part of the trainee board of the Mathematical Cognition and Learning Society. Outside of work you can usually find me surrounded by cats, either my own or any other cat.</p>
-<hr />
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/Jessica_Schaaf_C.png" width="40%" style="display: block; margin: auto;" /></p>
-</div>
-<h2 id="jessica-schaaf">JESSICA SCHAAF</h2>
-<p>Postdoctoral researcher</p>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/JessicaVSchaaf"><span class="citation" data-cites="JessicaVSchaaf">@JessicaVSchaaf</span></a>
-<i class="fas fa-envelope"></i><a href="jessica.schaaf@radboudumc.nl">jessica.schaaf@radboudumc.nl</a>
-<i class="ai ai-google-scholar"></i><a href="https://scholar.google.com/citations?user=Yse3MpEAAAAJ&amp;hl=nl">google scholar</a>
-<i class="ai ai-orcid"></i><a href="https://orcid.org/0000-0002-4856-9592">ORCID</a></p>
-<p>I’m interested in how cognitive abilities develop across age and specifically in how we can use computational models to understand this development. I see it as a scientist’s duty to expand our common knowledge about the world and its inhabitants. As such, I like to challenge myself in communicating scientific findings to society in an understandable way. When I’m out of office, you can find me at the tennis court or at home cuddling with the sweetest cat in the world.</p>
-<hr />
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/nickjudd_C.png" width="40%" style="display: block; margin: auto;" /></p>
-</div>
-<h2 id="nicholas-judd">NICHOLAS JUDD</h2>
-<p>Postdoctoral researcher/data scientist</p>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/nickkjudd"><span class="citation" data-cites="nickkjudd">@nickkjudd</span></a>
-<i class="fas fa-envelope"></i><a href="nicholas.judd@radboudumc.nl">nicholas.judd@radboudumc.nl</a>
-<i class="ai ai-google-scholar"></i><a href="https://scholar.google.com/citations?user=Hx6n8aEAAAAJ&amp;hl=en">google scholar</a>
-<i class="ai ai-orcid"></i><a href="https://orcid.org/0000-0002-0196-9871">ORCID</a></p>
-<p>I’m interested in how complex cognition arises. Specifically, how we solve problems, adapt, and respond to ever-changing demands. This has led me to focus on the domains of fluid reasoning and working memory. Recently, my research has examined how genetics and socioeconomics affect the development of these skills. I use a variety of methods depending on the question at hand, this ranges from observational datasets, RCTs, and causal inference techniques. Here I will be looking to see if it is possible to unravel the influences of global and local structural MR metrics on cognition. In my free time, I love to surf, rock climb, and travel (when possible)!</p>
-<hr />
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/mearistodemou_C.png" width="40%" style="display: block; margin: auto;" /></p>
-</div>
-<h2 id="michael-aristodemou">MICHAEL ARISTODEMOU</h2>
-<p>PhD student</p>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/mearistodemou"><span class="citation" data-cites="mearistodemou">@mearistodemou</span></a>
-<i class="fas fa-envelope"></i><a href="michael.aristodemou@radboudumc.nl">michael.aristodemou@radboudumc.nl</a>
-<i class="ai ai-google-scholar"></i><a href="https://scholar.google.com/citations?user=AXBd2n4AAAAJ&amp;hl=en">google scholar</a>
-<i class="ai ai-orcid"></i><a href="https://orcid.org/0000-0003-0420-2702">ORCID</a></p>
-<p>I want to understand how and why people’s cognitive abilities fluctuate and change over time. To this end, I aim to exploit technological advances that allow us to observe cognitive development as it unfolds in conjunction with different modeling approaches. Ultimately, I strive to use knowledge about the mechanisms underlying cognitive development to benefit the evolution of educational and cognitive interventions.</p>
-<hr />
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/leamichel_C.png" width="40%" style="display: block; margin: auto;" /></p>
-</div>
-<h2 id="léa-michel">LÉA MICHEL</h2>
-<p>PhD student</p>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/LeaCMichel"><span class="citation" data-cites="LeaCMichel">@LeaCMichel</span></a>
-<i class="fas fa-envelope"></i><a href="lea.michel@radboudumc.nl">lea.michel@radboudumc.nl</a>
-<i class="ai ai-google-scholar"></i><a href="">google scholar</a>
-<i class="ai ai-orcid"></i><a href="https://orcid.org/0000-0003-1529-573X">ORCID</a></p>
-<p>I am interested in the impact of genetics and the environment on children’s development. In particular, during this PhD, I will study how brain maturation (looking at white matter microstructure and grey matter morphology) underlies the development of cognitive ability in childhood. Before this PhD, I completed my master’s degree in cognitive science in Paris with a major in neuroscience. I also had the opportunity to do a gap year during my master training, visiting several labs abroad to train in neuroimaging analyses. In my spare time, I am the vice president of the French association Fédération Fresco and I am especially engaged in our project to create seven cognitive science forums in France in order to popularize cognitive science.</p>
-<h1 id="lab-alumni">Lab Alumni</h1>
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/ethanmccormick_C.png" width="40%" style="display: block; margin: auto;" /></p>
-</div>
-<h2 id="ethan-mccormick">ETHAN McCORMICK</h2>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/E_M_McCormick"><span class="citation" data-cites="E_M_McCormick">@E_M_McCormick</span></a></p>
-<p>I am in interested in the measurement and modeling of data over time using advanced intensive and long-term longitudinal designs. In particular, my current work seeks to link short-term changes due to learning/reactivity with long-term changes due to retest and development to understand how behavior and cognition unfold across multiple timescales. Additionally, I have a strong commitment to the dissemination of quantitative methods, especially in the behavioral and cognitive neurosciences. Outside of the lab, I enjoy running, wrangling Waldorf and Statler (link to <a href="https://quantitudepod.org/" class="uri">https://quantitudepod.org/</a>), and dreaming of traveling again sometime this decade.</p>
-<hr />
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/sophiaborgeest_C.png" width="40%" style="display: block; margin: auto;" /></p>
-</div>
-<h2 id="sophia-borgeest">SOPHIA BORGEEST</h2>
-<p>PhD student</p>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/gsborgeest"><span class="citation" data-cites="gsborgeest">@gsborgeest</span></a></p>
-<p>I am interested in healthy aging, and especially in why some people seem to age much better (or more successfully) than others. In my first project, I used psychometric techniques in a large-sample, multimodal dataset to further understand the associations between leading an active lifestyle and cognitive health. Currently, I am exploring how we can better measure brain structure throughout the lifespan. Here, I am looking at detailed structural MR imaging metrics that might allow for a biologically more accurate picture of the human brain, hopefully allowing us to better describe and quantify healthy neural aging. I like engaging the public and writing for popular audiences. I wish there were more women in leadership and that Cambridge were closer to the mountains.</p>
-<hr />
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/amyorben_C.png" width="40%" style="display: block; margin: auto;" /></p>
-</div>
-<h2 id="amy-orben">Amy Orben</h2>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/OrbenAmy"><span class="citation" data-cites="OrbenAmy">@OrbenAmy</span></a></p>
-<p>Amy studies how the use of social media and digital technology influences adolescent mental health. Her current work uses statistical modeling methods and large-scale data to address questions debated in policy, parenting and mental health. Amy currently leads the Digital Mental Health Group at the University of Cambridge. You can read more about Amy’s work here.</p>
-<hr />
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/ivansimpson_C.png" width="40%" style="display: block; margin: auto;" /></p>
-</div>
-<h2 id="ivan-simpson-kent">Ivan Simpson-Kent</h2>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/IvanSimpsonKent"><span class="citation" data-cites="IvanSimpsonKent">@IvanSimpsonKent</span></a></p>
-<p>Ivan Simpson-Kent completed his PhD at the LCD lab. His dissertation examined how brain and behavior interact with each other during development to produce intelligence, particularly in childhood and adolescence. Ivan is currently a postdoc at the University of Pennsylvania studying how the environment influences cognition and brain development. You can follow Ivan here.</p>
-<hr />
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/deliafuhrmann_C.png" width="40%" style="display: block; margin: auto;" /></p>
-</div>
-<h2 id="delia-fuhrmann">Delia Fuhrmann</h2>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/DeliaFuhrmann"><span class="citation" data-cites="DeliaFuhrmann">@DeliaFuhrmann</span></a></p>
-<p>Delia works on lifespan development and plasticity. Her current research focus is executive functions, such as reasoning and working memory, and their neural substrates using mostly large, publicly available data-sets and multivariate statistical tools like Structural Equation Modelling. Delia is presently a lecturer at King’s College London. You can read more about Delia’s work here.</p>
-<hr />
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/erikvankesteren_C.png" width="40%" style="display: block; margin: auto;" /></p>
-</div>
-<h2 id="eric-jan-van-kesteren">Eric-Jan Van Kesteren</h2>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/ejvankesteren"><span class="citation" data-cites="ejvankesteren">@ejvankesteren</span></a></p>
-<p>Erik-Jan visited the lab in 2019 to improve exploratory factor analysis for structural brain imaging data. Specifically, he developed and tested methods for taking into account brain symmetry when extracting factors, as asymmetry in the brain may be of interest in development. He is currently assistant professor at Utrecht University. You can read more about him here.</p>
-<hr />
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/mariadeserno_C.png" width="40%" style="display: block; margin: auto;" /></p>
-</div>
-<h2 id="marie-deserno">Marie Deserno</h2>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/MarieDeserno"><span class="citation" data-cites="MarieDeserno">@MarieDeserno</span></a></p>
-<p>Marie Deserno visited the lab in 2018 to work on longitudinal developmental dynamics in children at risk for autism. She used latent growth curve models to study the interplay between motor and language development in early childhood. She is currently a Rubicon Fellow at the Max Planck Centre for Human Development in Berlin. You can read about her current work here.</p>
-<hr />
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/susannedemooij_C.png" width="40%" style="display: block; margin: auto;" /></p>
-</div>
-<h2 id="susanne-de-mooij">Susanne de Mooij</h2>
-<p><i class="fab fa-twitter"></i><a href="https://twitter.com/SusanneMooij"><span class="citation" data-cites="SusanneMooij">@SusanneMooij</span></a></p>
-<p>Susanne de Mooij visited the lab in 2016 to work in psychometric approaches to aging. She implemented CFA SEM trees to study neural and cognitive age differentiation in the Cam-CAN sample. Her paper on this work can be found here. She is currently working on her PhD in a shared project between Birkbeck and the University of Amsterdam, working on educational games using psychometric techniques, eye tracking and adaptive learning.</p>
+<p><em>Figure 1. Schematic of two example models one complex (Model A) and one simple (Model B)</em></p>
+<p><strong>Parsimony as bias</strong></p>
+<p>Ideally, we want a model that fits both to our current observations but also fits well to independent samples. Otherwise, we run the risk of a model that fits tightly to random fluctuations in our data outperforming a model that better approximates the process of interest. This is commonly known as overfitting and is problematic since most real-world data reflects both the process of interest and sample-specific noise. To mitigate overfitting one can look at the generalization error, which indicates how well a model performs in a previously unseen sample. The rationale being that if a model performs well on a given dataset because it fits well to the sample-specific noise, then it should do poorly when fitted to another sample. While a model that fits well to the process of interest should fit well to all samples that appropriately measure that process. A common justification for choosing the most parsimonious model is that it will <em>always</em> minimize generalization error. Which brings us to a popular definition of parsimony: <em>the simpler of two models with equal fit on a given dataset, will fit better on unseen datasets</em>. This statement when taken literally is false. The falsity of this statement follows from David Wolpert’s “no free lunch” theorem<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. What the “no free lunch” theorem shows is that for any pair of models there are as many domains where the simpler model is preferable as there are domains where the more complex model is preferable. This essentially invalidates the universality of simplicity as a guiding tool for model selection—in fact for any two models A and B there are as many domains where model A has lower generalization error as there are domains where this is true for model B. The more interesting question, however, isn’t whether parsimony guarantees lower generalization error. What is practically interesting is whether the use of parsimony will lead to lower generalization error in most (or all) applied situations. Domingos follows this precise question in an extensive review of empirical circumstances that contradict this weaker justification for parsimony<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>. Specifically, he shows that within the domain of machine learning simpler models often lead to higher generalization error. Therefore, both empirically and mathematically the claim that parsimony leads to lower generalization error is found wanting.</p>
+<p><strong>Simplicity and comprehensibility</strong></p>
+<p>So what if parsimony doesn’t buy us more accurate predictions? Arguably a worthwhile cost if our main aim is to understand the world and simpler models are easier to comprehend. But what makes a model more comprehensible? In 2006, van der Maas and colleagues, debuted their theoretical alternative to the dominant g-factor model that presented a single entity as the causal driver of intelligence—much like our fictitious model B (Figure 1). The mutualism model, as van der Maas termed it, is much more complex in terms of parameters than the g-factor model and fits just as well to cross-sectional observations. If we use comprehensibility as a tie-breaker we should be safe betting on the more parsimonious model. Not so fast. Simplicity in terms of the effective number of parameters needed to specify the g-factor model does not reflect its comprehensibility. As van der Maas argues, the mutualism model certainly can multiply the number of parameters, but the g-factor model conjures up “a rather mysterious” hidden variable<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>. The same can be said for our toy models. Model B buys its simplicity by manufacturing an entirely new, arguably opaque entity, while model A presents a more complex mechanism that nevertheless is easier to comprehend. In other words, we can better intuit how sleeplessness might make one tired and therefore irritable, while it is harder to parse what this depression variable actually is and how it brings symptoms to be. It seems that parsimony also fails to guarantee superior comprehensibility in some domains.</p>
+<p><strong>Parsimony in model search</strong></p>
+<p>It seems not even parsimony suffices as a fast-and-hard rule that we can generously apply to any domain of science. But there is one domain where parsimony may still be unequivocally welcome. This is the domain of model search. Blumer showed mathematically that the more models we test on our data, the greater the chance that the best fitting model will fit poorly on other samples<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>. This is essentially multiple testing in model search and reflects the fact that testing more models increases the probability that we find a good fitting model purely by chance.</p>
+<p>Domingos presents an accessible overview of the mathematical argumentation in his review. It goes something like this. Let’s say that the generalization error of a hypothesis is greater than <strong>ε</strong>. From this it follows that the probability that our hypothesis is correct on x number of independent samples is smaller than (1 — <strong>ε</strong>)<sup>x</sup>[^ refers to the power of, e.g. 2^2 = 4. Our cutting-edge editor does not have superscript functionality.]. If we consider n number of hypotheses then the probability that at least one of them is correct in all x independent samples is n(1 — <strong>ε</strong>)^x. If we substitute this with real numbers, we can see that the probability of at least one of our hypotheses being correct increases with the number of hypotheses considered. That is 2(1 — 4)^2 is 18, which is smaller than 4(1 — 4)^2 which is 36. In a nutshell<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>, “if we select a sufficiently small set of models prior to looking at the data, and by good fortune one of those models closely agrees with the data, we can be confident that it will also do well on future data.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a>” Hence, multiple testing provides a safe-haven for the historic concept of parsimony, but veers from the traditional interpretation of parsimony as it pertains to the assumptions within an explanation.</p>
+<p><strong>Goodbye parsimony</strong></p>
+<p>Throughout my reading for this blog, I had to bury my naive belief in the powers of parsimony. That’s strike two. Now I will be forced to constrain my models in another way. Through the grind of gaining domain knowledge and thoughtfully integrating it into the a priori specification of my models. This currently seems like the only effective recourse to reduce the number of models tested and improve comprehensibility. Thanks for the points parsimony, you’ve gotten me this far…</p>
+<p><em>Author: Michael Aristodemou</em></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<section class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>This can lead to situations where parsimony leads us to choose the simpler model with worse fit to the data. Meaning parsimony is not just a tie-breaker.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>Wolpert, D. H. (1996). The lack of a priori distinctions between learning algorithms. Neural computation, 8(7), 1341-1390.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p>Wolpert, D. H. (1996). The lack of a priori distinctions between learning algorithms. Neural computation, 8(7), 1341-1390.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" role="doc-endnote"><p>Van Der Maas, H. L., Dolan, C. V., Grasman, R. P., Wicherts, J. M., Huizenga, H. M., &amp; Raijmakers, M. E. (2006). A dynamical model of general intelligence: the positive manifold of intelligence by mutualism. Psychological review, 113(4), 842.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5" role="doc-endnote"><p>Blumer, A., Ehrenfeucht, A., Haussler, D., &amp; Warmuth, M. K. (1987). Occam’s razor. Information Processing Letters, 24, 377(380).<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6" role="doc-endnote"><p>Wolpert, D. H. (1996). The lack of a priori distinctions between learning algorithms. Neural computation, 8(7), 1341-1390.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7" role="doc-endnote"><p>Wolpert, D. H. (1996). The lack of a priori distinctions between learning algorithms. Neural computation, 8(7), 1341-1390.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

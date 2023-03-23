@@ -22,6 +22,8 @@ Principal Investigator
 <i class="fab fa-twitter"></i>[  @rogierK](https://twitter.com/rogierK)
 <i class="fas fa-envelope"></i>[  rogier.kievit@radboudumc.nl](rogier.kievit@radboudumc.nl)
 <i class="ai ai-google-scholar"></i>[  google scholar](https://scholar.google.com/citations?user=kplx7AUAAAAJ&hl=en)
+<i class="ai ai-orcid"></i>[  ORCID](https://orcid.org/0000-0003-0700-4568)
+
 
 
 Rogier Kievit is Professor of Developmental Neuroscience at the Donders Institute in Nijmegen and Senior Associate Scientist at the Cognition and Brain Sciences Unit, University of Cambridge. He studies the rise and fall of cognitive functions across the lifespan by relating brain function, brain structure and cognition in developing populations using multivariate modeling techniques. Specifically, I use a variety of structural equation models to capture the changing relationship between mind and brain across the lifespan. CV
@@ -41,6 +43,8 @@ Postdoctoral Researcher
 <i class="fab fa-twitter"></i>[  @Sam_D_Parsons](https://twitter.com/Sam_D_Parsons)
 <i class="fas fa-envelope"></i>[  sam.parsons@radboudumc.nl](sam.parsons@radboudumc.nl)
 <i class="ai ai-google-scholar"></i>[  google scholar](https://scholar.google.com/citations?user=kE37Xy4AAAAJ&hl=en)
+<i class="ai ai-orcid"></i>[  ORCID](https://orcid.org/0000-0002-7048-4093)
+
 
 I am interested in examining the measurement properties of longitudinal brain imaging data. I am using and extending intra-class effect decomposition (ICED) models to assess multiple sources of error. Leveraging this information should inform our understanding of which indices are reliable, where in the brain, and how to incorporate these sources of error into our models and understanding. I am committed to supporting other researchers in their own explorations of reliability by disseminating tutorials of these methodologies. I’m also invested in open scholarship and co-founded both the ReproducibiliTea Journal Club initiative and a Framework for Open and Reproducible Research Training (FORRT).
 
@@ -58,7 +62,9 @@ Postdoctoral Researcher
 
 <i class="fab fa-twitter"></i>[  @CoolenIlse](https://twitter.com/CoolenIlse)
 <i class="fas fa-envelope"></i>[  ilse.coolen@radboudumc.nl](ilse.coolen@radboudumc.nl)
-<i class="ai ai-google-scholar"></i>[  google scholar]()
+<i class="ai ai-google-scholar"></i>[  google scholar](https://scholar.google.com/citations?hl=en&user=e0K_sngAAAAJ)
+<i class="ai ai-orcid"></i>[  ORCID](https://orcid.org/0000-0003-2254-7851)
+
 
 I am interested in the development of cognitive skills and how they relate to academic achievement. My main research is focused on the contributions of cognitive skills during the development of mathematics in preschoolers and early primary school children. I have mainly used observational, longitudinal research designs to follow the child’s development and have recently added MRI components to my research to link behavioural and neuroimaging data. I have also been invested as part of the trainee board of the Mathematical Cognition and Learning Society. Outside of work you can usually find me surrounded by cats, either my own or any other cat.
 
@@ -78,6 +84,8 @@ Postdoctoral researcher
 <i class="fab fa-twitter"></i>[  @JessicaVSchaaf](https://twitter.com/JessicaVSchaaf)
 <i class="fas fa-envelope"></i>[  jessica.schaaf@radboudumc.nl](jessica.schaaf@radboudumc.nl)
 <i class="ai ai-google-scholar"></i>[  google scholar](https://scholar.google.com/citations?user=Yse3MpEAAAAJ&hl=nl)
+<i class="ai ai-orcid"></i>[  ORCID](https://orcid.org/0000-0002-4856-9592)
+
 
 I’m interested in how cognitive abilities develop across age and specifically in how we can use computational models to understand this development. I see it as a scientist’s duty to expand our common knowledge about the world and its inhabitants. As such, I like to challenge myself in communicating scientific findings to society in an understandable way. When I’m out of office, you can find me at the tennis court or at home cuddling with the sweetest cat in the world.
 
@@ -97,6 +105,8 @@ Postdoctoral researcher/data scientist
 <i class="fab fa-twitter"></i>[  @nickkjudd](https://twitter.com/nickkjudd)
 <i class="fas fa-envelope"></i>[  nicholas.judd@radboudumc.nl](nicholas.judd@radboudumc.nl)
 <i class="ai ai-google-scholar"></i>[  google scholar](https://scholar.google.com/citations?user=Hx6n8aEAAAAJ&hl=en)
+<i class="ai ai-orcid"></i>[  ORCID](https://orcid.org/0000-0002-0196-9871)
+
 
 
 I'm interested in how complex cognition arises. Specifically, how we solve problems, adapt, and respond to ever-changing demands. This has led me to focus on the domains of fluid reasoning and working memory. Recently, my research has examined how genetics and socioeconomics affect the development of these skills. I use a variety of methods depending on the question at hand, this ranges from observational datasets, RCTs, and causal inference techniques. Here I will be looking to see if it is possible to unravel the influences of global and local structural MR metrics on cognition. In my free time, I love to surf, rock climb, and travel (when possible)!
@@ -116,6 +126,8 @@ PhD student
 <i class="fab fa-twitter"></i>[  @mearistodemou](https://twitter.com/mearistodemou)
 <i class="fas fa-envelope"></i>[  michael.aristodemou@radboudumc.nl](michael.aristodemou@radboudumc.nl)
 <i class="ai ai-google-scholar"></i>[  google scholar](https://scholar.google.com/citations?user=AXBd2n4AAAAJ&hl=en)
+<i class="ai ai-orcid"></i>[  ORCID](https://orcid.org/0000-0003-0420-2702)
+
 
 I want to understand how and why people’s cognitive abilities fluctuate and change over time. To this end, I aim to exploit technological advances that allow us to observe cognitive development as it unfolds in conjunction with different modeling approaches. Ultimately, I strive to use knowledge about the mechanisms underlying cognitive development to benefit the evolution of educational and cognitive interventions.
 
@@ -133,6 +145,8 @@ PhD student
 <i class="fab fa-twitter"></i>[  @LeaCMichel](https://twitter.com/LeaCMichel)
 <i class="fas fa-envelope"></i>[  lea.michel@radboudumc.nl](lea.michel@radboudumc.nl)
 <i class="ai ai-google-scholar"></i>[  google scholar]()
+<i class="ai ai-orcid"></i>[  ORCID](https://orcid.org/0000-0003-1529-573X)
+
 
 
 I am interested in the impact of genetics and the environment on children’s development. In particular, during this PhD, I will study how brain maturation (looking at white matter microstructure and grey matter morphology) underlies the development of cognitive ability in childhood. Before this PhD, I completed my master’s degree in cognitive science in Paris with a major in neuroscience. I also had the opportunity to do a gap year during my master training, visiting several labs abroad to train in neuroimaging analyses. In my spare time, I am the vice president of the French association Fédération Fresco and I am especially engaged in our project to create seven cognitive science forums in France in order to popularize cognitive science.
