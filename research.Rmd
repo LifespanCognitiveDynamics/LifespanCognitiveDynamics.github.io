@@ -9,6 +9,22 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+
+## Cognitive variability
+
+Human performance differs cross many dimensions – some can read, do mathematics, paint and ride a bicycle better than others. However, an often neglected aspect of performance is fluctuation, or variability: However good or bad you are at something, your own performance will go up and down over time. Unlikely computers, our execution of cognitive tasks varies with each repetition. Sometimes this might be a good thing: variability might reflect us exploring the space of possible solutions to a problem. At other times, variability reflects a lack of focus, becoming easily distracted, or bored over time. The degree to which people fluctuate in their cognitive performance is a central area of ongoing research at the LCD lab. Using technological innovations such as tablet-based tasks and new quantitative modelling techniques, we hope to better understand the causes and consequences of ups and downs of human cognitive performance.
+
+<aside>
+
+```{r, layout = "l-body-ouset", fig.width=3, echo=FALSE}
+
+knitr::include_graphics("images/pages/variability.png")
+
+```
+
+</aside>
+
+
 ## COGNITIVE DYNAMICS
 
 
