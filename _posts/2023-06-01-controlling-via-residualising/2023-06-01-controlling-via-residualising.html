@@ -110,7 +110,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","author","date","output","draft"]}},"value":[{"type":"character","attributes":{},"value":["Controlling via residualising"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Rogier Kievit"]}]}]},{"type":"character","attributes":{},"value":["06-01-2023"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"logical","attributes":{},"value":[false]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","author","date","output","draft"]}},"value":[{"type":"character","attributes":{},"value":["Controlling via residualising"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Rogier Kievit"]}]}]},{"type":"character","attributes":{},"value":["06-01-2023"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"logical","attributes":{},"value":[true]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -1519,46 +1519,46 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <p>this may or may not be useful - often reviewers might ask you to control for a certain variable. You can do this within the model, but another way is to residualize a variable for a covariate beforehand. In this toy example, you have height and weight, and perhaps you want to use one variable without the potential confounding of the other. With this v basic script you can see how to do it, and also how to use these new variables in plotting (e.g. by showing who is taller/heavier than expected given a model)</p>
 <p>it’s pretty basic but rarely illustrated (as far as I’ve seen) so may be worthwhile as an example, as I find myself showing this to many and varied people (in fact I just found an old script where I did almost the same :) )</p>
 <div class="layout-chunk" data-layout="l-body">
-<pre><code>[1] 0.3827534</code></pre>
+<pre><code>[1] 0.3059955</code></pre>
 <pre><code>
 Call:
 lm(formula = weight ~ height)
 
 Residuals:
-    Min      1Q  Median      3Q     Max 
--33.422  -6.446   0.012   7.267  24.449 
+     Min       1Q   Median       3Q      Max 
+-26.4955  -6.3593  -0.0419   6.2088  22.0776 
 
 Coefficients:
-            Estimate Std. Error t value Pr(&gt;|t|)    
-(Intercept)  -2.2631    16.7642  -0.135    0.893    
-height        0.4136     0.1008   4.101 8.49e-05 ***
+            Estimate Std. Error t value Pr(&gt;|t|)   
+(Intercept) 14.88698   16.11671   0.924  0.35791   
+height       0.31120    0.09781   3.182  0.00196 **
 ---
 Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
 
-Residual standard error: 10.04 on 98 degrees of freedom
-Multiple R-squared:  0.1465,    Adjusted R-squared:  0.1378 
-F-statistic: 16.82 on 1 and 98 DF,  p-value: 8.489e-05</code></pre>
-<pre><code>[1] 0.9238506</code></pre>
-<pre><code>[1] 1.274337e-17</code></pre>
+Residual standard error: 9.714 on 98 degrees of freedom
+Multiple R-squared:  0.09363,   Adjusted R-squared:  0.08438 
+F-statistic: 10.12 on 1 and 98 DF,  p-value: 0.001961</code></pre>
+<pre><code>[1] 0.952033</code></pre>
+<pre><code>[1] -1.420415e-17</code></pre>
 <pre><code>
 Call:
 lm(formula = height ~ weight)
 
 Residuals:
-     Min       1Q   Median       3Q      Max 
--27.5327  -5.9086   0.6549   6.0076  26.7652 
+    Min      1Q  Median      3Q     Max 
+-34.226  -3.904  -0.013   4.813  21.035 
 
 Coefficients:
              Estimate Std. Error t value Pr(&gt;|t|)    
-(Intercept) 142.42605    5.80651  24.529  &lt; 2e-16 ***
-weight        0.35419    0.08636   4.101 8.49e-05 ***
+(Intercept) 144.60270    6.32064  22.878  &lt; 2e-16 ***
+weight        0.30088    0.09456   3.182  0.00196 ** 
 ---
 Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
 
-Residual standard error: 9.293 on 98 degrees of freedom
-Multiple R-squared:  0.1465,    Adjusted R-squared:  0.1378 
-F-statistic: 16.82 on 1 and 98 DF,  p-value: 8.489e-05</code></pre>
-<pre><code>[1] 0.9238506</code></pre>
+Residual standard error: 9.551 on 98 degrees of freedom
+Multiple R-squared:  0.09363,   Adjusted R-squared:  0.08438 
+F-statistic: 10.12 on 1 and 98 DF,  p-value: 0.001961</code></pre>
+<pre><code>[1] 0.952033</code></pre>
 <p><img src="2023-06-01-controlling-via-residualising_files/figure-html5/unnamed-chunk-1-1.png" width="624" /><img src="2023-06-01-controlling-via-residualising_files/figure-html5/unnamed-chunk-1-2.png" width="624" /><img src="2023-06-01-controlling-via-residualising_files/figure-html5/unnamed-chunk-1-3.png" width="624" /><img src="2023-06-01-controlling-via-residualising_files/figure-html5/unnamed-chunk-1-4.png" width="624" /><img src="2023-06-01-controlling-via-residualising_files/figure-html5/unnamed-chunk-1-5.png" width="624" /><img src="2023-06-01-controlling-via-residualising_files/figure-html5/unnamed-chunk-1-6.png" width="624" /></p>
 </div>
 <p><em>Author: Rogier Kievit</em></p>

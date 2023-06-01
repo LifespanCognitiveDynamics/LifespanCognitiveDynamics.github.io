@@ -1,22 +1,5 @@
 [
   {
-    "path": "posts/2023-06-01-controlling-via-residualising/",
-    "title": "Controlling via residualising",
-    "description": {},
-    "author": [
-      {
-        "name": "Rogier Kievit",
-        "url": {}
-      }
-    ],
-    "date": "2023-06-01",
-    "categories": [],
-    "contents": "\r\nthis may or may not be useful - often reviewers might ask you to control for a certain variable. You can do this within the model, but another way is to residualize a variable for a covariate beforehand. In this toy example, you have height and weight, and perhaps you want to use one variable without the potential confounding of the other. With this v basic script you can see how to do it, and also how to use these new variables in plotting (e.g. by showing who is taller/heavier than expected given a model)\r\nit’s pretty basic but rarely illustrated (as far as I’ve seen) so may be worthwhile as an example, as I find myself showing this to many and varied people (in fact I just found an old script where I did almost the same :) )\r\n\r\n[1] 0.3827534\r\n\r\nCall:\r\nlm(formula = weight ~ height)\r\n\r\nResiduals:\r\n    Min      1Q  Median      3Q     Max \r\n-33.422  -6.446   0.012   7.267  24.449 \r\n\r\nCoefficients:\r\n            Estimate Std. Error t value Pr(>|t|)    \r\n(Intercept)  -2.2631    16.7642  -0.135    0.893    \r\nheight        0.4136     0.1008   4.101 8.49e-05 ***\r\n---\r\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\r\n\r\nResidual standard error: 10.04 on 98 degrees of freedom\r\nMultiple R-squared:  0.1465,    Adjusted R-squared:  0.1378 \r\nF-statistic: 16.82 on 1 and 98 DF,  p-value: 8.489e-05\r\n[1] 0.9238506\r\n[1] 1.274337e-17\r\n\r\nCall:\r\nlm(formula = height ~ weight)\r\n\r\nResiduals:\r\n     Min       1Q   Median       3Q      Max \r\n-27.5327  -5.9086   0.6549   6.0076  26.7652 \r\n\r\nCoefficients:\r\n             Estimate Std. Error t value Pr(>|t|)    \r\n(Intercept) 142.42605    5.80651  24.529  < 2e-16 ***\r\nweight        0.35419    0.08636   4.101 8.49e-05 ***\r\n---\r\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\r\n\r\nResidual standard error: 9.293 on 98 degrees of freedom\r\nMultiple R-squared:  0.1465,    Adjusted R-squared:  0.1378 \r\nF-statistic: 16.82 on 1 and 98 DF,  p-value: 8.489e-05\r\n[1] 0.9238506\r\n\r\n\r\nAuthor: Rogier Kievit\r\n\r\n\r\n\r\n",
-    "preview": "posts/2023-06-01-controlling-via-residualising/2023-06-01-controlling-via-residualising_files/figure-html5/unnamed-chunk-1-1.png",
-    "last_modified": "2023-06-01T09:47:34+02:00",
-    "input_file": {}
-  },
-  {
     "path": "posts/2023-03-23-rainclouds/",
     "title": "From Raincloud Plots 1.0 to Raincloud Plots 2.0 to …",
     "description": {},
