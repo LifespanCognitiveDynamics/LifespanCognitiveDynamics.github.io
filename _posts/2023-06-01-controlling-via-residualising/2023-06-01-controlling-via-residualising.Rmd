@@ -1,0 +1,85 @@
+---
+title: "Controlling via residualising"
+author:
+  - name: Rogier Kievit
+date: 06-01-2023
+output:
+  distill::distill_article:
+    self_contained: false
+draft: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating blogs with Distill at:
+# https://rstudio.github.io/distill/blog.html
+
+```
+
+this may or may not be useful - often reviewers might ask you to control for a certain variable. You can do this within the model, but another way is to residualize a variable for a covariate beforehand. In this toy example, you have height and weight, and perhaps you want to use one variable without the potential confounding of the other. With this v basic script you can see how to do it, and also how to use these new variables in plotting  (e.g. by showing who is taller/heavier than expected given a model)
+
+it’s pretty basic but rarely illustrated (as far as I’ve seen) so may be worthwhile as an example, as I find myself showing this to many and varied people (in fact I just found an old script where I did almost the same :) )
+
+```{r}
+#how to adjust (residualize( a variable for a covariate before using the variable in other analyses
+
+#creating fake data example with height and weight
+height<-rnorm(100,165,10)
+weight<-.4*height+rnorm(100,0,10)
+plot(height,weight)
+
+#modest correlation
+cor(height,weight)
+
+#fitting a linear model to predict weight
+pred_weight<-lm(weight~height)
+#saving the model
+summary(pred_weight)
+
+#saving the residuals - so weight adjusted for height differences
+weight_residualised_for_height<-(pred_weight$residuals)
+#this residualized weight still correlates with weight, as it should - people who are heavier than expected for their height
+#will generally also be heavier full stop
+cor(weight_residualised_for_height,weight)
+#but not with height - so this is now a new kind of height, uncorrelated with weight
+cor(weight_residualised_for_height,height)
+
+#opposite model, predicting height from weight
+pred_height<-lm(height~weight)
+summary(pred_height)
+#residual height: who is not just tall, but tall given their weight
+height_residualised_for_weight<-(pred_height$residuals)
+cor(height_residualised_for_weight,height)
+
+#saving the four variables
+all_data<-data.frame(height,weight,weight_residualised_for_height,height_residualised_for_weight)
+#renaming
+colnames(all_data)<-c('height','weight','resid_weight','resid_height')
+
+#rescaling for plotting purposes
+library(scales)
+all_data$resid_weight<-rescale(all_data$resid_weight)
+all_data$resid_height<-rescale(all_data$resid_height)
+
+library(ggplot2)
+
+#you can now plot people and plot the dots by size or colour to show who is heavier than expected given their height, or vice versa
+#lighter blue, or bigger dots, mean people are heavier than expected given their weight, which may be a 
+#'better' type of weight for certain purposes
+ggplot(all_data,aes(height,weight))+geom_point(aes(size=resid_weight))+geom_smooth(method='lm')
+ggplot(all_data,aes(height,weight))+geom_point(aes(col=resid_weight))+geom_smooth(method='lm')
+
+#wrong residual so doesn't work
+ggplot(all_data,aes(height,weight))+geom_point(aes(col=resid_height))+geom_smooth(method='lm')
+
+#opposite association
+ggplot(all_data,aes(weight,height))+geom_point(aes(size=resid_height))+geom_smooth(method='lm')
+ggplot(all_data,aes(weight,height))+geom_point(aes(col=resid_height))+geom_smooth(method='lm')
+
+#in future analysis, if you want to look at, say, the effect of height on health outcomes
+#and someone says 'but height is confounded by weight', you now have a new height variable that we've forced to be uncorrelayed to weight, and vice versa
+
+```
+
+*Author: Rogier Kievit*

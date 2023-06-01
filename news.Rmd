@@ -8,6 +8,37 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+---
+
+## Now live! the raincloudplots shiny app
+
+Ever wanted to make pretty plots representing your data? Raincloud plots are your friend. Check out this shiny app developed by our own Nick Judd and Jordy van Langen
+
+https://lcdlab.shinyapps.io/raincloudplots-shiny/
+
+
+---
+
+## Merging of the labs
+
+20/04/2023
+
+The LCD lab and Professor Anne-Laura van Harmelen's Center for the Integration of Resilience Complexity Leiden
+(https://www.circlenl.com/) joined forces to share ongoing research and discuss potential opportunities for future collaborations between our groups. 
+
+
+---
+
+## Successful Lab retreat!
+
+13/04/2023
+
+With so many new group members and projects getting started, the lab retreat could not have come at a better time. Our exalted leader, Rogier, shared the history of the lab and his vision moving forward. Importantly, the day made space for us to collectively help shape the future of the group - not only in terms of the research agenda, but the research culture we wanted to be part of. 
+
+A highlight of the day was presentation roulette, we each prepared 3-4 slides on a random talk and another person presented them without seeing them first. Topic highlights included: why I'm the best bridge builder, violent crustaceans, and just how much is the average Dutch person made of sugar?
+
+---
+
 
 ## New lab members: Emma Meeussen and Sophie Hofman
 
