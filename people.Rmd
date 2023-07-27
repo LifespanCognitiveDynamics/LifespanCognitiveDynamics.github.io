@@ -155,7 +155,7 @@ I am interested in the impact of genetics and the environment on children’s de
 
 ```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
 
-knitr::include_graphics("images/people/Jordy_van_Langen.jpg")
+knitr::include_graphics("images/people/Jordy_van_Langen_C.png")
 ```
 
 ## Jordy van Langen
