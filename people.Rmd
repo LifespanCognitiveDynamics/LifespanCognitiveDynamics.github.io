@@ -151,26 +151,6 @@ PhD student
 
 I am interested in the impact of genetics and the environment on children’s development. In particular, during this PhD, I will study how brain maturation (looking at white matter microstructure and grey matter morphology) underlies the development of cognitive ability in childhood. Before this PhD, I completed my master’s degree in cognitive science in Paris with a major in neuroscience. I also had the opportunity to do a gap year during my master training, visiting several labs abroad to train in neuroimaging analyses. In my spare time, I am the vice president of the French association Fédération Fresco and I am especially engaged in our project to create seven cognitive science forums in France in order to popularize cognitive science.
 
----
-
-```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
-
-knitr::include_graphics("images/people/Jordy_van_Langen.jpg")
-```
-
-## Jordy van Langen
-
-PhD student
-
-<i class="fab fa-twitter"></i>[  @jordyvanlangen](https://twitter.com/jordyvanlangen)
-<i class="fas fa-envelope"></i>[  jordy.vanlangen@radboudumc.nl](jordy.vanlangen@radboudumc.nl)
-<i class="ai ai-google-scholar"></i>[  google scholar](https://scholar.google.com/citations?user=gsSpOgkAAAAJ&hl=nl&oi=ao)
-<i class="ai ai-orcid"></i>[  ORCID](https://orcid.org/0000-0003-2504-2381)
-<i class="fa fa-github"></i>[  GitHub](https://github.com/jorvlan)
-<i class="fab fa-mastodon"></i>[  Mastodon](https://mas.to/@jordyvanlangen)
-
-I am interested in developing novel open science tools for the wider academic community. In that perspective, I have been part of the LCD lab in 2022 developing our data visualization framework called: raincloudplots. Also, I am interested in advancing the field of cognitive neuroscience through my research. Within the CODEC study, I am studying cognitive variability in early childhood. Specifically, we aim to measure, model, and mechanistically understand the nature of cognitive variability differences within and between children. We will use the temporal precision of experience sampling methods, the richness of a cohort study, and the prospective and developmental power of accelerated 
-longitudinal designs. Together this will hopefully provide new insight into the construct of cognitive variability. In my free time, I love to run, lift weights, play and watch tennis, read novels, or search for unique vintage items. 
 
 
 
@@ -186,7 +166,7 @@ knitr::include_graphics("images/people/ethanmccormick_C.png")
 
 <i class="fab fa-twitter"></i>[  @E_M_McCormick](https://twitter.com/E_M_McCormick)
 
-I am interested in the measurement and modeling of data over time using advanced intensive and long-term longitudinal designs. In particular, my current work seeks to link short-term changes due to learning/reactivity with long-term changes due to retest and development to understand how behavior and cognition unfold across multiple timescales. Additionally, I have a strong commitment to the dissemination of quantitative methods, especially in the behavioral and cognitive neurosciences. Outside of the lab, I enjoy running, wrangling Waldorf and Statler (link to https://quantitudepod.org/), and dreaming of traveling again sometime this decade.
+I am in interested in the measurement and modeling of data over time using advanced intensive and long-term longitudinal designs. In particular, my current work seeks to link short-term changes due to learning/reactivity with long-term changes due to retest and development to understand how behavior and cognition unfold across multiple timescales. Additionally, I have a strong commitment to the dissemination of quantitative methods, especially in the behavioral and cognitive neurosciences. Outside of the lab, I enjoy running, wrangling Waldorf and Statler (link to https://quantitudepod.org/), and dreaming of traveling again sometime this decade.
 
 ---
 
