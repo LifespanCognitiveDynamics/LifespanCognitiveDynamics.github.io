@@ -172,6 +172,83 @@ PhD student
 I am interested in developing novel open science tools for the wider academic community. In that perspective, I have been part of the LCD lab in 2022 developing our data visualization framework called: raincloudplots. Also, I am interested in advancing the field of cognitive neuroscience through my research. Within the CODEC study, I am studying cognitive variability in early childhood. Specifically, we aim to measure, model, and mechanistically understand the nature of cognitive variability differences within and between children. We will use the temporal precision of experience sampling methods, the richness of a cohort study, and the prospective and developmental power of accelerated 
 longitudinal designs. Together this will hopefully provide new insight into the construct of cognitive variability. In my free time, I love to run, lift weights, play and watch tennis, read novels, or search for unique vintage items. 
 
+---
+
+```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+
+knitr::include_graphics("images/people/Emma_C.png")
+```
+
+## Emma Meeussen
+
+Research assistant
+
+<i class="fab fa-linkedin-in"></i>[ LinkedIn](https://www.linkedin.com/in/emma-meeussen/)
+<i class="fas fa-envelope"></i>[  emma.meeussen@radboudumc.nl](emma.meeussen@radboudumc.nl)
+
+I am interested in human cognitive development, its variation, and the ways in which we can best support it in order to thrive as human beings. I believe that to optimally do so, it’s essential that we understand the processes underlying both impaired and healthy development. Besides the LCD group, I also work as a haptotherapist, where I put theory into practice by using touch to help clients gain insight into their own development and stimulate its natural flow. In my spare time I enjoy reading (anything from romcom novels to ancient spiritual texts), making music and the freedom of being in nature, especially in summer when I get to cycle around the country for (mini) camping trips.
+
+---
+
+```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+
+knitr::include_graphics("images/people/Sophie_C.png")
+```
+
+## Sophie Hofman
+
+Research / student assistant
+
+<i class="fas fa-envelope"></i>[  sophie.hofman@radboudumc.nl](sophie.hofman@radboudumc.nl)
+
+I am very interested in the development and cognitive aspect that regulates human behaviour, hence why i am currently doing my masters in Behavioural Science at the Radboud University. I also enjoy converting (neuro)science into fun and understandable lessons/communication tools to teach e.g. children and adolescents about the brain and the possibilities of science. In my spare time I’m enjoying playing hockey and discovering new cities abroad!
+
+---
+
+```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+
+knitr::include_graphics("images/people/Liza_C.png")
+```
+
+## Liza Rozman
+
+Intern
+
+<i class="fas fa-envelope"></i>[  Liza.rozman@ru.nl](Liza.rozman@ru.nl)
+<i class="fab fa-linkedin-in"></i>[ LinkedIn](www.linkedin.com/in/lizarozman)
+
+I am a student of the research Master in Cognitive Neuroscience with a specialisation in Plasticity and Lifelong Development. My main interests lie in neurodevelopmental disorders, specifically ADHD, as well as sleep and sleep related disorder. For my Master's thesis I will investigate if and how ADHD symptoms and sleep disturbances are connected, their variability over time, and if there are any neural structures driving this relationship. Outside of academics, I am an avid enjoyer of naps, watching TV and going to the gym.
+
+---
+
+```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+
+knitr::include_graphics("images/people/Nebbe_C.png")
+```
+
+## Nebbe Al-Moula
+
+Intern
+
+<i class="fas fa-envelope"></i>[  nebbe.al-moula@ru.nl](nebbe.al-moula@ru.nl )
+<i class="fab fa-linkedin-in"></i>[ LinkedIn](https://www.linkedin.com/in/nebbe-al-moula-6b6789227)
+
+I am interested in plasticity in the brain and the differences between typical and atypical development. I am a student of the MSc Cognitive Neuroscience program. For my Master’s thesis, I will be looking into structural differences in White and Gray matter in individuals with ASD. With this research I hope to delve further into the relationship between structural differences in the brain and common characteristics of ASD. Outside of academic activities I enjoy weightlifting and can often be found in the gym.
+
+---
+
+```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+
+knitr::include_graphics("images/people/Ben_Kretzler_C.png")
+```
+
+## Ben Kretzler
+
+Intern
+
+<i class="fas fa-envelope"></i>[  ben.kretzler@ru.nl](ben.kretzler@ru.nl)
+
+I am interested in the mechanisms underlying cognitive variability, and the development of cognitive skills. For my master’s thesis, I plan to employ complexity methods to gain a fresh perspective on mental illnesses. My focus will be on analyzing time series data related to patients’ cognitive performance. The goal is to identify suitable models that can classify patients based on the structure of their system noise. Outside the workplace, I like running, reading, hiking, and watching puppy videos.
 
 
 # Lab Alumni
