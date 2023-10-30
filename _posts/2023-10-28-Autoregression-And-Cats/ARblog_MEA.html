@@ -88,379 +88,39 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Lifespan Cognitive Dynamics Lab: About this blog</title>
+  <title>What does your ex have in common with magic cats?</title>
 
-  <meta property="description" itemprop="description" content="Some additional details about the blog"/>
+  <meta property="description" itemprop="description" content="Autoregression in 2 short stories"/>
 
 
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2023-10-30"/>
+  <meta property="article:created" itemprop="dateCreated" content="2023-10-30"/>
+  <meta name="article:author" content="Michael Aristodemou"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Lifespan Cognitive Dynamics Lab: About this blog"/>
+  <meta property="og:title" content="What does your ex have in common with magic cats?"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Some additional details about the blog"/>
+  <meta property="og:description" content="Autoregression in 2 short stories"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Lifespan Cognitive Dynamics Lab"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Lifespan Cognitive Dynamics Lab: About this blog"/>
-  <meta property="twitter:description" content="Some additional details about the blog"/>
+  <meta property="twitter:title" content="What does your ex have in common with magic cats?"/>
+  <meta property="twitter:description" content="Autoregression in 2 short stories"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["About this blog"]},{"type":"character","attributes":{},"value":["Some additional details about the blog"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","draft"]}},"value":[{"type":"character","attributes":{},"value":["What does your ex have in common with magic cats?"]},{"type":"character","attributes":{},"value":["Autoregression in 2 short stories\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Michael Aristodemou"]}]}]},{"type":"character","attributes":{},"value":["10-30-2023"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"logical","attributes":{},"value":[false]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
-  <!--radix_placeholder_navigation_in_header-->
-  <meta name="distill:offset" content=""/>
-
-  <script type="application/javascript">
-
-    window.headroom_prevent_pin = false;
-
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-
-      // initialize headroom for banner
-      var header = $('header').get(0);
-      var headerHeight = header.offsetHeight;
-      var headroom = new Headroom(header, {
-        tolerance: 5,
-        onPin : function() {
-          if (window.headroom_prevent_pin) {
-            window.headroom_prevent_pin = false;
-            headroom.unpin();
-          }
-        }
-      });
-      headroom.init();
-      if(window.location.hash)
-        headroom.unpin();
-      $(header).addClass('headroom--transition');
-
-      // offset scroll location for banner on hash change
-      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
-      window.addEventListener("hashchange", function(event) {
-        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
-      });
-
-      // responsive menu
-      $('.distill-site-header').each(function(i, val) {
-        var topnav = $(this);
-        var toggle = topnav.find('.nav-toggle');
-        toggle.on('click', function() {
-          topnav.toggleClass('responsive');
-        });
-      });
-
-      // nav dropdowns
-      $('.nav-dropbtn').click(function(e) {
-        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
-        $(this).parent().siblings('.nav-dropdown')
-           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $("body").click(function(e){
-        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $(".nav-dropdown").click(function(e){
-        e.stopPropagation();
-      });
-    });
+  
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["ar_cats.jpg","ar_ex.jpg","ARblog_MEA_files/anchor-4.2.2/anchor.min.js","ARblog_MEA_files/bowser-1.9.3/bowser.min.js","ARblog_MEA_files/distill-2.2.21/template.v2.js","ARblog_MEA_files/header-attrs-2.19/header-attrs.js","ARblog_MEA_files/jquery-3.6.0/jquery-3.6.0.js","ARblog_MEA_files/jquery-3.6.0/jquery-3.6.0.min.js","ARblog_MEA_files/jquery-3.6.0/jquery-3.6.0.min.map","ARblog_MEA_files/popper-2.6.0/popper.min.js","ARblog_MEA_files/tippy-6.2.7/tippy-bundle.umd.min.js","ARblog_MEA_files/tippy-6.2.7/tippy-light-border.css","ARblog_MEA_files/tippy-6.2.7/tippy.css","ARblog_MEA_files/tippy-6.2.7/tippy.umd.min.js","ARblog_MEA_files/webcomponents-2.0.0/webcomponents.js","flyingcat.png"]}
   </script>
-
-  <style type="text/css">
-
-  /* Theme (user-documented overrideables for nav appearance) */
-
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #0F2E3D;
-    font-size: 15px;
-    font-weight: 300;
-  }
-
-  .distill-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .distill-site-nav a:hover {
-    color: white;
-  }
-
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-
-  .distill-site-header {
-
-  }
-
-  .distill-site-footer {
-
-  }
-
-
-  /* Site Header */
-
-  .distill-site-header {
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 3;
-  }
-
-  .distill-site-header .nav-left {
-    display: inline-block;
-    margin-left: 8px;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header .nav-left {
-      margin-left: 0;
-    }
-  }
-
-
-  .distill-site-header .nav-right {
-    float: right;
-    margin-right: 8px;
-  }
-
-  .distill-site-header a,
-  .distill-site-header .title {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 10px 14px 10px;
-  }
-
-  .distill-site-header .title {
-    font-size: 18px;
-    min-width: 150px;
-  }
-
-  .distill-site-header .logo {
-    padding: 0;
-  }
-
-  .distill-site-header .logo img {
-    display: none;
-    max-height: 20px;
-    width: auto;
-    margin-bottom: -4px;
-  }
-
-  .distill-site-header .nav-image img {
-    max-height: 18px;
-    width: auto;
-    display: inline-block;
-    margin-bottom: -3px;
-  }
-
-
-
-  @media screen and (min-width: 1000px) {
-    .distill-site-header .logo img {
-      display: inline-block;
-    }
-    .distill-site-header .nav-left {
-      margin-left: 20px;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 20px;
-    }
-    .distill-site-header .title {
-      padding-left: 12px;
-    }
-  }
-
-
-  .distill-site-header .nav-toggle {
-    display: none;
-  }
-
-  .nav-dropdown {
-    display: inline-block;
-    position: relative;
-  }
-
-  .nav-dropdown .nav-dropbtn {
-    border: none;
-    outline: none;
-    color: rgba(255, 255, 255, 0.8);
-    padding: 16px 10px;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    margin: 0;
-    margin-top: 1px;
-    z-index: 2;
-  }
-
-  .nav-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 200px;
-    border: 1px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    z-index: 1;
-    margin-top: 2px;
-    white-space: nowrap;
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
-
-  .nav-dropdown-content hr {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-
-  .nav-dropdown-active {
-    display: block;
-  }
-
-  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
-    color: black;
-    padding: 6px 24px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-
-  .nav-dropdown-content .nav-dropdown-header {
-    display: block;
-    padding: 5px 24px;
-    padding-bottom: 0;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #999999;
-    white-space: nowrap;
-  }
-
-  .nav-dropdown:hover .nav-dropbtn {
-    color: white;
-  }
-
-  .nav-dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  .nav-right .nav-dropdown-content {
-    margin-left: -45%;
-    right: 0;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
-    .distill-site-header a.nav-toggle {
-      float: right;
-      display: block;
-    }
-    .distill-site-header .title {
-      margin-left: 0;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 0;
-    }
-    .distill-site-header {
-      overflow: hidden;
-    }
-    .nav-right .nav-dropdown-content {
-      margin-left: 0;
-    }
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header.responsive {position: relative; min-height: 500px; }
-    .distill-site-header.responsive a.nav-toggle {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .distill-site-header.responsive a,
-    .distill-site-header.responsive .nav-dropdown {
-      display: block;
-      text-align: left;
-    }
-    .distill-site-header.responsive .nav-left,
-    .distill-site-header.responsive .nav-right {
-      width: 100%;
-    }
-    .distill-site-header.responsive .nav-dropdown {float: none;}
-    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
-    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-  }
-
-  /* Site Footer */
-
-  .distill-site-footer {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    z-index: 3;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-  }
-
-  /* Headroom */
-
-  d-title {
-    padding-top: 6rem;
-  }
-
-  @media print {
-    d-title {
-      padding-top: 4rem;
-    }
-  }
-
-  .headroom {
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
-  .headroom--transition {
-    transition: all .4s ease-in-out;
-  }
-
-  .headroom--unpinned {
-    top: -100px;
-  }
-
-  .headroom--pinned {
-    top: 0;
-  }
-
-  /* adjust viewport for navbar height */
-  /* helps vertically center bootstrap (non-distill) content */
-  .min-vh-100 {
-    min-height: calc(100vh - 100px) !important;
-  }
-
-  </style>
-
-  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
-  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+  <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
 
@@ -1815,15 +1475,16 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
-  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
-  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
-  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
-  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
-  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
-  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
-  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <script src="ARblog_MEA_files/header-attrs-2.19/header-attrs.js"></script>
+  <script src="ARblog_MEA_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <script src="ARblog_MEA_files/popper-2.6.0/popper.min.js"></script>
+  <link href="ARblog_MEA_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="ARblog_MEA_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="ARblog_MEA_files/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="ARblog_MEA_files/anchor-4.2.2/anchor.min.js"></script>
+  <script src="ARblog_MEA_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="ARblog_MEA_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="ARblog_MEA_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <!--/radix_placeholder_site_in_header-->
 
@@ -1835,43 +1496,80 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"About this blog","description":"Some additional details about the blog","authors":[]}
+{"title":"What does your ex have in common with magic cats?","description":"Autoregression in 2 short stories","authors":[{"author":"Michael Aristodemou","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2023-10-30T00:00:00.000+01:00","citationText":"Aristodemou, 2023"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
 <!--radix_placeholder_navigation_before_body-->
-<header class="header header--fixed" role="banner">
-<nav class="distill-site-nav distill-site-header">
-<div class="nav-left">
-<a href="index.html" class="title">Lifespan Cognitive Dynamics Lab</a>
-</div>
-<div class="nav-right">
-<a href="index.html">Home</a>
-<a href="research.html">Research</a>
-<a href="people.html">People</a>
-<a href="publications.html">Publications</a>
-<a href="news.html">News</a>
-<a href="posts.html">Blog</a>
-<a href="https://github.com/LifespanCognitiveDynamics">
-<i class="fab fa-github" aria-hidden="true"></i>
-</a>
-<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
-</div>
-</nav>
-</header>
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>About this blog</h1>
+<h1>What does your ex have in common with magic cats?</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Some additional details about the blog</p></p>
+<p><p>Autoregression in 2 short stories</p></p>
 </div>
 
+<div class="d-byline">
+  Michael Aristodemou  
+  
+<br/>10-30-2023
+</div>
 
 <div class="d-article">
+<div class="layout-chunk" data-layout="l-body-ouset">
+<p><img src="flyingcat.png" width="884" /></p>
+</div>
+<p><strong>Story 1: Autoregression and magic cats</strong></p>
+<p>Today, we are launching cats in the air. But don’t worry, these are magic cats. Or so they say. You see some days ago two cats showed up on our doorstep and told us that they could fall from any distance and remain unscathed. These self-purported magic cats bragged about how they learned a simple transformation that allows them to soften their fall. Instead of falling like normal cats, they fall by half of their current distance from the ground every second. So, if a cat is 2 meters above the ground right now, in 1-second they will be 1-meter above the ground and 0.5 meters in 2 seconds. This will continue until the cats are safely on the ground (if they ever make it, but more on this later). Swayed by the charisma of these magic cats we decided to conduct an experiment. We wanted to know if these cats fall differently by launching them 16 meters in the air! As you can imagine, our proposal was not popular with the ethics committee. To gather more evidence that would ensure the safety of the cats we decided to use simulations. In close collaboration with the magic cats, we operationalized their falling process using a short model:</p>
+<p><span class="math display">\[
+X_t = \beta*X_{t-1} + \epsilon_{t}
+\]</span>
+To understand this model and ensure the survival of our cats, we decided to create a simple scenario that allows us to solve this equation. This equation states that a cat’s current height (<span class="math inline">\(X_t\)</span>) is determined by their height at the previous measurement interval (<span class="math inline">\(X_{t-1}\)</span>; in this case a second ago) multiplied by their ability to slow their fall (in this case by half, <span class="math inline">\(\beta=0.5\)</span>). The final piece of this equation (<span class="math inline">\(\epsilon_t\)</span>) captures any external forces that influence the cat’s current height (imagine spontaneously activated wind turbines that could push the cat higher).</p>
+<p>Let’s suppose we do launch a cat 16 meters up in the air. If they can do as they say, then their falling rate over 3 seconds should look like this (grab some pen and paper and follow along):</p>
+<p><span class="math display">\[
+X_{t} = \beta*X_{t-1} + \epsilon_{t}
+\]</span></p>
+<p>We launch the cat in the air. We observe the cat’s height at 4 intervals: <span class="math inline">\(X_{t-3}\)</span> = height at launch 0s, <span class="math inline">\(X_{t-2}\)</span> = at 1s, <span class="math inline">\(X_{t-1}\)</span> = at 2s, <span class="math inline">\(X_t\)</span> = at 3s. Their height at the first measurement (<span class="math inline">\(X_{t-3}\)</span>) is fully determined by the launch height. That’s 16 meters. You can view this as an external force affecting our cat’s vertical distance from the ground (<span class="math inline">\(e_{t-3}\)</span>).</p>
+<p><span class="math display">\[
+X_{t-3} = \epsilon_{t-3}\\
+X_{t-3} = 16
+\]</span></p>
+<p>During subsequent measurements the vertical height of the cat will be defined by its height on the previous measurement interval (<span class="math inline">\(X_{t-n}\)</span>) multiplied by the amount that they can slow their fall (<span class="math inline">\(\beta\)</span>). For simplicity we will assume there are no other external forces acting upon the cat’s height (i.e. (<span class="math inline">\(\epsilon_{t-n&lt;3}=0\)</span>). So, height at each trial is purely determined by the prior height (<span class="math inline">\(X_{t-n}\)</span>) and slowing ability (<span class="math inline">\(\beta\)</span>).</p>
+<p><span class="math display">\[
+X_{t-2}=\beta\ast X_{t-3}+\epsilon_{t-2}\\
+X_{t-2}=0.5\ast16+0\\
+X_{t-2}=8
+\]</span></p>
+<p>The cat’s height at the 1-second mark is 8 meters. Next, we halve that to find its height at the 2-second mark.</p>
+<p><span class="math display">\[
+X_{t-1}=\beta\ast X_{t-2}+\epsilon_{t-1}\\
+X_{t-1}=0.5\ast8+0\\
+X_{t-1}=4\\
+\]</span></p>
+<p>After 2-seconds we have 4 meters.</p>
+<p><span class="math display">\[
+X_t=\beta\ast X_{t-1}+\epsilon_t\\
+X_t=0.5\ast4+0\\
+X_t=2
+\]</span></p>
+<p>Finally, after 3 seconds the magic cat should be 2 meters above the ground. If you plot the points from the equations you just solved, the red curve in Figure 2 appears. You can see that any forces that cause the magic cats to leave the ground have an exponentially decaying effect on their height. The steepness of this exponential decay is determined by the size of the autoregression coefficient (i.e., the <span class="math inline">\(\beta\)</span>). If we increase the <span class="math inline">\(\beta\)</span> to a greater value (e.g. 0.7), the slope of the exponential decay becomes flatter (see the blue line in Figure 1). This means that our cats will linger in the sky for longer, sometimes even when the initial launch is shorter (e.g. 8 vs 16 meters). As for magic cats, they only exist in principle for now. If one day the ethics committee approves of our proposal, these braggadocious felines may need to put their money where their mouth is.</p>
+<div class="layout-chunk" data-layout="l-body-ouset">
+<p><img src="ar_cats.jpg" width="834" /></p>
+</div>
+<p><em>Figure 2. The falling rate of cats depends on their autoregression. The red solid line depicts a cat with an autoregression coefficient of 0.5. They halve their falling distance every interval (t-n). The blue solid line shows the falling rate of a cat with a higher autoregressive coefficient (0.7). The blue and red dashed lines show the size of the external force that pushes the cats up at launch</em></p>
+<p><strong>Story 2: Autoregression and why your ex will be mad at you forever</strong></p>
+<p>At this point you may be thinking, that’s all nice but I came here to learn things about my ex and how they are like a magic cat. Well then consider a couple that’s about to get into a heated argument: John and Luca. You can follow their story using Figure 3. Currently they are both calm and collected. Let’s say their mood is at its average (mood = 0 in Figure 3). John is more sensitive but does not hang on to his feelings for very long (<span class="math inline">\(\beta=0.2\)</span>). Luca is pretty much the opposite. Luca’s mood is hard to shake but once he gets upset, he is likely going to stay that way (<span class="math inline">\(\beta=0.6\)</span>). So, this lovely couple is having a relatively boring interaction, when suddenly John notices a notification on Luca’s phone. It’s his sister, or as he likes to call her, bad news. John experiences a sharp spike in his mood (<span class="math inline">\(\epsilon_{t-5} = 6\)</span>). A second later, he composes himself. He is (almost) back to average now. Luca notices this unperturbed and asks John what’s the matter. John responds with “nothing”. Luca dislikes this response (<span class="math inline">\(\epsilon_{t-4}=2\)</span>), so he looks away trying to conceal his frustration. This upsets John (<span class="math inline">\(\epsilon_{t-3}=7.76\)</span>). He grabs Luca by the shoulders and shouts at him. A shocked expression washes over Luca’s face as he pushes John away and locks himself in his room (<span class="math inline">\(\epsilon_{t-2}=5.28\)</span>).</p>
+<div class="layout-chunk" data-layout="l-body-ouset">
+<p><img src="ar_ex.jpg" width="834" /></p>
+</div>
+<p><em>Figure 3. This figure shows the emotional trajectory of a couple throughout an argument. The dashed lines show the size of the external force their mood receives by interacting with each other. The solid dots show their observed mood which includes the influence of any external pushes. The hollow dots show their mood when it is only affected by their autoregressive coefficient</em></p>
+<p>What happens next? We leave this to our model. In the absence of any added shocks (<span class="math inline">\(\epsilon_t\)</span>) both John and Luca would eventually calm down. Luca much later than John. But the catch is that they would never return to zero in the absence of any perturbations. You see these models assume that perturbations affect a system, be it cat or person, for infinity. But the effect becomes infinitesimally small. This is because if you keep dividing a value by the autoregression coefficient, it will never be zero (unless you do this infinite times). Thus, if they remain unaffected by the external world, our magic cats will never land, Luca and John will never be as cool as when they started, and your ex will be a little mad at you—forever.</p>
+<p><strong>Conclusion</strong></p>
+<p>I hope that through stories of cats and exes you were able to build some intuition about autoregressive models. These models can be used to gain insight into dynamics that move us beyond the mean and deviations from it. Different combinations of volatility and autoregression can lead to insightfully different risk profiles. So, next time you sit and ponder the world around you, try to look at things through the lens of an autoregressive model.</p>
+<p><em>Author: Michael Aristodemou</em></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
@@ -1880,6 +1578,15 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <div class="d-appendix">
 </div>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->
