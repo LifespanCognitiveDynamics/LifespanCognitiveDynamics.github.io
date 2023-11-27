@@ -18,7 +18,8 @@ Our lab studies lifespan changes and differences in cognitive abilities, with a 
 
 ## Preprints / Under Review
 
-Aristodemou, M, E., Judd, N., Klingberg, T., Kievit, R.A., (2023). You Could do Better Tomorrow: Nonverbal reasoning fluctuates across days, working memory is stable. Preprint. 
+
+Aristodemou, M.E, Judd, N., Klingber, T., & Kievit, R. (Preprint). You Could do Better Tomorrow: Nonverbal reasoning fluctuates across days, working memory is stable. [<i class="fas fa-download"></i> PDF (papers/DayVar_Preprint_MEA.pdf) 
 
 McCormick, E. M., Borgeest, G. S., & Kievit, R.. Interrupted mediation: A cautionary note on using derived metrics as intervening variables in path models. https://psyarxiv.com/48xj5/
 
