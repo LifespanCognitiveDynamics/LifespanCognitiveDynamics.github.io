@@ -1,0 +1,38 @@
+---
+title: "Confidence, and how to fake it!"
+description: |
+  Becoming more self confident in academics
+author:
+  - name: Nebbe Al-Moula 
+date: 02-05-2024
+output:
+  distill::distill_article:
+    self_contained: false
+draft: false
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r, layout = "l-body-ouset", fig.width=3, echo=FALSE}
+knitr::include_graphics("ConfidenceImage.png")
+```
+
+In academia, and life in general, having a little bit of confidence can open many doors. Opportunities are often given to those who believe in themselves and put themselves out there. So confidence is useful, great! What do you do when you are not a naturally confident person? In this blog post we will discuss a few tricks to make yourself appear more confident.
+
+**The three second rule**
+
+When doing public speaking, presentations, or when putting yourself out there in general, confidence is of utmost importance. Coming across as confident will make the listeners trust in your words and believe that whatever you have to say is worthwhile. However, many people find these things nerve wrecking. This is why a good friend of mine thought me “the three second rule”. The three second rule basically says that it only takes three seconds of courage to do something that scares you. For example, you only need three seconds of courage to get up and start your presentation, once you are going you probably wont just give up and sit back down. This rule can be used in any situation  you are nervous about. These three seconds of courage won’t necessarily make you any less scared or nervous, but it will help you get started. The most difficult part about public speaking or presentations is the moments leading up to it, during this time you can drive yourself crazy with self-doubt and over thinking. The three second rule is meant to override those thoughts momentarily so you can get a good start.
+
+**Delusions of grandeur**
+
+Now that you’ve mustered up your three seconds of courage and you started your talk, how do you exude this confidence physically. To come across as confident your posture, cadence, and body language are crucial. If you fidget, speak to quickly or too softly, stand hunched over, or constantly look down, you will seem nervous. The solution to this is delusion! Imagine yourself as an important TED talk speaker, or a popular celebrity. Ask yourself how that person would carry themselves during a presentation, and imitate that. You can be performative about it. It’s not a potentially embarrassing presentation, it’s a role you are playing and you are an amazing actor. To your listeners every talk you give is equally important, every presentation is your magnum opus and you should treat it as such. Often times we think we are speaking very loudly or that our gestures are too big and crazy, what I’ve learned is that in reality we don’t look as crazy as we think we do. We tend to automatically tone down our movements and voice when we get nervous, this means that to get the desired effect you have to over-exaggerate everything. So even if it feels stupid, use those extravagant hand gestures and speak like you are delivering a monologue.
+
+In conclusion, everyone struggles with self-confidence sometimes. However, with a little bit of courage and a healthy amount of delusion confidence and be faked and eventually built. It is important that we remember that no one is confident all of the time about everything, but everyone will notice the effort you put in to build up your confidence.
+
