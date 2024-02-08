@@ -4,7 +4,7 @@ description: |
   Becoming more self confident in academics
 author:
   - name: Nebbe Al-Moula 
-date: 02-05-2024
+date: 02-08-2024
 output:
   distill::distill_article:
     self_contained: false
@@ -28,7 +28,7 @@ In academia, and life in general, having a little bit of confidence can open man
 
 **The three second rule**
 
-When doing public speaking, presentations, or when putting yourself out there in general, confidence is of utmost importance. Coming across as confident will make the listeners trust in your words and believe that whatever you have to say is worthwhile. However, many people find these things nerve wrecking. This is why a good friend of mine thought me “the three second rule”. The three second rule basically says that it only takes three seconds of courage to do something that scares you. For example, you only need three seconds of courage to get up and start your presentation, once you are going you probably wont just give up and sit back down. This rule can be used in any situation  you are nervous about. These three seconds of courage won’t necessarily make you any less scared or nervous, but it will help you get started. The most difficult part about public speaking or presentations is the moments leading up to it, during this time you can drive yourself crazy with self-doubt and over thinking. The three second rule is meant to override those thoughts momentarily so you can get a good start.
+When doing public speaking, presentations, or when putting yourself out there in general, confidence is of utmost importance. Coming across as confident will make the listeners trust in your words and believe that whatever you have to say is worthwhile. However, many people find these things nerve wrecking. This is why a good friend of mine taught me “the three second rule”. The three second rule basically says that it only takes three seconds of courage to do something that scares you. For example, you only need three seconds of courage to get up and start your presentation, once you are going you probably wont just give up and sit back down. This rule can be used in any situation  you are nervous about. These three seconds of courage won’t necessarily make you any less scared or nervous, but it will help you get started. The most difficult part about public speaking or presentations is the moments leading up to it, during this time you can drive yourself crazy with self-doubt and over thinking. The three second rule is meant to override those thoughts momentarily so you can get a good start.
 
 **Delusions of grandeur**
 
