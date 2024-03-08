@@ -1,0 +1,76 @@
+---
+title: "Why should we study individual differences and variability? Philosophy edition"
+description: |
+  Not only Fiske and Cattell, but also Arendt and Foucault knew that it takes more than just means and standard deviations.
+author:
+  - name: Ben Kretzler 
+date: 03-08-2024
+output:
+  distill::distill_article:
+    self_contained: false
+draft: false
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r, layout = "l-body-ouset", fig.width=3, echo=FALSE}
+knitr::include_graphics("ArendtImage.png")
+```
+
+When scientists who study behavioral or cognitive variability (or, more widespread, individual differences) are asked about the value of their research, it seems as if they often quote fellow researchers who pointed to the weaknesses of solely studying global means and standard deviations—and indeed, there is stuff out there: for example, and perhaps most prominently, Raymond Cattell stated already during the 1960s that ignoring variability in performances is a "moral failure" because high-impact decisions are frequently made based on results that stem from one particular moment in time (e.g., university admission based on a test score). In this blog post, we would like to go one step further and document criticism about aggregate statistics from about the same time but outside psychological science, and see whether such statements from psychologists and non-psychologists relate to one another.
+
+**Hannah Arendt: 'The Justification of Statistics is That Deeds and Events Are Rare Occurrences'**
+
+Let us begin with philosopher and political theorist Hannah Arendt. In 1958, she published *The Human Condition*, where she famously differentiated between *vita activa* (i.e., engagement with the external world, such as labor and political engagement) and *vita contemplativa* (i.e., inner reflection and thought). However, when Arendt writes about the modern state and her claim that this institution enforces conformity, she also formulates a general critique of statistics and, to her, the most representative social science, which is economics:
+
+*Economics […] could achieve a scientific character only when men had become social beings and unanimously followed certain patterns of behavior, so that those who did not keep the rules could be considered to be asocial or abnormal. The laws of statistics are valid only where large numbers or long periods are involved, and acts or events can statistically appear only as deviations or fluctuations. The justification of statistics is that deeds and events are rare occurrences in everyday life and history* (Arendt, 1958, p. 41–42).
+
+This criticism is remarkably anticipative of modern criticism of classical test theory, particularly the assumption that, by randomly drawing individuals from a presumably homogenous population and aggregating these measurements, 'true scores' for the entire population can be derived (cf. Molenaar, 2008). Furthermore, the notion that such scores cannot mirror the variability that comes with 'acts and events' (or 'deviations and fluctuations') shares some conceptual ground with Cartier's 'moral failure' argument: even when an aggregate measure is valid for the majority of cases, one should expect that it is not predictive for a significant number of scenarios, and, therefore, shy away from making inferences based on one score alone. Thus, even though Arendt was not interested in psychological measurement theory per se, she could, in a book that focused on the social and political life in Western societies, name weaknesses of social science research that would only years later become part of a broader scientific debate.
+After these statements about a neglect of minority cases through statistical practices, Arendt goes on by linking this neglect to 'mainstreaming' tendencies: When only aggregate scores are considered by policymakers, the resulting policies will be 'overfitted' regarding the wishes of the median individual but perhaps not adequately represent those with differing needs. In turn, that incentivizes people to behave like the 'median.'
+
+*However, since the laws of statistics are perfectly valid where we deal with large numbers, it is obvious that every increase in population means an increased validity and a marked decrease of "deviation." […] The unfortunate truth about behaviorism and the validity of its "laws" is that the more people there are, the more likely they are to behave and the less likely to tolerate non-behavior. Statistically, this will be shown in the leveling out of fluctuation* (Arendt 1958, p. 43).
+
+Note that this reasoning is an interesting preview of modern performativity literature that claims that, due to the questionable assumptions they are working with, the social sciences (and here, again, particularly economics) are complicit in creating the world that they initially wanted to describe (Callon, 1998): indeed, the idea that there are 'true scores' that can ground general policies may be a good example for such questionable assumptions.
+
+**Michel Foucault: 'Individuals Will in Turn Behave as They Should'**
+
+Now, let us take a brief look at the lectures and writings of Michel Foucault, one of Arendt's contemporary philosophers. At the end of the 1970s, he established the claim that statistics is the key means by which the political domain influences, if not dominates, social life (the concept of 'pastoralization'):
+
+*[The art of government] was also connected to a set of analyses and forms of knowledge […] which were […] essentially to do with knowledge of the state, in all its different elements, dimensions, and factors of power, questions which were termed precisely 'statistics,' meaning the science of the state* (Foucault, 1979, p. 231).
+
+Hence, according to Foucault, modern states employ statistical analysis to acquire knowledge about their citizens, using data from an increasingly large and powerful bureaucracy. From here, Foucault arrives at a similar position as Arendt when he goes on by writing that this knowledge will determine the state's actions and, therewith, the citizens' behavior:
+
+*When a state is well run [i.e., knows its citizens] the head of the family will know how to look after his family […] which means individuals will in turn behave as they should* (Foucault 1978/1991, p. 92).
+
+**Nice (or Not), But What Does It Have to Do With Psychology?**
+
+In summary, both Arendt and Foucault posit that the modern state induces 'mainstream' uniform behavior among its citizens and that statistics is an essential means to enable it in doing so. Moreover, Arendt goes one step further in claiming that the neglect of individual differences and variability initially causes a similar neglect in policies that, only then, leads to uniformity.
+The nature of these arguments comes close to recent research works that criticize that psychology tends to develop one-size-fits-it-all solutions, for instance, in therapy design (e.g., Cloître, 2015), which may be caused by only looking at aggregate trends and not the individuals itself (for alternative concepts, cf. Cohen, 2021; Olthof et al., 2023). Hence, although they are writing about the use of statistics primarily in economic research, Foucault and particularly Arendt are pointing out problems that apply to quantitative research in general. That psychological science may only be able to address their decade-old criticism these days points to a long-unused potential of Arendt's and Foucault's texts in identifying problems in research practice.
+
+**Conclusion**
+
+Taken together, this blog post documents a tempting correlation (but not causation!) between criticism about aggregate statistics from inside psychological research, such as Cattell's moral-failure quote, and more general criticism about research practices in the social sciences from 'outsiders' such as Arendt and Foucault. Although they are (i) not coming from the field of psychology or statistics, (ii) not primarily writing about research methods but about modern politics and society, and (iii) generally afraid of the power of data collection and statistical analysis in predicting and controlling the behavior of citizens within a state, Arendt and Foucault can still identify weaknesses of statistical practice that are still valid these days. Indeed, the sometimes very close resemblance between these statements and the goals of today's research agendas on individual differences and human variability suggests that aligning the development within such research fields with influences from other disciplines and larger societal debates may be helpful to understand why psychological research developed the way that it did. Finally, when looking for suggestions on how to improve contemporary research practices, it could be equally beneficial to not only search within the academic literature but also to think about where we currently fail to detect, cannot adequately represent, or neglect societal problems with our studies' methodologies, results, and conclusions.
+
+**References**
+
+Arendt, H. (1958). *The human condition* (2nd ed.). Chicago University Press
+
+Callon, M. (1998). Introduction: The embeddedness of economic markets in economics. *The Sociological Review, 46*, 1–58.
+
+Cloître, M. (2015). The "one size fits all" approach to trauma treatment: should we be satisfied? *European Journal of Psychotraumatology, 6*(1). https://doi.org/10.3402/ejpt.v6.27344
+
+Cohen, Z. D., Delgadillo, J., & DeRubeis, R. J. (2021). Personalized treatment approaches. In M. Barkham, W. Lutz, & L. G. Castonguay (Eds.), *Bergin and Garfield's handbook of psychotherapy and behavior change: 50th anniversary edition* (7th ed., pp. 673–703). John Wiley & Sons.
+
+Foucault, M. (1978/1991). Governmentality. In G. Burchell, C. Gordon & P. Miller (Eds.), *The Foucault effect: Studies in governmentality with two lectures by and an interview with Michel Foucault* (pp. 87–104). Chicago University Press
+
+Foucault, M. (1979). *Discipline and punish: The birth of the prison.* Peregrine.
+Molenaar, P. C. M. (2008). Consequences of the ergodic theorems for classical test theory, factor analysis, and the analysis of developmental processes. In S. Hofer & D. Alwin (Eds.), *Handbook of cognitive aging: Interdisciplinary perspectives* (pp. 90–104). SAGE Publications. https://doi.org/10.4135/9781412976589
+
+Olthof, M., Hasselman, F., Oude Maatman, F., Bosman, A. M. T., & Lichtwarck-Aschoff, A. (2023). Complexity theory of psychopathology. *Journal of Psychopathology and Clinical Science, 132*(3), 314–323. https://doi.org/10.1037/abn0000740
