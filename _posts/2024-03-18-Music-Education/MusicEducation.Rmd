@@ -1,0 +1,51 @@
+---
+title: "Sound Foundations: Children and Music Education"
+description: |
+  Why everyone should get music education
+author: 
+  - name: Liza Rozman
+date: 03-18-2024
+output: 
+  distill::distill_article:
+    self_contained: false
+draft: false
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r, layout = "l-body-ouset", fig.width=3, echo=FALSE}
+knitr::include_graphics("musiceducation.jpg")
+```
+
+Would you believe me if I told you that there is a way to improve our memory and cognitive function while having fun? Well, maybe not fun in a traditional sense, but it's definitely better than sticking to a diet or taking medication. I'm talking about music education. And while the aspect of going to yet another educational institution might not sound that appealing, just wait for me to make my case and decide at the end. Although, let me first say that I am biased and have a few years of music education behind me, so this is based on personal experience (and scientific research).
+
+Scientists have found that a person benefits the most if they start learning an instrument (from a professional) from the age of seven and continued to do so, for at least two years. Even only two years of music education have shown some differences in brain structures and their function compared to non-musicians (Holochwost et al., 2017). When musicians were put into a scanner and asked to do simple memory tasks and math problems, the respective brain areas light up relative to the task. But when they were asked to listen to music, all those areas that were previously lighting up individually were now firing together. This is because music stimulates the motor, visual and auditory areas all at once -- like a full body workout, but for the brain (Hodges, 2000). They also found that musicians had higher levels of executive functions, highly developed memory systems, and general cognitive capacity (Holochwost et al., 2017). While I cannot attest to better cognitive functioning and capacity, I can tell you that I have had to learn hundreds of classical pieces by heart and as a piano player, not only can I read a completely different language -- musical notes, I can also read two lines at the same time (something that is only handy in a musical setting, and not so much when reading books). Additionally, scientists found that the area which connects both sides of the brain is bigger in musicians, and this allows for the information to travel a lot faster and why musicians can play those notes so quickly (Stewart, 2008).
+
+While one might not be that impressed by the quick fingers, music education has also been helpful in improving learning disabilities. For example, a study in France showed that 6-week musical training improved auditory awareness, phonological awareness, and reading ability in dyslexic children ages 8-12 (Habib, Lardy, Desiles, & Besson, 2016). Additionally, people with Attention Deficit/Hyperactivity Disorder (ADHD), also tend to respond positively to music. They can sustain their attention longer, and work on monotonous tasks without getting bored for longer (Martin-Moratinos, Bella-Fernández, & Blasco-Fontecilla, 2023). Although, I think that is true for everyone.
+
+If by now you are not convinced why children should go to music school (it's never too late for adults either), let's quickly talk about IQ and the future of humankind. Some studies have shown that music education before the age of seven, can result in a higher IQ by about 7.5 points (Schellenberg, 2004). This might not seem like much but imagine what future classrooms and education would look like if all children were given a few years of music education and the average IQ was higher with each generation and so were literacy and numeracy levels. All because the parents endured a couple of years of screeching instruments.
+
+And while they would spend their free time doing additional homework and going to yet another school in the afternoon, they would also learn how to manage their time better, make friends that are not just in their school districts, and learn how to be more confident and have a better stage presence so all those recitals don't go to waste either.
+
+To conclude, music education is not for the talented. It is for people to develop into talented individuals that are fully equipped for the real world and can spread and enjoy one of the oldest forms of communication -- music.
+
+**References:**
+
+Habib, M., Lardy, C., Desiles, T., & Besson, M. (2016). Music and dyslexia: a new musical training method to improve reading and related disorders. Frontiers in psychology, 7, 141238.
+
+Hodges, D. A. (2000). Implication of Music and Brain Research: This introductoray article offers an overview of neuromusical research and articulate some basic premises derived from this research. Music Educators Journal, 87(2), 17-22.
+
+Holochwost, S. J., Propper, C. B., Wolf, D. P., Willoughby, M. T., Fisher, K. R., Kolacz, J., . . . Jaffee, S. R. (2017). Music education, academic achievement, and executive functions. Psychology of Aesthetics, Creativity, and the Arts, 11(2), 147.
+
+Martin-Moratinos, M., Bella-Fernández, M., & Blasco-Fontecilla, H. (2023). Effects of music on attention-deficit/hyperactivity disorder (ADHD) and potential application in serious video games: systematic review. Journal of medical Internet research, 25, e37742.
+
+Schellenberg, E. G. (2004). Music lessons enhance IQ. Psychological science, 15(8), 511-514.
+
+Stewart, L. (2008). Do musicians have different brains? Clinical medicine, 8(3), 304.
