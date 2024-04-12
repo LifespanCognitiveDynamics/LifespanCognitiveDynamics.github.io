@@ -1,5 +1,5 @@
 ---
-title: "People"
+title: "The lab"
 output:
   distill::distill_article:
     theme: theme.css
@@ -9,6 +9,13 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+```{r, out.width = "100%", fig.align = 'center', echo=FALSE}
+
+knitr::include_graphics("images/people/The_Lab.jpg")
+
+```
+
+---
 
 ```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
 
@@ -30,25 +37,6 @@ Rogier Kievit is Professor of Developmental Neuroscience at the Donders Institut
 
 ---
 
-```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
-
-knitr::include_graphics("images/people/SP_Profile_C.png")
-
-```
-
-## SAM PARSONS
-
-Postdoctoral Researcher
-
-<i class="fab fa-twitter"></i>[  @Sam_D_Parsons](https://twitter.com/Sam_D_Parsons)
-<i class="fas fa-envelope"></i>[  sam.parsons@radboudumc.nl](sam.parsons@radboudumc.nl)
-<i class="ai ai-google-scholar"></i>[  google scholar](https://scholar.google.com/citations?user=kE37Xy4AAAAJ&hl=en)
-<i class="ai ai-orcid"></i>[  ORCID](https://orcid.org/0000-0002-7048-4093)
-
-
-I am interested in examining the measurement properties of longitudinal brain imaging data. I am using and extending intra-class effect decomposition (ICED) models to assess multiple sources of error. Leveraging this information should inform our understanding of which indices are reliable, where in the brain, and how to incorporate these sources of error into our models and understanding. I am committed to supporting other researchers in their own explorations of reliability by disseminating tutorials of these methodologies. I’m also invested in open scholarship and co-founded both the ReproducibiliTea Journal Club initiative and a Framework for Open and Reproducible Research Training (FORRT).
-
----
 
 ```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
 
@@ -153,7 +141,7 @@ I am interested in the impact of genetics and the environment on children’s de
 
 ---
 
-```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+```{r, out.width = "50%", fig.align = 'center', echo=FALSE}
 
 knitr::include_graphics("images/people/Jordy_van_Langen_C.png")
 ```
@@ -253,6 +241,26 @@ I am interested in the mechanisms underlying cognitive variability, and the deve
 
 # Lab Alumni
 
+
+```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+
+knitr::include_graphics("images/people/SP_Profile_C.png")
+
+```
+
+## SAM PARSONS
+
+Postdoctoral Researcher
+
+<i class="fab fa-twitter"></i>[  @Sam_D_Parsons](https://twitter.com/Sam_D_Parsons)
+<i class="fas fa-envelope"></i>[  sam.parsons@radboudumc.nl](sam.parsons@radboudumc.nl)
+<i class="ai ai-google-scholar"></i>[  google scholar](https://scholar.google.com/citations?user=kE37Xy4AAAAJ&hl=en)
+<i class="ai ai-orcid"></i>[  ORCID](https://orcid.org/0000-0002-7048-4093)
+
+
+I am interested in examining the measurement properties of longitudinal brain imaging data. I am using and extending intra-class effect decomposition (ICED) models to assess multiple sources of error. Leveraging this information should inform our understanding of which indices are reliable, where in the brain, and how to incorporate these sources of error into our models and understanding. I am committed to supporting other researchers in their own explorations of reliability by disseminating tutorials of these methodologies. I’m also invested in open scholarship and co-founded both the ReproducibiliTea Journal Club initiative and a Framework for Open and Reproducible Research Training (FORRT).
+
+---
 
 ```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
 
