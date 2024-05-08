@@ -7,6 +7,143 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+---
+
+## Open Science news
+
+Thursday May 2nd:
+
+Two events today - Aran van Hout is starting his post to work on our NWO funded Open Matrices project, welcome Aran!
+
+On the same day, Jordy and Nick gave another raincloudplots workshop at the lab of Sharon Kolk. Make it rain!
+
+```{r, out.width = "35%", fig.align = 'left'}
+knitr::include_graphics("images/news/nick.jpeg")
+```
+
+```{r, out.width = "35%", fig.align = 'right'}
+knitr::include_graphics("images/news/jordy.jpeg")
+```
+
+
+## Sunny lab lunch! 
+
+Monday 29th of April:
+
+In the absence of the weekly Bring Your Lunch, we moved into Nijmegen for a nice Lab lunch with guest Luisa Fassi!
+
+
+```{r, out.width = "60%", fig.align = 'left'}
+knitr::include_graphics("images/news/lab_lunch.jpg")
+```
+
+---
+
+## A new lab vacancy 
+
+25th of April: 
+
+As of today, we are looking for a new post-doc to strengthen our exciting CODEC project!
+
+The vacancy can be found [here:](https://www.radboudumc.nl/en/vacancies/142603-postdoc-developmental-cognitive-neuroscience)
+
+
+---
+
+## National Research Software day 2024 
+
+23rd April:
+
+Rogier gave a keynote at the National Research Software day in Hilversum. He highlighted the untenable tension between how important Open Source Software is on the one hand with how fragile, in terms of funding and staffing, it is on the other. 
+
+A recap of the National Research Software day 2024 can be found [here!](https://www.esciencecenter.nl/news/national-research-software-day-recap/)
+
+```{r, out.width = "80%", fig.align = 'left'}
+knitr::include_graphics("images/news/softwareday.jpeg")
+```
+
+--- 
+
+## A shared labmeeting
+
+
+April 13th: 
+
+We had a shared labmeeting with the Predictive Clinical Neuroscience Lab headed by Andre Marquand. A wonderful meeting where excellent ideas and knowledge were exchanged! 
+
+```{r, out.width = "60%", fig.align = 'left'}
+knitr::include_graphics("images/news/shared_labmeeting.jpg")
+```
+
+
+--- 
+
+## New people
+
+April 2nd: 
+
+Luisa Fassi has joined our lab as a guest visiting PhD student from Cambridge, welcome!
+
+```{r, out.width = "35%", fig.align = 'left'}
+knitr::include_graphics("images/people/Luisa.png")
+```
+
+Also, we have welcomed a new intern: Jesse Willems! 
+
+```{r, out.width = "35%", fig.align = 'right'}
+knitr::include_graphics("images/people/Jesse.png")
+```
+
+---
+
+## Lab photo
+
+March 21st: On this day, we (almost) had the entire lab in 1 place!
+
+```{r, out.width = "50%", fig.align = 'left'}
+knitr::include_graphics("images/people/The_Lab.jpg")
+```
+
+
+---
+
+## Marie Curie fellowship for Ilse!
+
+March 10th: Ilse Coolen receives a Marie Curie fellowship and the lab wants to congratulate her on this fantastic achievement!
+
+```{r, out.width = "50%", fig.align = 'left'}
+knitr::include_graphics("images/people/Ilse_Coolen.jpeg")
+```
+
+```{r, out.width = "50%", fig.align = 'right'}
+knitr::include_graphics("images/news/mariecurie_ilse.png")
+```
+
+
+---
+
+## Green Award for Lea Michel
+
+February 9th: During the weekly Bring Your Lunch, Lea Michel wins team player award for her many efforts to make the CNS department an (even) better place to be, congrats Lea!
+
+```{r, out.width = "50%", fig.align = 'left'}
+knitr::include_graphics("images/news/Lea_green_award1.png")
+```
+
+```{r, out.width = "50%", fig.align = 'right'}
+knitr::include_graphics("images/news/Lea_green_award2.png")
+```
+
+---
+
+## Congrats to Dr. Jessica Schaaf
+
+November 17th: (Dr.)  Jessica van der Schaaf is awarded her PhD after a spirited defense 
+
+```{r, out.width = "30%", fig.align = 'left'}
+knitr::include_graphics("images/people/Jessica_Schaaf.jpg")
+```
+
 
 ---
 
@@ -155,6 +292,5 @@ knitr::include_graphics("images/news/openscience.jpeg")
 01/09/2022
 
 Lab alumni Ethan McCormick https://e-m-mccormick.github.io/ and Ivan Simpson-Kent https://www.universiteitleiden.nl/medewerkers/ivan-simpson-kent#tab-1 have both accepted posts as assistant professor at Leiden university – We wish them the best of luck!
-
 
 
