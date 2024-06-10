@@ -1,0 +1,42 @@
+---
+title: "The good, the bad and the improved practices for statistical modelling - A
+  crowdsourcing project"
+author: "Ilse Coolen"
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+### **Practices in statistical modelling**
+
+Kicking off with the famous George Box words that “all models are bad, but some can be useful”; but how to avoid pitfalls and ensure that a model does indeed fall within the useful category? 
+
+Statistical modelling is a powerful tool to answer a wide range of research questions and provides valuable insights in understanding complex systems or phenomena. However, in fields such as psychology, most researchers are not statisticians or do not have an expert background in statistical modelling. Whether you are stepping into the realm of modelling for the first time or have been navigating it for a while, chances are that you are self-taught out of curiosity or necessity for your research. The lack of widespread knowledge about this statistical technique results in some common pitfalls that can reduce the quality of the models developed.
+Therefore, I organised a lab meeting with the Lifespan Cognitive Dynamics Lab, which has a strong focus on statistical approaches such as SEM, linear mixed modelling, mixture modelling and related approaches, with the goal to gather some bad and good practices in modelling. The first aim of this post is to raise awareness and give you the handles to avoid bad practices in statistical modelling and turn them into good ones. The second aim is to invite anyone with additional bad or good practices in statistical modelling, to add their experience to the document.
+
+Though this list will not be exhaustive, I hope that other researchers will add their knowledge and I hope it will aid fellow researchers in navigating the complexities of statistical modelling with greater confidence by becoming aware of potential pitfalls.
+
+### **Procedure and insights of the lab meeting**
+
+I asked each lab member to prepare at least one bad and one good practice that they had previously encountered or experienced in modelling, which we then categorised in one of 3 categories during the meeting: (A) data handling and pre-processing, (B) model development and selections, and (C) documentation and interpretation. The categories weren’t communicated beforehand to allow out-of-the-box thinking. Each practice was discussed and nuances were added where needed. For each bad practice we tried to come up with a way around it or turn them into a good practice. Figure 1 shows the final board with all the suggested practices that were discussed for an overview. Each of the practices are explained in more details in the original document:[https://osf.io/preprints/psyarxiv/tcxne](https://osf.io/preprints/psyarxiv/tcxne).
+
+**Figure 1.**
+*Overview of practices discussed within the LCD lab meeting*
+```{r, layout = "l-body-ouset", fig.width=3, echo=FALSE}
+knitr::include_graphics("ModellingPracticesOverview.jpg")
+```
+
+### **A crowdsourcing project**
+
+Do you believe there are some crucial practices missing? I invite you to read the [guidelines of contributing to this crowdsourcing document](https://docs.google.com/document/d/1HpyA5AF7ZFLabzNah6t8usYitNiXjyhe9TLlH38HLQk/edit?usp=sharing) and make your suggestions on the [editable google doc](https://docs.google.com/document/d/1Tf7amF9_V5m3j6T6nZWrCwRcqQMr_WRR/edit?usp=sharing&ouid=116958933419562495061&rtpof=true&sd=true).
+We welcome any contributions in the form of additional bad/good/improved practices or modifications/nuances to an existing practice.
+I will periodically verify the suggestions made and upload a new ReadOnly/preprinted version including your contributions if these are accepted. The new version of the preprint will then be shared on social media (Twitter/BlueSky).
