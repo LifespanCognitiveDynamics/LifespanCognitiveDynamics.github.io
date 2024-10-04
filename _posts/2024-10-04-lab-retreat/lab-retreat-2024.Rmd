@@ -1,0 +1,53 @@
+---
+title: "Lab writing retreat"
+author: "Sophie Hofman & Ben Kretzler"
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## **Lab writing retreat**
+
+Last month, we went on our very first multi-day writing retreat. For three days and two nights, nearly the entire lab gathered in (a not so sunny) Voorthuizen (a village near the Veluwe), travelling together from various starting points all across the Netherlands.
+
+```{r, layout = "l-body-ouset", fig.width=3, echo=FALSE}
+knitr::include_graphics("image1.jpeg")
+```
+
+To start off our lab retreat, Rogier presented an overview of the past, present and future of the lab, followed by a group discussion on the current state of our lab. We talked about what already functioned well, how we could work even more efficiently, and discussed possible improvements for our lab experience. Some of these suggestions are already implemented by now (one month later): for example, we implemented regular intervision sessions where we talk about our work struggles together, and reinvigorated our ‘Eat The Frog’ session where we commit 1 hour to (only) admin tasks.
+
+Yet, as we went on a writing retreat, we also reserved a significant portion of our time for everybody to work on their most pressing coding, paper, or thesis projects: a major goal of the retreat was to complete (or make significant progress) in our writing tasks. To facilitate concentrated work, we scheduled several long writing sessions across the three days, where we all sat together and made progress in our individual duties. The big tables in the house served as a perfect big homemade lab office, and concentration lapses were efficiently tackled by the large supply of snacks available.
+
+Beyond the writing sessions, we devoted an entire morning to a collaborative writing project on the versatility of structural equation models for conducting various parametric tests. We split into several groups, each working on different sections (e.g., introduction, simulation), and managed to achieve an impressive amount of work in just three hours! Besides, we all became more acquainted with our lab’s favourite statistical tool (R).
+
+
+```{r, layout = "l-body-ouset", fig.width=3, echo=FALSE}
+knitr::include_graphics("image3.jpeg")
+```
+
+However, the retreat was not solely about work but also about building community. We shared breakfast in the mornings and cooked and enjoyed lunch and dinner together. When we weren't working, in the evenings or during the breaks, we filled our time with fun activities. A thrilling pub quiz saw Nebbe, Jordy and Aran take first place, and (paddle) teacher Jessica taught self-proclaimed Roger Federers some new paddle tricks.
+
+```{r, layout = "l-body-ouset", fig.width=3, echo=FALSE}
+knitr::include_graphics("image4.png")
+```
+
+```{r, layout = "l-body-ouset", fig.width=3, echo=FALSE}
+knitr::include_graphics("image2.jpeg")
+```
+
+Good weather, unfortunately, did not travel with us to Voorthuizen, so walks through the Veluwe were cut short due to some (heavy) summer rain. When the sun did decide to grant us its presence, we could all relax in the garden after a Tuesday full of work, with the help of Luisa’s yoga class. Here our lab members demonstrated that their competence is not necessarily limited to *cognitive* flexibility.
+
+```{r, layout = "l-body-ouset", fig.width=3, echo=FALSE}
+knitr::include_graphics("image5.jpeg")
+```
+
+The three days we spent in Voorthuizen were an awesome experience for the whole lab. We worked, wrote and walked together, cooked, connected and collaborated during shared projects, and discussed and discovered new ideas for future work. All in all, it is definitely something worth repeating!
