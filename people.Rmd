@@ -35,26 +35,6 @@ Principal Investigator
 
 Rogier Kievit is Professor of Developmental Neuroscience at the Donders Institute in Nijmegen and Senior Associate Scientist at the Cognition and Brain Sciences Unit, University of Cambridge. He studies the rise and fall of cognitive functions across the lifespan by relating brain function, brain structure and cognition in developing populations using multivariate modeling techniques. Specifically, I use a variety of structural equation models to capture the changing relationship between mind and brain across the lifespan. CV
 
----
-
-
-```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
-
-knitr::include_graphics("images/people/Ilse_Coolen_C.png")
-
-```
-
-## Ilse Coolen
-
-Postdoctoral Researcher
-
-<i class="fab fa-twitter"></i>[  @CoolenIlse](https://twitter.com/CoolenIlse)
-<i class="fas fa-envelope"></i>[  ilse.coolen@radboudumc.nl](ilse.coolen@radboudumc.nl)
-<i class="ai ai-google-scholar"></i>[  google scholar](https://scholar.google.com/citations?hl=en&user=e0K_sngAAAAJ)
-<i class="ai ai-orcid"></i>[  ORCID](https://orcid.org/0000-0003-2254-7851)
-
-
-I am interested in the development of cognitive skills and how they relate to academic achievement. My main research is focused on the contributions of cognitive skills during the development of mathematics in preschoolers and early primary school children. I have mainly used observational, longitudinal research designs to follow the child’s development and have recently added MRI components to my research to link behavioural and neuroimaging data. I have also been invested as part of the trainee board of the Mathematical Cognition and Learning Society. Outside of work you can usually find me surrounded by cats, either my own or any other cat.
 
 ---
 
@@ -176,6 +156,29 @@ Research assistant
 
 I am interested in human cognitive development, its variation, and the ways in which we can best support it in order to thrive as human beings. I believe that to optimally do so, it’s essential that we understand the processes underlying both impaired and healthy development. Besides the LCD group, I also work as a haptotherapist, where I put theory into practice by using touch to help clients gain insight into their own development and stimulate its natural flow. In my spare time I enjoy reading (anything from romcom novels to ancient spiritual texts), making music and the freedom of being in nature, especially in summer when I get to cycle around the country for (mini) camping trips.
 
+
+# Lab Alumni
+
+
+```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+
+knitr::include_graphics("images/people/Ilse_Coolen_C.png")
+
+```
+
+## Ilse Coolen
+
+
+Postdoctoral Researcher
+
+<i class="fab fa-twitter"></i>[  @CoolenIlse](https://twitter.com/CoolenIlse)
+<i class="fas fa-envelope"></i>[  ilse.coolen@radboudumc.nl](ilse.coolen@radboudumc.nl)
+<i class="ai ai-google-scholar"></i>[  google scholar](https://scholar.google.com/citations?hl=en&user=e0K_sngAAAAJ)
+<i class="ai ai-orcid"></i>[  ORCID](https://orcid.org/0000-0003-2254-7851)
+
+
+I am interested in the development of cognitive skills and how they relate to academic achievement. My main research is focused on the contributions of cognitive skills during the development of mathematics in preschoolers and early primary school children. I have mainly used observational, longitudinal research designs to follow the child’s development and have recently added MRI components to my research to link behavioural and neuroimaging data. I have also been invested as part of the trainee board of the Mathematical Cognition and Learning Society. Outside of work you can usually find me surrounded by cats, either my own or any other cat.
+
 ---
 
 ```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
@@ -239,8 +242,7 @@ Intern
 I am interested in the mechanisms underlying cognitive variability, and the development of cognitive skills. For my master’s thesis, I plan to employ complexity methods to gain a fresh perspective on mental illnesses. My focus will be on analyzing time series data related to patients’ cognitive performance. The goal is to identify suitable models that can classify patients based on the structure of their system noise. Outside the workplace, I like running, reading, hiking, and watching puppy videos.
 
 
-# Lab Alumni
-
+---
 
 ```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
 
