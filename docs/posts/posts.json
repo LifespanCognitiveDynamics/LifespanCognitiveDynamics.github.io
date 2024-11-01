@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2024-10-31-Elections/",
+    "title": "Bad night or beginning of the end?",
+    "description": "On the American presidential elections and cognitive functioning",
+    "author": [
+      {
+        "name": "Jessica Schaaf",
+        "url": {}
+      }
+    ],
+    "date": "2024-10-31",
+    "categories": [],
+    "contents": "\r\n\r\n\r\n\r\nWith the American presidential elections coming up, there is a lot to do about the cognitive functioning of the presidential candidates. In the months before Joe Biden dropped out of the presidential race, he for example forgot when he served as vice president and mixed up names of world leaders. This made people wonder whether he was capable of leading a world nation for another four years – what if a dip in performance comes at a crucial time? Recently, similar concerns have been raised about Donald Trump, with him referring to non-existing movies and misnaming the current president. Concerning… one may think… the beginning of the end? But how do you distinguish between “just having a bad night” (known as fluctuations) and actual cognitive decline?\r\nTo answer this question, it is necessary to understand what is normal, especially for people of Biden’s (81) and Trump’s (78) age. From science, we know that cognitive abilities, like your memory, fluctuate over time. One day you easily remember where you put that shirt, whereas the other day you cannot find your keys. How you perform on a given day depends on many things, including your mood, how you slept, and stress levels. When you feel bad or when you are sleep deprived, like Biden suggested after one of his criticized debates, you likely perform worse. We also know that as you age, your brain transmits information less efficiently. This in turn leads to more fluctuations in cognitive performance with age, alongside normal cognitive decline.\r\nSo, when should we worry?\r\nOnly when an individual shows signs of cognitive decline for longer periods of time and when this decline is faster than in other individuals of the same age. By frequent cognitive testing–measuring cognitive functioning for a longer period of time–you are better able to assess whether bad days are followed by better days, how somebody functions generally, and which factors may cause bad days (such as poor sleep, less exercise than normal or stress).\r\n\r\nThe figure above illustrates the necessity of frequent testing. It shows hypothetical data for two individuals for whom cognitive functioning was measured from age 50 to 90. The blue individual shows substantial fluctuations across age. At some ages, their cognitive functioning is relatively good (for example at age 54 or 80), whereas at other ages, it is relatively bad (for example at age 74). Yet, looking at their overall functioning across age, it fluctuates around a stable average, indicating little to no cognitive decline. The red individual, on the other hand, shows clear cognitive decline, with much worse cognitive functioning at age 90 than at age 50. If we would take a snapshot of these individuals at a certain age, it would be impossible to distinguish between cognitive fluctuations and decline. If we would do so at age 70 (indicated by the black dot), we would conclude that the blue and red individual have similar cognitive functioning, even though their development is very different.\r\nThus to determine whether presidential candidates have a bad night or whether they experience actual cognitive decline, we need information on cognitive functioning over a longer period of time. Of course, age matters in the context of cognitive functioning, but age by itself is no guarantee for substantial decline. So, try to see the bigger picture and don’t get distracted by one shaky debate.\r\nJessica Schaaf, researcher in cognitive fluctuations\r\n\r\n\r\n\r\n",
+    "preview": "posts/2024-10-31-Elections/trump_vs_harris.jpg",
+    "last_modified": "2024-11-01T12:13:33+01:00",
+    "input_file": "elections_blogpost.knit.md"
+  },
+  {
     "path": "posts/2024-10-04-lab-retreat/",
     "title": "Lab writing retreat",
     "description": {},
