@@ -1,0 +1,43 @@
+---
+title: "Bad night or beginning of the end?"
+description: |
+  On the American presidential elections and cognitive functioning
+author:
+  - name: Jessica Schaaf 
+date: 10-31-2024
+output:
+  distill::distill_article:
+    self_contained: false
+draft: false
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r, layout = "l-body-ouset", fig.width=3, echo=FALSE}
+
+knitr::include_graphics("trump_vs_harris.jpg")
+
+```
+
+With the American presidential elections coming up, there is a lot to do about the cognitive functioning of the presidential candidates. In the months before Joe Biden dropped out of the presidential race, he for example [forgot when he served as vice president](https://www.nbcnews.com/health/bidens-memory-issues-draw-attention-neurologists-weigh-rcna138135) and [mixed up names of world leaders](https://www.nbcnews.com/politics/white-house/second-mixup-week-biden-talks-meeting-dead-european-leaders-rcna137823). This made people wonder whether he was capable of leading a world nation for another four years – what if a dip in performance comes at a crucial time? Recently, [similar concerns have been raised about Donald Trump](https://www.nytimes.com/2024/10/26/opinion/trump-age-decline-behavior.html), [with him referring to non-existing movies and misnaming the current president](https://www.nytimes.com/2024/10/06/us/politics/trump-speeches-age-cognitive-decline.html). Concerning… one may think… the beginning of the end? But how do you distinguish between “just having a bad night” (known as fluctuations) and actual cognitive decline?
+
+To answer this question, it is necessary to understand what is normal, especially for people of Biden’s (81) and Trump’s (78) age. From science, we know that [cognitive abilities, like your memory, fluctuate over time](https://pubmed.ncbi.nlm.nih.gov/16420137/). One day you easily remember where you put that shirt, whereas the other day you cannot find your keys. How you perform on a given day depends on many things, including your mood, how you slept, and [stress levels](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2879634/). When you feel bad or when you are sleep deprived, [like Biden suggested after one of his criticized debates](https://www.independent.co.uk/news/world/americas/us-politics/biden-debate-travel-trump-election-b2572935.html), you likely perform worse. We also know that as you age, [your brain transmits information less efficiently](https://www.researchgate.net/profile/Timothy_Salthouse/publication/14443719_The_Processing-Speed_Theory_of_Adult_Age_Differences_in_Cognition/links/00b7d53c961a061f65000000.pdf). This in turn leads to [more fluctuations in cognitive performance with age](https://pubmed.ncbi.nlm.nih.gov/14518812/), [alongside normal cognitive decline](https://www.frontiersin.org/articles/10.3389/fnhum.2023.1240630/pdf). 
+
+**So, when should we worry?** 
+
+Only when an individual shows signs of cognitive decline for longer periods of time and when this decline is faster than in other individuals of the same age. By frequent cognitive testing–measuring cognitive functioning for a longer period of time–you are better able to assess whether bad days are followed by better days, how somebody functions generally, and which factors may cause bad days (such as poor sleep, less exercise than normal or stress). 
+
+![](fluctuations_vs_decline.png)
+
+The figure above illustrates the necessity of frequent testing. It shows hypothetical data for two individuals for whom cognitive functioning was measured from age 50 to 90. The blue individual shows substantial fluctuations across age. At some ages, their cognitive functioning is relatively good (for example at age 54 or 80), whereas at other ages, it is relatively bad (for example at age 74). Yet, looking at their overall functioning across age, it fluctuates around a stable average, indicating little to no cognitive decline. The red individual, on the other hand, shows clear cognitive decline, with much worse cognitive functioning at age 90 than at age 50. If we would take a snapshot of these individuals at a certain age, it would be impossible to distinguish between cognitive fluctuations and decline. If we would do so at age 70 (indicated by the black dot), we would conclude that the blue and red individual have similar cognitive functioning, even though their development is very different.
+
+Thus to determine whether presidential candidates have a bad night or whether they experience actual cognitive decline, we need information on cognitive functioning over a longer period of time. Of course, age matters in the context of cognitive functioning, but age by itself is no guarantee for substantial decline. So, try to see the bigger picture and don’t get distracted by one shaky debate.
+
+Jessica Schaaf, researcher in cognitive fluctuations
