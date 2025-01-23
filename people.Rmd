@@ -112,9 +112,8 @@ PhD student
 
 <i class="fab fa-twitter"></i>[  @LeaCMichel](https://twitter.com/LeaCMichel)
 <i class="fas fa-envelope"></i>[  lea.michel@radboudumc.nl](lea.michel@radboudumc.nl)
-<i class="ai ai-google-scholar"></i>[  google scholar]()
+<i class="ai ai-google-scholar"></i>[  google scholar](https://scholar.google.com/citations?user=YazsGkMAAAAJ&hl=fr&oi=ao)
 <i class="ai ai-orcid"></i>[  ORCID](https://orcid.org/0000-0003-1529-573X)
-
 
 
 I am interested in the impact of genetics and the environment on children’s development. In particular, during this PhD, I will study how brain maturation (looking at white matter microstructure and grey matter morphology) underlies the development of cognitive ability in childhood. Before this PhD, I completed my master’s degree in cognitive science in Paris with a major in neuroscience. I also had the opportunity to do a gap year during my master training, visiting several labs abroad to train in neuroimaging analyses. In my spare time, I am the vice president of the French association Fédération Fresco and I am especially engaged in our project to create seven cognitive science forums in France in order to popularize cognitive science.
@@ -126,7 +125,7 @@ I am interested in the impact of genetics and the environment on children’s de
 knitr::include_graphics("images/people/Jordy_van_Langen_C.png")
 ```
 
-## Jordy van Langen
+## JORDY VAN LANGEN
 
 PhD student
 
@@ -142,12 +141,27 @@ longitudinal designs. Together this will hopefully provide new insight into the 
 
 ---
 
+```{r, out.width = "50%", fig.align = 'center', echo=FALSE}
+
+knitr::include_graphics("images/people/EleniZ_C.png")
+```
+
+## ELENI ZIMIANITI
+
+PhD student
+
+<i class="fas fa-envelope"></i>[  eleni.zimianiti@mpi.nl](eleni.zimianiti@mpi.nl)
+
+I am interested in understanding how humans differ in their language use, and more specifically how language and children’s individual differences are at play in language acquisition over development. To this end, I aim to investigate how children manage to acquire language at similar levels across time, what makes some children faster than other in language learning and how children differ with their past-selves over development. In my free time, I like baking, doing yoga, and travelling!
+
+---
+
 ```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
 
 knitr::include_graphics("images/people/Emma_C.png")
 ```
 
-## Emma Meeussen
+## EMMA MEEUSSEN
 
 Research assistant
 
@@ -155,6 +169,106 @@ Research assistant
 <i class="fas fa-envelope"></i>[  emma.meeussen@radboudumc.nl](emma.meeussen@radboudumc.nl)
 
 I am interested in human cognitive development, its variation, and the ways in which we can best support it in order to thrive as human beings. I believe that to optimally do so, it’s essential that we understand the processes underlying both impaired and healthy development. Besides the LCD group, I also work as a haptotherapist, where I put theory into practice by using touch to help clients gain insight into their own development and stimulate its natural flow. In my spare time I enjoy reading (anything from romcom novels to ancient spiritual texts), making music and the freedom of being in nature, especially in summer when I get to cycle around the country for (mini) camping trips.
+
+---
+
+```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+
+knitr::include_graphics("images/people/Felinevanaagten_C.png")
+```
+
+## FELINE VAN AAGTEN
+
+Research assistant
+
+<i class="fab fa-linkedin-in"></i>[ LinkedIn](https://www.linkedin.com/in/feline-van-aagten/)
+<i class="fas fa-envelope"></i>[  feline.vanaagten@radboudumc.nl](feline.vanaagten@radboudumc.nl)
+
+I'm interested in differences in development of children with and without diagnoses. In my previous research I focused specifically on the neurobiological substrates of ADHD by means of diffusion tensor imaging. Currently, I'm contributing to the CODEC project, a new longitudinal project focused on the fluctuation in preschoolers. In my downtime I like to play golf and cook new recipes. My absolute favorite activity is snowboarding.
+
+---
+
+```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+
+#knitr::include_graphics("images/people/Emma_C.png")
+```
+
+## ARAN VAN HOUT
+
+Research assistant
+
+<i class="fas fa-envelope"></i>[aran.vanhout@radboudumc.nl](aran.vanhout@radboudumc.nl)
+
+
+---
+
+```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+
+knitr::include_graphics("images/people/EricFleischer_C.png")
+```
+
+## ERIC FLEISCHER
+
+Research assistant
+
+<i class="fas fa-envelope"></i>[eric.fleischer@radboudumc.nl](eric.fleischer@radboudumc.nl)
+
+---
+
+```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+
+knitr::include_graphics("images/people/CarolineWunn_C.png")
+```
+
+## CAROLINE WUNN
+
+Intern
+
+<i class="fab fa-linkedin-in"></i>[ LinkedIn](https://www.linkedin.com/in/caroline-wunn-59090120a/)
+<i class="fas fa-envelope"></i>[caroline.wunn@ru.nl](caroline.wunn@ru.nl)
+
+I am interested in studying brain development in children and adolescents, particularly how emotional, educational, and social factors influence cognitive abilities and mental health. Currently, I am pursuing a research master's in Cognitive Neuroscience with a specialization in Perception, Action, and Decision-Making. My current research project focuses on the influence of schooling on working memory performance, using fMRI and the N-back task. Outside of my studies, I enjoy reading and travelling.
+
+---
+
+```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+
+knitr::include_graphics("images/people/MagdaLazari_C.png")
+```
+
+## MAGDA LAZARI
+
+Intern
+
+<i class="fab fa-linkedin-in"></i>[ LinkedIn](https://www.linkedin.com/in/magdalini-lazari-baab35348/)
+
+I am visiting the lab as part of the Erasmus+ program after recently completing my degree in psychology. During my stay, I’ll be learning and applying statistical modeling to analyze developmental cognitive data, with a focus on the mutualism theory in cognitive development. In my free time, I enjoy climbing and reading.
+
+---
+
+```{r, out.width = "50%", fig.align = 'center', echo=FALSE}
+
+#knitr::include_graphics("images/people/EleniZ_C.png")
+```
+
+## EMA JOVANOVIC
+
+Intern
+
+---
+
+```{r, out.width = "50%", fig.align = 'center', echo=FALSE}
+
+#knitr::include_graphics("images/people/EleniZ_C.png")
+```
+
+## AFON KHARI
+
+Intern
+
+
+
+---
 
 
 # Lab Alumni
