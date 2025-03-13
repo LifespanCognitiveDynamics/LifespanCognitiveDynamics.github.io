@@ -21,22 +21,19 @@ Our lab studies lifespan changes and differences in cognitive abilities, with a 
 
 Aristodemou, M.E, Judd, N., Klingber, T., & Kievit, R. (Preprint). You Could do Better Tomorrow: Nonverbal reasoning fluctuates across days, working memory is stable. [<i class="fas fa-download"></i> PDF](papers/DayVar_Preprint_MEA.pdf) 
 
-McCormick, E. M., Borgeest, G. S., & Kievit, R.. Interrupted mediation: A cautionary note on using derived metrics as intervening variables in path models. https://psyarxiv.com/48xj5/
+Borgeest, S., Henson, R. N., Kietzmann, T. C., Madan, C. R., Fox, T., Malpetti, M., … & Kievit, R. A. (Preprint). A morphometric double dissociation: cortical thickness is more related to aging; surface area is more related to cognition. https://www.biorxiv.org/content/10.1101/2021.09.30.462545v1.abstract
 
-Speyer, L. G., Murray, A. L., & Kievit, R. (2022). Investigating moderation effects at the within-person level using intensive longitudinal data: A dynamic structural equation modelling approach in Mplus. https://psyarxiv.com/hacgk
+Hofman, A. D., Kievit, R. A., Stevenson, C. E. , Molenaar, D., Visser, I., & van der Maas, H. L. J. (In revision). The dynamics of the development of mathematics skills: A comparison of theories of developing intelligence. Developmental Science, https://osf.io/ewqdb/files/
 
-Parsons, S., Brandmaier, A. M., Lindenberger, U., & Kievit, R. (2023). Longitudinal stability of grey matter measures varies across brain regions, imaging metrics, and testing sites in the ABCD study. https://doi.org/10.31234/osf.io/zpu6t
+Judd, N., van Langen, J., Poggiali, D., Whitaker, K., Rhys Marshall, T., Allen, M., & Kievit, R. (Preprint). ggrain-a ggplot2 extension for raincloud plots. bioRxiv.
 
-Ganesan, K, Roser, C., Thompson, A., Smid, C., Puetz, V., Kievit, R.A. & Steinbeis, N. "Training cognitive control in middle childhood impacts real world outcomes." (2022).
+McCormick, E. M., Borgeest, G. S., & Kievit, R. (Preprint). Interrupted mediation: A cautionary note on using derived metrics as intervening variables in path models. https://psyarxiv.com/48xj5/
 
-Mediano, P., Ikkala, A., Kievit, R. A., Jagannathan, S. R., Varley, T. F., Stamatakis, E. A., ... & Bor, D. (2021). Fluctuations in Neural Complexity During Wakefulness Relate To Conscious Level and Cognition. bioRxiv.
+Mediano, P., Ikkala, A., Kievit, R. A., Jagannathan, S. R., Varley, T. F., Stamatakis, E. A., … & Bor, D. (Preprint). Fluctuations in Neural Complexity During Wakefulness Relate To Conscious Level and Cognition. bioRxiv. 
 
-Borgeest, S., Henson, R. N., Kietzmann, T. C., Madan, C. R., Fox, T., Malpetti, M., ... & Kievit, R. A. (2021). A morphometric double dissociation: cortical thickness is more related to aging; surface area is more related to cognition. https://www.biorxiv.org/content/10.1101/2021.09.30.462545v1.abstract 
+Milosavljevic, B., Torrance, C., Kievit, R., Darboe, S., Sanyang, L., McCann, S., ... & Team, T. B. P. (Preprint). Socioeconomic and health predictors of perinatal mental health in a rural area of The Gambia. OSF Preprints.
 
-Byrne, E.M. Gilbert, R. A., Kievit, R. A. & Joni Holmes (in revision). Backward recall and n-back measures of working memory: A large-scale latent variable analysis. https://psyarxiv.com/bkja7/
-
-Hofman, A. D., Kievit, R. A., Stevenson, C. E. , Molenaar, D., Visser, I., & van der Maas, H. L. J. (In revision). The dynamics of the development of mathematics skills: A comparison of theories of developing intelligence. Developmental Science, https://osf.io/ewqdb/files/ 
-
+Ott, V. L., van den Bergh, D., Boutin, B., van Doorn, J., Bartoš, F., Judd, N., ... & Wagenmakers, E. J. (Preprint). Informative Data Visualization with Raincloud Plots in JASP (No. gv3ph_v1). Center for Open Science.
 
 ## 2023
 
