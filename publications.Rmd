@@ -15,9 +15,7 @@ Our lab studies lifespan changes and differences in cognitive abilities, with a 
 
 *For our latest work click here*
 
-
 ## Preprints / Under Review
-
 
 Aristodemou, M.E, Judd, N., Klingber, T., & Kievit, R. (Preprint). You Could do Better Tomorrow: Nonverbal reasoning fluctuates across days, working memory is stable. [<i class="fas fa-download"></i> PDF](papers/DayVar_Preprint_MEA.pdf) 
 
@@ -35,7 +33,73 @@ Milosavljevic, B., Torrance, C., Kievit, R., Darboe, S., Sanyang, L., McCann, S.
 
 Ott, V. L., van den Bergh, D., Boutin, B., van Doorn, J., Bartoš, F., Judd, N., ... & Wagenmakers, E. J. (Preprint). Informative Data Visualization with Raincloud Plots in JASP (No. gv3ph_v1). Center for Open Science.
 
+## 2025
+
+Kurten, S., Ghai, S., Odgers, C., Kievit, R. A., & Orben, A. (2025). Deprivation's role in adolescent social media use and its links to life satisfaction. Computers in Human Behavior, 165, 108541.
+
+Hintz, F., Dijkhuis, M., van’t Hoff, V., Huijsmans, M., Kievit, R. A., McQueen, J. M., & Meyer, A. S. (2025). Evaluating the factor structure of the Dutch Individual Differences in Language Skills (IDLaS-NL) test battery. Brain Research, 149502.
+
+Sadeghi, N., Van Der Velpen, I., Baker, B., Batta, I., Genon, S., McCormick, E. M., ... & White, T. (in press). What do we really know about the interplay between brain, behavior, and cognition from childhood to early adulthood? An international group effort to generate and share simulated datasets. Nature Scientific Data 
+
+## 2024
+
+Byrne, E. M., Gilbert, R. A., Kievit, R. A., & Holmes, J. (2024). Evidence for separate backward recall and n-back working memory factors: a large-scale latent variable analysis. Memory, 32(9), 1182-1198.
+
+Ganesan, K., Thompson, A., Smid, C. R., Cañigueral, R., Li, Y., Revill, G., ... & Steinbeis, N. (2024). Cognitive control training with domain-general response inhibition does not change children’s brains or behavior. Nature neuroscience, 27(7), 1364-1375.
+
+Roe, J. M., Vidal-Piñeiro, D., Sørensen, Ø., Grydeland, H., Leonardsen, E. H., Iakunchykova, O., ... & Wang, Y. (2024). Brain change trajectories in healthy adults correlate with Alzheimer’s related genetic variation and memory decline across life. Nature Communications, 15(1), 10651.
+
+Mansouri, F. A., Kievit, R. A., & Buckley, M. J. (2024). Executive control fluctuations underlie behavioral variability in anthropoids. Trends in Cognitive Sciences.
+
+Aristodemou, M. E., Rommelse, N., & Kievit, R. (2024). Attentiveness modulates reaction-time variability: findings from a population-based sample of 1032 children. Collabra: Psychology, 10(1), 122517.
+
+Coolen, I. E., van Langen, J., Hofman, S., van Aagten, F. E., Schaaf, J. V., Michel, L., ... & Kievit, R. A. (2024). Protocol and preregistration for the CODEC project: measuring, modelling and mechanistically understanding the nature of cognitive variability in early childhood. BMC psychology, 12(1), 407.
+
+Ganesan, K., Thompson, A., Smid, C. R., Cañigueral, R., Li, Y., Revill, G., ... & Steinbeis, N. (2024). Cognitive control training with domain-general response inhibition does not change children’s brains or behavior. Nature neuroscience, 27(7), 1364-1375.
+
+Vidal-Piñeiro, D., Sørensen, Ø., Strømstad, M., Amlien, I. K., Anderson, M., Baaré, W. F., ... & Fjell, A. M. (2024). Reliability of structural brain change in cognitively healthy adult samples. bioRxiv, 2024-06.
+
+Judd, N., Aristodemou, M., Klingberg, T., & Kievit, R. (2024). Interindividual differences in cognitive variability are ubiquitous and distinct from mean performance in a battery of eleven tasks. Journal of Cognition, 7(1), 45.
+
+Judd, N., & Kievit, R. (2024). No effect of additional education on long-term brain structure–a preregistered natural experiment in thousands of individuals. https://elifesciences.org/reviewed-preprints/101526
+
+Speyer, L. G., Murray, A. L., & Kievit, R. (2024). Investigating moderation effects at the within-person level using intensive longitudinal data: a two-level dynamic structural equation modelling approach in Mplus. Multivariate Behavioral Research, 59(3), 620-637.
+
+Aristodemou, M. E., Kievit, R. A., Murray, A. L., Eisner, M., Ribeaud, D., & Fried, E. I. (2024). Common cause versus dynamic mutualism: An empirical comparison of two theories of psychopathology in two large longitudinal cohorts. Clinical Psychological Science, 12(3), 380-402.
+
+Michel, L. C., McCormick, E. M., & Kievit, R. A. (2024). Gray and white matter metrics demonstrate distinct and complementary prediction of differences in cognitive performance in children: Findings from ABCD (N= 11,876). Journal of Neuroscience, 44(12).
+
+Parsons, S., Brandmaier, A. M., Lindenberger, U., & Kievit, R. (2024). Longitudinal stability of cortical grey matter measures varies across brain regions, imaging metrics, and testing sites in the ABCD study. Imaging Neuroscience, 2, 1-22.
+
+Schweizer, S., Leung, J. T., Trender, W., Kievit, R., Hampshire, A., & Blakemore, S. J. (2024). Changes in affective control covary with changes in mental health difficulties following affective control training (AffeCT) in adolescents. Psychological medicine, 54(3), 539-547.
+
+Blockmans, L., Kievit, R., Wouters, J., Ghesquière, P., & Vandermosten, M. (2024). Dynamics of cognitive predictors during reading acquisition in a sample of children overrepresented for dyslexia risk. Developmental Science, 27(1), e13412.
+
 ## 2023
+
+Bates, K. E., Pollmann, A., Kievit, R., Fuhrmann, D., House, A., Pond, G. M., & London, S. E. (2023). Perception of social experiences and cortical thickness change together throughout early adolescence: findings from the ABCD cohort.
+
+Fjell, A. M., Sørensen, Ø., Wang, Y., Amlien, I. K., Baaré, W. F., Bartrés-Faz, D., ... & Walhovd, K. B. (2023). No phenotypic or genotypic evidence for a link between sleep duration and brain atrophy. Nature Human Behaviour, 7(11), 2008-2022.
+
+Raven, E. P., Veraart, J., Kievit, R. A., Genc, S., Ward, I. L., Hall, J., ... & Jones, D. K. (2023). In vivo evidence of microstructural hypo-connectivity of brain white matter in 22q11. 2 deletion syndrome. Molecular psychiatry, 28(10), 4342-4352.
+
+Blott, L. M., Gowenlock, A. E., Kievit, R., Nation, K., & Rodd, J. M. (2023). Studying individual differences in language comprehension: The challenges of item-level variability and well-matched control conditions. Journal of Cognition, 6(1), 54.
+
+Smith, T. A., Kievit, R. A., & Astle, D. E. (2023). Maternal mental health mediates links between socioeconomic status and child development. Current Psychology, 42(25), 21967-21978.
+
+Pezzoli, P., Parsons, S., Kievit, R. A., Astle, D. E., Huys, Q. J., Steinbeis, N., & Viding, E. (2023). Challenges and solutions to the measurement of neurocognitive mechanisms in developmental settings. Biological Psychiatry: Cognitive Neuroscience and Neuroimaging, 8(8), 815-821.
+
+Kapteijns, B., Lau, N. T., van Hoogmoed, A., van de Ven, M., Kievit, R., & Kroesbergen, E. (2023, July 24). Patterns of stability and change in early learning trajectories: a Latent Transition Analysis of early literacy, numeracy and cognitive abilities from kindergarten to first grade. https://doi.org/10.17605/OSF.IO/T587F
+
+Fjell, A. M., Sørensen, Ø., Wang, Y., Amlien, I. K., Baaré, W. F., Bartrés-Faz, D., ... & Walhovd, K. B. (2023). Is short sleep bad for the brain? Brain structure and cognitive function in short sleepers. Journal of Neuroscience, 43(28), 5241-5250.
+
+Jacobucci, R., Grimm, K. J., Brandmaier, A. M., Serang, S., Kievit, R. A., Scharf, F., ... & Ye, A. (2023). Package ‘regsem’.
+
+Inman, A., Chen, S., Contini, E., Orben, A., Kievit, R., Kulbayeva, Z., Shah, M., Pollmann, A., Fuhrmann, D., & Bates, K. (2023). “I am concerned about young people’s mental health and that they have less hope for their future”: Practitioners’ emerging concerns for young people between June 2019 to November 2021. https://www.barnardos.org.uk/sites/default/files/uploads/KCL%20%26%20Barnardo%27s%20QPS%20report.pdf
+
+Budin‐Ljøsne, I., Friedman, B. B., Baaré, W. F., Bartrés‐Faz, D., Carver, R. B., Drevon, C. A., ... & Zsoldos, E. (2023). Stakeholder engagement in European brain research: Experiences of the Lifebrain consortium. Health Expectations, 26(3), 1318-1326.
+
+Barendse, M., Kievit, R., & Pfeifer, J. (2023). Longitudinal, bidirectional associations between frontostriatal functional connectivity and depressive symptoms in adolescent girls.
 
 McCormick, E. M., Cam-CAN & Kievit, R. (In press). Poorer white matter microstructure predicts slower and more variable reaction time performance: evidence for the neural noise hypothesis in a large lifespan cohort. In press, Journal of Neuroscience. 
 
