@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Our lab studies lifespan changes and differences in cognitive abilities, with a special focus on ‘fluid abilities’ such as reasoning. We are especially interested in periods of rapid change such as childhood and old age, as well as the neural mechanisms underlying these changes. To study these questions, we apply and develop a range of psychometric techniques to try and get a handle on the interplay of and concurrent changes in brain structure, brain function and cognition during ageing. All our papers ultimately end up here, and should be fully open access – Drop us a line if you have any trouble accessing our work.
 
-*For our latest work click here*
+*For our latest work click [here](https://scholar.google.com/citations?user=kplx7AUAAAAJ&hl=en)*
 
 ## Preprints / Under Review
 
