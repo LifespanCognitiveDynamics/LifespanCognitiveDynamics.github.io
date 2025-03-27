@@ -83,26 +83,6 @@ I'm interested in how complex cognition arises. Specifically, how we solve probl
 
 ```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
 
-knitr::include_graphics("images/people/mearistodemou_C.png")
-
-```
-
-## MICHAEL ARISTODEMOU
-
-PhD student
-
-<i class="fab fa-twitter"></i>[  @mearistodemou](https://twitter.com/mearistodemou)
-<i class="fas fa-envelope"></i>[  michael.aristodemou@radboudumc.nl](michael.aristodemou@radboudumc.nl)
-<i class="ai ai-google-scholar"></i>[  google scholar](https://scholar.google.com/citations?user=AXBd2n4AAAAJ&hl=en)
-<i class="ai ai-orcid"></i>[  ORCID](https://orcid.org/0000-0003-0420-2702)
-
-
-I want to understand how and why people’s cognitive abilities fluctuate and change over time. To this end, I aim to exploit technological advances that allow us to observe cognitive development as it unfolds in conjunction with different modeling approaches. Ultimately, I strive to use knowledge about the mechanisms underlying cognitive development to benefit the evolution of educational and cognitive interventions.
-
----
-
-```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
-
 knitr::include_graphics("images/people/leamichel_C.png")
 ```
 
@@ -153,6 +133,21 @@ PhD student
 <i class="fas fa-envelope"></i>[  eleni.zimianiti@mpi.nl](eleni.zimianiti@mpi.nl)
 
 I am interested in understanding how humans differ in their language use, and more specifically how language and children’s individual differences are at play in language acquisition over development. To this end, I aim to investigate how children manage to acquire language at similar levels across time, what makes some children faster than other in language learning and how children differ with their past-selves over development. In my free time, I like baking, doing yoga, and travelling!
+
+---
+
+```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+
+#knitr::include_graphics("images/people/Ciske_C.png")
+```
+
+## Ciske Jansen
+
+Lab Manager
+
+<i class="fab fa-linkedin-in"></i>[ LinkedIn](https://nl.linkedin.com/in/ciske-jansen-54747a132)
+<i class="fas fa-envelope"></i>[ciske.jansen@radboudumc.nl](aran.vanhout@radboudumc.nl)
+
 
 ---
 
@@ -211,7 +206,10 @@ knitr::include_graphics("images/people/EricFleischer_C.png")
 
 Research assistant
 
+<i class="fab fa-linkedin-in"></i>[ LinkedIn]( https://nl.linkedin.com/in/eric-fleischer-468a291b8?trk=people-guest_people_search-card)
 <i class="fas fa-envelope"></i>[eric.fleischer@radboudumc.nl](eric.fleischer@radboudumc.nl)
+
+My interest lies in the field of developmental psychology. Within this area I am especially interested in the development of mental disorders in the (early) lifetime of an individual. Next to being a research assistant for the CODEC-project, I am working as a child and youth psychologist (so to speak the perfect combination between theory/research and practice). In my spare time I like to run or cycle, watch a movie at the cinema and train my cooking skills.
 
 ---
 
@@ -231,18 +229,16 @@ I am interested in studying brain development in children and adolescents, parti
 
 ---
 
-```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+```{r, out.width = "50%", fig.align = 'center', echo=FALSE}
 
-knitr::include_graphics("images/people/MagdaLazari_C.png")
+#knitr::include_graphics("images/people/EleniZ_C.png")
 ```
 
-## MAGDA LAZARI
+## Aline Korver
 
 Intern
 
-<i class="fab fa-linkedin-in"></i>[ LinkedIn](https://www.linkedin.com/in/magdalini-lazari-baab35348/)
-
-I am visiting the lab as part of the Erasmus+ program after recently completing my degree in psychology. During my stay, I’ll be learning and applying statistical modeling to analyze developmental cognitive data, with a focus on the mutualism theory in cognitive development. In my free time, I enjoy climbing and reading.
+I am a research master’s student in Cognitive Neuroscience with a double background in Psychology and Philosophy, interested in the development of alternative research methods which respect the complex, dynamic, and individually unique nature of psychological phenomena. For my internship, I will be involved in the CODEC project, which studies cognitive variability in early childhood. In my free time, I enjoy reading novels, running over the Veluwe, and commuting between Arnhem and Nijmegen with my racing bike!
 
 ---
 
@@ -266,12 +262,49 @@ Intern
 
 Intern
 
-
+I am a second-year master's student in Brain and Cognitive Sciences at the University of Amsterdam, currently joining the Lifespan Cognitive Dynamics Lab as a research intern. I am interested in attention, learning, mind wandering, and cognitive strategies, particularly in the context of cognitive variability.
+My focus is on how cognitive strategies and attention fluctuations relate to performance on tasks. Additionally, I am interested in Dynamic Structural Equation Modeling (DSEM) as a tool to quantify these fluctuations over time.
+Beyond research, I enjoy reading about cognitive science, watching movies, and hiking. I am excited to be part of the lab and look forward to collaborating on projects that deepen our understanding of cognitive development and variability!
 
 ---
 
 
 # Lab Alumni
+
+```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+
+knitr::include_graphics("images/people/mearistodemou_C.png")
+
+```
+
+## MICHAEL ARISTODEMOU
+
+PhD student
+
+<i class="fab fa-twitter"></i>[  @mearistodemou](https://twitter.com/mearistodemou)
+<i class="fas fa-envelope"></i>[  michael.aristodemou@radboudumc.nl](michael.aristodemou@radboudumc.nl)
+<i class="ai ai-google-scholar"></i>[  google scholar](https://scholar.google.com/citations?user=AXBd2n4AAAAJ&hl=en)
+<i class="ai ai-orcid"></i>[  ORCID](https://orcid.org/0000-0003-0420-2702)
+
+
+I want to understand how and why people’s cognitive abilities fluctuate and change over time. To this end, I aim to exploit technological advances that allow us to observe cognitive development as it unfolds in conjunction with different modeling approaches. Ultimately, I strive to use knowledge about the mechanisms underlying cognitive development to benefit the evolution of educational and cognitive interventions.
+
+---
+
+```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+
+knitr::include_graphics("images/people/MagdaLazari_C.png")
+```
+
+## MAGDA LAZARI
+
+Intern
+
+<i class="fab fa-linkedin-in"></i>[ LinkedIn](https://www.linkedin.com/in/magdalini-lazari-baab35348/)
+
+I am visiting the lab as part of the Erasmus+ program after recently completing my degree in psychology. During my stay, I’ll be learning and applying statistical modeling to analyze developmental cognitive data, with a focus on the mutualism theory in cognitive development. In my free time, I enjoy climbing and reading.
+
+---
 
 
 ```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
