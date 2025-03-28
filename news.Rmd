@@ -7,13 +7,15 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
----
 
 ## Talk in Paris
 
-March 2025:
+21st of March:
 
-Rogier gave a talk in Paris. 
+Paris workshop on Human Trajectories
+
+Rogier was invited to speak in Paris at an exciting workshop organized by [LaPsyDÉ](https://www.lapsyde.com) on neurodevelopmental trajectories. It was a chance to share our own work on [brain maturation](https://linkinghub.elsevier.com/retrieve/pii/S1053-8119(22)00623-1) and cognitive variability, but also to hear about innovations on disease progression, learning rates, adaptive educational platforms. We got a tour of the amazing LaPsyDÉ institute (former home of Binet and Piaget), whose offices have some of the best views of Paris. We also  did a bit of sightseeing and baguette eating of course.
+
 
 ```{r, out.width = "60%", fig.align = 'left'}
 knitr::include_graphics("images/news/Paris.jpg")
@@ -21,32 +23,20 @@ knitr::include_graphics("images/news/Paris.jpg")
 
 ---
 
-## Nick’s Jacob’s fellowship
+## New and old members
 
-Nick joins the [Jacobs Foundation Research Fellowship]( https://jacobsfoundation.org/ground-breaking-researchers-join-jacobs-foundation-research-fellowship/
-)!  
+1st of March: 
 
-```{r, out.width = "40%", fig.align = 'left'}
-knitr::include_graphics("images/people/nickjudd_C.png")
-```
+Over the past few months we have seen some changes in the Lab. Ilse Coolen was awarded a Marie Curie Fellowship and is now working in Leuven and Oxford. [Michael Aristodemou](https://scholar.google.com/citations?user=AXBd2n4AAAAJ&hl=en) submitted his PhD thesis, and has started as a postdoc with [Prof. Charles Driver](https://scholar.google.co.uk/citations?user=713cSToAAAAJ&hl=en&oi=ao) in Zurich. We have also welcomed several new lab members: Eric Fleischer joined the CODEC project as RA, Ciske Jansen is working as lab manager, and Aline Korver, Afon Mohammed Khari, Ema Jovanovic, Caroline Wunn and Lena Kohler are working with us on their internships.
 
 ---
 
-## New Paper: elife
+## New paper ggrain paper and download milestone
 
-New paper by Nick & Rogier is published in [Elife edu](https://elifesciences.org/reviewed-preprints/101526v1).
+February 2025
 
+Our raincloudplots team (led by Nick and Jordy) has published a brief [paper](https://www.biorxiv.org/content/10.1101/2024.12.13.628294v1.abstract) explaining the possibilities in the ggrain package (vignette [here](https://cran.r-project.org/web/packages/ggrain/vignettes/ggrain.html)). Another milestone: The ggrain package has been downloaded 30.000 times! 
 
-```{r, out.width = "60%", fig.align = 'left'}
-knitr::include_graphics("images/news/Elife_Paper.png")
-```
-
----
-
-## New paper ggrain & downloads
-
-New [paper]( https://www.biorxiv.org/content/10.1101/2024.12.13.628294v1.abstract
-) by Nick, Jordy and Rogier. 
 
 ```{r, out.width = "40%", fig.align = 'left'}
 knitr::include_graphics("images/news/ggrain.png")
@@ -54,15 +44,88 @@ knitr::include_graphics("images/news/ggrain.png")
 
 ---
 
-## New and old members
+## BDD workshop ‘Integrating patients and other stakeholders into our science’.
 
-Welcome to our [new members](https://lifespancognitivedynamics.com/people.html) (Afon, Aline, Bob, Ciske, Ema & Eric) and farewell to the alumni (Ilse, Magda, Michael, Sophie). 
+17th of January 2025:
+
+As part of the Research Programme [‘The Brain Across Development In Health and Disease’](https://www.radboudumc.nl/en/research/research-programs/the-brain-across-development-in-health-and-disease), Janita Bralten and Rogier organized a workshop on ‘Integrating patients and other stakeholders into our science’. We heard from Martine Hoogman, Janneke Zinkstok, Wouter Staal and Jelle van Gurp about how to best engage patients, families, patient organizations and many stakeholders, to ensure not only the highest quality science, but that our findings have impact where it is needed most.
+
+
+```{r, out.width = "60%", fig.align = 'left'}
+knitr::include_graphics("images/news/BDD_workshop.JPG")
+```
 
 ---
 
-## New Paper: codec
+## Workshop Latent Growth Curve Modeling (for Ukraine) 
 
-New paper from the lab about the protocol and the preregistration of the [CODEC project]( https://link.springer.com/article/10.1186/s40359-024-01904-5). 
+16th of January 2025:
+
+Rogier gave a [workshop](https://sites.google.com/view/dariia-mykhailyshyna/main/r-workshops-for-ukraine) on longitudinal modeling using latent growth curves. It is part of a rather amazing series of workshops on using R for data science put together by PhD student [Dariia Mykhailyshyna](https://sites.google.com/view/dariia-mykhailyshyna/main), with all proceeds going to support charity efforts in Ukraine – Do check out upcoming workshops, as they are all excellent.
+
+```{r, out.width = "60%", fig.align = 'left'}
+knitr::include_graphics("images/news/Ukraine.png")
+```
+
+---
+
+## In person launch of REMAC
+
+16th of December 2024:
+
+We had our first in person REMAC meeting in Huize Heyendael. The [REMAC centre](https://www.ru.nl/en/donders-institute/research/di-funded-research-projects/research-projects/remac-radboud-ecological-momentary-assessment-center), founded by Rogier and [Janna Vrijsen](https://www.radboudumc.nl/personen/janna-vrijsen) and supported by Aran van Hout, brings together people from across campus to share ideas, methods, best practices and challenges in experience sampling and Ecological Momentary data Analysis work. It was really exciting to see new collaborations be initiated, and (e.g.) PhD students finding others with similar challenges. Our next meeting will be in March 2025.
+
+```{r, out.width = "60%", fig.align = 'left'}
+knitr::include_graphics("images/news/REMAC.JPG")
+```
+
+---
+
+## Urai lab shared meeting
+
+28th of November 2024:
+
+We had a shared labmeeting with the [COCOSYS lab](https://anneurai.net) led by Anne Urai. As often happens, there were many areas of overlap and synergy between our interests. For instance, check out [Anne’s new paper](https://osf.io/xk6gm_v1/) on understanding structure in the noise of human performance. Beyond pure science, we also discussed our mutual passion for being a climate responsible scientist and lab, and what we can do to improve the future of the planet.
+
+```{r, out.width = "60%", fig.align = 'left'}
+knitr::include_graphics("images/news/Urai.JPG")
+```
+
+---
+
+## Ilse Coolen and Nick Judd receive prestigious fellowships
+
+30th of November: 
+
+Nick Judd received a Jacobs Fellowship, and will extend his work on natural experiments to understand the impact of environmental factors on brain development. Congratulations Nick!
+
+---
+
+## Protesting budget cuts to education and research
+
+30th of November 2024:
+
+Several members of the lab attended the protests on the Malieveld, opposing drastic budget cuts to education and science.
+
+---
+
+## Data collection in CODEC starts!
+
+18th of November 2024:
+
+After years and months of grants, ethics approval, piloting and task development, we have finally started data collection in CODEC! We are going into the classroom with our tablets to measure cognitive performance three times a day for 5 days. So far, the children are enjoying the tasks, and we can see the data coming in. 
+
+```{r, out.width = "60%", fig.align = 'left'}
+knitr::include_graphics("images/news/CODEC_testing.jpg")
+```
+
+---
+
+## Codec protocol paper published & variability in anthropoids
+
+1st of September 2024: 
+
+We have published the [protocol paper](https://bmcpsychology.biomedcentral.com/articles/10.1186/s40359-024-01904-5) for our ERC funded CODEC study. In the paper, a true group effort, we describe the design, tasks and background of the study. More importantly, we specify a series of directional hypotheses we will be testing as the study progresses. In the meantime, if you’re interested in reading more about cognitive variability, we’ve published a [collaborative paper](https://www.cell.com/callback?red_uri=%2Ftrends%2Fcognitive-sciences%2Ffulltext%2FS1364-6613%2824%2900287-0&code=lys5-KAkLxFd2gru-IFbUiIVzWDdGQaH4Pp2BiMN&state=15634851811) with Farshad Mansouri and Mark Buckley exploring the neural underpinning of response time variability in anthropoids.
 
 ```{r, out.width = "50%", fig.align = 'left'}
 knitr::include_graphics("images/news/codec1protocol.png")
@@ -71,6 +134,7 @@ knitr::include_graphics("images/news/codec1protocol.png")
 ```{r, out.width = "50%", fig.align = 'right'}
 knitr::include_graphics("images/news/codec2protocol.png")
 ```
+
 --- 
 
 ## Two new tutorials available!
@@ -78,72 +142,6 @@ knitr::include_graphics("images/news/codec2protocol.png")
 Thursday February 27th:
 
 Always wanted to analyze your longitudinal or time series data but don't know where to start? Try our open online tutorials on [Latent Growth Modeling](https://www.njudd.com/assignment_workshop_lgms.html) and on [Dynamic Structural Equation Modeling](https://jessicaschaaf.github.io/jessicaschaaf/dsem-workshop.html)! Very hands-on. Yes, you can do it too, we promise!
-
----
-
-## Workshop for Ukraine Rogier
-
-16 January 2025:
-
-Rogier gave a workshop on longitudinal modeling. 
-
-```{r, out.width = "60%", fig.align = 'left'}
-knitr::include_graphics("images/news/Ukraine.png")
-```
-
----
-
-## BDD workshop
-
-16 January 2025:
-
-As part of the Research Programme ‘The Brain Across Development’.
-
-```{r, out.width = "60%", fig.align = 'left'}
-knitr::include_graphics("images/news/BDD_workshop.JPG")
-```
-
----
-
-## REMAC events
-
-16 December 2024:
-
-On this day, the REMAC event took place! Talks were given by:
-
-Fred Hasselman: Improving Intensive Longitudinal Data
-
-Martijn de Groot: One Button Tracker: A Simple and Low-Effort Instrument for In-the-Moment Self-Tracking
-
-Alessio Proposito: Road to the Resilient Brain Study: How to Measure Environmental Controllability in Real life
-
-```{r, out.width = "60%", fig.align = 'left'}
-knitr::include_graphics("images/news/REMAC.JPG")
-```
-
----
-
-## Data collection in CODEC starts!
-
-November 2024:
-
-The data collection for the CODEC project has started! 
-
-```{r, out.width = "60%", fig.align = 'left'}
-knitr::include_graphics("images/news/CODEC_testing.jpg")
-```
-
----
-
-## Urai lab shared meeting
-
-28 November 2024:
-
-We had a shared labmeeting with the COCOSYS lab led by Anne Urai. 
-
-```{r, out.width = "60%", fig.align = 'left'}
-knitr::include_graphics("images/news/Urai.JPG")
-```
 
 ---
 
