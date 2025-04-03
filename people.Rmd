@@ -136,9 +136,27 @@ I am interested in understanding how humans differ in their language use, and mo
 
 ---
 
+```{r, out.width = "50%", fig.align = 'center', echo=FALSE}
+
+knitr::include_graphics("images/people/BobK_C.jpg")
+```
+
+## BOB KAPTEIJNS
+
+PhD Student
+
+<i class="fas fa-envelope"></i>[Bob.Kapteijns@ru.nl](Bob.Kapteijns@ru.nl)
+<i class="ai ai-google-scholar"></i>[  google scholar](https://scholar.google.nl/citations?user=__55KLYAAAAJ)
+<i class="ai ai-orcid"></i>[  ORCID](https://orcid.org/0000-0003-3019-8006)
+
+
+I’m a PhD student at the Behavioural Science Institute (BSI) at Radboud University, and an external member of the Lifespan Cognitive Dynamics Lab. I’m conducting a 5-wave longitudinal study, called the Radboud Early Academic Development Inquiry (the READI project, in short). In this project, we investigate children’s early cognitive, literacy and numeracy development throughout the earliest years of primary school. Specifically, I’m interested in learning more about the cognitive and home-related factors that are associated with individual differences in children’s reading and math development across early primary school. Next to this project, I’m also working on a project featuring diffusion-weighted MRI data, where we aim to investigate the relationships between cortical white matter, executive skills and early reading and math abilities in a large, atypical youth sample.
+
+---
+
 ```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
 
-#knitr::include_graphics("images/people/Ciske_C.png")
+knitr::include_graphics("images/people/Ciske_C.jpg")
 ```
 
 ## Ciske Jansen
@@ -147,6 +165,8 @@ Lab Manager
 
 <i class="fab fa-linkedin-in"></i>[ LinkedIn](https://nl.linkedin.com/in/ciske-jansen-54747a132)
 <i class="fas fa-envelope"></i>[ciske.jansen@radboudumc.nl](aran.vanhout@radboudumc.nl)
+
+I am interested in development and how the early plastic stages of life lay the foundation for cognition, behavior, and language. With a background in medical neurobiology and developmental research, I have experience with a wide range of methods used to study these processes. I am particularly drawn to longitudinal projects that explore the long-term impacts of early development. At the LCD Lab, my focus is on organizing and maintaining lab structures while contributing wherever needed. Additionally, I am a Research Assistant at the Developmental Psychobiology Lab. Outside of research, I enjoy endurance sports. Mostly running, but I also love cycling on sunny days, swimming in a warm pool when it's cold outside and hiking on holidays!
 
 
 ---
@@ -185,7 +205,7 @@ I'm interested in differences in development of children with and without diagno
 
 ```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
 
-#knitr::include_graphics("images/people/Emma_C.png")
+knitr::include_graphics("images/people/Aran_C.png")
 ```
 
 ## ARAN VAN HOUT
@@ -194,6 +214,8 @@ Research assistant
 
 <i class="fas fa-envelope"></i>[aran.vanhout@radboudumc.nl](aran.vanhout@radboudumc.nl)
 
+Hi, I’m Aran! I work as a research assistant on the OMSS project, where I’m developing a program to generate matrices for assessing fluid reasoning. You can learn more about this research [here](https://www.aranvanhout.com/research.html).
+I’m also involved in organizing REMAC, a program that connects researchers at Radboud University who use Ecological Momentary Assessment.
 
 ---
 
@@ -231,7 +253,7 @@ I am interested in studying brain development in children and adolescents, parti
 
 ```{r, out.width = "50%", fig.align = 'center', echo=FALSE}
 
-#knitr::include_graphics("images/people/EleniZ_C.png")
+knitr::include_graphics("images/people/Aline_C.png")
 ```
 
 ## Aline Korver
@@ -253,9 +275,9 @@ Intern
 
 ---
 
-```{r, out.width = "50%", fig.align = 'center', echo=FALSE}
+```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
 
-#knitr::include_graphics("images/people/EleniZ_C.png")
+knitr::include_graphics("images/people/Afon_C.png")
 ```
 
 ## AFON KHARI
