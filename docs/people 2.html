@@ -88,26 +88,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Lifespan Cognitive Dynamics Lab: News from the lab</title>
+  <title>Lifespan Cognitive Dynamics Lab: The Lab</title>
 
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Lifespan Cognitive Dynamics Lab: News from the lab"/>
+  <meta property="og:title" content="Lifespan Cognitive Dynamics Lab: The Lab"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Lifespan Cognitive Dynamics Lab"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Lifespan Cognitive Dynamics Lab: News from the lab"/>
+  <meta property="twitter:title" content="Lifespan Cognitive Dynamics Lab: The Lab"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","output"]}},"value":[{"type":"character","attributes":{},"value":["News from the lab"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","output"]}},"value":[{"type":"character","attributes":{},"value":["The Lab"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["theme"]}},"value":[{"type":"character","attributes":{},"value":["theme.css"]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -1836,6 +1836,319 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </script>
 
+  <style type="text/css">
+  /* base variables */
+
+  /* Edit the CSS properties in this file to create a custom
+     Distill theme. Only edit values in the right column
+     for each row; values shown are the CSS defaults.
+     To return any property to the default,
+     you may set its value to: unset
+     All rows must end with a semi-colon.                      */
+
+  /* Optional: embed custom fonts here with `@import`          */
+  /* This must remain at the top of this file.                 */
+
+
+
+  html {
+    /*-- Main font sizes --*/
+    --title-size:      50px;
+    --body-size:       1.06rem;
+    --code-size:       14px;
+    --aside-size:      12px;
+    --fig-cap-size:    13px;
+    /*-- Main font colors --*/
+    --title-color:     #000000;
+    --header-color:    rgba(0, 0, 0, 0.8);
+    --body-color:      rgba(0, 0, 0, 0.8);
+    --aside-color:     rgba(0, 0, 0, 0.6);
+    --fig-cap-color:   rgba(0, 0, 0, 0.6);
+    /*-- Specify custom fonts ~~~ must be imported above   --*/
+    --heading-font:    sans-serif;
+    --mono-font:       monospace;
+    --body-font:       sans-serif;
+    --navbar-font:     sans-serif;  /* websites + blogs only */
+  }
+
+  /*-- ARTICLE METADATA --*/
+  d-byline {
+    --heading-size:    0.6rem;
+    --heading-color:   rgba(0, 0, 0, 0.5);
+    --body-size:       0.8rem;
+    --body-color:      rgba(0, 0, 0, 0.8);
+  }
+
+  /*-- ARTICLE TABLE OF CONTENTS --*/
+  .d-contents {
+    --heading-size:    18px;
+    --contents-size:   13px;
+  }
+
+  /*-- ARTICLE APPENDIX --*/
+  d-appendix {
+    --heading-size:    15px;
+    --heading-color:   rgba(0, 0, 0, 0.65);
+    --text-size:       0.8em;
+    --text-color:      rgba(0, 0, 0, 0.5);
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  /* These properties only apply to Distill sites and blogs  */
+
+  .distill-site-header {
+    --title-size:       18px;
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  .distill-site-footer {
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  /*-- Additional custom styles --*/
+  /* Add any additional CSS rules below                      */
+  </style>
+  <style type="text/css">
+  /* base variables */
+
+  /* Edit the CSS properties in this file to create a custom
+     Distill theme. Only edit values in the right column
+     for each row; values shown are the CSS defaults.
+     To return any property to the default,
+     you may set its value to: unset
+     All rows must end with a semi-colon.                      */
+
+  /* Optional: embed custom fonts here with `@import`          */
+  /* This must remain at the top of this file.                 */
+
+  /*-- Additional custom styles --*/
+  /* Add any additional CSS rules below                      */
+  @import url('https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css');
+
+
+  html {
+    /*-- Main font sizes --*/
+    --title-size:      50px;
+    --body-size:       1.06rem;
+    --code-size:       14px;
+    --aside-size:      12px;
+    --fig-cap-size:    13px;
+    /*-- Main font colors --*/
+    --title-color:     #000000;
+    --header-color:    rgba(0, 0, 0, 0.8);
+    --body-color:      rgba(0, 0, 0, 0.8);
+    --aside-color:     rgba(0, 0, 0, 0.6);
+    --fig-cap-color:   rgba(0, 0, 0, 0.6);
+    /*-- Specify custom fonts ~~~ must be imported above   --*/
+    --heading-font:    sans-serif;
+    --mono-font:       monospace;
+    --body-font:       sans-serif;
+    --navbar-font:     sans-serif;  /* websites + blogs only */
+  }
+
+  /*-- ARTICLE METADATA --*/
+  d-byline {
+    --heading-size:    0.6rem;
+    --heading-color:   rgba(0, 0, 0, 0.5);
+    --body-size:       0.8rem;
+    --body-color:      rgba(0, 0, 0, 0.8);
+  }
+
+  /*-- ARTICLE TABLE OF CONTENTS --*/
+  .d-contents {
+    --heading-size:    18px;
+    --contents-size:   13px;
+  }
+
+  /*-- ARTICLE APPENDIX --*/
+  d-appendix {
+    --heading-size:    15px;
+    --heading-color:   rgba(0, 0, 0, 0.65);
+    --text-size:       0.8em;
+    --text-color:      rgba(0, 0, 0, 0.5);
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  /* These properties only apply to Distill sites and blogs  */
+
+  .distill-site-header {
+    --title-size:       18px;
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  .distill-site-footer {
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  /*-- Additional custom styles --*/
+  /* Add any additional CSS rules below                      */
+  </style>
+  <style type="text/css">
+  /* base style */
+
+  /* FONT FAMILIES */
+
+  :root {
+    --heading-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    --mono-default: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    --body-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  body,
+  .posts-list .post-preview p,
+  .posts-list .description p {
+    font-family: var(--body-font), var(--body-default);
+  }
+
+  h1, h2, h3, h4, h5, h6,
+  .posts-list .post-preview h2,
+  .posts-list .description h2 {
+    font-family: var(--heading-font), var(--heading-default);
+  }
+
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-family: var(--mono-font), var(--mono-default);
+  }
+
+
+  /*-- TITLE --*/
+  d-title h1,
+  .posts-list > h1 {
+    color: var(--title-color, black);
+  }
+
+  d-title h1 {
+    font-size: var(--title-size, 50px);
+  }
+
+  /*-- HEADERS --*/
+  d-article h1,
+  d-article h2,
+  d-article h3,
+  d-article h4,
+  d-article h5,
+  d-article h6 {
+    color: var(--header-color, rgba(0, 0, 0, 0.8));
+  }
+
+  /*-- BODY --*/
+  d-article > p,  /* only text inside of <p> tags */
+  d-article > ul, /* lists */
+  d-article > ol {
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+    font-size: var(--body-size, 1.06rem);
+  }
+
+
+  /*-- CODE --*/
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-size: var(--code-size, 14px);
+  }
+
+  /*-- ASIDE --*/
+  d-article aside {
+    font-size: var(--aside-size, 12px);
+    color: var(--aside-color, rgba(0, 0, 0, 0.6));
+  }
+
+  /*-- FIGURE CAPTIONS --*/
+  figure .caption,
+  figure figcaption,
+  .figure .caption {
+    font-size: var(--fig-cap-size, 13px);
+    color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
+  }
+
+  /*-- METADATA --*/
+  d-byline h3 {
+    font-size: var(--heading-size, 0.6rem);
+    color: var(--heading-color, rgba(0, 0, 0, 0.5));
+  }
+
+  d-byline {
+    font-size: var(--body-size, 0.8rem);
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+  }
+
+  d-byline a,
+  d-article d-byline a {
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+  }
+
+  /*-- TABLE OF CONTENTS --*/
+  .d-contents nav h3 {
+    font-size: var(--heading-size, 18px);
+  }
+
+  .d-contents nav a {
+    font-size: var(--contents-size, 13px);
+  }
+
+  /*-- APPENDIX --*/
+  d-appendix h3 {
+    font-size: var(--heading-size, 15px);
+    color: var(--heading-color, rgba(0, 0, 0, 0.65));
+  }
+
+  d-appendix {
+    font-size: var(--text-size, 0.8em);
+    color: var(--text-color, rgba(0, 0, 0, 0.5));
+  }
+
+  d-appendix d-footnote-list a.footnote-backlink {
+    color: var(--text-color, rgba(0, 0, 0, 0.5));
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  .distill-site-header .title {
+    font-size: var(--title-size, 18px);
+    font-family: var(--navbar-font), var(--heading-default);
+  }
+
+  .distill-site-header a,
+  .nav-dropdown .nav-dropbtn {
+    font-family: var(--navbar-font), var(--heading-default);
+  }
+
+  .nav-dropdown .nav-dropbtn {
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    font-size: var(--text-size, 15px);
+  }
+
+  .distill-site-header a:hover,
+  .nav-dropdown:hover .nav-dropbtn {
+    color: var(--hover-color, white);
+  }
+
+  .distill-site-header {
+    font-size: var(--text-size, 15px);
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    background-color: var(--bkgd-color, #0F2E3D);
+  }
+
+  .distill-site-footer {
+    font-size: var(--text-size, 15px);
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    background-color: var(--bkgd-color, #0F2E3D);
+  }
+
+  .distill-site-footer a:hover {
+    color: var(--hover-color, white);
+  }</style>
   <!--/radix_placeholder_distill-->
   <script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
@@ -1857,7 +2170,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"News from the lab","authors":[]}
+{"title":"The Lab","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1886,7 +2199,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>News from the lab</h1>
+<h1>The Lab</h1>
 
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
@@ -1895,230 +2208,296 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
-<h2 id="talk-in-paris">Talk in Paris</h2>
-<p>21st of March:</p>
-<p>Paris workshop on Human Trajectories</p>
-<p>Rogier was invited to speak in Paris at an exciting workshop organized by <a href="https://www.lapsyde.com">LaPsyDÉ</a> on neurodevelopmental trajectories. It was a chance to share our own work on <a href="https://linkinghub.elsevier.com/retrieve/pii/S1053-8119(22)00623-1">brain maturation</a> and cognitive variability, but also to hear about innovations on disease progression, learning rates, adaptive educational platforms. We got a tour of the amazing LaPsyDÉ institute (former home of Binet and Piaget), whose offices have some of the best views of Paris. We also did a bit of sightseeing and baguette eating of course.</p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/news/Paris.jpg" width="60%" style="display: block; margin: auto auto auto 0;" /></p>
+<p><img src="images/people/The_Lab.jpg" width="100%" style="display: block; margin: auto;" /></p>
 </div>
 <hr />
-<h2 id="new-and-old-members">New and old members</h2>
-<p>1st of March:</p>
-<p>Over the past few months we have seen some changes in the Lab. Ilse Coolen was awarded a Marie Curie Fellowship and is now working in Leuven and Oxford. <a href="https://scholar.google.com/citations?user=AXBd2n4AAAAJ&amp;hl=en">Michael Aristodemou</a> submitted his PhD thesis, and has started as a postdoc with <a href="https://scholar.google.co.uk/citations?user=713cSToAAAAJ&amp;hl=en&amp;oi=ao">Prof. Charles Driver</a> in Zurich. We have also welcomed several new lab members: Eric Fleischer joined the CODEC project as RA, Ciske Jansen is working as lab manager, and Aline Korver, Afon Mohammed Khari, Ema Jovanovic, Caroline Wunn and Lena Kohler are working with us on their internships.</p>
-<hr />
-<h2 id="two-new-tutorials-available">Two new tutorials available!</h2>
-<p>Thursday February 27th:</p>
-<p>Always wanted to analyze your longitudinal or time series data but don’t know where to start? Try our open online tutorials on <a href="https://www.njudd.com/assignment_workshop_lgms.html">Latent Growth Modeling</a> and on <a href="https://jessicaschaaf.github.io/jessicaschaaf/dsem-workshop.html">Dynamic Structural Equation Modeling</a>! Very hands-on. Yes, you can do it too, we promise!</p>
-<hr />
-<h2 id="new-paper-ggrain-paper-and-download-milestone">New paper ggrain paper and download milestone</h2>
-<p>February 2025</p>
-<p>Our raincloudplots team (led by Nick and Jordy) has published a brief <a href="https://www.biorxiv.org/content/10.1101/2024.12.13.628294v1.abstract">paper</a> explaining the possibilities in the ggrain package (vignette <a href="https://cran.r-project.org/web/packages/ggrain/vignettes/ggrain.html">here</a>). Another milestone: The ggrain package has been downloaded 30.000 times!</p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/news/ggrain.png" width="40%" style="display: block; margin: auto auto auto 0;" /></p>
+<p><img src="images/people/rogierkievit_C.png" width="40%" style="display: block; margin: auto;" /></p>
 </div>
+<h2 id="rogier-kievit">ROGIER KIEVIT</h2>
+<p>Principal Investigator</p>
+<p><i class="fab fa-twitter"></i><a href="https://twitter.com/rogierK"><span class="citation" data-cites="rogierK">@rogierK</span></a>
+<i class="fas fa-envelope"></i><a href="rogier.kievit@radboudumc.nl">rogier.kievit@radboudumc.nl</a>
+<i class="ai ai-google-scholar"></i><a href="https://scholar.google.com/citations?user=kplx7AUAAAAJ&amp;hl=en">google scholar</a>
+<i class="ai ai-orcid"></i><a href="https://orcid.org/0000-0003-0700-4568">ORCID</a></p>
+<p>Rogier Kievit is Professor of Developmental Neuroscience at the Donders Institute in Nijmegen and Senior Associate Scientist at the Cognition and Brain Sciences Unit, University of Cambridge. He studies the rise and fall of cognitive functions across the lifespan by relating brain function, brain structure and cognition in developing populations using multivariate modeling techniques. Specifically, I use a variety of structural equation models to capture the changing relationship between mind and brain across the lifespan. CV</p>
 <hr />
-<h2 id="bdd-workshop-integrating-patients-and-other-stakeholders-into-our-science.">BDD workshop ‘Integrating patients and other stakeholders into our science’.</h2>
-<p>17th of January 2025:</p>
-<p>As part of the Research Programme <a href="https://www.radboudumc.nl/en/research/research-programs/the-brain-across-development-in-health-and-disease">‘The Brain Across Development In Health and Disease’</a>, Janita Bralten and Rogier organized a workshop on ‘Integrating patients and other stakeholders into our science’. We heard from Martine Hoogman, Janneke Zinkstok, Wouter Staal and Jelle van Gurp about how to best engage patients, families, patient organizations and many stakeholders, to ensure not only the highest quality science, but that our findings have impact where it is needed most.</p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/news/BDD_workshop.JPG" width="60%" style="display: block; margin: auto auto auto 0;" /></p>
+<p><img src="images/people/Jessica_Schaaf_C.png" width="40%" style="display: block; margin: auto;" /></p>
 </div>
+<h2 id="jessica-schaaf">JESSICA SCHAAF</h2>
+<p>Postdoctoral researcher</p>
+<p><i class="fab fa-twitter"></i><a href="https://twitter.com/JessicaVSchaaf"><span class="citation" data-cites="JessicaVSchaaf">@JessicaVSchaaf</span></a>
+<i class="fas fa-envelope"></i><a href="jessica.schaaf@radboudumc.nl">jessica.schaaf@radboudumc.nl</a>
+<i class="ai ai-google-scholar"></i><a href="https://scholar.google.com/citations?user=Yse3MpEAAAAJ&amp;hl=nl">google scholar</a>
+<i class="ai ai-orcid"></i><a href="https://orcid.org/0000-0002-4856-9592">ORCID</a></p>
+<p>I’m interested in how cognitive abilities develop across age and specifically in how we can use computational models to understand this development. I see it as a scientist’s duty to expand our common knowledge about the world and its inhabitants. As such, I like to challenge myself in communicating scientific findings to society in an understandable way. When I’m out of office, you can find me at the tennis court or at home cuddling with the sweetest cat in the world.</p>
 <hr />
-<h2 id="workshop-latent-growth-curve-modeling-for-ukraine">Workshop Latent Growth Curve Modeling (for Ukraine)</h2>
-<p>16th of January 2025:</p>
-<p>Rogier gave a <a href="https://sites.google.com/view/dariia-mykhailyshyna/main/r-workshops-for-ukraine">workshop</a> on longitudinal modeling using latent growth curves. It is part of a rather amazing series of workshops on using R for data science put together by PhD student <a href="https://sites.google.com/view/dariia-mykhailyshyna/main">Dariia Mykhailyshyna</a>, with all proceeds going to support charity efforts in Ukraine – Do check out upcoming workshops, as they are all excellent.</p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/news/Ukraine.png" width="60%" style="display: block; margin: auto auto auto 0;" /></p>
+<p><img src="images/people/nickjudd_C.png" width="40%" style="display: block; margin: auto;" /></p>
 </div>
+<h2 id="nicholas-judd">NICHOLAS JUDD</h2>
+<p>Postdoctoral researcher/data scientist</p>
+<p><i class="fab fa-twitter"></i><a href="https://twitter.com/nickkjudd"><span class="citation" data-cites="nickkjudd">@nickkjudd</span></a>
+<i class="fas fa-envelope"></i><a href="nicholas.judd@radboudumc.nl">nicholas.judd@radboudumc.nl</a>
+<i class="ai ai-google-scholar"></i><a href="https://scholar.google.com/citations?user=Hx6n8aEAAAAJ&amp;hl=en">google scholar</a>
+<i class="ai ai-orcid"></i><a href="https://orcid.org/0000-0002-0196-9871">ORCID</a></p>
+<p>I’m interested in how complex cognition arises. Specifically, how we solve problems, adapt, and respond to ever-changing demands. This has led me to focus on the domains of fluid reasoning and working memory. Recently, my research has examined how genetics and socioeconomics affect the development of these skills. I use a variety of methods depending on the question at hand, this ranges from observational datasets, RCTs, and causal inference techniques. Here I will be looking to see if it is possible to unravel the influences of global and local structural MR metrics on cognition. In my free time, I love to surf, rock climb, and travel (when possible)!</p>
 <hr />
-<h2 id="in-person-launch-of-remac">In person launch of REMAC</h2>
-<p>16th of December 2024:</p>
-<p>We had our first in person REMAC meeting in Huize Heyendael. The <a href="https://www.ru.nl/en/donders-institute/research/di-funded-research-projects/research-projects/remac-radboud-ecological-momentary-assessment-center">REMAC centre</a>, founded by Rogier and <a href="https://www.radboudumc.nl/personen/janna-vrijsen">Janna Vrijsen</a> and supported by Aran van Hout, brings together people from across campus to share ideas, methods, best practices and challenges in experience sampling and Ecological Momentary data Analysis work. It was really exciting to see new collaborations be initiated, and (e.g.) PhD students finding others with similar challenges. Our next meeting will be in March 2025.</p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/news/REMAC.JPG" width="60%" style="display: block; margin: auto auto auto 0;" /></p>
+<p><img src="images/people/leamichel_C.png" width="40%" style="display: block; margin: auto;" /></p>
 </div>
+<h2 id="léa-michel">LÉA MICHEL</h2>
+<p>PhD student</p>
+<p><i class="fab fa-twitter"></i><a href="https://twitter.com/LeaCMichel"><span class="citation" data-cites="LeaCMichel">@LeaCMichel</span></a>
+<i class="fas fa-envelope"></i><a href="lea.michel@radboudumc.nl">lea.michel@radboudumc.nl</a>
+<i class="ai ai-google-scholar"></i><a href="https://scholar.google.com/citations?user=YazsGkMAAAAJ&amp;hl=fr&amp;oi=ao">google scholar</a>
+<i class="ai ai-orcid"></i><a href="https://orcid.org/0000-0003-1529-573X">ORCID</a></p>
+<p>I am interested in the impact of genetics and the environment on children’s development. In particular, during this PhD, I will study how brain maturation (looking at white matter microstructure and grey matter morphology) underlies the development of cognitive ability in childhood. Before this PhD, I completed my master’s degree in cognitive science in Paris with a major in neuroscience. I also had the opportunity to do a gap year during my master training, visiting several labs abroad to train in neuroimaging analyses. In my spare time, I am the vice president of the French association Fédération Fresco and I am especially engaged in our project to create seven cognitive science forums in France in order to popularize cognitive science.</p>
 <hr />
-<h2 id="urai-lab-shared-meeting">Urai lab shared meeting</h2>
-<p>28th of November 2024:</p>
-<p>We had a shared labmeeting with the <a href="https://anneurai.net">COCOSYS lab</a> led by Anne Urai. As often happens, there were many areas of overlap and synergy between our interests. For instance, check out <a href="https://osf.io/xk6gm_v1/">Anne’s new paper</a> on understanding structure in the noise of human performance. Beyond pure science, we also discussed our mutual passion for being a climate responsible scientist and lab, and what we can do to improve the future of the planet.</p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/news/Urai.JPG" width="60%" style="display: block; margin: auto auto auto 0;" /></p>
+<p><img src="images/people/Jordy_van_Langen_C.png" width="50%" style="display: block; margin: auto;" /></p>
 </div>
+<h2 id="jordy-van-langen">JORDY VAN LANGEN</h2>
+<p>PhD student</p>
+<p><i class="fab fa-twitter"></i><a href="https://twitter.com/jordyvanlangen"><span class="citation" data-cites="jordyvanlangen">@jordyvanlangen</span></a>
+<i class="fas fa-envelope"></i><a href="jordy.vanlangen@radboudumc.nl">jordy.vanlangen@radboudumc.nl</a>
+<i class="ai ai-google-scholar"></i><a href="https://scholar.google.com/citations?user=gsSpOgkAAAAJ&amp;hl=nl&amp;oi=ao">google scholar</a>
+<i class="ai ai-orcid"></i><a href="https://orcid.org/0000-0003-2504-2381">ORCID</a>
+<i class="fa fa-github"></i><a href="https://github.com/jorvlan">GitHub</a>
+<i class="fab fa-mastodon"></i><a href="https://mas.to/@jordyvanlangen">Mastodon</a></p>
+<p>I am interested in developing novel open science tools for the wider academic community. In that perspective, I have been part of the LCD lab in 2022 developing our data visualization framework called: raincloudplots. Also, I am interested in advancing the field of cognitive neuroscience through my research. Within the CODEC study, I am studying cognitive variability in early childhood. Specifically, we aim to measure, model, and mechanistically understand the nature of cognitive variability differences within and between children. We will use the temporal precision of experience sampling methods, the richness of a cohort study, and the prospective and developmental power of accelerated
+longitudinal designs. Together this will hopefully provide new insight into the construct of cognitive variability. In my free time, I love to run, lift weights, play and watch tennis, read novels, or search for unique vintage items.</p>
 <hr />
-<h2 id="ilse-coolen-and-nick-judd-receive-prestigious-fellowships">Ilse Coolen and Nick Judd receive prestigious fellowships</h2>
-<p>30th of November:</p>
-<p>Nick Judd received a Jacobs Fellowship, and will extend his work on natural experiments to understand the impact of environmental factors on brain development. Congratulations Nick!</p>
-<hr />
-<h2 id="protesting-budget-cuts-to-education-and-research">Protesting budget cuts to education and research</h2>
-<p>30th of November 2024:</p>
-<p>Several members of the lab attended the protests on the Malieveld, opposing drastic budget cuts to education and science.</p>
-<hr />
-<h2 id="data-collection-in-codec-starts">Data collection in CODEC starts!</h2>
-<p>18th of November 2024:</p>
-<p>After years and months of grants, ethics approval, piloting and task development, we have finally started data collection in CODEC! We are going into the classroom with our tablets to measure cognitive performance three times a day for 5 days. So far, the children are enjoying the tasks, and we can see the data coming in.</p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/news/CODEC_testing.jpg" width="60%" style="display: block; margin: auto auto auto 0;" /></p>
+<p><img src="images/people/EleniZ_C.png" width="50%" style="display: block; margin: auto;" /></p>
 </div>
+<h2 id="eleni-zimianiti">ELENI ZIMIANITI</h2>
+<p>PhD student</p>
+<p><i class="fas fa-envelope"></i><a href="eleni.zimianiti@mpi.nl">eleni.zimianiti@mpi.nl</a></p>
+<p>I am interested in understanding how humans differ in their language use, and more specifically how language and children’s individual differences are at play in language acquisition over development. To this end, I aim to investigate how children manage to acquire language at similar levels across time, what makes some children faster than other in language learning and how children differ with their past-selves over development. In my free time, I like baking, doing yoga, and travelling!</p>
 <hr />
-<h2 id="codec-protocol-paper-published-variability-in-anthropoids">Codec protocol paper published &amp; variability in anthropoids</h2>
-<p>1st of September 2024:</p>
-<p>We have published the <a href="https://bmcpsychology.biomedcentral.com/articles/10.1186/s40359-024-01904-5">protocol paper</a> for our ERC funded CODEC study. In the paper, a true group effort, we describe the design, tasks and background of the study. More importantly, we specify a series of directional hypotheses we will be testing as the study progresses. In the meantime, if you’re interested in reading more about cognitive variability, we’ve published a <a href="https://www.cell.com/callback?red_uri=%2Ftrends%2Fcognitive-sciences%2Ffulltext%2FS1364-6613%2824%2900287-0&amp;code=lys5-KAkLxFd2gru-IFbUiIVzWDdGQaH4Pp2BiMN&amp;state=15634851811">collaborative paper</a> with Farshad Mansouri and Mark Buckley exploring the neural underpinning of response time variability in anthropoids.</p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/news/codec1protocol.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
+<p><img src="images/people/BobK_C.jpg" width="50%" style="display: block; margin: auto;" /></p>
 </div>
+<h2 id="bob-kapteijns">BOB KAPTEIJNS</h2>
+<p>PhD Student</p>
+<p><i class="fas fa-envelope"></i><a href="Bob.Kapteijns@ru.nl">Bob.Kapteijns@ru.nl</a>
+<i class="ai ai-google-scholar"></i><a href="https://scholar.google.nl/citations?user=__55KLYAAAAJ">google scholar</a>
+<i class="ai ai-orcid"></i><a href="https://orcid.org/0000-0003-3019-8006">ORCID</a></p>
+<p>I’m a PhD student at the Behavioural Science Institute (BSI) at Radboud University, and an external member of the Lifespan Cognitive Dynamics Lab. I’m conducting a 5-wave longitudinal study, called the Radboud Early Academic Development Inquiry (the READI project, in short). In this project, we investigate children’s early cognitive, literacy and numeracy development throughout the earliest years of primary school. Specifically, I’m interested in learning more about the cognitive and home-related factors that are associated with individual differences in children’s reading and math development across early primary school. Next to this project, I’m also working on a project featuring diffusion-weighted MRI data, where we aim to investigate the relationships between cortical white matter, executive skills and early reading and math abilities in a large, atypical youth sample.</p>
+<hr />
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/news/codec2protocol.png" width="50%" style="display: block; margin: auto 0 auto auto;" /></p>
+<p><img src="images/people/Ciske_C.jpg" width="40%" style="display: block; margin: auto;" /></p>
 </div>
+<h2 id="ciske-jansen">Ciske Jansen</h2>
+<p>Lab Manager</p>
+<p><i class="fab fa-linkedin-in"></i><a href="https://nl.linkedin.com/in/ciske-jansen-54747a132">LinkedIn</a>
+<i class="fas fa-envelope"></i><a href="aran.vanhout@radboudumc.nl">ciske.jansen@radboudumc.nl</a></p>
+<p>I am interested in development and how the early plastic stages of life lay the foundation for cognition, behavior, and language. With a background in medical neurobiology and developmental research, I have experience with a wide range of methods used to study these processes. I am particularly drawn to longitudinal projects that explore the long-term impacts of early development. At the LCD Lab, my focus is on organizing and maintaining lab structures while contributing wherever needed. Additionally, I am a Research Assistant at the Developmental Psychobiology Lab. Outside of research, I enjoy endurance sports. Mostly running, but I also love cycling on sunny days, swimming in a warm pool when it’s cold outside and hiking on holidays!</p>
 <hr />
-<h2 id="open-science-news">Open Science news</h2>
-<p>Thursday May 2nd:</p>
-<p>Two events today - Aran van Hout is starting his post to work on our NWO funded Open Matrices project, welcome Aran!</p>
-<p>On the same day, Jordy and Nick gave another raincloudplots workshop at the lab of Sharon Kolk. Make it rain!</p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/news/nick.jpeg" width="35%" style="display: block; margin: auto auto auto 0;" /></p>
+<p><img src="images/people/Emma_C.png" width="40%" style="display: block; margin: auto;" /></p>
 </div>
+<h2 id="emma-meeussen">EMMA MEEUSSEN</h2>
+<p>Research assistant</p>
+<p><i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/emma-meeussen/">LinkedIn</a>
+<i class="fas fa-envelope"></i><a href="emma.meeussen@radboudumc.nl">emma.meeussen@radboudumc.nl</a></p>
+<p>I am interested in human cognitive development, its variation, and the ways in which we can best support it in order to thrive as human beings. I believe that to optimally do so, it’s essential that we understand the processes underlying both impaired and healthy development. Besides the LCD group, I also work as a haptotherapist, where I put theory into practice by using touch to help clients gain insight into their own development and stimulate its natural flow. In my spare time I enjoy reading (anything from romcom novels to ancient spiritual texts), making music and the freedom of being in nature, especially in summer when I get to cycle around the country for (mini) camping trips.</p>
+<hr />
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/news/jordy.jpeg" width="35%" style="display: block; margin: auto 0 auto auto;" /></p>
+<p><img src="images/people/felinevanaagten_C.png" width="40%" style="display: block; margin: auto;" /></p>
 </div>
-<h2 id="sunny-lab-lunch">Sunny lab lunch!</h2>
-<p>Monday 29th of April:</p>
-<p>In the absence of the weekly Bring Your Lunch, we moved into Nijmegen for a nice Lab lunch with guest Luisa Fassi!</p>
+<h2 id="feline-van-aagten">FELINE VAN AAGTEN</h2>
+<p>Research assistant</p>
+<p><i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/feline-van-aagten/">LinkedIn</a>
+<i class="fas fa-envelope"></i><a href="feline.vanaagten@radboudumc.nl">feline.vanaagten@radboudumc.nl</a></p>
+<p>I’m interested in differences in development of children with and without diagnoses. In my previous research I focused specifically on the neurobiological substrates of ADHD by means of diffusion tensor imaging. Currently, I’m contributing to the CODEC project, a new longitudinal project focused on the fluctuation in preschoolers. In my downtime I like to play golf and cook new recipes. My absolute favorite activity is snowboarding.</p>
+<hr />
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/news/lab_lunch.jpg" width="60%" style="display: block; margin: auto auto auto 0;" /></p>
+<p><img src="images/people/Aran_C.png" width="40%" style="display: block; margin: auto;" /></p>
 </div>
+<h2 id="aran-van-hout">ARAN VAN HOUT</h2>
+<p>Research assistant</p>
+<p><i class="fas fa-envelope"></i><a href="aran.vanhout@radboudumc.nl">aran.vanhout@radboudumc.nl</a></p>
+<p>Hi, I’m Aran! I work as a research assistant on the OMSS project, where I’m developing a program to generate matrices for assessing fluid reasoning. You can learn more about this research <a href="https://www.aranvanhout.com/research.html">here</a>.
+I’m also involved in organizing REMAC, a program that connects researchers at Radboud University who use Ecological Momentary Assessment.</p>
 <hr />
-<h2 id="a-new-lab-vacancy">A new lab vacancy</h2>
-<p>25th of April:</p>
-<p>As of today, we are looking for a new post-doc to strengthen our exciting CODEC project!</p>
-<p>The vacancy can be found <a href="https://www.radboudumc.nl/en/vacancies/142603-postdoc-developmental-cognitive-neuroscience">here:</a></p>
-<hr />
-<h2 id="national-research-software-day-2024">National Research Software day 2024</h2>
-<p>23rd April:</p>
-<p>Rogier gave a keynote at the National Research Software day in Hilversum. He highlighted the untenable tension between how important Open Source Software is on the one hand with how fragile, in terms of funding and staffing, it is on the other.</p>
-<p>A recap of the National Research Software day 2024 can be found <a href="https://www.esciencecenter.nl/news/national-research-software-day-recap/">here!</a></p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/news/softwareday.jpeg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<p><img src="images/people/EricFleischer_C.png" width="40%" style="display: block; margin: auto;" /></p>
 </div>
+<h2 id="eric-fleischer">ERIC FLEISCHER</h2>
+<p>Research assistant</p>
+<p><i class="fab fa-linkedin-in"></i><a href="https://nl.linkedin.com/in/eric-fleischer-468a291b8?trk=people-guest_people_search-card">LinkedIn</a>
+<i class="fas fa-envelope"></i><a href="eric.fleischer@radboudumc.nl">eric.fleischer@radboudumc.nl</a></p>
+<p>My interest lies in the field of developmental psychology. Within this area I am especially interested in the development of mental disorders in the (early) lifetime of an individual. Next to being a research assistant for the CODEC-project, I am working as a child and youth psychologist (so to speak the perfect combination between theory/research and practice). In my spare time I like to run or cycle, watch a movie at the cinema and train my cooking skills.</p>
 <hr />
-<h2 id="a-shared-labmeeting">A shared labmeeting</h2>
-<p>April 13th:</p>
-<p>We had a shared labmeeting with the Predictive Clinical Neuroscience Lab headed by Andre Marquand. A wonderful meeting where excellent ideas and knowledge were exchanged!</p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/news/shared_labmeeting.jpg" width="60%" style="display: block; margin: auto auto auto 0;" /></p>
+<p><img src="images/people/CarolineWunn_C.png" width="40%" style="display: block; margin: auto;" /></p>
 </div>
+<h2 id="caroline-wunn">CAROLINE WUNN</h2>
+<p>Intern</p>
+<p><i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/caroline-wunn-59090120a/">LinkedIn</a>
+<i class="fas fa-envelope"></i><a href="caroline.wunn@ru.nl">caroline.wunn@ru.nl</a></p>
+<p>I am interested in studying brain development in children and adolescents, particularly how emotional, educational, and social factors influence cognitive abilities and mental health. Currently, I am pursuing a research master’s in Cognitive Neuroscience with a specialization in Perception, Action, and Decision-Making. My current research project focuses on the influence of schooling on working memory performance, using fMRI and the N-back task. Outside of my studies, I enjoy reading and travelling.</p>
 <hr />
-<h2 id="new-people">New people</h2>
-<p>April 2nd:</p>
-<p>Luisa Fassi has joined our lab as a guest visiting PhD student from Cambridge, welcome!</p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/Luisa.png" width="35%" style="display: block; margin: auto auto auto 0;" /></p>
+<p><img src="images/people/Aline_C.png" width="50%" style="display: block; margin: auto;" /></p>
 </div>
-<p>Also, we have welcomed a new intern: Jesse Willems!</p>
+<h2 id="aline-korver">Aline Korver</h2>
+<p>Intern</p>
+<p>I am a research master’s student in Cognitive Neuroscience with a double background in Psychology and Philosophy, interested in the development of alternative research methods which respect the complex, dynamic, and individually unique nature of psychological phenomena. For my internship, I will be involved in the CODEC project, which studies cognitive variability in early childhood. In my free time, I enjoy reading novels, running over the Veluwe, and commuting between Arnhem and Nijmegen with my racing bike!</p>
+<hr />
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/Jesse.png" width="35%" style="display: block; margin: auto 0 auto auto;" /></p>
+<p><img src="images/people/EmaJ_C.jpg" width="50%" style="display: block; margin: auto;" /></p>
 </div>
+<h2 id="ema-jovanovic">EMA JOVANOVIC</h2>
+<p>Intern</p>
+<p><i class="fas fa-envelope"></i><a href="ema.jovanovic@radboudumc.nl">ema.jovanovic@radboudumc.nl</a></p>
+<p>I am currently pursuing a Master’s degree in Medical Biology at Radboud University, with a specialization in Neurobiology. My main research interest lies in the relationship between neurodevelopmental disorders—particularly depression—and cognitive processes. My current research project at LCD explores how mood variability correlates with cognition, and which specific cognitive domains are most affected. The idea behind this is to understand whether standard cognitive assessments accurately reflect abilities when mood states vary. For example, is it appropriate to test individuals on cognitive tasks when their mood may significantly impact their performance and potentially skew the results? I completed my Bachelor’s degree at the University of Toronto, where I specialized in Pharmacology, Immunology, and Physiology. In the future, I hope to integrate my background in neuroscience and pharmacology to better understand how pharmacological interventions might target cognitive deficits associated with mood disorders. Aside from my studies, in my free time I like to travel and try new foods!</p>
 <hr />
-<h2 id="lab-photo">Lab photo</h2>
-<p>March 21st: On this day, we (almost) had the entire lab in 1 place!</p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/The_Lab.jpg" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
+<p><img src="images/people/Afon_C.png" width="40%" style="display: block; margin: auto;" /></p>
 </div>
+<h2 id="afon-khari">AFON KHARI</h2>
+<p>Intern</p>
+<p>I am a second-year master’s student in Brain and Cognitive Sciences at the University of Amsterdam, currently joining the Lifespan Cognitive Dynamics Lab as a research intern. I am interested in attention, learning, mind wandering, and cognitive strategies, particularly in the context of cognitive variability.
+My focus is on how cognitive strategies and attention fluctuations relate to performance on tasks. Additionally, I am interested in Dynamic Structural Equation Modeling (DSEM) as a tool to quantify these fluctuations over time.
+Beyond research, I enjoy reading about cognitive science, watching movies, and hiking. I am excited to be part of the lab and look forward to collaborating on projects that deepen our understanding of cognitive development and variability!</p>
 <hr />
-<h2 id="marie-curie-fellowship-for-ilse">Marie Curie fellowship for Ilse!</h2>
-<p>March 10th: Ilse Coolen receives a Marie Curie fellowship and the lab wants to congratulate her on this fantastic achievement!</p>
+<h1 id="lab-alumni">Lab Alumni</h1>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/Ilse_Coolen.jpeg" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
+<p><img src="images/people/mearistodemou_C.png" width="40%" style="display: block; margin: auto;" /></p>
 </div>
+<h2 id="michael-aristodemou">MICHAEL ARISTODEMOU</h2>
+<p>PhD student</p>
+<p><i class="fab fa-twitter"></i><a href="https://twitter.com/mearistodemou"><span class="citation" data-cites="mearistodemou">@mearistodemou</span></a>
+<i class="fas fa-envelope"></i><a href="michael.aristodemou@radboudumc.nl">michael.aristodemou@radboudumc.nl</a>
+<i class="ai ai-google-scholar"></i><a href="https://scholar.google.com/citations?user=AXBd2n4AAAAJ&amp;hl=en">google scholar</a>
+<i class="ai ai-orcid"></i><a href="https://orcid.org/0000-0003-0420-2702">ORCID</a></p>
+<p>I want to understand how and why people’s cognitive abilities fluctuate and change over time. To this end, I aim to exploit technological advances that allow us to observe cognitive development as it unfolds in conjunction with different modeling approaches. Ultimately, I strive to use knowledge about the mechanisms underlying cognitive development to benefit the evolution of educational and cognitive interventions.</p>
+<hr />
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/news/mariecurie_ilse.png" width="50%" style="display: block; margin: auto 0 auto auto;" /></p>
+<p><img src="images/people/MagdaLazari_C.png" width="40%" style="display: block; margin: auto;" /></p>
 </div>
+<h2 id="magda-lazari">MAGDA LAZARI</h2>
+<p>Intern</p>
+<p><i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/magdalini-lazari-baab35348/">LinkedIn</a></p>
+<p>I am visiting the lab as part of the Erasmus+ program after recently completing my degree in psychology. During my stay, I’ll be learning and applying statistical modeling to analyze developmental cognitive data, with a focus on the mutualism theory in cognitive development. In my free time, I enjoy climbing and reading.</p>
 <hr />
-<h2 id="green-award-for-lea-michel">Green Award for Lea Michel</h2>
-<p>February 9th: During the weekly Bring Your Lunch, Lea Michel wins team player award for her many efforts to make the CNS department an (even) better place to be, congrats Lea!</p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/news/Lea_green_award1.png" width="50%" style="display: block; margin: auto auto auto 0;" /></p>
+<p><img src="images/people/Ilse_Coolen_C.png" width="40%" style="display: block; margin: auto;" /></p>
 </div>
+<h2 id="ilse-coolen">Ilse Coolen</h2>
+<p>Postdoctoral Researcher</p>
+<p><i class="fab fa-twitter"></i><a href="https://twitter.com/CoolenIlse"><span class="citation" data-cites="CoolenIlse">@CoolenIlse</span></a>
+<i class="fas fa-envelope"></i><a href="ilse.coolen@radboudumc.nl">ilse.coolen@radboudumc.nl</a>
+<i class="ai ai-google-scholar"></i><a href="https://scholar.google.com/citations?hl=en&amp;user=e0K_sngAAAAJ">google scholar</a>
+<i class="ai ai-orcid"></i><a href="https://orcid.org/0000-0003-2254-7851">ORCID</a></p>
+<p>I am interested in the development of cognitive skills and how they relate to academic achievement. My main research is focused on the contributions of cognitive skills during the development of mathematics in preschoolers and early primary school children. I have mainly used observational, longitudinal research designs to follow the child’s development and have recently added MRI components to my research to link behavioural and neuroimaging data. I have also been invested as part of the trainee board of the Mathematical Cognition and Learning Society. Outside of work you can usually find me surrounded by cats, either my own or any other cat.</p>
+<hr />
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/news/Lea_green_award2.png" width="50%" style="display: block; margin: auto 0 auto auto;" /></p>
+<p><img src="images/people/Sophie_C.png" width="40%" style="display: block; margin: auto;" /></p>
 </div>
+<h2 id="sophie-hofman">Sophie Hofman</h2>
+<p>Research / student assistant</p>
+<p><i class="fas fa-envelope"></i><a href="sophie.hofman@radboudumc.nl">sophie.hofman@radboudumc.nl</a></p>
+<p>I am very interested in the development and cognitive aspect that regulates human behaviour, hence why i am currently doing my masters in Behavioural Science at the Radboud University. I also enjoy converting (neuro)science into fun and understandable lessons/communication tools to teach e.g. children and adolescents about the brain and the possibilities of science. In my spare time I’m enjoying playing hockey and discovering new cities abroad!</p>
 <hr />
-<h2 id="congrats-to-dr.-jessica-schaaf">Congrats to Dr. Jessica Schaaf</h2>
-<p>November 17th: (Dr.) Jessica van der Schaaf is awarded her PhD after a spirited defense</p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/people/Jessica_Schaaf.jpg" width="30%" style="display: block; margin: auto auto auto 0;" /></p>
+<p><img src="images/people/Liza_C.png" width="40%" style="display: block; margin: auto;" /></p>
 </div>
+<h2 id="liza-rozman">Liza Rozman</h2>
+<p>Intern</p>
+<p><i class="fas fa-envelope"></i><a href="Liza.rozman@ru.nl">Liza.rozman@ru.nl</a>
+<i class="fab fa-linkedin-in"></i><a href="www.linkedin.com/in/lizarozman">LinkedIn</a></p>
+<p>I am a student of the research Master in Cognitive Neuroscience with a specialisation in Plasticity and Lifelong Development. My main interests lie in neurodevelopmental disorders, specifically ADHD, as well as sleep and sleep related disorder. For my Master’s thesis I will investigate if and how ADHD symptoms and sleep disturbances are connected, their variability over time, and if there are any neural structures driving this relationship. Outside of academics, I am an avid enjoyer of naps, watching TV and going to the gym.</p>
 <hr />
-<h2 id="now-live-the-raincloudplots-shiny-app">Now live! the raincloudplots shiny app</h2>
-<p>Ever wanted to make pretty plots representing your data? Raincloud plots are your friend. Check out this shiny app developed by our own Nick Judd and Jordy van Langen</p>
-<p><a href="https://lcdlab.shinyapps.io/raincloudplots-shiny/" class="uri">https://lcdlab.shinyapps.io/raincloudplots-shiny/</a></p>
-<hr />
-<h2 id="merging-of-the-labs">Merging of the labs</h2>
-<p>20/04/2023</p>
-<p>The LCD lab and Professor Anne-Laura van Harmelen’s Center for the Integration of Resilience Complexity Leiden
-(<a href="https://www.circlenl.com/" class="uri">https://www.circlenl.com/</a>) joined forces to share ongoing research and discuss potential opportunities for future collaborations between our groups.</p>
-<hr />
-<h2 id="successful-lab-retreat">Successful Lab retreat!</h2>
-<p>13/04/2023</p>
-<p>With so many new group members and projects getting started, the lab retreat could not have come at a better time. Our exalted leader, Rogier, shared the history of the lab and his vision moving forward. Importantly, the day made space for us to collectively help shape the future of the group - not only in terms of the research agenda, but the research culture we wanted to be part of.</p>
-<p>A highlight of the day was presentation roulette, we each prepared 3-4 slides on a random talk and another person presented them without seeing them first. Topic highlights included: why I’m the best bridge builder, violent crustaceans, and just how much is the average Dutch person made of sugar?</p>
-<hr />
-<h2 id="new-lab-members-emma-meeussen-and-sophie-hofman">New lab members: Emma Meeussen and Sophie Hofman</h2>
-<p>01/04/2023</p>
-<p>Emma Meeussen and Sophie Hofman have joined the lab to work on the CODEC project.</p>
-<hr />
-<h2 id="website-update">Website update</h2>
-<p>23/03/2023</p>
-<p>Exciting times, we’ve updated the lab webpage!</p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/news/smile.png" width="60%" style="display: block; margin: auto;" /></p>
+<p><img src="images/people/Nebbe_C.png" width="40%" style="display: block; margin: auto;" /></p>
 </div>
+<h2 id="nebbe-al-moula">Nebbe Al-Moula</h2>
+<p>Intern</p>
+<p><i class="fas fa-envelope"></i><a href="nebbe.al-moula@ru.nl">nebbe.al-moula@ru.nl</a>
+<i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/nebbe-al-moula-6b6789227">LinkedIn</a></p>
+<p>I am interested in plasticity in the brain and the differences between typical and atypical development. I am a student of the MSc Cognitive Neuroscience program. For my Master’s thesis, I will be looking into structural differences in White and Gray matter in individuals with ASD. With this research I hope to delve further into the relationship between structural differences in the brain and common characteristics of ASD. Outside of academic activities I enjoy weightlifting and can often be found in the gym.</p>
 <hr />
-<h2 id="lcd-lab-swarms-icps-in-brussels">LCD lab swarms ICPS in Brussels</h2>
-<p>15/03/2023</p>
-<p>The LCD lab was present at ICPS in Brussel with two symposia. Led by Lea Michel and Michael Aristodemou, they presented exciting new results on day to day variability in cognitive performance and on the co-development of white and grey matter in childhood and adolescence</p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/news/ICPS.png" width="60%" style="display: block; margin: auto;" /></p>
+<p><img src="images/people/Ben_Kretzler_C.png" width="40%" style="display: block; margin: auto;" /></p>
 </div>
+<h2 id="ben-kretzler">Ben Kretzler</h2>
+<p>Intern</p>
+<p><i class="fas fa-envelope"></i><a href="ben.kretzler@ru.nl">ben.kretzler@ru.nl</a></p>
+<p>I am interested in the mechanisms underlying cognitive variability, and the development of cognitive skills. For my master’s thesis, I plan to employ complexity methods to gain a fresh perspective on mental illnesses. My focus will be on analyzing time series data related to patients’ cognitive performance. The goal is to identify suitable models that can classify patients based on the structure of their system noise. Outside the workplace, I like running, reading, hiking, and watching puppy videos.</p>
 <hr />
-<h2 id="new-lab-preprints-using-the-abcd-sample">New lab preprints using the ABCD sample</h2>
-<p>12/03/2023
-Two new lab preprints, both on the ABCD sample. Lea Michel examines the complementary prediction of grey and white matter, as well as distinct metrics within each in predicting cognitive performance <a href="https://www.biorxiv.org/content/10.1101/2023.03.06.529634v1.article-metrics" class="uri">https://www.biorxiv.org/content/10.1101/2023.03.06.529634v1.article-metrics</a>
-Sam Parsons uses novel tools of reliability decomposition to show differences in longitudinal stability/reliability across brain regions, structural measures (cortical thickness in particular), scanner types and ABCD testing sites.
-<a href="https://psyarxiv.com/zpu6t/" class="uri">https://psyarxiv.com/zpu6t/</a></p>
-<hr />
-<h2 id="new-lab-member-jessica-schaaf">New lab member: Jessica Schaaf</h2>
-<p>01/03/2023</p>
-<p>Welcome to the lab member Jessica Schaaf! Jessica is a expert in computational modeling and data analysis. She will be working as a postdoc on modeling timeseries of cognitive performance, teasing apart individual differences in feedback learning and examining developmental curves of exploration-based learning. Find out more about her work <a href="people.html">here</a></p>
-<hr />
-<h2 id="new-lab-visitor-kathryn-bates">New Lab visitor: Kathryn Bates</h2>
-<p>20/02/2023</p>
-<p>Dr. Kathryn Bates is visiting the lab from King’s College London for several months to study the impact of adversity on trajectories of wellbeing in childhood and adolescence, cycling around the Netherlands and presenting her innovative work on science outreach and stakeholder engagement. <a href="https://www.kathrynbates.com/" class="uri">https://www.kathrynbates.com/</a></p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/news/Kathryn.jpg" width="60%" style="display: block; margin: auto;" /></p>
+<p><img src="images/people/SP_Profile_C.png" width="40%" style="display: block; margin: auto;" /></p>
 </div>
+<h2 id="sam-parsons">SAM PARSONS</h2>
+<p>Postdoctoral Researcher</p>
+<p><i class="fab fa-twitter"></i><a href="https://twitter.com/Sam_D_Parsons"><span class="citation" data-cites="Sam_D_Parsons">@Sam_D_Parsons</span></a>
+<i class="fas fa-envelope"></i><a href="sam.parsons@radboudumc.nl">sam.parsons@radboudumc.nl</a>
+<i class="ai ai-google-scholar"></i><a href="https://scholar.google.com/citations?user=kE37Xy4AAAAJ&amp;hl=en">google scholar</a>
+<i class="ai ai-orcid"></i><a href="https://orcid.org/0000-0002-7048-4093">ORCID</a></p>
+<p>I am interested in examining the measurement properties of longitudinal brain imaging data. I am using and extending intra-class effect decomposition (ICED) models to assess multiple sources of error. Leveraging this information should inform our understanding of which indices are reliable, where in the brain, and how to incorporate these sources of error into our models and understanding. I am committed to supporting other researchers in their own explorations of reliability by disseminating tutorials of these methodologies. I’m also invested in open scholarship and co-founded both the ReproducibiliTea Journal Club initiative and a Framework for Open and Reproducible Research Training (FORRT).</p>
 <hr />
-<h2 id="new-lab-member-ilse-coolen">New lab member: Ilse Coolen</h2>
-<p>01/02/2023</p>
-<p>Welcome to the lab Ilse Coolen! Ilse an expert in developmental cognitive neuroscience, with a special interest in the development of mathematical abilities in childhood. She will be working as a postdoc on the ERC funded CODEC project. Find out more about her work <a href="people.html">here</a></p>
-<hr />
-<h2 id="fourth-raincloud-plot-workshop-a-success">Fourth raincloud plot workshop a success</h2>
-<p>10/01/2023</p>
-<p>40 participants joined. Expertly led by Nick Judd and Jordy van Langen, they learned how to make raincloud plots using R and Python. For more info, see <a href="https://github.com/RainCloudPlots/RainCloudPlots" class="uri">https://github.com/RainCloudPlots/RainCloudPlots</a></p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/news/raincloud-workshop.png" width="60%" style="display: block; margin: auto;" /></p>
+<p><img src="images/people/ethanmccormick_C.png" width="40%" style="display: block; margin: auto;" /></p>
 </div>
+<h2 id="ethan-mccormick">ETHAN McCORMICK</h2>
+<p><i class="fab fa-twitter"></i><a href="https://twitter.com/E_M_McCormick"><span class="citation" data-cites="E_M_McCormick">@E_M_McCormick</span></a></p>
+<p>I am interested in the measurement and modeling of data over time using advanced intensive and long-term longitudinal designs. In particular, my current work seeks to link short-term changes due to learning/reactivity with long-term changes due to retest and development to understand how behavior and cognition unfold across multiple timescales. Additionally, I have a strong commitment to the dissemination of quantitative methods, especially in the behavioral and cognitive neurosciences. Outside of the lab, I enjoy running, wrangling Waldorf and Statler (link to <a href="https://quantitudepod.org/" class="uri">https://quantitudepod.org/</a>), and dreaming of traveling again sometime this decade.</p>
 <hr />
-<h2 id="lcd-lab-at-the-donders-open-science-day">LCD Lab at the Donders Open Science day</h2>
-<p>20/10/2022</p>
-<p>Lab members Lea Michel and Michael Aristodemou excited the next generation of scientists at the Donders Open Science day, teaching them about different animal brains, illusions, brain cells and so much more.</p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/news/openscience.jpeg" width="60%" style="display: block; margin: auto;" /></p>
+<p><img src="images/people/sophiaborgeest_C.png" width="40%" style="display: block; margin: auto;" /></p>
 </div>
+<h2 id="sophia-borgeest">SOPHIA BORGEEST</h2>
+<p>PhD student</p>
+<p><i class="fab fa-twitter"></i><a href="https://twitter.com/gsborgeest"><span class="citation" data-cites="gsborgeest">@gsborgeest</span></a></p>
+<p>I am interested in healthy aging, and especially in why some people seem to age much better (or more successfully) than others. In my first project, I used psychometric techniques in a large-sample, multimodal dataset to further understand the associations between leading an active lifestyle and cognitive health. Currently, I am exploring how we can better measure brain structure throughout the lifespan. Here, I am looking at detailed structural MR imaging metrics that might allow for a biologically more accurate picture of the human brain, hopefully allowing us to better describe and quantify healthy neural aging. I like engaging the public and writing for popular audiences. I wish there were more women in leadership and that Cambridge were closer to the mountains.</p>
 <hr />
-<h2 id="lab-alumni-take-up-faculty-posts-at-leiden-university">Lab alumni take up faculty posts at Leiden University</h2>
-<p>01/09/2022</p>
-<p>Lab alumni Ethan McCormick <a href="https://e-m-mccormick.github.io/" class="uri">https://e-m-mccormick.github.io/</a> and Ivan Simpson-Kent <a href="https://www.universiteitleiden.nl/medewerkers/ivan-simpson-kent#tab-1" class="uri">https://www.universiteitleiden.nl/medewerkers/ivan-simpson-kent#tab-1</a> have both accepted posts as assistant professor at Leiden university – We wish them the best of luck!</p>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/people/amyorben_C.png" width="40%" style="display: block; margin: auto;" /></p>
+</div>
+<h2 id="amy-orben">Amy Orben</h2>
+<p><i class="fab fa-twitter"></i><a href="https://twitter.com/OrbenAmy"><span class="citation" data-cites="OrbenAmy">@OrbenAmy</span></a></p>
+<p>Amy studies how the use of social media and digital technology influences adolescent mental health. Her current work uses statistical modeling methods and large-scale data to address questions debated in policy, parenting and mental health. Amy currently leads the Digital Mental Health Group at the University of Cambridge. You can read more about Amy’s work here.</p>
+<hr />
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/people/ivansimpson_C.png" width="40%" style="display: block; margin: auto;" /></p>
+</div>
+<h2 id="ivan-simpson-kent">Ivan Simpson-Kent</h2>
+<p><i class="fab fa-twitter"></i><a href="https://twitter.com/IvanSimpsonKent"><span class="citation" data-cites="IvanSimpsonKent">@IvanSimpsonKent</span></a></p>
+<p>Ivan Simpson-Kent completed his PhD at the LCD lab. His dissertation examined how brain and behavior interact with each other during development to produce intelligence, particularly in childhood and adolescence. Ivan is currently a postdoc at the University of Pennsylvania studying how the environment influences cognition and brain development. You can follow Ivan here.</p>
+<hr />
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/people/deliafuhrmann_C.png" width="40%" style="display: block; margin: auto;" /></p>
+</div>
+<h2 id="delia-fuhrmann">Delia Fuhrmann</h2>
+<p><i class="fab fa-twitter"></i><a href="https://twitter.com/DeliaFuhrmann"><span class="citation" data-cites="DeliaFuhrmann">@DeliaFuhrmann</span></a></p>
+<p>Delia works on lifespan development and plasticity. Her current research focus is executive functions, such as reasoning and working memory, and their neural substrates using mostly large, publicly available data-sets and multivariate statistical tools like Structural Equation Modelling. Delia is presently a lecturer at King’s College London. You can read more about Delia’s work here.</p>
+<hr />
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/people/erikvankesteren_C.png" width="40%" style="display: block; margin: auto;" /></p>
+</div>
+<h2 id="eric-jan-van-kesteren">Eric-Jan Van Kesteren</h2>
+<p><i class="fab fa-twitter"></i><a href="https://twitter.com/ejvankesteren"><span class="citation" data-cites="ejvankesteren">@ejvankesteren</span></a></p>
+<p>Erik-Jan visited the lab in 2019 to improve exploratory factor analysis for structural brain imaging data. Specifically, he developed and tested methods for taking into account brain symmetry when extracting factors, as asymmetry in the brain may be of interest in development. He is currently assistant professor at Utrecht University. You can read more about him here.</p>
+<hr />
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/people/mariadeserno_C.png" width="40%" style="display: block; margin: auto;" /></p>
+</div>
+<h2 id="marie-deserno">Marie Deserno</h2>
+<p><i class="fab fa-twitter"></i><a href="https://twitter.com/MarieDeserno"><span class="citation" data-cites="MarieDeserno">@MarieDeserno</span></a></p>
+<p>Marie Deserno visited the lab in 2018 to work on longitudinal developmental dynamics in children at risk for autism. She used latent growth curve models to study the interplay between motor and language development in early childhood. She is currently a Rubicon Fellow at the Max Planck Centre for Human Development in Berlin. You can read about her current work here.</p>
+<hr />
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/people/susannedemooij_C.png" width="40%" style="display: block; margin: auto;" /></p>
+</div>
+<h2 id="susanne-de-mooij">Susanne de Mooij</h2>
+<p><i class="fab fa-twitter"></i><a href="https://twitter.com/SusanneMooij"><span class="citation" data-cites="SusanneMooij">@SusanneMooij</span></a></p>
+<p>Susanne de Mooij visited the lab in 2016 to work in psychometric approaches to aging. She implemented CFA SEM trees to study neural and cognitive age differentiation in the Cam-CAN sample. Her paper on this work can be found here. She is currently working on her PhD in a shared project between Birkbeck and the University of Amsterdam, working on educational games using psychometric techniques, eye tracking and adaptive learning.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
