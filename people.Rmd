@@ -273,7 +273,7 @@ knitr::include_graphics("images/people/EmaJ_C.jpg")
 
 Intern
 
-<i class="fas fa-envelope"></i>[caroline.wunn@ru.nl](ema.jovanovic@radboudumc.nl)
+<i class="fas fa-envelope"></i>[ema.jovanovic@radboudumc.nl](ema.jovanovic@radboudumc.nl)
 
 I am currently pursuing a Master’s degree in Medical Biology at Radboud University, with a specialization in Neurobiology. My main research interest lies in the relationship between neurodevelopmental disorders—particularly depression—and cognitive processes. My current research project at LCD explores how mood variability correlates with cognition, and which specific cognitive domains are most affected. The idea behind this is to understand whether standard cognitive assessments accurately reflect abilities when mood states vary. For example, is it appropriate to test individuals on cognitive tasks when their mood may significantly impact their performance and potentially skew the results? I completed my Bachelor’s degree at the University of Toronto, where I specialized in Pharmacology, Immunology, and Physiology. In the future, I hope to integrate my background in neuroscience and pharmacology to better understand how pharmacological interventions might target cognitive deficits associated with mood disorders. Aside from my studies, in my free time I like to travel and try new foods!
 
