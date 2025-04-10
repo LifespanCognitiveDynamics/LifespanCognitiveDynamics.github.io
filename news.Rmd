@@ -31,6 +31,14 @@ Over the past few months we have seen some changes in the Lab. Ilse Coolen was a
 
 ---
 
+## Two new tutorials available!
+
+Thursday February 27th:
+
+Always wanted to analyze your longitudinal or time series data but don't know where to start? Try our open online tutorials on [Latent Growth Modeling](https://www.njudd.com/assignment_workshop_lgms.html) and on [Dynamic Structural Equation Modeling](https://jessicaschaaf.github.io/jessicaschaaf/dsem-workshop.html)! Very hands-on. Yes, you can do it too, we promise!
+
+---
+
 ## New paper ggrain paper and download milestone
 
 February 2025
@@ -136,14 +144,6 @@ knitr::include_graphics("images/news/codec2protocol.png")
 ```
 
 --- 
-
-## Two new tutorials available!
-
-Thursday February 27th:
-
-Always wanted to analyze your longitudinal or time series data but don't know where to start? Try our open online tutorials on [Latent Growth Modeling](https://www.njudd.com/assignment_workshop_lgms.html) and on [Dynamic Structural Equation Modeling](https://jessicaschaaf.github.io/jessicaschaaf/dsem-workshop.html)! Very hands-on. Yes, you can do it too, we promise!
-
----
 
 ## Open Science news
 
