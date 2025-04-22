@@ -9,9 +9,9 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r, out.width = "100%", fig.align = 'center', echo=FALSE}
+```{r, out.width = "75%", fig.align = 'center', echo=FALSE}
 
-knitr::include_graphics("images/people/The_Lab.jpg")
+knitr::include_graphics("images/people/The_Lab2.jpg")
 
 ```
 
