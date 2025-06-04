@@ -18,6 +18,10 @@ navbar:
       href: news.html
     - text: "Blog"
       href: posts.html
+    - text: "Cohort"
+      href: cohort.html
+    - text: "Join the Lab"
+      href: joinlab.html
     - icon: fab fa-github
       href: https://github.com/LifespanCognitiveDynamics
 output: distill::distill_article
