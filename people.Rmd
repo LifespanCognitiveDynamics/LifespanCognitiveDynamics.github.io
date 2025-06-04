@@ -235,22 +235,6 @@ My interest lies in the field of developmental psychology. Within this area I am
 
 ---
 
-```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
-
-knitr::include_graphics("images/people/CarolineWunn_C.png")
-```
-
-## CAROLINE WUNN
-
-Intern
-
-<i class="fab fa-linkedin-in"></i>[ LinkedIn](https://www.linkedin.com/in/caroline-wunn-59090120a/)
-<i class="fas fa-envelope"></i>[caroline.wunn@ru.nl](caroline.wunn@ru.nl)
-
-I am interested in studying brain development in children and adolescents, particularly how emotional, educational, and social factors influence cognitive abilities and mental health. Currently, I am pursuing a research master's in Cognitive Neuroscience with a specialization in Perception, Action, and Decision-Making. My current research project focuses on the influence of schooling on working memory performance, using fMRI and the N-back task. Outside of my studies, I enjoy reading and travelling.
-
----
-
 ```{r, out.width = "50%", fig.align = 'center', echo=FALSE}
 
 knitr::include_graphics("images/people/Aline_C.png")
@@ -294,8 +278,40 @@ Beyond research, I enjoy reading about cognitive science, watching movies, and h
 
 ---
 
+```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+
+knitr::include_graphics("images/people/Fer_C.jpg")
+```
+
+
+## Fer
+
+I’m fascinated by how cognitive abilities develop over time; especially how, within a stable environment, we can foster sustainable cognitive growth. My current work focuses on assessing the reliability of behavioral tasks, examining the use of well-established paradigms such as the Stroop and Go/NoGo tasks for measuring interindividual differences.
+Outside the lab, I enjoy cooking, spending time in nature, exercising, and meditating. I’m also an avid podcast listener, especially on topics like consciousness, personal development, and parenting.
+
+---
+
 
 # Lab Alumni
+
+--- 
+
+
+```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+
+knitr::include_graphics("images/people/CarolineWunn_C.png")
+```
+
+## CAROLINE WUNN
+
+Intern
+
+<i class="fab fa-linkedin-in"></i>[ LinkedIn](https://www.linkedin.com/in/caroline-wunn-59090120a/)
+<i class="fas fa-envelope"></i>[caroline.wunn@ru.nl](caroline.wunn@ru.nl)
+
+I am interested in studying brain development in children and adolescents, particularly how emotional, educational, and social factors influence cognitive abilities and mental health. Currently, I am pursuing a research master's in Cognitive Neuroscience with a specialization in Perception, Action, and Decision-Making. My current research project focuses on the influence of schooling on working memory performance, using fMRI and the N-back task. Outside of my studies, I enjoy reading and travelling.
+
+---
 
 ```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
 
