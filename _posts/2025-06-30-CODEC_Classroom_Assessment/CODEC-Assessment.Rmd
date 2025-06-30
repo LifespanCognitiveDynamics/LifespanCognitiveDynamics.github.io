@@ -1,0 +1,38 @@
+---
+title: "From idea to reality"
+description: |
+  Classroom ecological momentary assessment
+author:
+  - name: Emma Meeussen
+date: 06-30-2025
+preview: CODEC_Classroom.jpg
+output:
+  distill::distill_article:
+    self_contained: false
+draft: false
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r, layout = "l-body-ouset", fig.width=3, echo=FALSE}
+knitr::include_graphics("CODEC_Classroom.jpg")
+```
+
+Studying cognitive variability in young children is both fun and challenging. If you were to dive into the original plans for [CODEC](https://lifespancognitivedynamics.com/cohort.html#codec-2025-2028-age-7-13), you would find that Rogier’s intention was to use the VEKTOR platform for collecting behavioral data in five cognitive domains using tablets. We kept the tablets, but VEKTOR was soon replaced due to its incompatibility with our standards for data management. The new platform of choice was [m-Path](https://m-path.io/landing/) and so one of the project’s new deliverables became to create a set of cognitive tests, freely usable by other researchers. 
+
+After 1+ year of tweaking, piloting and retesting, the [official m-Path manual](https://manual.m-path.io/knowledge-base/cognitive-tests/) now describes 4 of the CODEC tasks (all except the vocabulary test) under the accurate banner of ‘Cool stuff’: whac-a-mole (a simple response time task), [fluid reasoning](https://www.nwo.nl/en/projects/osf232029), spatial working memory, and exploration tasks. Creating a free [m-Path account](https://manual.m-path.io/knowledge-base/create-an-online-dashboard-account/) will give you access to the tasks. 
+
+Of course, the proof of the pudding is in the eating, and in November 2024 it was time for our most important test: bringing 60 tablets into classrooms full of 7-year-olds to see how they would react. Before any games had even been played, this proved rewarding. The mere mention of tablets had many children burst out in cheers. 
+In preparation for the first testing sessions, we had made sure to create scripted instructions, explaining step by step what would happen during the test week. We even practiced the instructions on some of our (>7 year old) lab members. Note: the attention span of a group of 7-year-olds is shorter than you think, even when you expect it to be shorter than you think. Since we tested two classes in a row, we could immediately incorporate some tweaks for a faster routine into the next session. It was fun to see how the children reacted, and how quickly we adapted to their reactions and to our new role as instructors.
+
+A few other things that struck us during those first weeks were the massive developmental leaps children take in a year, what a hard task (vocabulary) does to morale, how much help a teacher can be in keeping order, and how cute kids are. We did see some differences in how children reacted to the games, but I was most interested in the matrix reasoning task. Some children were surprisingly motivated by the puzzle element, others demotivated by their initial lack of understanding, followed by relief when they ‘got’ it. I definitely feel like this task elicited the strongest reactions and I’m happy that the [Open Matrices Stimuli Set](https://www.aranvanhout.com/research.html) (OMSS) project is further expanding its user possibilities. 
+
+In January, March and April of this year, we continued testing at three other schools. By the end of April, we had settled into a comfortable routine involving meeting new kids and their teachers every Monday, managing tablet logistics (moving 60 tablets distributed over 6 boxes from one school to the other and back again two weeks later, and do all these boxes fit into this small rented car?) and evaluating the data quality. 
+Right now, we’ve collected data for 261 children, equaling ~170.000 trials. We are still recruiting schools for the first wave, and simultaneously preparing for the second wave in the first school. Be sure to check out our other blogs post for more classroom experiences! 
