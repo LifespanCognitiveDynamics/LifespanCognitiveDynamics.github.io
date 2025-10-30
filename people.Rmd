@@ -156,23 +156,6 @@ I’m a PhD student at the Behavioural Science Institute (BSI) at Radboud Univer
 
 ```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
 
-knitr::include_graphics("images/people/Ciske_C.jpg")
-```
-
-## Ciske Jansen
-
-Lab Manager
-
-<i class="fab fa-linkedin-in"></i>[ LinkedIn](https://nl.linkedin.com/in/ciske-jansen-54747a132)
-<i class="fas fa-envelope"></i>[ciske.jansen@radboudumc.nl](aran.vanhout@radboudumc.nl)
-
-I am interested in development and how the early plastic stages of life lay the foundation for cognition, behavior, and language. With a background in medical neurobiology and developmental research, I have experience with a wide range of methods used to study these processes. I am particularly drawn to longitudinal projects that explore the long-term impacts of early development. At the LCD Lab, my focus is on organizing and maintaining lab structures while contributing wherever needed. Additionally, I am a Research Assistant at the Developmental Psychobiology Lab. Outside of research, I enjoy endurance sports. Mostly running, but I also love cycling on sunny days, swimming in a warm pool when it's cold outside and hiking on holidays!
-
-
----
-
-```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
-
 knitr::include_graphics("images/people/Emma_C.png")
 ```
 
@@ -296,6 +279,22 @@ Outside the lab, I enjoy cooking, spending time in nature, exercising, and medit
 
 --- 
 
+
+```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+
+knitr::include_graphics("images/people/Ciske_C.jpg")
+```
+
+## Ciske Jansen
+
+Lab Manager
+
+<i class="fab fa-linkedin-in"></i>[ LinkedIn](https://nl.linkedin.com/in/ciske-jansen-54747a132)
+<i class="fas fa-envelope"></i>[ciske.jansen@radboudumc.nl](aran.vanhout@radboudumc.nl)
+
+I am interested in development and how the early plastic stages of life lay the foundation for cognition, behavior, and language. With a background in medical neurobiology and developmental research, I have experience with a wide range of methods used to study these processes. I am particularly drawn to longitudinal projects that explore the long-term impacts of early development. At the LCD Lab, my focus is on organizing and maintaining lab structures while contributing wherever needed. Additionally, I am a Research Assistant at the Developmental Psychobiology Lab. Outside of research, I enjoy endurance sports. Mostly running, but I also love cycling on sunny days, swimming in a warm pool when it's cold outside and hiking on holidays!
+
+---
 
 ```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
 
