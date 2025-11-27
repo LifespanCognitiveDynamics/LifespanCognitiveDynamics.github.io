@@ -61,28 +61,6 @@ I’m interested in how cognitive abilities develop across age and specifically 
 
 ```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
 
-knitr::include_graphics("images/people/nickjudd_C.png")
-
-```
-
-
-## NICHOLAS JUDD
-
-Postdoctoral researcher/data scientist
-
-<i class="fab fa-twitter"></i>[  @nickkjudd](https://twitter.com/nickkjudd)
-<i class="fas fa-envelope"></i>[  nicholas.judd@radboudumc.nl](nicholas.judd@radboudumc.nl)
-<i class="ai ai-google-scholar"></i>[  google scholar](https://scholar.google.com/citations?user=Hx6n8aEAAAAJ&hl=en)
-<i class="ai ai-orcid"></i>[  ORCID](https://orcid.org/0000-0002-0196-9871)
-
-
-
-I'm interested in how complex cognition arises. Specifically, how we solve problems, adapt, and respond to ever-changing demands. This has led me to focus on the domains of fluid reasoning and working memory. Recently, my research has examined how genetics and socioeconomics affect the development of these skills. I use a variety of methods depending on the question at hand, this ranges from observational datasets, RCTs, and causal inference techniques. Here I will be looking to see if it is possible to unravel the influences of global and local structural MR metrics on cognition. In my free time, I love to surf, rock climb, and travel (when possible)!
-
----
-
-```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
-
 knitr::include_graphics("images/people/leamichel_C.png")
 ```
 
@@ -121,6 +99,22 @@ longitudinal designs. Together this will hopefully provide new insight into the 
 
 ---
 
+```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+
+knitr::include_graphics("images/people/Feline_C.png")
+```
+
+## FELINE VAN AAGTEN
+
+PhD Student
+
+<i class="fab fa-linkedin-in"></i>[ LinkedIn](https://www.linkedin.com/in/feline-van-aagten/)
+<i class="fas fa-envelope"></i>[  feline.vanaagten@radboudumc.nl](feline.vanaagten@radboudumc.nl)
+
+I’m interested in differences in development of children with and without diagnoses. In my previous research I focused specifically on the neurobiological substrates of ADHD by means of diffusion tensor imaging. In my PhD I’ll be exploring how early life experiences influence children’s later cognitive performance. In my downtime I like to knit, read and cook new recipes. My absolute favorite activity is snowboarding!
+
+---
+
 ```{r, out.width = "50%", fig.align = 'center', echo=FALSE}
 
 knitr::include_graphics("images/people/EleniZ_C.png")
@@ -156,12 +150,33 @@ I’m a PhD student at the Behavioural Science Institute (BSI) at Radboud Univer
 
 ```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
 
+knitr::include_graphics("images/people/nickjudd_C.png")
+
+```
+
+
+## NICHOLAS JUDD
+
+Affiliate Researcher
+
+<i class="fab fa-twitter"></i>[  @nickkjudd](https://twitter.com/nickkjudd)
+<i class="fas fa-envelope"></i>[  nicholas.judd@radboudumc.nl](nicholas.judd@radboudumc.nl)
+<i class="ai ai-google-scholar"></i>[  google scholar](https://scholar.google.com/citations?user=Hx6n8aEAAAAJ&hl=en)
+<i class="ai ai-orcid"></i>[  ORCID](https://orcid.org/0000-0002-0196-9871)
+
+
+I'm interested in how complex cognition arises. Specifically, how we solve problems, adapt, and respond to ever-changing demands. This has led me to focus on the domains of fluid reasoning and working memory. Recently, my research has examined how genetics and socioeconomics affect the development of these skills. I use a variety of methods depending on the question at hand, this ranges from observational datasets, RCTs, and causal inference techniques. Here I will be looking to see if it is possible to unravel the influences of global and local structural MR metrics on cognition. In my free time, I love to surf, rock climb, and travel (when possible)!
+
+---
+
+```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+
 knitr::include_graphics("images/people/Emma_C.png")
 ```
 
 ## EMMA MEEUSSEN
 
-Research assistant
+Research Assistant
 
 <i class="fab fa-linkedin-in"></i>[ LinkedIn](https://www.linkedin.com/in/emma-meeussen/)
 <i class="fas fa-envelope"></i>[  emma.meeussen@radboudumc.nl](emma.meeussen@radboudumc.nl)
@@ -172,33 +187,16 @@ I am interested in human cognitive development, its variation, and the ways in w
 
 ```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
 
-knitr::include_graphics("images/people/Felinevanaagten_C.png")
+knitr::include_graphics("images/people/Larissa_C.png")
 ```
 
-## FELINE VAN AAGTEN
+## LARISSA ROSALIA
 
-Research assistant
+Research Assistant
 
-<i class="fab fa-linkedin-in"></i>[ LinkedIn](https://www.linkedin.com/in/feline-van-aagten/)
-<i class="fas fa-envelope"></i>[  feline.vanaagten@radboudumc.nl](feline.vanaagten@radboudumc.nl)
+<i class="fas fa-envelope"></i>[  Larissa.Rosalia@radboudumc.nl](larissa.rosalia@radboudumc.nl)
 
-I'm interested in differences in development of children with and without diagnoses. In my previous research I focused specifically on the neurobiological substrates of ADHD by means of diffusion tensor imaging. Currently, I'm contributing to the CODEC project, a new longitudinal project focused on the fluctuation in preschoolers. In my downtime I like to play golf and cook new recipes. My absolute favorite activity is snowboarding.
-
----
-
-```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
-
-knitr::include_graphics("images/people/Aran_C.png")
-```
-
-## ARAN VAN HOUT
-
-Research assistant
-
-<i class="fas fa-envelope"></i>[aran.vanhout@radboudumc.nl](aran.vanhout@radboudumc.nl)
-
-Hi, I’m Aran! I work as a research assistant on the OMSS project, where I’m developing a program to generate matrices for assessing fluid reasoning. You can learn more about this research [here](https://www.aranvanhout.com/research.html).
-I’m also involved in organizing REMAC, a program that connects researchers at Radboud University who use Ecological Momentary Assessment.
+My interests center on children’s development, particularly psychobiological and cognitive processes. I am especially drawn to understanding how environmental factors shape these developmental pathways, and whether and how these influences contribute to both intra- and interindividual differences. Outside the lab, I love getting immersed in a good story, both through reading and watching films. I also enjoy traveling to explore new places, learn about different cultures, and relax.
 
 ---
 
@@ -218,16 +216,84 @@ My interest lies in the field of developmental psychology. Within this area I am
 
 ---
 
+```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+
+knitr::include_graphics("images/people/Kevin_C.png")
+```
+
+## KEVIN RENIERS
+
+Research assistant
+
+<i class="fab fa-linkedin-in"></i>[ LinkedIn]( https://www.linkedin.com/in/kevin-reniers/)
+<i class="fas fa-envelope"></i>[kevin.reniers@ru.nl](kevin.reniers@ru.nl)
+<i class="fa fa-github"></i>[  GitHub](https://kevin-reniers.github.io/website/)
+
+Hi, I’m Kevin, a Research Assistant at the LCD lab. I’m interested in all neuroscience related to education, development and motivation and in the many methods we use to study them. Within the lab I’m part of the CODEC team, helping to acquire data at schools throughout the country and in the MRI scanner at the Donders. Additionally, together with other members of the lab, we are trying to build multilevel models that we can use to understand variability in children at different timescales (from trial-to-trial, session-to-session and day-to-day). We hope to create individual Variability Profiles per child, across different cognitive tasks, and see if we can link those to cognitive performance and other metrics! In my day-to-day life you can find me anywhere, reading a good book on the couch, trying out new hobbies (and quickly abandoning them, oftentimes) or moving about in the beautiful city of Nijmegen!
+
+---
+
 ```{r, out.width = "50%", fig.align = 'center', echo=FALSE}
 
 knitr::include_graphics("images/people/Aline_C.png")
 ```
 
-## Aline Korver
+## ALINE KORVER
 
 Intern
 
 I am a research master’s student in Cognitive Neuroscience with a double background in Psychology and Philosophy, interested in the development of alternative research methods which respect the complex, dynamic, and individually unique nature of psychological phenomena. For my internship, I will be involved in the CODEC project, which studies cognitive variability in early childhood. In my free time, I enjoy reading novels, running over the Veluwe, and commuting between Arnhem and Nijmegen with my racing bike!
+
+---
+
+```{r, out.width = "50%", fig.align = 'center', echo=FALSE}
+
+knitr::include_graphics("images/people/Rafael_C.png")
+```
+
+## RAFAEL ZAMPAKAS
+
+Intern
+
+I’m fascinated by how language skills develop and enjoy combining biological and computational approaches to explore this process. As part of the CODEC team, a longitudinal study on the cognitive abilities of primary school children, my internship focuses on intraindividual language variability and its relation to other forms of cognitive variability using Dynamic Structural Equation Modeling (DSEM). Outside the lab, I love drawing inspiration from cinema and series, learning new languages, swimming, and a being a bit too active in a classical student choir.
+
+
+---
+
+# Lab Alumni
+
+--- 
+
+
+```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+
+knitr::include_graphics("images/people/Ciske_C.jpg")
+```
+
+## CISKE JANSEN
+
+Lab Manager
+
+<i class="fab fa-linkedin-in"></i>[ LinkedIn](https://nl.linkedin.com/in/ciske-jansen-54747a132)
+<i class="fas fa-envelope"></i>[ciske.jansen@radboudumc.nl](aran.vanhout@radboudumc.nl)
+
+I am interested in development and how the early plastic stages of life lay the foundation for cognition, behavior, and language. With a background in medical neurobiology and developmental research, I have experience with a wide range of methods used to study these processes. I am particularly drawn to longitudinal projects that explore the long-term impacts of early development. At the LCD Lab, my focus is on organizing and maintaining lab structures while contributing wherever needed. Additionally, I am a Research Assistant at the Developmental Psychobiology Lab. Outside of research, I enjoy endurance sports. Mostly running, but I also love cycling on sunny days, swimming in a warm pool when it's cold outside and hiking on holidays!
+
+---
+
+```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+
+knitr::include_graphics("images/people/Aran_C.png")
+```
+
+## ARAN VAN HOUT
+
+Research assistant
+
+<i class="fas fa-envelope"></i>[aran.vanhout@radboudumc.nl](aran.vanhout@radboudumc.nl)
+
+Hi, I’m Aran! I work as a research assistant on the OMSS project, where I’m developing a program to generate matrices for assessing fluid reasoning. You can learn more about this research [here](https://www.aranvanhout.com/research.html).
+I’m also involved in organizing REMAC, a program that connects researchers at Radboud University who use Ecological Momentary Assessment.
 
 ---
 
@@ -266,33 +332,10 @@ Beyond research, I enjoy reading about cognitive science, watching movies, and h
 knitr::include_graphics("images/people/Fer_C.jpg")
 ```
 
-
-## Fer
+## FER
 
 I’m fascinated by how cognitive abilities develop over time; especially how, within a stable environment, we can foster sustainable cognitive growth. My current work focuses on assessing the reliability of behavioral tasks, examining the use of well-established paradigms such as the Stroop and Go/NoGo tasks for measuring interindividual differences.
 Outside the lab, I enjoy cooking, spending time in nature, exercising, and meditating. I’m also an avid podcast listener, especially on topics like consciousness, personal development, and parenting.
-
----
-
-
-# Lab Alumni
-
---- 
-
-
-```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
-
-knitr::include_graphics("images/people/Ciske_C.jpg")
-```
-
-## Ciske Jansen
-
-Lab Manager
-
-<i class="fab fa-linkedin-in"></i>[ LinkedIn](https://nl.linkedin.com/in/ciske-jansen-54747a132)
-<i class="fas fa-envelope"></i>[ciske.jansen@radboudumc.nl](aran.vanhout@radboudumc.nl)
-
-I am interested in development and how the early plastic stages of life lay the foundation for cognition, behavior, and language. With a background in medical neurobiology and developmental research, I have experience with a wide range of methods used to study these processes. I am particularly drawn to longitudinal projects that explore the long-term impacts of early development. At the LCD Lab, my focus is on organizing and maintaining lab structures while contributing wherever needed. Additionally, I am a Research Assistant at the Developmental Psychobiology Lab. Outside of research, I enjoy endurance sports. Mostly running, but I also love cycling on sunny days, swimming in a warm pool when it's cold outside and hiking on holidays!
 
 ---
 
