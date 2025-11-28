@@ -1,0 +1,40 @@
+---
+title: "Ecological Momentary Assessment at CODEC"
+author: "Andrei Komartin"
+date: " 2025-08-04 "
+preview: "EMA.png"
+output: distill::distill_article
+---
+
+```{=html}
+<style>
+body {
+text-align: justify}
+</style>
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r, layout = "l-body-ouset", fig.width=3, echo=FALSE}
+
+knitr::include_graphics("EMA.png")
+
+```
+
+Understanding human behavior is a complex endeavor, not just conceptually, but more so methodologically. To build accurate models of cognition and emotion, researchers rely on data. But capturing meaningful, real-world data is much harder than it sounds. Data collection in cognitive neuroscience or psychology has always been a struggle due to many factors. The expenses they incur, the lack of external/ecological validity, the unpredictability of participant availability (particularly in longitudinal studies) and the plethora of memory and cognitive biases that accompanies recall or one-shot testing environments.
+
+As mentioned above, one struggle with psychometric data collection is the validity of said data when extrapolated to real-life settings. Labs are great, because they control a lot of factors that would otherwise impede the direct correlation of independent and dependent variables. However, because of this same reason, labs do not accurately resemble daily life. Intelligence, for example, does not manifest solely within IQ tests. Its most relevant components are visible in the way we behave in school, in university, at work, during conversations and other natural settings that remain somewhat elusive to regular testing.
+
+Another relevant struggle comes amid the rapid growth of highly complex, data-hungry computational models. They have become more and more able to predict future states of a system and to analyze the mechanistic processes that drive human behavior, but to predict such states it needs data, loads of it. The more the merrier. While this might seem trivial in theory: scheduling participants into a lab for some behavioral testing should be easy… right? It turns out people’s lives are packed nowadays (21st century just doing its thing) and it is very common for participants to miss meetings or drop out entirely. This is costly and reduces efficiency. 
+
+To make matters even more complicated, a new trend in human studies (unlocked in part by advancements in machine learning) is attempting to assess cognitive variability at very short timescales. In other words, researchers are narrowing down the measurement window in order to understand how cognition changes on an hourly/daily basis. To keep onto the intelligence example, we know that general circumstances can increase or decrease an individual's cognitive capacities. Educational level, socio-economic status, relationships and bonding with peers, all play a role in the way we develop our cognitive skill set. What is less well known, and is in fact the fantasy of any scientist in this domain, is precisely what events have an impact on which capacities. A day of stress would clearly have a temporary impact on your concentration levels, but after how many difficult days does this become the new standard?
+
+One solution to those struggles is the application of Ecological Momentary Assessment (EMA). It implies the use of reliable and repeated testing in natural environments as a solution to the problems highlighted above. EMA represents a methodological shift toward capturing life as it unfolds, rather than as it is remembered or experienced once. Instead of relying on retrospective self-reports that may be influenced by biases or distortions, EMA prompts participants to provide data multiple times a day, often through brief surveys or tasks on portable devices. This not only increases the ecological validity of the data but also allows researchers to observe micro-fluctuations in behavior, mood, and cognition; elements that traditional approaches would likely miss. For instance, momentary assessments can reveal how a student’s motivation fluctuates within a single school day, or how social interactions influence stress levels in real time.
+
+Within the CODEC project, this method has been deployed with the help of easy-to-use tablets in Dutch schools to 600 children. Despite the setup being decently time consuming (as I experienced first-hand), the large amount of valuable data obtained yields a high data collection efficiency. The general mission of the project is to provide a predictive model for cognitive development in children through their formative years (aged 7-12). Because cognitive variability has been identified as a marker for atypical development, the LCD lab is hoping to identify critical moments and factors that influence cognitive variability and contribute to knowledge that could improve guidance for children at school in the future. The promise of EMA is especially important for understanding children’s development, where day-to-day variability can signal both potential and vulnerability. Projects like CODEC don’t just collect data; they open a window into how cognition grows and changes in real time, offering new opportunities to support students more effectively and equitably.
+
+EMA stands out as a powerful tool for the future of behavioral science. By meeting participants where they are, both physically and cognitively, it offers researchers a chance to observe the dynamic patterns of human development with a clarity that static, lab-based methods rarely afford. Of course, EMA is not without its own challenges. It requires careful design, reasonable equipment, and thoughtful interpretation. But if we want to understand how people really think, learn, and adapt in the world around them, we need methods that move with them. In that sense, EMA is not just a solution. It’s a necessary evolution.
+
+
