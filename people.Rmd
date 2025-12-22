@@ -160,7 +160,7 @@ knitr::include_graphics("images/people/nickjudd_C.png")
 Affiliate Researcher
 
 <i class="fab fa-twitter"></i>[  @nickkjudd](https://twitter.com/nickkjudd)
-<i class="fas fa-envelope"></i>[  nicholas.judd@radboudumc.nl](nicholas.judd@radboudumc.nl)
+<i class="fas fa-envelope"></i>[  nicholas.judd@su.se](nicholas.judd@su.se)
 <i class="ai ai-google-scholar"></i>[  google scholar](https://scholar.google.com/citations?user=Hx6n8aEAAAAJ&hl=en)
 <i class="ai ai-orcid"></i>[  ORCID](https://orcid.org/0000-0002-0196-9871)
 
@@ -255,8 +255,28 @@ knitr::include_graphics("images/people/Rafael_C.png")
 
 Intern
 
+<i class="fab fa-linkedin-in"></i>[ LinkedIn](https://www.linkedin.com/in/rafael-zampakas-8a1448255/)
+<i class="fas fa-envelope"></i>[rafael.zampakas@ru.nl](rafael.zampakas@ru.nl)
+<i class="fab fa-bluesky"></i>[  @rafael-zam.bsky.social](https://bsky.app/profile/rafael-zam.bsky.social)
+
+
+
 I’m fascinated by how language skills develop and enjoy combining biological and computational approaches to explore this process. As part of the CODEC team, a longitudinal study on the cognitive abilities of primary school children, my internship focuses on intraindividual language variability and its relation to other forms of cognitive variability using Dynamic Structural Equation Modeling (DSEM). Outside the lab, I love drawing inspiration from cinema and series, learning new languages, swimming, and a being a bit too active in a classical student choir.
 
+---
+
+```{r, out.width = "50%", fig.align = 'center', echo=FALSE}
+
+knitr::include_graphics("images/people/Lena_C.png")
+```
+
+## LENA KOHLER
+
+Intern
+
+I’m a Cognitive Neuroscience Master’s student interested in the cognitive and socioemotional development of children, particularly in the context of primary education. How does schooling (as considered in isolation of or in combination with age) shape the way the brain develops and the outcomes we extract with cognitive testing during this period – and how can educational policies or interventions centered on the individual support these complex processes, not only by improving cognitive performance but also by fascilitating growth in socioemotional skills?
+During my internship, I’m working on CODEC, focusing mostly on the MRI side of the project. Aside from assisting in the data collection, I’m working on a pipeline to extract white matter integrity with the goal to link the parameters thereof to cognitive intravariability. I’m also interested in finding new ways to communicate our science to the children participating in the study, with the goal to have them be (almost) as excited in taking part as we are in conducting the research!
+In my leisure time, I enjoy doing sports (strength training always, cycling and running mostly when it’s not raining), trying out new cooking or baking recipes, discovering Dutch cities and crafting with friends.
 
 ---
 
@@ -275,7 +295,7 @@ knitr::include_graphics("images/people/Ciske_C.jpg")
 Lab Manager
 
 <i class="fab fa-linkedin-in"></i>[ LinkedIn](https://nl.linkedin.com/in/ciske-jansen-54747a132)
-<i class="fas fa-envelope"></i>[ciske.jansen@radboudumc.nl](aran.vanhout@radboudumc.nl)
+<i class="fas fa-envelope"></i>[ciske.jansen@radboudumc.nl](ciske.jansen@radboudumc.nl)
 
 I am interested in development and how the early plastic stages of life lay the foundation for cognition, behavior, and language. With a background in medical neurobiology and developmental research, I have experience with a wide range of methods used to study these processes. I am particularly drawn to longitudinal projects that explore the long-term impacts of early development. At the LCD Lab, my focus is on organizing and maintaining lab structures while contributing wherever needed. Additionally, I am a Research Assistant at the Developmental Psychobiology Lab. Outside of research, I enjoy endurance sports. Mostly running, but I also love cycling on sunny days, swimming in a warm pool when it's cold outside and hiking on holidays!
 
