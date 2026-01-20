@@ -4,9 +4,26 @@ output:
   distill::distill_article
 ---
 
+## Our lab has undergone quite some changes lately!
+
+10th of October:
+
+On October 6th Michael Aristodemou succesfully defended his PhD. Congratulations Dr. Aristodemou! We wish him all the best in Zurich where he has started at the Quantitative Methods of Intervention and Evaluation Research lab of Prof. Driver.
+
+Nick Judd has become a Pro Futura Fellow at the Swedish Colloquium for advanced study, and a Principal Investigator at the Department of Psychology in Stockholm University. This fellowship allows him to spend one year abroad anywhere in the world. Nick’s choice landed on the MRC CBU unit in Cambridge with Professor Duncan Astle. Afterwards he will also spend a year in residence at the Swedish Colloquium for advanced study.
+
+Aline finished her Master’s internship and started a PhD in Philosophy of Science in Groningen! Luckily, she will also be staying around as a research assistant in the lab.
+
+Feline van Aagten, our former research assistant, has returned to the lab as PhD student. She will be working on the Learning Variability Network Exchange ([LEVANTE](https://levante-network.org/)) project: a global research project on variability in learning. Our lab is collaborating on this project with the Developmental Psychobiology lab of Professor Carolina de Weerth.
+
+New to the lab are Beyza Ustun-Elayan, Larissa Rosalia, Kevin Reniers and Rafael Zampakas. Beyza is a new post-doc and will be working on the LEVANTE project with Feline. Larissa and Kevin are working as research assistants on the CODEC project and Rafael is joining the CODEC project as intern. Welcome everyone!
+
+---
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
 
 ## The lab won the department Sustainability Travel Award
 
