@@ -1,0 +1,34 @@
+---
+title: "CODEC update"
+author: "Kevin Reniers"
+date: " 2025-11-24 "
+preview: "CODEC_update.jpg"
+output: distill::distill_article
+---
+
+```{=html}
+<style>
+body {
+text-align: justify}
+</style>
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r, layout = "l-body-ouset", fig.width=3, echo=FALSE}
+
+knitr::include_graphics("CODEC_update.jpg")
+
+```
+A new academic year, but not a new beginning. We are very happy that we have entered our second year of testing in the longitudinal CODEC study: The first classes that were tested one year ago, are being tested for their second round, as we speak! 
+Within the CODEC (COgnitive Dynamics in Early Childhood) project we seek to understand individual differences in children’s cognitive variability. Whilst their mean cognitive scores might be the same, two children can differ immensely in how they vary around this mean. They can vary differently at a timescale of seconds, but also at different hours of the day or even across different days. By testing 600 children in real classrooms, and coming back three times across three years, we hope to understand these individual differences in variability and how they are linked to academic outcomes (like standardized test scores; CITO in the Netherlands) or other external factors. 
+And now, after a year of hard work, we have made the second big leap into the project: returning to our starting place for the second time! Our team is still busily recruiting new schools to reach that big sample size goal of 600 children. Currently, we have tested 375 children in the first wave. With the winter months having crept in, we are almost fully booked, and our CODEC team members are constantly cleaning and preparing tablets, travelling to schools to instruct the teachers and children, and picking up the tablets again. The study is moving full steam ahead! 
+
+It was interesting to meet the children again. They were excited to get their personal tablets back. A lot of the kids could remember the tasks from last year and there seemed to be a general enthusiasm for something other than the standard curriculum. Some “hackers” even cracked the codes to the tablets before we got a chance to explain what they had to do! When asked if they enjoyed the project last year, we heard some mixed feelings being shouted through the class – which surprised us slightly. When we asked a bit more about this, a lot of the kids told us that they were annoyed with the Whack ‘a Mole task – in which children have to click on a randomly appearing mole as quickly as possible. Apparently, it was too easy last year. We assured them we made some changes, which convinced a few kids to become a bit more energetic again! Eventually, most of the pupils eagerly went to work in their first sessions of their second burst week. 
+
+With that, the MRI recruitment is going well too. Steadily each week, new children are invited to the Donders Institute to participate in the MRI branch of the project. Multiple members of the team are busy working on the required steps and analyses to get the MRI data ready. At the same time, the first analyses are being prepared on the wave one behavioural data that flows out of the kids’ tablets. So hopefully, we will soon reach our wave one goal and can share more of our results with the world! 
+
+
+
