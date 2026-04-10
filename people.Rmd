@@ -80,6 +80,25 @@ At the LCD Lab, I work on the global LEVANTE Project, examining cognitive variab
 
 ```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
 
+knitr::include_graphics("images/people/AnnaBanaszkiewicz_C.png")
+```
+
+## Anna Banaszkiewicz
+
+Postdoctoral researcher
+
+<i class="fas fa-envelope"></i>[Anna.Banaszkiewicz@radboudumc.nl](Anna.Banaszkiewicz@radboudumc.nl)
+<i class="fas fa-envelope"></i>[a.banaszkiewicz@nencki.edu.pl](a.banaszkiewicz@nencki.edu.pl)
+<i class="ai ai-google-scholar"></i>[google scholar](https://scholar.google.pl/citations?user=ocUfYqIAAAAJ&hl=pl&oi=ao)
+
+I am a postdoc at the Laboratory of Language Neurobiology at the Nencki Institute, Warsaw, Poland, where I investigate longitudinal relationships between cognition (language, attention and social skills) and brain development in neurodiverse children.
+During my research visit at the LCD lab I will conceptualize and apply a set of longitudinal structural equation models to our multivatiate behavioral and neuroimaging data. 
+In my free time I enjoy being out in nature climbing, hiking or cycling, as well as listening to music. 
+
+---
+
+```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+
 knitr::include_graphics("images/people/leamichel_C.png")
 ```
 
@@ -186,21 +205,7 @@ Affiliate Researcher
 
 I'm interested in how complex cognition arises. Specifically, how we solve problems, adapt, and respond to ever-changing demands. This has led me to focus on the domains of fluid reasoning and working memory. Recently, my research has examined how genetics and socioeconomics affect the development of these skills. I use a variety of methods depending on the question at hand, this ranges from observational datasets, RCTs, and causal inference techniques. Here I will be looking to see if it is possible to unravel the influences of global and local structural MR metrics on cognition. In my free time, I love to surf, rock climb, and travel (when possible)!
 
----
 
-```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
-
-knitr::include_graphics("images/people/Emma_C.png")
-```
-
-## EMMA MEEUSSEN
-
-Research Assistant
-
-<i class="fab fa-linkedin-in"></i>[ LinkedIn](https://www.linkedin.com/in/emma-meeussen/)
-<i class="fas fa-envelope"></i>[  emma.meeussen@radboudumc.nl](emma.meeussen@radboudumc.nl)
-
-I am interested in human cognitive development, its variation, and the ways in which we can best support it in order to thrive as human beings. I believe that to optimally do so, it’s essential that we understand the processes underlying both impaired and healthy development. Besides the LCD group, I also work as a haptotherapist, where I put theory into practice by using touch to help clients gain insight into their own development and stimulate its natural flow. In my spare time I enjoy reading (anything from romcom novels to ancient spiritual texts), making music and the freedom of being in nature, especially in summer when I get to cycle around the country for (mini) camping trips.
 
 ---
 
@@ -319,6 +324,22 @@ Hi, my name is Laurijn. I am currently a bachelor’s student in Biomedical Scie
 ---
 
 # Lab Alumni
+
+---
+
+```{r, out.width = "40%", fig.align = 'center', echo=FALSE}
+
+knitr::include_graphics("images/people/Emma_C.png")
+```
+
+## EMMA MEEUSSEN
+
+Research Assistant
+
+<i class="fab fa-linkedin-in"></i>[ LinkedIn](https://www.linkedin.com/in/emma-meeussen/)
+<i class="fas fa-envelope"></i>[  emma.meeussen@radboudumc.nl](emma.meeussen@radboudumc.nl)
+
+I am interested in human cognitive development, its variation, and the ways in which we can best support it in order to thrive as human beings. I believe that to optimally do so, it’s essential that we understand the processes underlying both impaired and healthy development. Besides the LCD group, I also work as a haptotherapist, where I put theory into practice by using touch to help clients gain insight into their own development and stimulate its natural flow. In my spare time I enjoy reading (anything from romcom novels to ancient spiritual texts), making music and the freedom of being in nature, especially in summer when I get to cycle around the country for (mini) camping trips.
 
 --- 
 

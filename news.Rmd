@@ -4,6 +4,58 @@ output:
   distill::distill_article
 ---
 
+
+## Lab update
+
+1st of April: 
+
+A new member of the lab is Anna Banaszkiewicz. She received a Bekker fellowship to work with us from April to June on her project titled ‘A Longitudinal, Transdiagnostic Approach to Language Development in Children with Neurodevelopmental Disorders’ with both behavioural and imaging data. Welcome Anna!
+
+In the meantime, Rafael and Jordy have gone abroad! Rafael has joined the [Wellbeing & Language lab](https://welllanglab.co.uk/) of Prof. Courtenay Norbury at UCL and will stay there until July. He is working on his project on intra-individual language variability in children. Jordy has gone to the other side of the world to  [the lab](https://www.sydney.edu.au/science/schools/school-of-psychology/research/cognitive-individual-differences-and-training-lab.html) of Prof. Damian Birney at the School of Psychology, University of Sydney for a 3-month research project. We hope they’ll both have an inspiring time!
+
+---
+
+## Goodbye Emma
+
+26th of March:
+
+After three years of dedicated work on the CODEC study, we bid farewell to Emma. We celebrated Emma’s time in the lab with a PowerPoint presentation filled with all of Emma’s accomplishments and a nice lunch. Emma has clearly had a pivotal role in the CODEC project. Thank you for everything, and we wish you all the best!
+
+---
+
+## Donders Open Day 
+
+21st of March:
+
+Pirate CODEC together with Jessica, Kevin and Feline were present at the [Donders Open Day](https://www.ru.nl/en/donders-institute/agenda/donders-institute-open-day): A well visited day where the Donders gave an insight into what types of research are conducted. At our stand children and their parents could participate in a language variability experiment. Results will follow soon.
+
+```{r, out.width = "40%", fig.align = 'center', echo = FALSE}
+knitr::include_graphics("images/news/DondersOpenDay2026.jpg")
+```
+
+
+---
+
+## Léa submitted her thesis 
+
+13th of March:
+
+Léa has submitted her thesis today! She delivered an inspiring final product and we are all very excited for her defense. Congratulations on this huge accomplishment Léa!
+
+---
+
+## Kletskoppen Festival 
+
+22nd of February: 
+
+On February 22nd, pirate CODEC and members of the CODEC crew (Lena, Kevin, and Jessica) joined the [Kletskoppen festival](https://kletskoppenfestival.nl/), a children's festival dedicated to language. Many enthusiastic children and their parents visited our stand to learn about language variability and to participate in a scientific experiment themselves. Keep posted for results on how different sounds affect processing speed and language variability!
+
+```{r, out.width = "40%", fig.align = 'center', echo = FALSE}
+knitr::include_graphics("images/news/Kletskoppen2026.jpg")
+```
+
+---
+
 ## Our lab has undergone quite some changes lately!
 
 10th of October:
@@ -18,12 +70,13 @@ Feline van Aagten, our former research assistant, has returned to the lab as PhD
 
 New to the lab are Beyza Ustun-Elayan, Larissa Rosalia, Kevin Reniers and Rafael Zampakas. Beyza is a new post-doc and will be working on the LEVANTE project with Feline. Larissa and Kevin are working as research assistants on the CODEC project and Rafael is joining the CODEC project as intern. Welcome everyone!
 
----
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+---
 
 ## The lab won the department Sustainability Travel Award
 
@@ -39,6 +92,8 @@ knitr::include_graphics("images/news/STA_Donders.jpg")
 ```{r, out.width = "60%", fig.align = 'right'}
 knitr::include_graphics("images/news/STA_Online.png")
 ```
+
+---
 
 ## Talk in Paris
 
