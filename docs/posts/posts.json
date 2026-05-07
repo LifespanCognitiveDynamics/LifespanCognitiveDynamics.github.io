@@ -1,8 +1,8 @@
 [
   {
     "path": "posts/2026-04-10-Kletskoppen_Open_Day/",
-    "title": "Kletskoppen Open Day",
-    "description": {},
+    "title": "The Sound of Science",
+    "description": "Testing how sound affects cognition at children's science festivals",
     "author": [
       {
         "name": "Jessica Schaaf",
@@ -13,7 +13,7 @@
     "categories": [],
     "contents": "\r\nAt the Lifespan Cognitive Dynamics lab, we like to bring science back to the people it is about. We do not only find this fun but also think it is important to educate the general public on our latest findings. That is why members of the lab joined two science festivals in the last months: Kletskoppen festival, in which children and their parents learned all about language, and the Donders Open Day, on which individuals of all ages visited the Donders Institute to step into the wonderful world of the brain. Have you ever experienced difficulties concentrating on what you are doing when people around you talk? Or do you prefer to work while listening to music? These are examples many people may recognize. You can get distracted by sounds in the environment, making it difficult to focus on the task at hand. This is what we aimed to let festival visitors experience. We invited them to perform fun cognitive games on a tablet while hearing different sounds through headphones. Afterwards, we asked them how they experienced the tasks and how they were affected by the sounds.\r\n\r\n\r\n\r\nHow did we come up with this experiment?\r\nSince January 2024, we have been running our big CODEC study in which we investigate how and why children’s cognitive performance, like processing speed and vocabulary, differs between children and differs from moment-to-moment within the same child. Preliminary results show that children process information more slowly and experience more problems retrieving the meaning of words when it is noisy in the classroom. Jessica and Rogier wondered whether this holds for sound in general, or whether some types of sound may be more detrimental than others.\r\nWhat did the experiment look like?\r\nThat is why we came up with an experiment in which participants played two games, one in which they assisted pirate Codec in digging up treasures by clicking on moles that guarded them as fast as possible (measuring processing speed) and one in which they helped to free pirate Codec from his rivals by indicating the meaning of words (measuring vocabulary). While playing, participants heard a continuous wave-like sound, busy playground chatter, or nothing. What did we find? Especially young children (between 5 and 8 years of age) are affected by sounds, and mostly so by playground chatter. As shown in the figure, children missed more moles and clicked moles more slowly when hearing chatter. Vocabulary seemed unaffected by different sounds.\r\n\r\n\r\n\r\n\r\n\r\n\r\nYour browser does not support the audio element.\r\n\r\nWave-like sound (pink noise)*\r\n\r\n\r\n\r\n\r\nYour browser does not support the audio element.\r\n\r\nPlayground chatter*\r\n\r\n\r\n*Both sounds are originally from BBC Sound Effects.\r\nWhat did we find?\r\nEspecially young children (between 5 and 8 years of age) are affected by sounds, and mostly so by playground chatter. As shown in the figure, children missed more moles and clicked moles more slowly when hearing chatter. Vocabulary seemed unaffected by different sounds.\r\n\r\n\r\n\r\nWhat could this mean?\r\nThese results could imply that young children do not yet possess good coping strategies to make sure they can still perform the task at hand in a noisy environment.\r\n\r\n\r\n\r\n",
     "preview": "posts/2026-04-10-Kletskoppen_Open_Day/ResultsKletskoppen.png",
-    "last_modified": "2026-05-07T10:37:21+02:00",
+    "last_modified": "2026-05-07T16:42:10+02:00",
     "input_file": "Kletskoppen_Open_Day.knit.md"
   },
   {

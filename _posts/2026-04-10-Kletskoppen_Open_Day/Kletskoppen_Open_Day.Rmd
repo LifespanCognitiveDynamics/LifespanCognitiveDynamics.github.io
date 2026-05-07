@@ -1,5 +1,6 @@
 ---
-title: "Kletskoppen Open Day"
+title: "The Sound of Science"
+description: "Testing how sound affects cognition at children's science festivals"
 author: "Jessica Schaaf"
 date: " 2026-04-10"
 preview: "ResultsKletskoppen.png"
