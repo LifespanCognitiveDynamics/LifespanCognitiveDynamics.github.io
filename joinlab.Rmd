@@ -8,3 +8,19 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+Interested in joining the Lifespan Cognitive Dynamics Lab? We welcome inquiries from students and researchers whose educational background and interests align with the lab’s research focus. To learn more about our current projects and research interests, please visit our [research]( https://lifespancognitivedynamics.com/research.html) and [publications]( https://lifespancognitivedynamics.com/publications.html) pages to ensure your stay at the lab aligns with your and our goals and interests.
+
+**Vacancies**<br>
+All open positions (PhD, postdoc or research assistant) are posted on [AcademicTransfer]( https://www.academictransfer.com/) and likely amplified on [BlueSky]( https://bsky.app/profile/rogierk.bsky.social) or Linkedin.
+
+**Internship applications**<br>
+We regularly offer internship opportunities for bachelor’s and master’s students, as well as 28 hour ‘lab rotation’ visits (usually Radboud University/RUMC only). If you are interested in joining the lab, please contact Professor Kievit and include your research interests, CV, and preferred internship duration and timeline.
+
+**Graduate student applications**<br>
+PhD positions will always be advertised as vacancies (see above). If you have alternative routes to secure funding (collaborative) and are interested in joining the lab you can contact Rogier Kievit. Please include your CV, a short description of your research interests, your preferred start date, and details of any potential funding.
+
+**Postdoctoral applications**<br>
+Postdoctoral vacancies will be advertised on AcademicTransfer and Rogier Kievit’s bluesky. We welcome scholars who wish to spend part or all their independent postdoctoral fellowships at the lab (e.g. Marie Curie, Jacobs, Wellcome – for a UK centric overview, see [this](https://sites.google.com/site/blakemorelab/contact/postdoctoral-fellowships) list). The RUMC has an excellent grant support office which can support your application if there is a mutual fit – but beware of the long lead times. If you are considering such a funding stream, please contact Rogier Kievit well in advance of the intended start date. 
+
+**Research visits**<br>
+We regularly host research visitors for several weeks or months (usually PhD or postdoc, but faculty is also possible) to work on projects of shared interests, expand their horizons or develop skills (usually modeling). Researchers interested in visiting the lab should contact Rogier Kievit several months before their intended start date. Please include your CV, research interests, what you would like to get out of a visit, proposed duration and timing, and what resources you might need.
